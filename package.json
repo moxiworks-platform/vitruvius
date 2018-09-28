@@ -1,0 +1,22 @@
+{
+  "name": "project-vitruvious",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "watch": "grunt watch",
+    "buildCSS": "./node_modules/.bin/tailwind build ./src/scss/styles.css -c ./src/scss/tailwind.js -o ./project-vitruvious/project-vitruvious.css",
+    "dev": "npm-run-all --parallel watch \"start -- {@}\" --"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-exec": "^3.0.0",
+    "npm-run-all": "^4.1.3",
+    "tailwindcss": "^0.6.6"
+  }
+}

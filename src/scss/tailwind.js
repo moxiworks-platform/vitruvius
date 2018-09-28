@@ -46,6 +46,16 @@ View the full documentation at https://tailwindcss.com.
 let colors = {
   'transparent': 'transparent',
 
+  'moxi-blue-dark': '#377cbf',
+  'moxi-blue': '#5092d3',
+  'moxi-blue-light': '#84b2e0',
+  'moxi-blue-lightest': '#a7c8e9',
+
+  'moxi-green-dark': '#42a33e',
+  'moxi-green': '#50b64c',
+  'moxi-green-light': '#84cb81',
+  'moxi-green-lightest': '#a7daa5',
+
   'black': '#22292f',
   'grey-darkest': '#3d4852',
   'grey-darker': '#606f7b',
@@ -194,17 +204,10 @@ module.exports = {
 
   fonts: {
     'sans': [
-      'system-ui',
-      'BlinkMacSystemFont',
-      '-apple-system',
-      'Segoe UI',
-      'Roboto',
-      'Oxygen',
-      'Ubuntu',
-      'Cantarell',
-      'Fira Sans',
-      'Droid Sans',
-      'Helvetica Neue',
+      'Muli',
+      'Helvetica',
+      'Verdana',
+      'Arial',
       'sans-serif',
     ],
     'serif': [

@@ -261,9 +261,24 @@
 .btn {
   @apply py-2 px-4 rounded;
 }
+
+.btn-flat:hover {
+  @apply bg-moxi-neutral-30 text-black
+}
+
+.btn-blue {
+  @apply bg-moxi-blue text-white;
+}
+
 .btn-blue {
   @apply bg-moxi-blue text-white;
 }
 .btn-blue:hover {
   @apply bg-moxi-blue-dark;
 }
+
+
+
+
+
+

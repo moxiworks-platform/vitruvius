@@ -61,6 +61,7 @@ let colors = {
 
   'moxi-destructive': '#f44336',
   'moxi-destructive-light': '#F77B73',
+  'moxi-alt-heliotrop': '#C967F2',
 
   'moxi-neutral-100': '#212e35',
   'moxi-neutral-90': '#374249',

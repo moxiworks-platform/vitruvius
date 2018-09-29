@@ -259,11 +259,43 @@
  ************************************************************************************/
 
 .btn {
-  @apply py-2 px-4 rounded;
+  @apply py-13 px-16 rounded;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
 }
 
-.btn-flat:hover {
-  @apply bg-moxi-neutral-30 text-black
+.btn i {
+  @apply mr-8;
+}
+
+.btn-default {
+  @apply border-moxi-neutral-30 border-solid border;
+}
+
+.btn-flat:hover, .btn-default:hover {
+  @apply bg-moxi-neutral-10 text-black;
+}
+
+.btn-primary {
+  @apply bg-moxi-green text-white;
+}
+
+.btn-primary:hover {
+  @apply bg-moxi-green-dark;
+}
+
+.btn-destructive {
+  @apply border-moxi-destructive border-solid border text-moxi-destructive;
+}
+
+.btn-destructive:hover {
+  @apply bg-moxi-neutral-10;
+}
+
+.btn-dense {
+  @apply text-sm py-9 px-16
 }
 
 .btn-blue {

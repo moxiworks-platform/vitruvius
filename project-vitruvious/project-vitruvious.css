@@ -691,6 +691,42 @@ table {
   background-color: #c967f2;
 }
 
+.bg-moxi-alt-mauve {
+  background-color: #d398f5;
+}
+
+.bg-moxi-alt-mulberry {
+  background-color: #cd5482;
+}
+
+.bg-moxi-alt-pale-violet-red {
+  background-color: #d67197;
+}
+
+.bg-moxi-alt-viking {
+  background-color: #47c4b5;
+}
+
+.bg-moxi-alt-riptide {
+  background-color: #7ed5cb;
+}
+
+.bg-moxi-alt-lightning-yellow {
+  background-color: #f5a623;
+}
+
+.bg-moxi-alt-texas-rose {
+  background-color: #f7b84f;
+}
+
+.bg-moxi-alt-flamenco {
+  background-color: #ef6e41;
+}
+
+.bg-moxi-alt-sandy-brown {
+  background-color: #f39371;
+}
+
 .bg-moxi-neutral-100 {
   background-color: #212e35;
 }
@@ -799,6 +835,42 @@ table {
   background-color: #c967f2;
 }
 
+.hover\:bg-moxi-alt-mauve:hover {
+  background-color: #d398f5;
+}
+
+.hover\:bg-moxi-alt-mulberry:hover {
+  background-color: #cd5482;
+}
+
+.hover\:bg-moxi-alt-pale-violet-red:hover {
+  background-color: #d67197;
+}
+
+.hover\:bg-moxi-alt-viking:hover {
+  background-color: #47c4b5;
+}
+
+.hover\:bg-moxi-alt-riptide:hover {
+  background-color: #7ed5cb;
+}
+
+.hover\:bg-moxi-alt-lightning-yellow:hover {
+  background-color: #f5a623;
+}
+
+.hover\:bg-moxi-alt-texas-rose:hover {
+  background-color: #f7b84f;
+}
+
+.hover\:bg-moxi-alt-flamenco:hover {
+  background-color: #ef6e41;
+}
+
+.hover\:bg-moxi-alt-sandy-brown:hover {
+  background-color: #f39371;
+}
+
 .hover\:bg-moxi-neutral-100:hover {
   background-color: #212e35;
 }
@@ -905,6 +977,42 @@ table {
 
 .focus\:bg-moxi-alt-heliotrop:focus {
   background-color: #c967f2;
+}
+
+.focus\:bg-moxi-alt-mauve:focus {
+  background-color: #d398f5;
+}
+
+.focus\:bg-moxi-alt-mulberry:focus {
+  background-color: #cd5482;
+}
+
+.focus\:bg-moxi-alt-pale-violet-red:focus {
+  background-color: #d67197;
+}
+
+.focus\:bg-moxi-alt-viking:focus {
+  background-color: #47c4b5;
+}
+
+.focus\:bg-moxi-alt-riptide:focus {
+  background-color: #7ed5cb;
+}
+
+.focus\:bg-moxi-alt-lightning-yellow:focus {
+  background-color: #f5a623;
+}
+
+.focus\:bg-moxi-alt-texas-rose:focus {
+  background-color: #f7b84f;
+}
+
+.focus\:bg-moxi-alt-flamenco:focus {
+  background-color: #ef6e41;
+}
+
+.focus\:bg-moxi-alt-sandy-brown:focus {
+  background-color: #f39371;
 }
 
 .focus\:bg-moxi-neutral-100:focus {
@@ -1087,6 +1195,42 @@ table {
   border-color: #c967f2;
 }
 
+.border-moxi-alt-mauve {
+  border-color: #d398f5;
+}
+
+.border-moxi-alt-mulberry {
+  border-color: #cd5482;
+}
+
+.border-moxi-alt-pale-violet-red {
+  border-color: #d67197;
+}
+
+.border-moxi-alt-viking {
+  border-color: #47c4b5;
+}
+
+.border-moxi-alt-riptide {
+  border-color: #7ed5cb;
+}
+
+.border-moxi-alt-lightning-yellow {
+  border-color: #f5a623;
+}
+
+.border-moxi-alt-texas-rose {
+  border-color: #f7b84f;
+}
+
+.border-moxi-alt-flamenco {
+  border-color: #ef6e41;
+}
+
+.border-moxi-alt-sandy-brown {
+  border-color: #f39371;
+}
+
 .border-moxi-neutral-100 {
   border-color: #212e35;
 }
@@ -1195,6 +1339,42 @@ table {
   border-color: #c967f2;
 }
 
+.hover\:border-moxi-alt-mauve:hover {
+  border-color: #d398f5;
+}
+
+.hover\:border-moxi-alt-mulberry:hover {
+  border-color: #cd5482;
+}
+
+.hover\:border-moxi-alt-pale-violet-red:hover {
+  border-color: #d67197;
+}
+
+.hover\:border-moxi-alt-viking:hover {
+  border-color: #47c4b5;
+}
+
+.hover\:border-moxi-alt-riptide:hover {
+  border-color: #7ed5cb;
+}
+
+.hover\:border-moxi-alt-lightning-yellow:hover {
+  border-color: #f5a623;
+}
+
+.hover\:border-moxi-alt-texas-rose:hover {
+  border-color: #f7b84f;
+}
+
+.hover\:border-moxi-alt-flamenco:hover {
+  border-color: #ef6e41;
+}
+
+.hover\:border-moxi-alt-sandy-brown:hover {
+  border-color: #f39371;
+}
+
 .hover\:border-moxi-neutral-100:hover {
   border-color: #212e35;
 }
@@ -1301,6 +1481,42 @@ table {
 
 .focus\:border-moxi-alt-heliotrop:focus {
   border-color: #c967f2;
+}
+
+.focus\:border-moxi-alt-mauve:focus {
+  border-color: #d398f5;
+}
+
+.focus\:border-moxi-alt-mulberry:focus {
+  border-color: #cd5482;
+}
+
+.focus\:border-moxi-alt-pale-violet-red:focus {
+  border-color: #d67197;
+}
+
+.focus\:border-moxi-alt-viking:focus {
+  border-color: #47c4b5;
+}
+
+.focus\:border-moxi-alt-riptide:focus {
+  border-color: #7ed5cb;
+}
+
+.focus\:border-moxi-alt-lightning-yellow:focus {
+  border-color: #f5a623;
+}
+
+.focus\:border-moxi-alt-texas-rose:focus {
+  border-color: #f7b84f;
+}
+
+.focus\:border-moxi-alt-flamenco:focus {
+  border-color: #ef6e41;
+}
+
+.focus\:border-moxi-alt-sandy-brown:focus {
+  border-color: #f39371;
 }
 
 .focus\:border-moxi-neutral-100:focus {
@@ -2182,43 +2398,43 @@ table {
 }
 
 .m-21 {
-  margin: 11px;
+  margin: 21px;
 }
 
 .m-22 {
-  margin: 12px;
+  margin: 22px;
 }
 
 .m-23 {
-  margin: 13px;
+  margin: 23px;
 }
 
 .m-24 {
-  margin: 14px;
+  margin: 24px;
 }
 
 .m-25 {
-  margin: 15px;
+  margin: 25px;
 }
 
 .m-26 {
-  margin: 16px;
+  margin: 26px;
 }
 
 .m-27 {
-  margin: 17px;
+  margin: 27px;
 }
 
 .m-28 {
-  margin: 18px;
+  margin: 28px;
 }
 
 .m-29 {
-  margin: 19px;
+  margin: 29px;
 }
 
 .m-30 {
-  margin: 20px;
+  margin: 30px;
 }
 
 .my-0 {
@@ -2432,103 +2648,103 @@ table {
 }
 
 .my-21 {
-  margin-top: 11px;
-  margin-bottom: 11px;
+  margin-top: 21px;
+  margin-bottom: 21px;
 }
 
 .mx-21 {
-  margin-left: 11px;
-  margin-right: 11px;
+  margin-left: 21px;
+  margin-right: 21px;
 }
 
 .my-22 {
-  margin-top: 12px;
-  margin-bottom: 12px;
+  margin-top: 22px;
+  margin-bottom: 22px;
 }
 
 .mx-22 {
-  margin-left: 12px;
-  margin-right: 12px;
+  margin-left: 22px;
+  margin-right: 22px;
 }
 
 .my-23 {
-  margin-top: 13px;
-  margin-bottom: 13px;
+  margin-top: 23px;
+  margin-bottom: 23px;
 }
 
 .mx-23 {
-  margin-left: 13px;
-  margin-right: 13px;
+  margin-left: 23px;
+  margin-right: 23px;
 }
 
 .my-24 {
-  margin-top: 14px;
-  margin-bottom: 14px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .mx-24 {
-  margin-left: 14px;
-  margin-right: 14px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .my-25 {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .mx-25 {
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .my-26 {
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin-top: 26px;
+  margin-bottom: 26px;
 }
 
 .mx-26 {
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: 26px;
+  margin-right: 26px;
 }
 
 .my-27 {
-  margin-top: 17px;
-  margin-bottom: 17px;
+  margin-top: 27px;
+  margin-bottom: 27px;
 }
 
 .mx-27 {
-  margin-left: 17px;
-  margin-right: 17px;
+  margin-left: 27px;
+  margin-right: 27px;
 }
 
 .my-28 {
-  margin-top: 18px;
-  margin-bottom: 18px;
+  margin-top: 28px;
+  margin-bottom: 28px;
 }
 
 .mx-28 {
-  margin-left: 18px;
-  margin-right: 18px;
+  margin-left: 28px;
+  margin-right: 28px;
 }
 
 .my-29 {
-  margin-top: 19px;
-  margin-bottom: 19px;
+  margin-top: 29px;
+  margin-bottom: 29px;
 }
 
 .mx-29 {
-  margin-left: 19px;
-  margin-right: 19px;
+  margin-left: 29px;
+  margin-right: 29px;
 }
 
 .my-30 {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .mx-30 {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .mt-0 {
@@ -2868,163 +3084,163 @@ table {
 }
 
 .mt-21 {
-  margin-top: 11px;
+  margin-top: 21px;
 }
 
 .mr-21 {
-  margin-right: 11px;
+  margin-right: 21px;
 }
 
 .mb-21 {
-  margin-bottom: 11px;
+  margin-bottom: 21px;
 }
 
 .ml-21 {
-  margin-left: 11px;
+  margin-left: 21px;
 }
 
 .mt-22 {
-  margin-top: 12px;
+  margin-top: 22px;
 }
 
 .mr-22 {
-  margin-right: 12px;
+  margin-right: 22px;
 }
 
 .mb-22 {
-  margin-bottom: 12px;
+  margin-bottom: 22px;
 }
 
 .ml-22 {
-  margin-left: 12px;
+  margin-left: 22px;
 }
 
 .mt-23 {
-  margin-top: 13px;
+  margin-top: 23px;
 }
 
 .mr-23 {
-  margin-right: 13px;
+  margin-right: 23px;
 }
 
 .mb-23 {
-  margin-bottom: 13px;
+  margin-bottom: 23px;
 }
 
 .ml-23 {
-  margin-left: 13px;
+  margin-left: 23px;
 }
 
 .mt-24 {
-  margin-top: 14px;
+  margin-top: 24px;
 }
 
 .mr-24 {
-  margin-right: 14px;
+  margin-right: 24px;
 }
 
 .mb-24 {
-  margin-bottom: 14px;
+  margin-bottom: 24px;
 }
 
 .ml-24 {
-  margin-left: 14px;
+  margin-left: 24px;
 }
 
 .mt-25 {
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 .mr-25 {
-  margin-right: 15px;
+  margin-right: 25px;
 }
 
 .mb-25 {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .ml-25 {
-  margin-left: 15px;
+  margin-left: 25px;
 }
 
 .mt-26 {
-  margin-top: 16px;
+  margin-top: 26px;
 }
 
 .mr-26 {
-  margin-right: 16px;
+  margin-right: 26px;
 }
 
 .mb-26 {
-  margin-bottom: 16px;
+  margin-bottom: 26px;
 }
 
 .ml-26 {
-  margin-left: 16px;
+  margin-left: 26px;
 }
 
 .mt-27 {
-  margin-top: 17px;
+  margin-top: 27px;
 }
 
 .mr-27 {
-  margin-right: 17px;
+  margin-right: 27px;
 }
 
 .mb-27 {
-  margin-bottom: 17px;
+  margin-bottom: 27px;
 }
 
 .ml-27 {
-  margin-left: 17px;
+  margin-left: 27px;
 }
 
 .mt-28 {
-  margin-top: 18px;
+  margin-top: 28px;
 }
 
 .mr-28 {
-  margin-right: 18px;
+  margin-right: 28px;
 }
 
 .mb-28 {
-  margin-bottom: 18px;
+  margin-bottom: 28px;
 }
 
 .ml-28 {
-  margin-left: 18px;
+  margin-left: 28px;
 }
 
 .mt-29 {
-  margin-top: 19px;
+  margin-top: 29px;
 }
 
 .mr-29 {
-  margin-right: 19px;
+  margin-right: 29px;
 }
 
 .mb-29 {
-  margin-bottom: 19px;
+  margin-bottom: 29px;
 }
 
 .ml-29 {
-  margin-left: 19px;
+  margin-left: 29px;
 }
 
 .mt-30 {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .mr-30 {
-  margin-right: 20px;
+  margin-right: 30px;
 }
 
 .mb-30 {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .ml-30 {
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .max-h-full {
@@ -3714,43 +3930,43 @@ table {
 }
 
 .p-21 {
-  padding: 11px;
+  padding: 21px;
 }
 
 .p-22 {
-  padding: 12px;
+  padding: 22px;
 }
 
 .p-23 {
-  padding: 13px;
+  padding: 23px;
 }
 
 .p-24 {
-  padding: 14px;
+  padding: 24px;
 }
 
 .p-25 {
-  padding: 15px;
+  padding: 25px;
 }
 
 .p-26 {
-  padding: 16px;
+  padding: 26px;
 }
 
 .p-27 {
-  padding: 17px;
+  padding: 27px;
 }
 
 .p-28 {
-  padding: 18px;
+  padding: 28px;
 }
 
 .p-29 {
-  padding: 19px;
+  padding: 29px;
 }
 
 .p-30 {
-  padding: 20px;
+  padding: 30px;
 }
 
 .py-0 {
@@ -3964,103 +4180,103 @@ table {
 }
 
 .py-21 {
-  padding-top: 11px;
-  padding-bottom: 11px;
+  padding-top: 21px;
+  padding-bottom: 21px;
 }
 
 .px-21 {
-  padding-left: 11px;
-  padding-right: 11px;
+  padding-left: 21px;
+  padding-right: 21px;
 }
 
 .py-22 {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 22px;
+  padding-bottom: 22px;
 }
 
 .px-22 {
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 22px;
+  padding-right: 22px;
 }
 
 .py-23 {
-  padding-top: 13px;
-  padding-bottom: 13px;
+  padding-top: 23px;
+  padding-bottom: 23px;
 }
 
 .px-23 {
-  padding-left: 13px;
-  padding-right: 13px;
+  padding-left: 23px;
+  padding-right: 23px;
 }
 
 .py-24 {
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .px-24 {
-  padding-left: 14px;
-  padding-right: 14px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .py-25 {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .px-25 {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .py-26 {
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 26px;
+  padding-bottom: 26px;
 }
 
 .px-26 {
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 26px;
+  padding-right: 26px;
 }
 
 .py-27 {
-  padding-top: 17px;
-  padding-bottom: 17px;
+  padding-top: 27px;
+  padding-bottom: 27px;
 }
 
 .px-27 {
-  padding-left: 17px;
-  padding-right: 17px;
+  padding-left: 27px;
+  padding-right: 27px;
 }
 
 .py-28 {
-  padding-top: 18px;
-  padding-bottom: 18px;
+  padding-top: 28px;
+  padding-bottom: 28px;
 }
 
 .px-28 {
-  padding-left: 18px;
-  padding-right: 18px;
+  padding-left: 28px;
+  padding-right: 28px;
 }
 
 .py-29 {
-  padding-top: 19px;
-  padding-bottom: 19px;
+  padding-top: 29px;
+  padding-bottom: 29px;
 }
 
 .px-29 {
-  padding-left: 19px;
-  padding-right: 19px;
+  padding-left: 29px;
+  padding-right: 29px;
 }
 
 .py-30 {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .px-30 {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .pt-0 {
@@ -4400,163 +4616,163 @@ table {
 }
 
 .pt-21 {
-  padding-top: 11px;
+  padding-top: 21px;
 }
 
 .pr-21 {
-  padding-right: 11px;
+  padding-right: 21px;
 }
 
 .pb-21 {
-  padding-bottom: 11px;
+  padding-bottom: 21px;
 }
 
 .pl-21 {
-  padding-left: 11px;
+  padding-left: 21px;
 }
 
 .pt-22 {
-  padding-top: 12px;
+  padding-top: 22px;
 }
 
 .pr-22 {
-  padding-right: 12px;
+  padding-right: 22px;
 }
 
 .pb-22 {
-  padding-bottom: 12px;
+  padding-bottom: 22px;
 }
 
 .pl-22 {
-  padding-left: 12px;
+  padding-left: 22px;
 }
 
 .pt-23 {
-  padding-top: 13px;
+  padding-top: 23px;
 }
 
 .pr-23 {
-  padding-right: 13px;
+  padding-right: 23px;
 }
 
 .pb-23 {
-  padding-bottom: 13px;
+  padding-bottom: 23px;
 }
 
 .pl-23 {
-  padding-left: 13px;
+  padding-left: 23px;
 }
 
 .pt-24 {
-  padding-top: 14px;
+  padding-top: 24px;
 }
 
 .pr-24 {
-  padding-right: 14px;
+  padding-right: 24px;
 }
 
 .pb-24 {
-  padding-bottom: 14px;
+  padding-bottom: 24px;
 }
 
 .pl-24 {
-  padding-left: 14px;
+  padding-left: 24px;
 }
 
 .pt-25 {
-  padding-top: 15px;
+  padding-top: 25px;
 }
 
 .pr-25 {
-  padding-right: 15px;
+  padding-right: 25px;
 }
 
 .pb-25 {
-  padding-bottom: 15px;
+  padding-bottom: 25px;
 }
 
 .pl-25 {
-  padding-left: 15px;
+  padding-left: 25px;
 }
 
 .pt-26 {
-  padding-top: 16px;
+  padding-top: 26px;
 }
 
 .pr-26 {
-  padding-right: 16px;
+  padding-right: 26px;
 }
 
 .pb-26 {
-  padding-bottom: 16px;
+  padding-bottom: 26px;
 }
 
 .pl-26 {
-  padding-left: 16px;
+  padding-left: 26px;
 }
 
 .pt-27 {
-  padding-top: 17px;
+  padding-top: 27px;
 }
 
 .pr-27 {
-  padding-right: 17px;
+  padding-right: 27px;
 }
 
 .pb-27 {
-  padding-bottom: 17px;
+  padding-bottom: 27px;
 }
 
 .pl-27 {
-  padding-left: 17px;
+  padding-left: 27px;
 }
 
 .pt-28 {
-  padding-top: 18px;
+  padding-top: 28px;
 }
 
 .pr-28 {
-  padding-right: 18px;
+  padding-right: 28px;
 }
 
 .pb-28 {
-  padding-bottom: 18px;
+  padding-bottom: 28px;
 }
 
 .pl-28 {
-  padding-left: 18px;
+  padding-left: 28px;
 }
 
 .pt-29 {
-  padding-top: 19px;
+  padding-top: 29px;
 }
 
 .pr-29 {
-  padding-right: 19px;
+  padding-right: 29px;
 }
 
 .pb-29 {
-  padding-bottom: 19px;
+  padding-bottom: 29px;
 }
 
 .pl-29 {
-  padding-left: 19px;
+  padding-left: 29px;
 }
 
 .pt-30 {
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 .pr-30 {
-  padding-right: 20px;
+  padding-right: 30px;
 }
 
 .pb-30 {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .pl-30 {
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 .pointer-events-none {
@@ -4803,6 +5019,42 @@ table {
   color: #c967f2;
 }
 
+.text-moxi-alt-mauve {
+  color: #d398f5;
+}
+
+.text-moxi-alt-mulberry {
+  color: #cd5482;
+}
+
+.text-moxi-alt-pale-violet-red {
+  color: #d67197;
+}
+
+.text-moxi-alt-viking {
+  color: #47c4b5;
+}
+
+.text-moxi-alt-riptide {
+  color: #7ed5cb;
+}
+
+.text-moxi-alt-lightning-yellow {
+  color: #f5a623;
+}
+
+.text-moxi-alt-texas-rose {
+  color: #f7b84f;
+}
+
+.text-moxi-alt-flamenco {
+  color: #ef6e41;
+}
+
+.text-moxi-alt-sandy-brown {
+  color: #f39371;
+}
+
 .text-moxi-neutral-100 {
   color: #212e35;
 }
@@ -4911,6 +5163,42 @@ table {
   color: #c967f2;
 }
 
+.hover\:text-moxi-alt-mauve:hover {
+  color: #d398f5;
+}
+
+.hover\:text-moxi-alt-mulberry:hover {
+  color: #cd5482;
+}
+
+.hover\:text-moxi-alt-pale-violet-red:hover {
+  color: #d67197;
+}
+
+.hover\:text-moxi-alt-viking:hover {
+  color: #47c4b5;
+}
+
+.hover\:text-moxi-alt-riptide:hover {
+  color: #7ed5cb;
+}
+
+.hover\:text-moxi-alt-lightning-yellow:hover {
+  color: #f5a623;
+}
+
+.hover\:text-moxi-alt-texas-rose:hover {
+  color: #f7b84f;
+}
+
+.hover\:text-moxi-alt-flamenco:hover {
+  color: #ef6e41;
+}
+
+.hover\:text-moxi-alt-sandy-brown:hover {
+  color: #f39371;
+}
+
 .hover\:text-moxi-neutral-100:hover {
   color: #212e35;
 }
@@ -5017,6 +5305,42 @@ table {
 
 .focus\:text-moxi-alt-heliotrop:focus {
   color: #c967f2;
+}
+
+.focus\:text-moxi-alt-mauve:focus {
+  color: #d398f5;
+}
+
+.focus\:text-moxi-alt-mulberry:focus {
+  color: #cd5482;
+}
+
+.focus\:text-moxi-alt-pale-violet-red:focus {
+  color: #d67197;
+}
+
+.focus\:text-moxi-alt-viking:focus {
+  color: #47c4b5;
+}
+
+.focus\:text-moxi-alt-riptide:focus {
+  color: #7ed5cb;
+}
+
+.focus\:text-moxi-alt-lightning-yellow:focus {
+  color: #f5a623;
+}
+
+.focus\:text-moxi-alt-texas-rose:focus {
+  color: #f7b84f;
+}
+
+.focus\:text-moxi-alt-flamenco:focus {
+  color: #ef6e41;
+}
+
+.focus\:text-moxi-alt-sandy-brown:focus {
+  color: #f39371;
 }
 
 .focus\:text-moxi-neutral-100:focus {
@@ -5933,6 +6257,42 @@ table {
     background-color: #c967f2;
   }
 
+  .sm\:bg-moxi-alt-mauve {
+    background-color: #d398f5;
+  }
+
+  .sm\:bg-moxi-alt-mulberry {
+    background-color: #cd5482;
+  }
+
+  .sm\:bg-moxi-alt-pale-violet-red {
+    background-color: #d67197;
+  }
+
+  .sm\:bg-moxi-alt-viking {
+    background-color: #47c4b5;
+  }
+
+  .sm\:bg-moxi-alt-riptide {
+    background-color: #7ed5cb;
+  }
+
+  .sm\:bg-moxi-alt-lightning-yellow {
+    background-color: #f5a623;
+  }
+
+  .sm\:bg-moxi-alt-texas-rose {
+    background-color: #f7b84f;
+  }
+
+  .sm\:bg-moxi-alt-flamenco {
+    background-color: #ef6e41;
+  }
+
+  .sm\:bg-moxi-alt-sandy-brown {
+    background-color: #f39371;
+  }
+
   .sm\:bg-moxi-neutral-100 {
     background-color: #212e35;
   }
@@ -6041,6 +6401,42 @@ table {
     background-color: #c967f2;
   }
 
+  .sm\:hover\:bg-moxi-alt-mauve:hover {
+    background-color: #d398f5;
+  }
+
+  .sm\:hover\:bg-moxi-alt-mulberry:hover {
+    background-color: #cd5482;
+  }
+
+  .sm\:hover\:bg-moxi-alt-pale-violet-red:hover {
+    background-color: #d67197;
+  }
+
+  .sm\:hover\:bg-moxi-alt-viking:hover {
+    background-color: #47c4b5;
+  }
+
+  .sm\:hover\:bg-moxi-alt-riptide:hover {
+    background-color: #7ed5cb;
+  }
+
+  .sm\:hover\:bg-moxi-alt-lightning-yellow:hover {
+    background-color: #f5a623;
+  }
+
+  .sm\:hover\:bg-moxi-alt-texas-rose:hover {
+    background-color: #f7b84f;
+  }
+
+  .sm\:hover\:bg-moxi-alt-flamenco:hover {
+    background-color: #ef6e41;
+  }
+
+  .sm\:hover\:bg-moxi-alt-sandy-brown:hover {
+    background-color: #f39371;
+  }
+
   .sm\:hover\:bg-moxi-neutral-100:hover {
     background-color: #212e35;
   }
@@ -6147,6 +6543,42 @@ table {
 
   .sm\:focus\:bg-moxi-alt-heliotrop:focus {
     background-color: #c967f2;
+  }
+
+  .sm\:focus\:bg-moxi-alt-mauve:focus {
+    background-color: #d398f5;
+  }
+
+  .sm\:focus\:bg-moxi-alt-mulberry:focus {
+    background-color: #cd5482;
+  }
+
+  .sm\:focus\:bg-moxi-alt-pale-violet-red:focus {
+    background-color: #d67197;
+  }
+
+  .sm\:focus\:bg-moxi-alt-viking:focus {
+    background-color: #47c4b5;
+  }
+
+  .sm\:focus\:bg-moxi-alt-riptide:focus {
+    background-color: #7ed5cb;
+  }
+
+  .sm\:focus\:bg-moxi-alt-lightning-yellow:focus {
+    background-color: #f5a623;
+  }
+
+  .sm\:focus\:bg-moxi-alt-texas-rose:focus {
+    background-color: #f7b84f;
+  }
+
+  .sm\:focus\:bg-moxi-alt-flamenco:focus {
+    background-color: #ef6e41;
+  }
+
+  .sm\:focus\:bg-moxi-alt-sandy-brown:focus {
+    background-color: #f39371;
   }
 
   .sm\:focus\:bg-moxi-neutral-100:focus {
@@ -6321,6 +6753,42 @@ table {
     border-color: #c967f2;
   }
 
+  .sm\:border-moxi-alt-mauve {
+    border-color: #d398f5;
+  }
+
+  .sm\:border-moxi-alt-mulberry {
+    border-color: #cd5482;
+  }
+
+  .sm\:border-moxi-alt-pale-violet-red {
+    border-color: #d67197;
+  }
+
+  .sm\:border-moxi-alt-viking {
+    border-color: #47c4b5;
+  }
+
+  .sm\:border-moxi-alt-riptide {
+    border-color: #7ed5cb;
+  }
+
+  .sm\:border-moxi-alt-lightning-yellow {
+    border-color: #f5a623;
+  }
+
+  .sm\:border-moxi-alt-texas-rose {
+    border-color: #f7b84f;
+  }
+
+  .sm\:border-moxi-alt-flamenco {
+    border-color: #ef6e41;
+  }
+
+  .sm\:border-moxi-alt-sandy-brown {
+    border-color: #f39371;
+  }
+
   .sm\:border-moxi-neutral-100 {
     border-color: #212e35;
   }
@@ -6429,6 +6897,42 @@ table {
     border-color: #c967f2;
   }
 
+  .sm\:hover\:border-moxi-alt-mauve:hover {
+    border-color: #d398f5;
+  }
+
+  .sm\:hover\:border-moxi-alt-mulberry:hover {
+    border-color: #cd5482;
+  }
+
+  .sm\:hover\:border-moxi-alt-pale-violet-red:hover {
+    border-color: #d67197;
+  }
+
+  .sm\:hover\:border-moxi-alt-viking:hover {
+    border-color: #47c4b5;
+  }
+
+  .sm\:hover\:border-moxi-alt-riptide:hover {
+    border-color: #7ed5cb;
+  }
+
+  .sm\:hover\:border-moxi-alt-lightning-yellow:hover {
+    border-color: #f5a623;
+  }
+
+  .sm\:hover\:border-moxi-alt-texas-rose:hover {
+    border-color: #f7b84f;
+  }
+
+  .sm\:hover\:border-moxi-alt-flamenco:hover {
+    border-color: #ef6e41;
+  }
+
+  .sm\:hover\:border-moxi-alt-sandy-brown:hover {
+    border-color: #f39371;
+  }
+
   .sm\:hover\:border-moxi-neutral-100:hover {
     border-color: #212e35;
   }
@@ -6535,6 +7039,42 @@ table {
 
   .sm\:focus\:border-moxi-alt-heliotrop:focus {
     border-color: #c967f2;
+  }
+
+  .sm\:focus\:border-moxi-alt-mauve:focus {
+    border-color: #d398f5;
+  }
+
+  .sm\:focus\:border-moxi-alt-mulberry:focus {
+    border-color: #cd5482;
+  }
+
+  .sm\:focus\:border-moxi-alt-pale-violet-red:focus {
+    border-color: #d67197;
+  }
+
+  .sm\:focus\:border-moxi-alt-viking:focus {
+    border-color: #47c4b5;
+  }
+
+  .sm\:focus\:border-moxi-alt-riptide:focus {
+    border-color: #7ed5cb;
+  }
+
+  .sm\:focus\:border-moxi-alt-lightning-yellow:focus {
+    border-color: #f5a623;
+  }
+
+  .sm\:focus\:border-moxi-alt-texas-rose:focus {
+    border-color: #f7b84f;
+  }
+
+  .sm\:focus\:border-moxi-alt-flamenco:focus {
+    border-color: #ef6e41;
+  }
+
+  .sm\:focus\:border-moxi-alt-sandy-brown:focus {
+    border-color: #f39371;
   }
 
   .sm\:focus\:border-moxi-neutral-100:focus {
@@ -7416,43 +7956,43 @@ table {
   }
 
   .sm\:m-21 {
-    margin: 11px;
+    margin: 21px;
   }
 
   .sm\:m-22 {
-    margin: 12px;
+    margin: 22px;
   }
 
   .sm\:m-23 {
-    margin: 13px;
+    margin: 23px;
   }
 
   .sm\:m-24 {
-    margin: 14px;
+    margin: 24px;
   }
 
   .sm\:m-25 {
-    margin: 15px;
+    margin: 25px;
   }
 
   .sm\:m-26 {
-    margin: 16px;
+    margin: 26px;
   }
 
   .sm\:m-27 {
-    margin: 17px;
+    margin: 27px;
   }
 
   .sm\:m-28 {
-    margin: 18px;
+    margin: 28px;
   }
 
   .sm\:m-29 {
-    margin: 19px;
+    margin: 29px;
   }
 
   .sm\:m-30 {
-    margin: 20px;
+    margin: 30px;
   }
 
   .sm\:my-0 {
@@ -7666,103 +8206,103 @@ table {
   }
 
   .sm\:my-21 {
-    margin-top: 11px;
-    margin-bottom: 11px;
+    margin-top: 21px;
+    margin-bottom: 21px;
   }
 
   .sm\:mx-21 {
-    margin-left: 11px;
-    margin-right: 11px;
+    margin-left: 21px;
+    margin-right: 21px;
   }
 
   .sm\:my-22 {
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-top: 22px;
+    margin-bottom: 22px;
   }
 
   .sm\:mx-22 {
-    margin-left: 12px;
-    margin-right: 12px;
+    margin-left: 22px;
+    margin-right: 22px;
   }
 
   .sm\:my-23 {
-    margin-top: 13px;
-    margin-bottom: 13px;
+    margin-top: 23px;
+    margin-bottom: 23px;
   }
 
   .sm\:mx-23 {
-    margin-left: 13px;
-    margin-right: 13px;
+    margin-left: 23px;
+    margin-right: 23px;
   }
 
   .sm\:my-24 {
-    margin-top: 14px;
-    margin-bottom: 14px;
+    margin-top: 24px;
+    margin-bottom: 24px;
   }
 
   .sm\:mx-24 {
-    margin-left: 14px;
-    margin-right: 14px;
+    margin-left: 24px;
+    margin-right: 24px;
   }
 
   .sm\:my-25 {
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 
   .sm\:mx-25 {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
   }
 
   .sm\:my-26 {
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin-top: 26px;
+    margin-bottom: 26px;
   }
 
   .sm\:mx-26 {
-    margin-left: 16px;
-    margin-right: 16px;
+    margin-left: 26px;
+    margin-right: 26px;
   }
 
   .sm\:my-27 {
-    margin-top: 17px;
-    margin-bottom: 17px;
+    margin-top: 27px;
+    margin-bottom: 27px;
   }
 
   .sm\:mx-27 {
-    margin-left: 17px;
-    margin-right: 17px;
+    margin-left: 27px;
+    margin-right: 27px;
   }
 
   .sm\:my-28 {
-    margin-top: 18px;
-    margin-bottom: 18px;
+    margin-top: 28px;
+    margin-bottom: 28px;
   }
 
   .sm\:mx-28 {
-    margin-left: 18px;
-    margin-right: 18px;
+    margin-left: 28px;
+    margin-right: 28px;
   }
 
   .sm\:my-29 {
-    margin-top: 19px;
-    margin-bottom: 19px;
+    margin-top: 29px;
+    margin-bottom: 29px;
   }
 
   .sm\:mx-29 {
-    margin-left: 19px;
-    margin-right: 19px;
+    margin-left: 29px;
+    margin-right: 29px;
   }
 
   .sm\:my-30 {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   .sm\:mx-30 {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
 
   .sm\:mt-0 {
@@ -8102,163 +8642,163 @@ table {
   }
 
   .sm\:mt-21 {
-    margin-top: 11px;
+    margin-top: 21px;
   }
 
   .sm\:mr-21 {
-    margin-right: 11px;
+    margin-right: 21px;
   }
 
   .sm\:mb-21 {
-    margin-bottom: 11px;
+    margin-bottom: 21px;
   }
 
   .sm\:ml-21 {
-    margin-left: 11px;
+    margin-left: 21px;
   }
 
   .sm\:mt-22 {
-    margin-top: 12px;
+    margin-top: 22px;
   }
 
   .sm\:mr-22 {
-    margin-right: 12px;
+    margin-right: 22px;
   }
 
   .sm\:mb-22 {
-    margin-bottom: 12px;
+    margin-bottom: 22px;
   }
 
   .sm\:ml-22 {
-    margin-left: 12px;
+    margin-left: 22px;
   }
 
   .sm\:mt-23 {
-    margin-top: 13px;
+    margin-top: 23px;
   }
 
   .sm\:mr-23 {
-    margin-right: 13px;
+    margin-right: 23px;
   }
 
   .sm\:mb-23 {
-    margin-bottom: 13px;
+    margin-bottom: 23px;
   }
 
   .sm\:ml-23 {
-    margin-left: 13px;
+    margin-left: 23px;
   }
 
   .sm\:mt-24 {
-    margin-top: 14px;
+    margin-top: 24px;
   }
 
   .sm\:mr-24 {
-    margin-right: 14px;
+    margin-right: 24px;
   }
 
   .sm\:mb-24 {
-    margin-bottom: 14px;
+    margin-bottom: 24px;
   }
 
   .sm\:ml-24 {
-    margin-left: 14px;
+    margin-left: 24px;
   }
 
   .sm\:mt-25 {
-    margin-top: 15px;
+    margin-top: 25px;
   }
 
   .sm\:mr-25 {
-    margin-right: 15px;
+    margin-right: 25px;
   }
 
   .sm\:mb-25 {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
   }
 
   .sm\:ml-25 {
-    margin-left: 15px;
+    margin-left: 25px;
   }
 
   .sm\:mt-26 {
-    margin-top: 16px;
+    margin-top: 26px;
   }
 
   .sm\:mr-26 {
-    margin-right: 16px;
+    margin-right: 26px;
   }
 
   .sm\:mb-26 {
-    margin-bottom: 16px;
+    margin-bottom: 26px;
   }
 
   .sm\:ml-26 {
-    margin-left: 16px;
+    margin-left: 26px;
   }
 
   .sm\:mt-27 {
-    margin-top: 17px;
+    margin-top: 27px;
   }
 
   .sm\:mr-27 {
-    margin-right: 17px;
+    margin-right: 27px;
   }
 
   .sm\:mb-27 {
-    margin-bottom: 17px;
+    margin-bottom: 27px;
   }
 
   .sm\:ml-27 {
-    margin-left: 17px;
+    margin-left: 27px;
   }
 
   .sm\:mt-28 {
-    margin-top: 18px;
+    margin-top: 28px;
   }
 
   .sm\:mr-28 {
-    margin-right: 18px;
+    margin-right: 28px;
   }
 
   .sm\:mb-28 {
-    margin-bottom: 18px;
+    margin-bottom: 28px;
   }
 
   .sm\:ml-28 {
-    margin-left: 18px;
+    margin-left: 28px;
   }
 
   .sm\:mt-29 {
-    margin-top: 19px;
+    margin-top: 29px;
   }
 
   .sm\:mr-29 {
-    margin-right: 19px;
+    margin-right: 29px;
   }
 
   .sm\:mb-29 {
-    margin-bottom: 19px;
+    margin-bottom: 29px;
   }
 
   .sm\:ml-29 {
-    margin-left: 19px;
+    margin-left: 29px;
   }
 
   .sm\:mt-30 {
-    margin-top: 20px;
+    margin-top: 30px;
   }
 
   .sm\:mr-30 {
-    margin-right: 20px;
+    margin-right: 30px;
   }
 
   .sm\:mb-30 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   .sm\:ml-30 {
-    margin-left: 20px;
+    margin-left: 30px;
   }
 
   .sm\:max-h-full {
@@ -8940,43 +9480,43 @@ table {
   }
 
   .sm\:p-21 {
-    padding: 11px;
+    padding: 21px;
   }
 
   .sm\:p-22 {
-    padding: 12px;
+    padding: 22px;
   }
 
   .sm\:p-23 {
-    padding: 13px;
+    padding: 23px;
   }
 
   .sm\:p-24 {
-    padding: 14px;
+    padding: 24px;
   }
 
   .sm\:p-25 {
-    padding: 15px;
+    padding: 25px;
   }
 
   .sm\:p-26 {
-    padding: 16px;
+    padding: 26px;
   }
 
   .sm\:p-27 {
-    padding: 17px;
+    padding: 27px;
   }
 
   .sm\:p-28 {
-    padding: 18px;
+    padding: 28px;
   }
 
   .sm\:p-29 {
-    padding: 19px;
+    padding: 29px;
   }
 
   .sm\:p-30 {
-    padding: 20px;
+    padding: 30px;
   }
 
   .sm\:py-0 {
@@ -9190,103 +9730,103 @@ table {
   }
 
   .sm\:py-21 {
-    padding-top: 11px;
-    padding-bottom: 11px;
+    padding-top: 21px;
+    padding-bottom: 21px;
   }
 
   .sm\:px-21 {
-    padding-left: 11px;
-    padding-right: 11px;
+    padding-left: 21px;
+    padding-right: 21px;
   }
 
   .sm\:py-22 {
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 22px;
+    padding-bottom: 22px;
   }
 
   .sm\:px-22 {
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 22px;
+    padding-right: 22px;
   }
 
   .sm\:py-23 {
-    padding-top: 13px;
-    padding-bottom: 13px;
+    padding-top: 23px;
+    padding-bottom: 23px;
   }
 
   .sm\:px-23 {
-    padding-left: 13px;
-    padding-right: 13px;
+    padding-left: 23px;
+    padding-right: 23px;
   }
 
   .sm\:py-24 {
-    padding-top: 14px;
-    padding-bottom: 14px;
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 
   .sm\:px-24 {
-    padding-left: 14px;
-    padding-right: 14px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   .sm\:py-25 {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 
   .sm\:px-25 {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 
   .sm\:py-26 {
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 26px;
+    padding-bottom: 26px;
   }
 
   .sm\:px-26 {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 26px;
+    padding-right: 26px;
   }
 
   .sm\:py-27 {
-    padding-top: 17px;
-    padding-bottom: 17px;
+    padding-top: 27px;
+    padding-bottom: 27px;
   }
 
   .sm\:px-27 {
-    padding-left: 17px;
-    padding-right: 17px;
+    padding-left: 27px;
+    padding-right: 27px;
   }
 
   .sm\:py-28 {
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 28px;
+    padding-bottom: 28px;
   }
 
   .sm\:px-28 {
-    padding-left: 18px;
-    padding-right: 18px;
+    padding-left: 28px;
+    padding-right: 28px;
   }
 
   .sm\:py-29 {
-    padding-top: 19px;
-    padding-bottom: 19px;
+    padding-top: 29px;
+    padding-bottom: 29px;
   }
 
   .sm\:px-29 {
-    padding-left: 19px;
-    padding-right: 19px;
+    padding-left: 29px;
+    padding-right: 29px;
   }
 
   .sm\:py-30 {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   .sm\:px-30 {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .sm\:pt-0 {
@@ -9626,163 +10166,163 @@ table {
   }
 
   .sm\:pt-21 {
-    padding-top: 11px;
+    padding-top: 21px;
   }
 
   .sm\:pr-21 {
-    padding-right: 11px;
+    padding-right: 21px;
   }
 
   .sm\:pb-21 {
-    padding-bottom: 11px;
+    padding-bottom: 21px;
   }
 
   .sm\:pl-21 {
-    padding-left: 11px;
+    padding-left: 21px;
   }
 
   .sm\:pt-22 {
-    padding-top: 12px;
+    padding-top: 22px;
   }
 
   .sm\:pr-22 {
-    padding-right: 12px;
+    padding-right: 22px;
   }
 
   .sm\:pb-22 {
-    padding-bottom: 12px;
+    padding-bottom: 22px;
   }
 
   .sm\:pl-22 {
-    padding-left: 12px;
+    padding-left: 22px;
   }
 
   .sm\:pt-23 {
-    padding-top: 13px;
+    padding-top: 23px;
   }
 
   .sm\:pr-23 {
-    padding-right: 13px;
+    padding-right: 23px;
   }
 
   .sm\:pb-23 {
-    padding-bottom: 13px;
+    padding-bottom: 23px;
   }
 
   .sm\:pl-23 {
-    padding-left: 13px;
+    padding-left: 23px;
   }
 
   .sm\:pt-24 {
-    padding-top: 14px;
+    padding-top: 24px;
   }
 
   .sm\:pr-24 {
-    padding-right: 14px;
+    padding-right: 24px;
   }
 
   .sm\:pb-24 {
-    padding-bottom: 14px;
+    padding-bottom: 24px;
   }
 
   .sm\:pl-24 {
-    padding-left: 14px;
+    padding-left: 24px;
   }
 
   .sm\:pt-25 {
-    padding-top: 15px;
+    padding-top: 25px;
   }
 
   .sm\:pr-25 {
-    padding-right: 15px;
+    padding-right: 25px;
   }
 
   .sm\:pb-25 {
-    padding-bottom: 15px;
+    padding-bottom: 25px;
   }
 
   .sm\:pl-25 {
-    padding-left: 15px;
+    padding-left: 25px;
   }
 
   .sm\:pt-26 {
-    padding-top: 16px;
+    padding-top: 26px;
   }
 
   .sm\:pr-26 {
-    padding-right: 16px;
+    padding-right: 26px;
   }
 
   .sm\:pb-26 {
-    padding-bottom: 16px;
+    padding-bottom: 26px;
   }
 
   .sm\:pl-26 {
-    padding-left: 16px;
+    padding-left: 26px;
   }
 
   .sm\:pt-27 {
-    padding-top: 17px;
+    padding-top: 27px;
   }
 
   .sm\:pr-27 {
-    padding-right: 17px;
+    padding-right: 27px;
   }
 
   .sm\:pb-27 {
-    padding-bottom: 17px;
+    padding-bottom: 27px;
   }
 
   .sm\:pl-27 {
-    padding-left: 17px;
+    padding-left: 27px;
   }
 
   .sm\:pt-28 {
-    padding-top: 18px;
+    padding-top: 28px;
   }
 
   .sm\:pr-28 {
-    padding-right: 18px;
+    padding-right: 28px;
   }
 
   .sm\:pb-28 {
-    padding-bottom: 18px;
+    padding-bottom: 28px;
   }
 
   .sm\:pl-28 {
-    padding-left: 18px;
+    padding-left: 28px;
   }
 
   .sm\:pt-29 {
-    padding-top: 19px;
+    padding-top: 29px;
   }
 
   .sm\:pr-29 {
-    padding-right: 19px;
+    padding-right: 29px;
   }
 
   .sm\:pb-29 {
-    padding-bottom: 19px;
+    padding-bottom: 29px;
   }
 
   .sm\:pl-29 {
-    padding-left: 19px;
+    padding-left: 29px;
   }
 
   .sm\:pt-30 {
-    padding-top: 20px;
+    padding-top: 30px;
   }
 
   .sm\:pr-30 {
-    padding-right: 20px;
+    padding-right: 30px;
   }
 
   .sm\:pb-30 {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
   }
 
   .sm\:pl-30 {
-    padding-left: 20px;
+    padding-left: 30px;
   }
 
   .sm\:pointer-events-none {
@@ -10021,6 +10561,42 @@ table {
     color: #c967f2;
   }
 
+  .sm\:text-moxi-alt-mauve {
+    color: #d398f5;
+  }
+
+  .sm\:text-moxi-alt-mulberry {
+    color: #cd5482;
+  }
+
+  .sm\:text-moxi-alt-pale-violet-red {
+    color: #d67197;
+  }
+
+  .sm\:text-moxi-alt-viking {
+    color: #47c4b5;
+  }
+
+  .sm\:text-moxi-alt-riptide {
+    color: #7ed5cb;
+  }
+
+  .sm\:text-moxi-alt-lightning-yellow {
+    color: #f5a623;
+  }
+
+  .sm\:text-moxi-alt-texas-rose {
+    color: #f7b84f;
+  }
+
+  .sm\:text-moxi-alt-flamenco {
+    color: #ef6e41;
+  }
+
+  .sm\:text-moxi-alt-sandy-brown {
+    color: #f39371;
+  }
+
   .sm\:text-moxi-neutral-100 {
     color: #212e35;
   }
@@ -10129,6 +10705,42 @@ table {
     color: #c967f2;
   }
 
+  .sm\:hover\:text-moxi-alt-mauve:hover {
+    color: #d398f5;
+  }
+
+  .sm\:hover\:text-moxi-alt-mulberry:hover {
+    color: #cd5482;
+  }
+
+  .sm\:hover\:text-moxi-alt-pale-violet-red:hover {
+    color: #d67197;
+  }
+
+  .sm\:hover\:text-moxi-alt-viking:hover {
+    color: #47c4b5;
+  }
+
+  .sm\:hover\:text-moxi-alt-riptide:hover {
+    color: #7ed5cb;
+  }
+
+  .sm\:hover\:text-moxi-alt-lightning-yellow:hover {
+    color: #f5a623;
+  }
+
+  .sm\:hover\:text-moxi-alt-texas-rose:hover {
+    color: #f7b84f;
+  }
+
+  .sm\:hover\:text-moxi-alt-flamenco:hover {
+    color: #ef6e41;
+  }
+
+  .sm\:hover\:text-moxi-alt-sandy-brown:hover {
+    color: #f39371;
+  }
+
   .sm\:hover\:text-moxi-neutral-100:hover {
     color: #212e35;
   }
@@ -10235,6 +10847,42 @@ table {
 
   .sm\:focus\:text-moxi-alt-heliotrop:focus {
     color: #c967f2;
+  }
+
+  .sm\:focus\:text-moxi-alt-mauve:focus {
+    color: #d398f5;
+  }
+
+  .sm\:focus\:text-moxi-alt-mulberry:focus {
+    color: #cd5482;
+  }
+
+  .sm\:focus\:text-moxi-alt-pale-violet-red:focus {
+    color: #d67197;
+  }
+
+  .sm\:focus\:text-moxi-alt-viking:focus {
+    color: #47c4b5;
+  }
+
+  .sm\:focus\:text-moxi-alt-riptide:focus {
+    color: #7ed5cb;
+  }
+
+  .sm\:focus\:text-moxi-alt-lightning-yellow:focus {
+    color: #f5a623;
+  }
+
+  .sm\:focus\:text-moxi-alt-texas-rose:focus {
+    color: #f7b84f;
+  }
+
+  .sm\:focus\:text-moxi-alt-flamenco:focus {
+    color: #ef6e41;
+  }
+
+  .sm\:focus\:text-moxi-alt-sandy-brown:focus {
+    color: #f39371;
   }
 
   .sm\:focus\:text-moxi-neutral-100:focus {
@@ -10772,6 +11420,42 @@ table {
     background-color: #c967f2;
   }
 
+  .md\:bg-moxi-alt-mauve {
+    background-color: #d398f5;
+  }
+
+  .md\:bg-moxi-alt-mulberry {
+    background-color: #cd5482;
+  }
+
+  .md\:bg-moxi-alt-pale-violet-red {
+    background-color: #d67197;
+  }
+
+  .md\:bg-moxi-alt-viking {
+    background-color: #47c4b5;
+  }
+
+  .md\:bg-moxi-alt-riptide {
+    background-color: #7ed5cb;
+  }
+
+  .md\:bg-moxi-alt-lightning-yellow {
+    background-color: #f5a623;
+  }
+
+  .md\:bg-moxi-alt-texas-rose {
+    background-color: #f7b84f;
+  }
+
+  .md\:bg-moxi-alt-flamenco {
+    background-color: #ef6e41;
+  }
+
+  .md\:bg-moxi-alt-sandy-brown {
+    background-color: #f39371;
+  }
+
   .md\:bg-moxi-neutral-100 {
     background-color: #212e35;
   }
@@ -10880,6 +11564,42 @@ table {
     background-color: #c967f2;
   }
 
+  .md\:hover\:bg-moxi-alt-mauve:hover {
+    background-color: #d398f5;
+  }
+
+  .md\:hover\:bg-moxi-alt-mulberry:hover {
+    background-color: #cd5482;
+  }
+
+  .md\:hover\:bg-moxi-alt-pale-violet-red:hover {
+    background-color: #d67197;
+  }
+
+  .md\:hover\:bg-moxi-alt-viking:hover {
+    background-color: #47c4b5;
+  }
+
+  .md\:hover\:bg-moxi-alt-riptide:hover {
+    background-color: #7ed5cb;
+  }
+
+  .md\:hover\:bg-moxi-alt-lightning-yellow:hover {
+    background-color: #f5a623;
+  }
+
+  .md\:hover\:bg-moxi-alt-texas-rose:hover {
+    background-color: #f7b84f;
+  }
+
+  .md\:hover\:bg-moxi-alt-flamenco:hover {
+    background-color: #ef6e41;
+  }
+
+  .md\:hover\:bg-moxi-alt-sandy-brown:hover {
+    background-color: #f39371;
+  }
+
   .md\:hover\:bg-moxi-neutral-100:hover {
     background-color: #212e35;
   }
@@ -10986,6 +11706,42 @@ table {
 
   .md\:focus\:bg-moxi-alt-heliotrop:focus {
     background-color: #c967f2;
+  }
+
+  .md\:focus\:bg-moxi-alt-mauve:focus {
+    background-color: #d398f5;
+  }
+
+  .md\:focus\:bg-moxi-alt-mulberry:focus {
+    background-color: #cd5482;
+  }
+
+  .md\:focus\:bg-moxi-alt-pale-violet-red:focus {
+    background-color: #d67197;
+  }
+
+  .md\:focus\:bg-moxi-alt-viking:focus {
+    background-color: #47c4b5;
+  }
+
+  .md\:focus\:bg-moxi-alt-riptide:focus {
+    background-color: #7ed5cb;
+  }
+
+  .md\:focus\:bg-moxi-alt-lightning-yellow:focus {
+    background-color: #f5a623;
+  }
+
+  .md\:focus\:bg-moxi-alt-texas-rose:focus {
+    background-color: #f7b84f;
+  }
+
+  .md\:focus\:bg-moxi-alt-flamenco:focus {
+    background-color: #ef6e41;
+  }
+
+  .md\:focus\:bg-moxi-alt-sandy-brown:focus {
+    background-color: #f39371;
   }
 
   .md\:focus\:bg-moxi-neutral-100:focus {
@@ -11160,6 +11916,42 @@ table {
     border-color: #c967f2;
   }
 
+  .md\:border-moxi-alt-mauve {
+    border-color: #d398f5;
+  }
+
+  .md\:border-moxi-alt-mulberry {
+    border-color: #cd5482;
+  }
+
+  .md\:border-moxi-alt-pale-violet-red {
+    border-color: #d67197;
+  }
+
+  .md\:border-moxi-alt-viking {
+    border-color: #47c4b5;
+  }
+
+  .md\:border-moxi-alt-riptide {
+    border-color: #7ed5cb;
+  }
+
+  .md\:border-moxi-alt-lightning-yellow {
+    border-color: #f5a623;
+  }
+
+  .md\:border-moxi-alt-texas-rose {
+    border-color: #f7b84f;
+  }
+
+  .md\:border-moxi-alt-flamenco {
+    border-color: #ef6e41;
+  }
+
+  .md\:border-moxi-alt-sandy-brown {
+    border-color: #f39371;
+  }
+
   .md\:border-moxi-neutral-100 {
     border-color: #212e35;
   }
@@ -11268,6 +12060,42 @@ table {
     border-color: #c967f2;
   }
 
+  .md\:hover\:border-moxi-alt-mauve:hover {
+    border-color: #d398f5;
+  }
+
+  .md\:hover\:border-moxi-alt-mulberry:hover {
+    border-color: #cd5482;
+  }
+
+  .md\:hover\:border-moxi-alt-pale-violet-red:hover {
+    border-color: #d67197;
+  }
+
+  .md\:hover\:border-moxi-alt-viking:hover {
+    border-color: #47c4b5;
+  }
+
+  .md\:hover\:border-moxi-alt-riptide:hover {
+    border-color: #7ed5cb;
+  }
+
+  .md\:hover\:border-moxi-alt-lightning-yellow:hover {
+    border-color: #f5a623;
+  }
+
+  .md\:hover\:border-moxi-alt-texas-rose:hover {
+    border-color: #f7b84f;
+  }
+
+  .md\:hover\:border-moxi-alt-flamenco:hover {
+    border-color: #ef6e41;
+  }
+
+  .md\:hover\:border-moxi-alt-sandy-brown:hover {
+    border-color: #f39371;
+  }
+
   .md\:hover\:border-moxi-neutral-100:hover {
     border-color: #212e35;
   }
@@ -11374,6 +12202,42 @@ table {
 
   .md\:focus\:border-moxi-alt-heliotrop:focus {
     border-color: #c967f2;
+  }
+
+  .md\:focus\:border-moxi-alt-mauve:focus {
+    border-color: #d398f5;
+  }
+
+  .md\:focus\:border-moxi-alt-mulberry:focus {
+    border-color: #cd5482;
+  }
+
+  .md\:focus\:border-moxi-alt-pale-violet-red:focus {
+    border-color: #d67197;
+  }
+
+  .md\:focus\:border-moxi-alt-viking:focus {
+    border-color: #47c4b5;
+  }
+
+  .md\:focus\:border-moxi-alt-riptide:focus {
+    border-color: #7ed5cb;
+  }
+
+  .md\:focus\:border-moxi-alt-lightning-yellow:focus {
+    border-color: #f5a623;
+  }
+
+  .md\:focus\:border-moxi-alt-texas-rose:focus {
+    border-color: #f7b84f;
+  }
+
+  .md\:focus\:border-moxi-alt-flamenco:focus {
+    border-color: #ef6e41;
+  }
+
+  .md\:focus\:border-moxi-alt-sandy-brown:focus {
+    border-color: #f39371;
   }
 
   .md\:focus\:border-moxi-neutral-100:focus {
@@ -12255,43 +13119,43 @@ table {
   }
 
   .md\:m-21 {
-    margin: 11px;
+    margin: 21px;
   }
 
   .md\:m-22 {
-    margin: 12px;
+    margin: 22px;
   }
 
   .md\:m-23 {
-    margin: 13px;
+    margin: 23px;
   }
 
   .md\:m-24 {
-    margin: 14px;
+    margin: 24px;
   }
 
   .md\:m-25 {
-    margin: 15px;
+    margin: 25px;
   }
 
   .md\:m-26 {
-    margin: 16px;
+    margin: 26px;
   }
 
   .md\:m-27 {
-    margin: 17px;
+    margin: 27px;
   }
 
   .md\:m-28 {
-    margin: 18px;
+    margin: 28px;
   }
 
   .md\:m-29 {
-    margin: 19px;
+    margin: 29px;
   }
 
   .md\:m-30 {
-    margin: 20px;
+    margin: 30px;
   }
 
   .md\:my-0 {
@@ -12505,103 +13369,103 @@ table {
   }
 
   .md\:my-21 {
-    margin-top: 11px;
-    margin-bottom: 11px;
+    margin-top: 21px;
+    margin-bottom: 21px;
   }
 
   .md\:mx-21 {
-    margin-left: 11px;
-    margin-right: 11px;
+    margin-left: 21px;
+    margin-right: 21px;
   }
 
   .md\:my-22 {
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-top: 22px;
+    margin-bottom: 22px;
   }
 
   .md\:mx-22 {
-    margin-left: 12px;
-    margin-right: 12px;
+    margin-left: 22px;
+    margin-right: 22px;
   }
 
   .md\:my-23 {
-    margin-top: 13px;
-    margin-bottom: 13px;
+    margin-top: 23px;
+    margin-bottom: 23px;
   }
 
   .md\:mx-23 {
-    margin-left: 13px;
-    margin-right: 13px;
+    margin-left: 23px;
+    margin-right: 23px;
   }
 
   .md\:my-24 {
-    margin-top: 14px;
-    margin-bottom: 14px;
+    margin-top: 24px;
+    margin-bottom: 24px;
   }
 
   .md\:mx-24 {
-    margin-left: 14px;
-    margin-right: 14px;
+    margin-left: 24px;
+    margin-right: 24px;
   }
 
   .md\:my-25 {
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 
   .md\:mx-25 {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
   }
 
   .md\:my-26 {
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin-top: 26px;
+    margin-bottom: 26px;
   }
 
   .md\:mx-26 {
-    margin-left: 16px;
-    margin-right: 16px;
+    margin-left: 26px;
+    margin-right: 26px;
   }
 
   .md\:my-27 {
-    margin-top: 17px;
-    margin-bottom: 17px;
+    margin-top: 27px;
+    margin-bottom: 27px;
   }
 
   .md\:mx-27 {
-    margin-left: 17px;
-    margin-right: 17px;
+    margin-left: 27px;
+    margin-right: 27px;
   }
 
   .md\:my-28 {
-    margin-top: 18px;
-    margin-bottom: 18px;
+    margin-top: 28px;
+    margin-bottom: 28px;
   }
 
   .md\:mx-28 {
-    margin-left: 18px;
-    margin-right: 18px;
+    margin-left: 28px;
+    margin-right: 28px;
   }
 
   .md\:my-29 {
-    margin-top: 19px;
-    margin-bottom: 19px;
+    margin-top: 29px;
+    margin-bottom: 29px;
   }
 
   .md\:mx-29 {
-    margin-left: 19px;
-    margin-right: 19px;
+    margin-left: 29px;
+    margin-right: 29px;
   }
 
   .md\:my-30 {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   .md\:mx-30 {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
 
   .md\:mt-0 {
@@ -12941,163 +13805,163 @@ table {
   }
 
   .md\:mt-21 {
-    margin-top: 11px;
+    margin-top: 21px;
   }
 
   .md\:mr-21 {
-    margin-right: 11px;
+    margin-right: 21px;
   }
 
   .md\:mb-21 {
-    margin-bottom: 11px;
+    margin-bottom: 21px;
   }
 
   .md\:ml-21 {
-    margin-left: 11px;
+    margin-left: 21px;
   }
 
   .md\:mt-22 {
-    margin-top: 12px;
+    margin-top: 22px;
   }
 
   .md\:mr-22 {
-    margin-right: 12px;
+    margin-right: 22px;
   }
 
   .md\:mb-22 {
-    margin-bottom: 12px;
+    margin-bottom: 22px;
   }
 
   .md\:ml-22 {
-    margin-left: 12px;
+    margin-left: 22px;
   }
 
   .md\:mt-23 {
-    margin-top: 13px;
+    margin-top: 23px;
   }
 
   .md\:mr-23 {
-    margin-right: 13px;
+    margin-right: 23px;
   }
 
   .md\:mb-23 {
-    margin-bottom: 13px;
+    margin-bottom: 23px;
   }
 
   .md\:ml-23 {
-    margin-left: 13px;
+    margin-left: 23px;
   }
 
   .md\:mt-24 {
-    margin-top: 14px;
+    margin-top: 24px;
   }
 
   .md\:mr-24 {
-    margin-right: 14px;
+    margin-right: 24px;
   }
 
   .md\:mb-24 {
-    margin-bottom: 14px;
+    margin-bottom: 24px;
   }
 
   .md\:ml-24 {
-    margin-left: 14px;
+    margin-left: 24px;
   }
 
   .md\:mt-25 {
-    margin-top: 15px;
+    margin-top: 25px;
   }
 
   .md\:mr-25 {
-    margin-right: 15px;
+    margin-right: 25px;
   }
 
   .md\:mb-25 {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
   }
 
   .md\:ml-25 {
-    margin-left: 15px;
+    margin-left: 25px;
   }
 
   .md\:mt-26 {
-    margin-top: 16px;
+    margin-top: 26px;
   }
 
   .md\:mr-26 {
-    margin-right: 16px;
+    margin-right: 26px;
   }
 
   .md\:mb-26 {
-    margin-bottom: 16px;
+    margin-bottom: 26px;
   }
 
   .md\:ml-26 {
-    margin-left: 16px;
+    margin-left: 26px;
   }
 
   .md\:mt-27 {
-    margin-top: 17px;
+    margin-top: 27px;
   }
 
   .md\:mr-27 {
-    margin-right: 17px;
+    margin-right: 27px;
   }
 
   .md\:mb-27 {
-    margin-bottom: 17px;
+    margin-bottom: 27px;
   }
 
   .md\:ml-27 {
-    margin-left: 17px;
+    margin-left: 27px;
   }
 
   .md\:mt-28 {
-    margin-top: 18px;
+    margin-top: 28px;
   }
 
   .md\:mr-28 {
-    margin-right: 18px;
+    margin-right: 28px;
   }
 
   .md\:mb-28 {
-    margin-bottom: 18px;
+    margin-bottom: 28px;
   }
 
   .md\:ml-28 {
-    margin-left: 18px;
+    margin-left: 28px;
   }
 
   .md\:mt-29 {
-    margin-top: 19px;
+    margin-top: 29px;
   }
 
   .md\:mr-29 {
-    margin-right: 19px;
+    margin-right: 29px;
   }
 
   .md\:mb-29 {
-    margin-bottom: 19px;
+    margin-bottom: 29px;
   }
 
   .md\:ml-29 {
-    margin-left: 19px;
+    margin-left: 29px;
   }
 
   .md\:mt-30 {
-    margin-top: 20px;
+    margin-top: 30px;
   }
 
   .md\:mr-30 {
-    margin-right: 20px;
+    margin-right: 30px;
   }
 
   .md\:mb-30 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   .md\:ml-30 {
-    margin-left: 20px;
+    margin-left: 30px;
   }
 
   .md\:max-h-full {
@@ -13779,43 +14643,43 @@ table {
   }
 
   .md\:p-21 {
-    padding: 11px;
+    padding: 21px;
   }
 
   .md\:p-22 {
-    padding: 12px;
+    padding: 22px;
   }
 
   .md\:p-23 {
-    padding: 13px;
+    padding: 23px;
   }
 
   .md\:p-24 {
-    padding: 14px;
+    padding: 24px;
   }
 
   .md\:p-25 {
-    padding: 15px;
+    padding: 25px;
   }
 
   .md\:p-26 {
-    padding: 16px;
+    padding: 26px;
   }
 
   .md\:p-27 {
-    padding: 17px;
+    padding: 27px;
   }
 
   .md\:p-28 {
-    padding: 18px;
+    padding: 28px;
   }
 
   .md\:p-29 {
-    padding: 19px;
+    padding: 29px;
   }
 
   .md\:p-30 {
-    padding: 20px;
+    padding: 30px;
   }
 
   .md\:py-0 {
@@ -14029,103 +14893,103 @@ table {
   }
 
   .md\:py-21 {
-    padding-top: 11px;
-    padding-bottom: 11px;
+    padding-top: 21px;
+    padding-bottom: 21px;
   }
 
   .md\:px-21 {
-    padding-left: 11px;
-    padding-right: 11px;
+    padding-left: 21px;
+    padding-right: 21px;
   }
 
   .md\:py-22 {
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 22px;
+    padding-bottom: 22px;
   }
 
   .md\:px-22 {
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 22px;
+    padding-right: 22px;
   }
 
   .md\:py-23 {
-    padding-top: 13px;
-    padding-bottom: 13px;
+    padding-top: 23px;
+    padding-bottom: 23px;
   }
 
   .md\:px-23 {
-    padding-left: 13px;
-    padding-right: 13px;
+    padding-left: 23px;
+    padding-right: 23px;
   }
 
   .md\:py-24 {
-    padding-top: 14px;
-    padding-bottom: 14px;
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 
   .md\:px-24 {
-    padding-left: 14px;
-    padding-right: 14px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   .md\:py-25 {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 
   .md\:px-25 {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 
   .md\:py-26 {
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 26px;
+    padding-bottom: 26px;
   }
 
   .md\:px-26 {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 26px;
+    padding-right: 26px;
   }
 
   .md\:py-27 {
-    padding-top: 17px;
-    padding-bottom: 17px;
+    padding-top: 27px;
+    padding-bottom: 27px;
   }
 
   .md\:px-27 {
-    padding-left: 17px;
-    padding-right: 17px;
+    padding-left: 27px;
+    padding-right: 27px;
   }
 
   .md\:py-28 {
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 28px;
+    padding-bottom: 28px;
   }
 
   .md\:px-28 {
-    padding-left: 18px;
-    padding-right: 18px;
+    padding-left: 28px;
+    padding-right: 28px;
   }
 
   .md\:py-29 {
-    padding-top: 19px;
-    padding-bottom: 19px;
+    padding-top: 29px;
+    padding-bottom: 29px;
   }
 
   .md\:px-29 {
-    padding-left: 19px;
-    padding-right: 19px;
+    padding-left: 29px;
+    padding-right: 29px;
   }
 
   .md\:py-30 {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   .md\:px-30 {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .md\:pt-0 {
@@ -14465,163 +15329,163 @@ table {
   }
 
   .md\:pt-21 {
-    padding-top: 11px;
+    padding-top: 21px;
   }
 
   .md\:pr-21 {
-    padding-right: 11px;
+    padding-right: 21px;
   }
 
   .md\:pb-21 {
-    padding-bottom: 11px;
+    padding-bottom: 21px;
   }
 
   .md\:pl-21 {
-    padding-left: 11px;
+    padding-left: 21px;
   }
 
   .md\:pt-22 {
-    padding-top: 12px;
+    padding-top: 22px;
   }
 
   .md\:pr-22 {
-    padding-right: 12px;
+    padding-right: 22px;
   }
 
   .md\:pb-22 {
-    padding-bottom: 12px;
+    padding-bottom: 22px;
   }
 
   .md\:pl-22 {
-    padding-left: 12px;
+    padding-left: 22px;
   }
 
   .md\:pt-23 {
-    padding-top: 13px;
+    padding-top: 23px;
   }
 
   .md\:pr-23 {
-    padding-right: 13px;
+    padding-right: 23px;
   }
 
   .md\:pb-23 {
-    padding-bottom: 13px;
+    padding-bottom: 23px;
   }
 
   .md\:pl-23 {
-    padding-left: 13px;
+    padding-left: 23px;
   }
 
   .md\:pt-24 {
-    padding-top: 14px;
+    padding-top: 24px;
   }
 
   .md\:pr-24 {
-    padding-right: 14px;
+    padding-right: 24px;
   }
 
   .md\:pb-24 {
-    padding-bottom: 14px;
+    padding-bottom: 24px;
   }
 
   .md\:pl-24 {
-    padding-left: 14px;
+    padding-left: 24px;
   }
 
   .md\:pt-25 {
-    padding-top: 15px;
+    padding-top: 25px;
   }
 
   .md\:pr-25 {
-    padding-right: 15px;
+    padding-right: 25px;
   }
 
   .md\:pb-25 {
-    padding-bottom: 15px;
+    padding-bottom: 25px;
   }
 
   .md\:pl-25 {
-    padding-left: 15px;
+    padding-left: 25px;
   }
 
   .md\:pt-26 {
-    padding-top: 16px;
+    padding-top: 26px;
   }
 
   .md\:pr-26 {
-    padding-right: 16px;
+    padding-right: 26px;
   }
 
   .md\:pb-26 {
-    padding-bottom: 16px;
+    padding-bottom: 26px;
   }
 
   .md\:pl-26 {
-    padding-left: 16px;
+    padding-left: 26px;
   }
 
   .md\:pt-27 {
-    padding-top: 17px;
+    padding-top: 27px;
   }
 
   .md\:pr-27 {
-    padding-right: 17px;
+    padding-right: 27px;
   }
 
   .md\:pb-27 {
-    padding-bottom: 17px;
+    padding-bottom: 27px;
   }
 
   .md\:pl-27 {
-    padding-left: 17px;
+    padding-left: 27px;
   }
 
   .md\:pt-28 {
-    padding-top: 18px;
+    padding-top: 28px;
   }
 
   .md\:pr-28 {
-    padding-right: 18px;
+    padding-right: 28px;
   }
 
   .md\:pb-28 {
-    padding-bottom: 18px;
+    padding-bottom: 28px;
   }
 
   .md\:pl-28 {
-    padding-left: 18px;
+    padding-left: 28px;
   }
 
   .md\:pt-29 {
-    padding-top: 19px;
+    padding-top: 29px;
   }
 
   .md\:pr-29 {
-    padding-right: 19px;
+    padding-right: 29px;
   }
 
   .md\:pb-29 {
-    padding-bottom: 19px;
+    padding-bottom: 29px;
   }
 
   .md\:pl-29 {
-    padding-left: 19px;
+    padding-left: 29px;
   }
 
   .md\:pt-30 {
-    padding-top: 20px;
+    padding-top: 30px;
   }
 
   .md\:pr-30 {
-    padding-right: 20px;
+    padding-right: 30px;
   }
 
   .md\:pb-30 {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
   }
 
   .md\:pl-30 {
-    padding-left: 20px;
+    padding-left: 30px;
   }
 
   .md\:pointer-events-none {
@@ -14860,6 +15724,42 @@ table {
     color: #c967f2;
   }
 
+  .md\:text-moxi-alt-mauve {
+    color: #d398f5;
+  }
+
+  .md\:text-moxi-alt-mulberry {
+    color: #cd5482;
+  }
+
+  .md\:text-moxi-alt-pale-violet-red {
+    color: #d67197;
+  }
+
+  .md\:text-moxi-alt-viking {
+    color: #47c4b5;
+  }
+
+  .md\:text-moxi-alt-riptide {
+    color: #7ed5cb;
+  }
+
+  .md\:text-moxi-alt-lightning-yellow {
+    color: #f5a623;
+  }
+
+  .md\:text-moxi-alt-texas-rose {
+    color: #f7b84f;
+  }
+
+  .md\:text-moxi-alt-flamenco {
+    color: #ef6e41;
+  }
+
+  .md\:text-moxi-alt-sandy-brown {
+    color: #f39371;
+  }
+
   .md\:text-moxi-neutral-100 {
     color: #212e35;
   }
@@ -14968,6 +15868,42 @@ table {
     color: #c967f2;
   }
 
+  .md\:hover\:text-moxi-alt-mauve:hover {
+    color: #d398f5;
+  }
+
+  .md\:hover\:text-moxi-alt-mulberry:hover {
+    color: #cd5482;
+  }
+
+  .md\:hover\:text-moxi-alt-pale-violet-red:hover {
+    color: #d67197;
+  }
+
+  .md\:hover\:text-moxi-alt-viking:hover {
+    color: #47c4b5;
+  }
+
+  .md\:hover\:text-moxi-alt-riptide:hover {
+    color: #7ed5cb;
+  }
+
+  .md\:hover\:text-moxi-alt-lightning-yellow:hover {
+    color: #f5a623;
+  }
+
+  .md\:hover\:text-moxi-alt-texas-rose:hover {
+    color: #f7b84f;
+  }
+
+  .md\:hover\:text-moxi-alt-flamenco:hover {
+    color: #ef6e41;
+  }
+
+  .md\:hover\:text-moxi-alt-sandy-brown:hover {
+    color: #f39371;
+  }
+
   .md\:hover\:text-moxi-neutral-100:hover {
     color: #212e35;
   }
@@ -15074,6 +16010,42 @@ table {
 
   .md\:focus\:text-moxi-alt-heliotrop:focus {
     color: #c967f2;
+  }
+
+  .md\:focus\:text-moxi-alt-mauve:focus {
+    color: #d398f5;
+  }
+
+  .md\:focus\:text-moxi-alt-mulberry:focus {
+    color: #cd5482;
+  }
+
+  .md\:focus\:text-moxi-alt-pale-violet-red:focus {
+    color: #d67197;
+  }
+
+  .md\:focus\:text-moxi-alt-viking:focus {
+    color: #47c4b5;
+  }
+
+  .md\:focus\:text-moxi-alt-riptide:focus {
+    color: #7ed5cb;
+  }
+
+  .md\:focus\:text-moxi-alt-lightning-yellow:focus {
+    color: #f5a623;
+  }
+
+  .md\:focus\:text-moxi-alt-texas-rose:focus {
+    color: #f7b84f;
+  }
+
+  .md\:focus\:text-moxi-alt-flamenco:focus {
+    color: #ef6e41;
+  }
+
+  .md\:focus\:text-moxi-alt-sandy-brown:focus {
+    color: #f39371;
   }
 
   .md\:focus\:text-moxi-neutral-100:focus {
@@ -15611,6 +16583,42 @@ table {
     background-color: #c967f2;
   }
 
+  .lg\:bg-moxi-alt-mauve {
+    background-color: #d398f5;
+  }
+
+  .lg\:bg-moxi-alt-mulberry {
+    background-color: #cd5482;
+  }
+
+  .lg\:bg-moxi-alt-pale-violet-red {
+    background-color: #d67197;
+  }
+
+  .lg\:bg-moxi-alt-viking {
+    background-color: #47c4b5;
+  }
+
+  .lg\:bg-moxi-alt-riptide {
+    background-color: #7ed5cb;
+  }
+
+  .lg\:bg-moxi-alt-lightning-yellow {
+    background-color: #f5a623;
+  }
+
+  .lg\:bg-moxi-alt-texas-rose {
+    background-color: #f7b84f;
+  }
+
+  .lg\:bg-moxi-alt-flamenco {
+    background-color: #ef6e41;
+  }
+
+  .lg\:bg-moxi-alt-sandy-brown {
+    background-color: #f39371;
+  }
+
   .lg\:bg-moxi-neutral-100 {
     background-color: #212e35;
   }
@@ -15719,6 +16727,42 @@ table {
     background-color: #c967f2;
   }
 
+  .lg\:hover\:bg-moxi-alt-mauve:hover {
+    background-color: #d398f5;
+  }
+
+  .lg\:hover\:bg-moxi-alt-mulberry:hover {
+    background-color: #cd5482;
+  }
+
+  .lg\:hover\:bg-moxi-alt-pale-violet-red:hover {
+    background-color: #d67197;
+  }
+
+  .lg\:hover\:bg-moxi-alt-viking:hover {
+    background-color: #47c4b5;
+  }
+
+  .lg\:hover\:bg-moxi-alt-riptide:hover {
+    background-color: #7ed5cb;
+  }
+
+  .lg\:hover\:bg-moxi-alt-lightning-yellow:hover {
+    background-color: #f5a623;
+  }
+
+  .lg\:hover\:bg-moxi-alt-texas-rose:hover {
+    background-color: #f7b84f;
+  }
+
+  .lg\:hover\:bg-moxi-alt-flamenco:hover {
+    background-color: #ef6e41;
+  }
+
+  .lg\:hover\:bg-moxi-alt-sandy-brown:hover {
+    background-color: #f39371;
+  }
+
   .lg\:hover\:bg-moxi-neutral-100:hover {
     background-color: #212e35;
   }
@@ -15825,6 +16869,42 @@ table {
 
   .lg\:focus\:bg-moxi-alt-heliotrop:focus {
     background-color: #c967f2;
+  }
+
+  .lg\:focus\:bg-moxi-alt-mauve:focus {
+    background-color: #d398f5;
+  }
+
+  .lg\:focus\:bg-moxi-alt-mulberry:focus {
+    background-color: #cd5482;
+  }
+
+  .lg\:focus\:bg-moxi-alt-pale-violet-red:focus {
+    background-color: #d67197;
+  }
+
+  .lg\:focus\:bg-moxi-alt-viking:focus {
+    background-color: #47c4b5;
+  }
+
+  .lg\:focus\:bg-moxi-alt-riptide:focus {
+    background-color: #7ed5cb;
+  }
+
+  .lg\:focus\:bg-moxi-alt-lightning-yellow:focus {
+    background-color: #f5a623;
+  }
+
+  .lg\:focus\:bg-moxi-alt-texas-rose:focus {
+    background-color: #f7b84f;
+  }
+
+  .lg\:focus\:bg-moxi-alt-flamenco:focus {
+    background-color: #ef6e41;
+  }
+
+  .lg\:focus\:bg-moxi-alt-sandy-brown:focus {
+    background-color: #f39371;
   }
 
   .lg\:focus\:bg-moxi-neutral-100:focus {
@@ -15999,6 +17079,42 @@ table {
     border-color: #c967f2;
   }
 
+  .lg\:border-moxi-alt-mauve {
+    border-color: #d398f5;
+  }
+
+  .lg\:border-moxi-alt-mulberry {
+    border-color: #cd5482;
+  }
+
+  .lg\:border-moxi-alt-pale-violet-red {
+    border-color: #d67197;
+  }
+
+  .lg\:border-moxi-alt-viking {
+    border-color: #47c4b5;
+  }
+
+  .lg\:border-moxi-alt-riptide {
+    border-color: #7ed5cb;
+  }
+
+  .lg\:border-moxi-alt-lightning-yellow {
+    border-color: #f5a623;
+  }
+
+  .lg\:border-moxi-alt-texas-rose {
+    border-color: #f7b84f;
+  }
+
+  .lg\:border-moxi-alt-flamenco {
+    border-color: #ef6e41;
+  }
+
+  .lg\:border-moxi-alt-sandy-brown {
+    border-color: #f39371;
+  }
+
   .lg\:border-moxi-neutral-100 {
     border-color: #212e35;
   }
@@ -16107,6 +17223,42 @@ table {
     border-color: #c967f2;
   }
 
+  .lg\:hover\:border-moxi-alt-mauve:hover {
+    border-color: #d398f5;
+  }
+
+  .lg\:hover\:border-moxi-alt-mulberry:hover {
+    border-color: #cd5482;
+  }
+
+  .lg\:hover\:border-moxi-alt-pale-violet-red:hover {
+    border-color: #d67197;
+  }
+
+  .lg\:hover\:border-moxi-alt-viking:hover {
+    border-color: #47c4b5;
+  }
+
+  .lg\:hover\:border-moxi-alt-riptide:hover {
+    border-color: #7ed5cb;
+  }
+
+  .lg\:hover\:border-moxi-alt-lightning-yellow:hover {
+    border-color: #f5a623;
+  }
+
+  .lg\:hover\:border-moxi-alt-texas-rose:hover {
+    border-color: #f7b84f;
+  }
+
+  .lg\:hover\:border-moxi-alt-flamenco:hover {
+    border-color: #ef6e41;
+  }
+
+  .lg\:hover\:border-moxi-alt-sandy-brown:hover {
+    border-color: #f39371;
+  }
+
   .lg\:hover\:border-moxi-neutral-100:hover {
     border-color: #212e35;
   }
@@ -16213,6 +17365,42 @@ table {
 
   .lg\:focus\:border-moxi-alt-heliotrop:focus {
     border-color: #c967f2;
+  }
+
+  .lg\:focus\:border-moxi-alt-mauve:focus {
+    border-color: #d398f5;
+  }
+
+  .lg\:focus\:border-moxi-alt-mulberry:focus {
+    border-color: #cd5482;
+  }
+
+  .lg\:focus\:border-moxi-alt-pale-violet-red:focus {
+    border-color: #d67197;
+  }
+
+  .lg\:focus\:border-moxi-alt-viking:focus {
+    border-color: #47c4b5;
+  }
+
+  .lg\:focus\:border-moxi-alt-riptide:focus {
+    border-color: #7ed5cb;
+  }
+
+  .lg\:focus\:border-moxi-alt-lightning-yellow:focus {
+    border-color: #f5a623;
+  }
+
+  .lg\:focus\:border-moxi-alt-texas-rose:focus {
+    border-color: #f7b84f;
+  }
+
+  .lg\:focus\:border-moxi-alt-flamenco:focus {
+    border-color: #ef6e41;
+  }
+
+  .lg\:focus\:border-moxi-alt-sandy-brown:focus {
+    border-color: #f39371;
   }
 
   .lg\:focus\:border-moxi-neutral-100:focus {
@@ -17094,43 +18282,43 @@ table {
   }
 
   .lg\:m-21 {
-    margin: 11px;
+    margin: 21px;
   }
 
   .lg\:m-22 {
-    margin: 12px;
+    margin: 22px;
   }
 
   .lg\:m-23 {
-    margin: 13px;
+    margin: 23px;
   }
 
   .lg\:m-24 {
-    margin: 14px;
+    margin: 24px;
   }
 
   .lg\:m-25 {
-    margin: 15px;
+    margin: 25px;
   }
 
   .lg\:m-26 {
-    margin: 16px;
+    margin: 26px;
   }
 
   .lg\:m-27 {
-    margin: 17px;
+    margin: 27px;
   }
 
   .lg\:m-28 {
-    margin: 18px;
+    margin: 28px;
   }
 
   .lg\:m-29 {
-    margin: 19px;
+    margin: 29px;
   }
 
   .lg\:m-30 {
-    margin: 20px;
+    margin: 30px;
   }
 
   .lg\:my-0 {
@@ -17344,103 +18532,103 @@ table {
   }
 
   .lg\:my-21 {
-    margin-top: 11px;
-    margin-bottom: 11px;
+    margin-top: 21px;
+    margin-bottom: 21px;
   }
 
   .lg\:mx-21 {
-    margin-left: 11px;
-    margin-right: 11px;
+    margin-left: 21px;
+    margin-right: 21px;
   }
 
   .lg\:my-22 {
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-top: 22px;
+    margin-bottom: 22px;
   }
 
   .lg\:mx-22 {
-    margin-left: 12px;
-    margin-right: 12px;
+    margin-left: 22px;
+    margin-right: 22px;
   }
 
   .lg\:my-23 {
-    margin-top: 13px;
-    margin-bottom: 13px;
+    margin-top: 23px;
+    margin-bottom: 23px;
   }
 
   .lg\:mx-23 {
-    margin-left: 13px;
-    margin-right: 13px;
+    margin-left: 23px;
+    margin-right: 23px;
   }
 
   .lg\:my-24 {
-    margin-top: 14px;
-    margin-bottom: 14px;
+    margin-top: 24px;
+    margin-bottom: 24px;
   }
 
   .lg\:mx-24 {
-    margin-left: 14px;
-    margin-right: 14px;
+    margin-left: 24px;
+    margin-right: 24px;
   }
 
   .lg\:my-25 {
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 
   .lg\:mx-25 {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
   }
 
   .lg\:my-26 {
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin-top: 26px;
+    margin-bottom: 26px;
   }
 
   .lg\:mx-26 {
-    margin-left: 16px;
-    margin-right: 16px;
+    margin-left: 26px;
+    margin-right: 26px;
   }
 
   .lg\:my-27 {
-    margin-top: 17px;
-    margin-bottom: 17px;
+    margin-top: 27px;
+    margin-bottom: 27px;
   }
 
   .lg\:mx-27 {
-    margin-left: 17px;
-    margin-right: 17px;
+    margin-left: 27px;
+    margin-right: 27px;
   }
 
   .lg\:my-28 {
-    margin-top: 18px;
-    margin-bottom: 18px;
+    margin-top: 28px;
+    margin-bottom: 28px;
   }
 
   .lg\:mx-28 {
-    margin-left: 18px;
-    margin-right: 18px;
+    margin-left: 28px;
+    margin-right: 28px;
   }
 
   .lg\:my-29 {
-    margin-top: 19px;
-    margin-bottom: 19px;
+    margin-top: 29px;
+    margin-bottom: 29px;
   }
 
   .lg\:mx-29 {
-    margin-left: 19px;
-    margin-right: 19px;
+    margin-left: 29px;
+    margin-right: 29px;
   }
 
   .lg\:my-30 {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   .lg\:mx-30 {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
 
   .lg\:mt-0 {
@@ -17780,163 +18968,163 @@ table {
   }
 
   .lg\:mt-21 {
-    margin-top: 11px;
+    margin-top: 21px;
   }
 
   .lg\:mr-21 {
-    margin-right: 11px;
+    margin-right: 21px;
   }
 
   .lg\:mb-21 {
-    margin-bottom: 11px;
+    margin-bottom: 21px;
   }
 
   .lg\:ml-21 {
-    margin-left: 11px;
+    margin-left: 21px;
   }
 
   .lg\:mt-22 {
-    margin-top: 12px;
+    margin-top: 22px;
   }
 
   .lg\:mr-22 {
-    margin-right: 12px;
+    margin-right: 22px;
   }
 
   .lg\:mb-22 {
-    margin-bottom: 12px;
+    margin-bottom: 22px;
   }
 
   .lg\:ml-22 {
-    margin-left: 12px;
+    margin-left: 22px;
   }
 
   .lg\:mt-23 {
-    margin-top: 13px;
+    margin-top: 23px;
   }
 
   .lg\:mr-23 {
-    margin-right: 13px;
+    margin-right: 23px;
   }
 
   .lg\:mb-23 {
-    margin-bottom: 13px;
+    margin-bottom: 23px;
   }
 
   .lg\:ml-23 {
-    margin-left: 13px;
+    margin-left: 23px;
   }
 
   .lg\:mt-24 {
-    margin-top: 14px;
+    margin-top: 24px;
   }
 
   .lg\:mr-24 {
-    margin-right: 14px;
+    margin-right: 24px;
   }
 
   .lg\:mb-24 {
-    margin-bottom: 14px;
+    margin-bottom: 24px;
   }
 
   .lg\:ml-24 {
-    margin-left: 14px;
+    margin-left: 24px;
   }
 
   .lg\:mt-25 {
-    margin-top: 15px;
+    margin-top: 25px;
   }
 
   .lg\:mr-25 {
-    margin-right: 15px;
+    margin-right: 25px;
   }
 
   .lg\:mb-25 {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
   }
 
   .lg\:ml-25 {
-    margin-left: 15px;
+    margin-left: 25px;
   }
 
   .lg\:mt-26 {
-    margin-top: 16px;
+    margin-top: 26px;
   }
 
   .lg\:mr-26 {
-    margin-right: 16px;
+    margin-right: 26px;
   }
 
   .lg\:mb-26 {
-    margin-bottom: 16px;
+    margin-bottom: 26px;
   }
 
   .lg\:ml-26 {
-    margin-left: 16px;
+    margin-left: 26px;
   }
 
   .lg\:mt-27 {
-    margin-top: 17px;
+    margin-top: 27px;
   }
 
   .lg\:mr-27 {
-    margin-right: 17px;
+    margin-right: 27px;
   }
 
   .lg\:mb-27 {
-    margin-bottom: 17px;
+    margin-bottom: 27px;
   }
 
   .lg\:ml-27 {
-    margin-left: 17px;
+    margin-left: 27px;
   }
 
   .lg\:mt-28 {
-    margin-top: 18px;
+    margin-top: 28px;
   }
 
   .lg\:mr-28 {
-    margin-right: 18px;
+    margin-right: 28px;
   }
 
   .lg\:mb-28 {
-    margin-bottom: 18px;
+    margin-bottom: 28px;
   }
 
   .lg\:ml-28 {
-    margin-left: 18px;
+    margin-left: 28px;
   }
 
   .lg\:mt-29 {
-    margin-top: 19px;
+    margin-top: 29px;
   }
 
   .lg\:mr-29 {
-    margin-right: 19px;
+    margin-right: 29px;
   }
 
   .lg\:mb-29 {
-    margin-bottom: 19px;
+    margin-bottom: 29px;
   }
 
   .lg\:ml-29 {
-    margin-left: 19px;
+    margin-left: 29px;
   }
 
   .lg\:mt-30 {
-    margin-top: 20px;
+    margin-top: 30px;
   }
 
   .lg\:mr-30 {
-    margin-right: 20px;
+    margin-right: 30px;
   }
 
   .lg\:mb-30 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   .lg\:ml-30 {
-    margin-left: 20px;
+    margin-left: 30px;
   }
 
   .lg\:max-h-full {
@@ -18618,43 +19806,43 @@ table {
   }
 
   .lg\:p-21 {
-    padding: 11px;
+    padding: 21px;
   }
 
   .lg\:p-22 {
-    padding: 12px;
+    padding: 22px;
   }
 
   .lg\:p-23 {
-    padding: 13px;
+    padding: 23px;
   }
 
   .lg\:p-24 {
-    padding: 14px;
+    padding: 24px;
   }
 
   .lg\:p-25 {
-    padding: 15px;
+    padding: 25px;
   }
 
   .lg\:p-26 {
-    padding: 16px;
+    padding: 26px;
   }
 
   .lg\:p-27 {
-    padding: 17px;
+    padding: 27px;
   }
 
   .lg\:p-28 {
-    padding: 18px;
+    padding: 28px;
   }
 
   .lg\:p-29 {
-    padding: 19px;
+    padding: 29px;
   }
 
   .lg\:p-30 {
-    padding: 20px;
+    padding: 30px;
   }
 
   .lg\:py-0 {
@@ -18868,103 +20056,103 @@ table {
   }
 
   .lg\:py-21 {
-    padding-top: 11px;
-    padding-bottom: 11px;
+    padding-top: 21px;
+    padding-bottom: 21px;
   }
 
   .lg\:px-21 {
-    padding-left: 11px;
-    padding-right: 11px;
+    padding-left: 21px;
+    padding-right: 21px;
   }
 
   .lg\:py-22 {
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 22px;
+    padding-bottom: 22px;
   }
 
   .lg\:px-22 {
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 22px;
+    padding-right: 22px;
   }
 
   .lg\:py-23 {
-    padding-top: 13px;
-    padding-bottom: 13px;
+    padding-top: 23px;
+    padding-bottom: 23px;
   }
 
   .lg\:px-23 {
-    padding-left: 13px;
-    padding-right: 13px;
+    padding-left: 23px;
+    padding-right: 23px;
   }
 
   .lg\:py-24 {
-    padding-top: 14px;
-    padding-bottom: 14px;
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 
   .lg\:px-24 {
-    padding-left: 14px;
-    padding-right: 14px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   .lg\:py-25 {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 
   .lg\:px-25 {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 
   .lg\:py-26 {
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 26px;
+    padding-bottom: 26px;
   }
 
   .lg\:px-26 {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 26px;
+    padding-right: 26px;
   }
 
   .lg\:py-27 {
-    padding-top: 17px;
-    padding-bottom: 17px;
+    padding-top: 27px;
+    padding-bottom: 27px;
   }
 
   .lg\:px-27 {
-    padding-left: 17px;
-    padding-right: 17px;
+    padding-left: 27px;
+    padding-right: 27px;
   }
 
   .lg\:py-28 {
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 28px;
+    padding-bottom: 28px;
   }
 
   .lg\:px-28 {
-    padding-left: 18px;
-    padding-right: 18px;
+    padding-left: 28px;
+    padding-right: 28px;
   }
 
   .lg\:py-29 {
-    padding-top: 19px;
-    padding-bottom: 19px;
+    padding-top: 29px;
+    padding-bottom: 29px;
   }
 
   .lg\:px-29 {
-    padding-left: 19px;
-    padding-right: 19px;
+    padding-left: 29px;
+    padding-right: 29px;
   }
 
   .lg\:py-30 {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   .lg\:px-30 {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .lg\:pt-0 {
@@ -19304,163 +20492,163 @@ table {
   }
 
   .lg\:pt-21 {
-    padding-top: 11px;
+    padding-top: 21px;
   }
 
   .lg\:pr-21 {
-    padding-right: 11px;
+    padding-right: 21px;
   }
 
   .lg\:pb-21 {
-    padding-bottom: 11px;
+    padding-bottom: 21px;
   }
 
   .lg\:pl-21 {
-    padding-left: 11px;
+    padding-left: 21px;
   }
 
   .lg\:pt-22 {
-    padding-top: 12px;
+    padding-top: 22px;
   }
 
   .lg\:pr-22 {
-    padding-right: 12px;
+    padding-right: 22px;
   }
 
   .lg\:pb-22 {
-    padding-bottom: 12px;
+    padding-bottom: 22px;
   }
 
   .lg\:pl-22 {
-    padding-left: 12px;
+    padding-left: 22px;
   }
 
   .lg\:pt-23 {
-    padding-top: 13px;
+    padding-top: 23px;
   }
 
   .lg\:pr-23 {
-    padding-right: 13px;
+    padding-right: 23px;
   }
 
   .lg\:pb-23 {
-    padding-bottom: 13px;
+    padding-bottom: 23px;
   }
 
   .lg\:pl-23 {
-    padding-left: 13px;
+    padding-left: 23px;
   }
 
   .lg\:pt-24 {
-    padding-top: 14px;
+    padding-top: 24px;
   }
 
   .lg\:pr-24 {
-    padding-right: 14px;
+    padding-right: 24px;
   }
 
   .lg\:pb-24 {
-    padding-bottom: 14px;
+    padding-bottom: 24px;
   }
 
   .lg\:pl-24 {
-    padding-left: 14px;
+    padding-left: 24px;
   }
 
   .lg\:pt-25 {
-    padding-top: 15px;
+    padding-top: 25px;
   }
 
   .lg\:pr-25 {
-    padding-right: 15px;
+    padding-right: 25px;
   }
 
   .lg\:pb-25 {
-    padding-bottom: 15px;
+    padding-bottom: 25px;
   }
 
   .lg\:pl-25 {
-    padding-left: 15px;
+    padding-left: 25px;
   }
 
   .lg\:pt-26 {
-    padding-top: 16px;
+    padding-top: 26px;
   }
 
   .lg\:pr-26 {
-    padding-right: 16px;
+    padding-right: 26px;
   }
 
   .lg\:pb-26 {
-    padding-bottom: 16px;
+    padding-bottom: 26px;
   }
 
   .lg\:pl-26 {
-    padding-left: 16px;
+    padding-left: 26px;
   }
 
   .lg\:pt-27 {
-    padding-top: 17px;
+    padding-top: 27px;
   }
 
   .lg\:pr-27 {
-    padding-right: 17px;
+    padding-right: 27px;
   }
 
   .lg\:pb-27 {
-    padding-bottom: 17px;
+    padding-bottom: 27px;
   }
 
   .lg\:pl-27 {
-    padding-left: 17px;
+    padding-left: 27px;
   }
 
   .lg\:pt-28 {
-    padding-top: 18px;
+    padding-top: 28px;
   }
 
   .lg\:pr-28 {
-    padding-right: 18px;
+    padding-right: 28px;
   }
 
   .lg\:pb-28 {
-    padding-bottom: 18px;
+    padding-bottom: 28px;
   }
 
   .lg\:pl-28 {
-    padding-left: 18px;
+    padding-left: 28px;
   }
 
   .lg\:pt-29 {
-    padding-top: 19px;
+    padding-top: 29px;
   }
 
   .lg\:pr-29 {
-    padding-right: 19px;
+    padding-right: 29px;
   }
 
   .lg\:pb-29 {
-    padding-bottom: 19px;
+    padding-bottom: 29px;
   }
 
   .lg\:pl-29 {
-    padding-left: 19px;
+    padding-left: 29px;
   }
 
   .lg\:pt-30 {
-    padding-top: 20px;
+    padding-top: 30px;
   }
 
   .lg\:pr-30 {
-    padding-right: 20px;
+    padding-right: 30px;
   }
 
   .lg\:pb-30 {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
   }
 
   .lg\:pl-30 {
-    padding-left: 20px;
+    padding-left: 30px;
   }
 
   .lg\:pointer-events-none {
@@ -19699,6 +20887,42 @@ table {
     color: #c967f2;
   }
 
+  .lg\:text-moxi-alt-mauve {
+    color: #d398f5;
+  }
+
+  .lg\:text-moxi-alt-mulberry {
+    color: #cd5482;
+  }
+
+  .lg\:text-moxi-alt-pale-violet-red {
+    color: #d67197;
+  }
+
+  .lg\:text-moxi-alt-viking {
+    color: #47c4b5;
+  }
+
+  .lg\:text-moxi-alt-riptide {
+    color: #7ed5cb;
+  }
+
+  .lg\:text-moxi-alt-lightning-yellow {
+    color: #f5a623;
+  }
+
+  .lg\:text-moxi-alt-texas-rose {
+    color: #f7b84f;
+  }
+
+  .lg\:text-moxi-alt-flamenco {
+    color: #ef6e41;
+  }
+
+  .lg\:text-moxi-alt-sandy-brown {
+    color: #f39371;
+  }
+
   .lg\:text-moxi-neutral-100 {
     color: #212e35;
   }
@@ -19807,6 +21031,42 @@ table {
     color: #c967f2;
   }
 
+  .lg\:hover\:text-moxi-alt-mauve:hover {
+    color: #d398f5;
+  }
+
+  .lg\:hover\:text-moxi-alt-mulberry:hover {
+    color: #cd5482;
+  }
+
+  .lg\:hover\:text-moxi-alt-pale-violet-red:hover {
+    color: #d67197;
+  }
+
+  .lg\:hover\:text-moxi-alt-viking:hover {
+    color: #47c4b5;
+  }
+
+  .lg\:hover\:text-moxi-alt-riptide:hover {
+    color: #7ed5cb;
+  }
+
+  .lg\:hover\:text-moxi-alt-lightning-yellow:hover {
+    color: #f5a623;
+  }
+
+  .lg\:hover\:text-moxi-alt-texas-rose:hover {
+    color: #f7b84f;
+  }
+
+  .lg\:hover\:text-moxi-alt-flamenco:hover {
+    color: #ef6e41;
+  }
+
+  .lg\:hover\:text-moxi-alt-sandy-brown:hover {
+    color: #f39371;
+  }
+
   .lg\:hover\:text-moxi-neutral-100:hover {
     color: #212e35;
   }
@@ -19913,6 +21173,42 @@ table {
 
   .lg\:focus\:text-moxi-alt-heliotrop:focus {
     color: #c967f2;
+  }
+
+  .lg\:focus\:text-moxi-alt-mauve:focus {
+    color: #d398f5;
+  }
+
+  .lg\:focus\:text-moxi-alt-mulberry:focus {
+    color: #cd5482;
+  }
+
+  .lg\:focus\:text-moxi-alt-pale-violet-red:focus {
+    color: #d67197;
+  }
+
+  .lg\:focus\:text-moxi-alt-viking:focus {
+    color: #47c4b5;
+  }
+
+  .lg\:focus\:text-moxi-alt-riptide:focus {
+    color: #7ed5cb;
+  }
+
+  .lg\:focus\:text-moxi-alt-lightning-yellow:focus {
+    color: #f5a623;
+  }
+
+  .lg\:focus\:text-moxi-alt-texas-rose:focus {
+    color: #f7b84f;
+  }
+
+  .lg\:focus\:text-moxi-alt-flamenco:focus {
+    color: #ef6e41;
+  }
+
+  .lg\:focus\:text-moxi-alt-sandy-brown:focus {
+    color: #f39371;
   }
 
   .lg\:focus\:text-moxi-neutral-100:focus {
@@ -20450,6 +21746,42 @@ table {
     background-color: #c967f2;
   }
 
+  .xl\:bg-moxi-alt-mauve {
+    background-color: #d398f5;
+  }
+
+  .xl\:bg-moxi-alt-mulberry {
+    background-color: #cd5482;
+  }
+
+  .xl\:bg-moxi-alt-pale-violet-red {
+    background-color: #d67197;
+  }
+
+  .xl\:bg-moxi-alt-viking {
+    background-color: #47c4b5;
+  }
+
+  .xl\:bg-moxi-alt-riptide {
+    background-color: #7ed5cb;
+  }
+
+  .xl\:bg-moxi-alt-lightning-yellow {
+    background-color: #f5a623;
+  }
+
+  .xl\:bg-moxi-alt-texas-rose {
+    background-color: #f7b84f;
+  }
+
+  .xl\:bg-moxi-alt-flamenco {
+    background-color: #ef6e41;
+  }
+
+  .xl\:bg-moxi-alt-sandy-brown {
+    background-color: #f39371;
+  }
+
   .xl\:bg-moxi-neutral-100 {
     background-color: #212e35;
   }
@@ -20558,6 +21890,42 @@ table {
     background-color: #c967f2;
   }
 
+  .xl\:hover\:bg-moxi-alt-mauve:hover {
+    background-color: #d398f5;
+  }
+
+  .xl\:hover\:bg-moxi-alt-mulberry:hover {
+    background-color: #cd5482;
+  }
+
+  .xl\:hover\:bg-moxi-alt-pale-violet-red:hover {
+    background-color: #d67197;
+  }
+
+  .xl\:hover\:bg-moxi-alt-viking:hover {
+    background-color: #47c4b5;
+  }
+
+  .xl\:hover\:bg-moxi-alt-riptide:hover {
+    background-color: #7ed5cb;
+  }
+
+  .xl\:hover\:bg-moxi-alt-lightning-yellow:hover {
+    background-color: #f5a623;
+  }
+
+  .xl\:hover\:bg-moxi-alt-texas-rose:hover {
+    background-color: #f7b84f;
+  }
+
+  .xl\:hover\:bg-moxi-alt-flamenco:hover {
+    background-color: #ef6e41;
+  }
+
+  .xl\:hover\:bg-moxi-alt-sandy-brown:hover {
+    background-color: #f39371;
+  }
+
   .xl\:hover\:bg-moxi-neutral-100:hover {
     background-color: #212e35;
   }
@@ -20664,6 +22032,42 @@ table {
 
   .xl\:focus\:bg-moxi-alt-heliotrop:focus {
     background-color: #c967f2;
+  }
+
+  .xl\:focus\:bg-moxi-alt-mauve:focus {
+    background-color: #d398f5;
+  }
+
+  .xl\:focus\:bg-moxi-alt-mulberry:focus {
+    background-color: #cd5482;
+  }
+
+  .xl\:focus\:bg-moxi-alt-pale-violet-red:focus {
+    background-color: #d67197;
+  }
+
+  .xl\:focus\:bg-moxi-alt-viking:focus {
+    background-color: #47c4b5;
+  }
+
+  .xl\:focus\:bg-moxi-alt-riptide:focus {
+    background-color: #7ed5cb;
+  }
+
+  .xl\:focus\:bg-moxi-alt-lightning-yellow:focus {
+    background-color: #f5a623;
+  }
+
+  .xl\:focus\:bg-moxi-alt-texas-rose:focus {
+    background-color: #f7b84f;
+  }
+
+  .xl\:focus\:bg-moxi-alt-flamenco:focus {
+    background-color: #ef6e41;
+  }
+
+  .xl\:focus\:bg-moxi-alt-sandy-brown:focus {
+    background-color: #f39371;
   }
 
   .xl\:focus\:bg-moxi-neutral-100:focus {
@@ -20838,6 +22242,42 @@ table {
     border-color: #c967f2;
   }
 
+  .xl\:border-moxi-alt-mauve {
+    border-color: #d398f5;
+  }
+
+  .xl\:border-moxi-alt-mulberry {
+    border-color: #cd5482;
+  }
+
+  .xl\:border-moxi-alt-pale-violet-red {
+    border-color: #d67197;
+  }
+
+  .xl\:border-moxi-alt-viking {
+    border-color: #47c4b5;
+  }
+
+  .xl\:border-moxi-alt-riptide {
+    border-color: #7ed5cb;
+  }
+
+  .xl\:border-moxi-alt-lightning-yellow {
+    border-color: #f5a623;
+  }
+
+  .xl\:border-moxi-alt-texas-rose {
+    border-color: #f7b84f;
+  }
+
+  .xl\:border-moxi-alt-flamenco {
+    border-color: #ef6e41;
+  }
+
+  .xl\:border-moxi-alt-sandy-brown {
+    border-color: #f39371;
+  }
+
   .xl\:border-moxi-neutral-100 {
     border-color: #212e35;
   }
@@ -20946,6 +22386,42 @@ table {
     border-color: #c967f2;
   }
 
+  .xl\:hover\:border-moxi-alt-mauve:hover {
+    border-color: #d398f5;
+  }
+
+  .xl\:hover\:border-moxi-alt-mulberry:hover {
+    border-color: #cd5482;
+  }
+
+  .xl\:hover\:border-moxi-alt-pale-violet-red:hover {
+    border-color: #d67197;
+  }
+
+  .xl\:hover\:border-moxi-alt-viking:hover {
+    border-color: #47c4b5;
+  }
+
+  .xl\:hover\:border-moxi-alt-riptide:hover {
+    border-color: #7ed5cb;
+  }
+
+  .xl\:hover\:border-moxi-alt-lightning-yellow:hover {
+    border-color: #f5a623;
+  }
+
+  .xl\:hover\:border-moxi-alt-texas-rose:hover {
+    border-color: #f7b84f;
+  }
+
+  .xl\:hover\:border-moxi-alt-flamenco:hover {
+    border-color: #ef6e41;
+  }
+
+  .xl\:hover\:border-moxi-alt-sandy-brown:hover {
+    border-color: #f39371;
+  }
+
   .xl\:hover\:border-moxi-neutral-100:hover {
     border-color: #212e35;
   }
@@ -21052,6 +22528,42 @@ table {
 
   .xl\:focus\:border-moxi-alt-heliotrop:focus {
     border-color: #c967f2;
+  }
+
+  .xl\:focus\:border-moxi-alt-mauve:focus {
+    border-color: #d398f5;
+  }
+
+  .xl\:focus\:border-moxi-alt-mulberry:focus {
+    border-color: #cd5482;
+  }
+
+  .xl\:focus\:border-moxi-alt-pale-violet-red:focus {
+    border-color: #d67197;
+  }
+
+  .xl\:focus\:border-moxi-alt-viking:focus {
+    border-color: #47c4b5;
+  }
+
+  .xl\:focus\:border-moxi-alt-riptide:focus {
+    border-color: #7ed5cb;
+  }
+
+  .xl\:focus\:border-moxi-alt-lightning-yellow:focus {
+    border-color: #f5a623;
+  }
+
+  .xl\:focus\:border-moxi-alt-texas-rose:focus {
+    border-color: #f7b84f;
+  }
+
+  .xl\:focus\:border-moxi-alt-flamenco:focus {
+    border-color: #ef6e41;
+  }
+
+  .xl\:focus\:border-moxi-alt-sandy-brown:focus {
+    border-color: #f39371;
   }
 
   .xl\:focus\:border-moxi-neutral-100:focus {
@@ -21933,43 +23445,43 @@ table {
   }
 
   .xl\:m-21 {
-    margin: 11px;
+    margin: 21px;
   }
 
   .xl\:m-22 {
-    margin: 12px;
+    margin: 22px;
   }
 
   .xl\:m-23 {
-    margin: 13px;
+    margin: 23px;
   }
 
   .xl\:m-24 {
-    margin: 14px;
+    margin: 24px;
   }
 
   .xl\:m-25 {
-    margin: 15px;
+    margin: 25px;
   }
 
   .xl\:m-26 {
-    margin: 16px;
+    margin: 26px;
   }
 
   .xl\:m-27 {
-    margin: 17px;
+    margin: 27px;
   }
 
   .xl\:m-28 {
-    margin: 18px;
+    margin: 28px;
   }
 
   .xl\:m-29 {
-    margin: 19px;
+    margin: 29px;
   }
 
   .xl\:m-30 {
-    margin: 20px;
+    margin: 30px;
   }
 
   .xl\:my-0 {
@@ -22183,103 +23695,103 @@ table {
   }
 
   .xl\:my-21 {
-    margin-top: 11px;
-    margin-bottom: 11px;
+    margin-top: 21px;
+    margin-bottom: 21px;
   }
 
   .xl\:mx-21 {
-    margin-left: 11px;
-    margin-right: 11px;
+    margin-left: 21px;
+    margin-right: 21px;
   }
 
   .xl\:my-22 {
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-top: 22px;
+    margin-bottom: 22px;
   }
 
   .xl\:mx-22 {
-    margin-left: 12px;
-    margin-right: 12px;
+    margin-left: 22px;
+    margin-right: 22px;
   }
 
   .xl\:my-23 {
-    margin-top: 13px;
-    margin-bottom: 13px;
+    margin-top: 23px;
+    margin-bottom: 23px;
   }
 
   .xl\:mx-23 {
-    margin-left: 13px;
-    margin-right: 13px;
+    margin-left: 23px;
+    margin-right: 23px;
   }
 
   .xl\:my-24 {
-    margin-top: 14px;
-    margin-bottom: 14px;
+    margin-top: 24px;
+    margin-bottom: 24px;
   }
 
   .xl\:mx-24 {
-    margin-left: 14px;
-    margin-right: 14px;
+    margin-left: 24px;
+    margin-right: 24px;
   }
 
   .xl\:my-25 {
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 
   .xl\:mx-25 {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
   }
 
   .xl\:my-26 {
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin-top: 26px;
+    margin-bottom: 26px;
   }
 
   .xl\:mx-26 {
-    margin-left: 16px;
-    margin-right: 16px;
+    margin-left: 26px;
+    margin-right: 26px;
   }
 
   .xl\:my-27 {
-    margin-top: 17px;
-    margin-bottom: 17px;
+    margin-top: 27px;
+    margin-bottom: 27px;
   }
 
   .xl\:mx-27 {
-    margin-left: 17px;
-    margin-right: 17px;
+    margin-left: 27px;
+    margin-right: 27px;
   }
 
   .xl\:my-28 {
-    margin-top: 18px;
-    margin-bottom: 18px;
+    margin-top: 28px;
+    margin-bottom: 28px;
   }
 
   .xl\:mx-28 {
-    margin-left: 18px;
-    margin-right: 18px;
+    margin-left: 28px;
+    margin-right: 28px;
   }
 
   .xl\:my-29 {
-    margin-top: 19px;
-    margin-bottom: 19px;
+    margin-top: 29px;
+    margin-bottom: 29px;
   }
 
   .xl\:mx-29 {
-    margin-left: 19px;
-    margin-right: 19px;
+    margin-left: 29px;
+    margin-right: 29px;
   }
 
   .xl\:my-30 {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   .xl\:mx-30 {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
 
   .xl\:mt-0 {
@@ -22619,163 +24131,163 @@ table {
   }
 
   .xl\:mt-21 {
-    margin-top: 11px;
+    margin-top: 21px;
   }
 
   .xl\:mr-21 {
-    margin-right: 11px;
+    margin-right: 21px;
   }
 
   .xl\:mb-21 {
-    margin-bottom: 11px;
+    margin-bottom: 21px;
   }
 
   .xl\:ml-21 {
-    margin-left: 11px;
+    margin-left: 21px;
   }
 
   .xl\:mt-22 {
-    margin-top: 12px;
+    margin-top: 22px;
   }
 
   .xl\:mr-22 {
-    margin-right: 12px;
+    margin-right: 22px;
   }
 
   .xl\:mb-22 {
-    margin-bottom: 12px;
+    margin-bottom: 22px;
   }
 
   .xl\:ml-22 {
-    margin-left: 12px;
+    margin-left: 22px;
   }
 
   .xl\:mt-23 {
-    margin-top: 13px;
+    margin-top: 23px;
   }
 
   .xl\:mr-23 {
-    margin-right: 13px;
+    margin-right: 23px;
   }
 
   .xl\:mb-23 {
-    margin-bottom: 13px;
+    margin-bottom: 23px;
   }
 
   .xl\:ml-23 {
-    margin-left: 13px;
+    margin-left: 23px;
   }
 
   .xl\:mt-24 {
-    margin-top: 14px;
+    margin-top: 24px;
   }
 
   .xl\:mr-24 {
-    margin-right: 14px;
+    margin-right: 24px;
   }
 
   .xl\:mb-24 {
-    margin-bottom: 14px;
+    margin-bottom: 24px;
   }
 
   .xl\:ml-24 {
-    margin-left: 14px;
+    margin-left: 24px;
   }
 
   .xl\:mt-25 {
-    margin-top: 15px;
+    margin-top: 25px;
   }
 
   .xl\:mr-25 {
-    margin-right: 15px;
+    margin-right: 25px;
   }
 
   .xl\:mb-25 {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
   }
 
   .xl\:ml-25 {
-    margin-left: 15px;
+    margin-left: 25px;
   }
 
   .xl\:mt-26 {
-    margin-top: 16px;
+    margin-top: 26px;
   }
 
   .xl\:mr-26 {
-    margin-right: 16px;
+    margin-right: 26px;
   }
 
   .xl\:mb-26 {
-    margin-bottom: 16px;
+    margin-bottom: 26px;
   }
 
   .xl\:ml-26 {
-    margin-left: 16px;
+    margin-left: 26px;
   }
 
   .xl\:mt-27 {
-    margin-top: 17px;
+    margin-top: 27px;
   }
 
   .xl\:mr-27 {
-    margin-right: 17px;
+    margin-right: 27px;
   }
 
   .xl\:mb-27 {
-    margin-bottom: 17px;
+    margin-bottom: 27px;
   }
 
   .xl\:ml-27 {
-    margin-left: 17px;
+    margin-left: 27px;
   }
 
   .xl\:mt-28 {
-    margin-top: 18px;
+    margin-top: 28px;
   }
 
   .xl\:mr-28 {
-    margin-right: 18px;
+    margin-right: 28px;
   }
 
   .xl\:mb-28 {
-    margin-bottom: 18px;
+    margin-bottom: 28px;
   }
 
   .xl\:ml-28 {
-    margin-left: 18px;
+    margin-left: 28px;
   }
 
   .xl\:mt-29 {
-    margin-top: 19px;
+    margin-top: 29px;
   }
 
   .xl\:mr-29 {
-    margin-right: 19px;
+    margin-right: 29px;
   }
 
   .xl\:mb-29 {
-    margin-bottom: 19px;
+    margin-bottom: 29px;
   }
 
   .xl\:ml-29 {
-    margin-left: 19px;
+    margin-left: 29px;
   }
 
   .xl\:mt-30 {
-    margin-top: 20px;
+    margin-top: 30px;
   }
 
   .xl\:mr-30 {
-    margin-right: 20px;
+    margin-right: 30px;
   }
 
   .xl\:mb-30 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   .xl\:ml-30 {
-    margin-left: 20px;
+    margin-left: 30px;
   }
 
   .xl\:max-h-full {
@@ -23457,43 +24969,43 @@ table {
   }
 
   .xl\:p-21 {
-    padding: 11px;
+    padding: 21px;
   }
 
   .xl\:p-22 {
-    padding: 12px;
+    padding: 22px;
   }
 
   .xl\:p-23 {
-    padding: 13px;
+    padding: 23px;
   }
 
   .xl\:p-24 {
-    padding: 14px;
+    padding: 24px;
   }
 
   .xl\:p-25 {
-    padding: 15px;
+    padding: 25px;
   }
 
   .xl\:p-26 {
-    padding: 16px;
+    padding: 26px;
   }
 
   .xl\:p-27 {
-    padding: 17px;
+    padding: 27px;
   }
 
   .xl\:p-28 {
-    padding: 18px;
+    padding: 28px;
   }
 
   .xl\:p-29 {
-    padding: 19px;
+    padding: 29px;
   }
 
   .xl\:p-30 {
-    padding: 20px;
+    padding: 30px;
   }
 
   .xl\:py-0 {
@@ -23707,103 +25219,103 @@ table {
   }
 
   .xl\:py-21 {
-    padding-top: 11px;
-    padding-bottom: 11px;
+    padding-top: 21px;
+    padding-bottom: 21px;
   }
 
   .xl\:px-21 {
-    padding-left: 11px;
-    padding-right: 11px;
+    padding-left: 21px;
+    padding-right: 21px;
   }
 
   .xl\:py-22 {
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 22px;
+    padding-bottom: 22px;
   }
 
   .xl\:px-22 {
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 22px;
+    padding-right: 22px;
   }
 
   .xl\:py-23 {
-    padding-top: 13px;
-    padding-bottom: 13px;
+    padding-top: 23px;
+    padding-bottom: 23px;
   }
 
   .xl\:px-23 {
-    padding-left: 13px;
-    padding-right: 13px;
+    padding-left: 23px;
+    padding-right: 23px;
   }
 
   .xl\:py-24 {
-    padding-top: 14px;
-    padding-bottom: 14px;
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 
   .xl\:px-24 {
-    padding-left: 14px;
-    padding-right: 14px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   .xl\:py-25 {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 
   .xl\:px-25 {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 
   .xl\:py-26 {
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 26px;
+    padding-bottom: 26px;
   }
 
   .xl\:px-26 {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 26px;
+    padding-right: 26px;
   }
 
   .xl\:py-27 {
-    padding-top: 17px;
-    padding-bottom: 17px;
+    padding-top: 27px;
+    padding-bottom: 27px;
   }
 
   .xl\:px-27 {
-    padding-left: 17px;
-    padding-right: 17px;
+    padding-left: 27px;
+    padding-right: 27px;
   }
 
   .xl\:py-28 {
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 28px;
+    padding-bottom: 28px;
   }
 
   .xl\:px-28 {
-    padding-left: 18px;
-    padding-right: 18px;
+    padding-left: 28px;
+    padding-right: 28px;
   }
 
   .xl\:py-29 {
-    padding-top: 19px;
-    padding-bottom: 19px;
+    padding-top: 29px;
+    padding-bottom: 29px;
   }
 
   .xl\:px-29 {
-    padding-left: 19px;
-    padding-right: 19px;
+    padding-left: 29px;
+    padding-right: 29px;
   }
 
   .xl\:py-30 {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   .xl\:px-30 {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .xl\:pt-0 {
@@ -24143,163 +25655,163 @@ table {
   }
 
   .xl\:pt-21 {
-    padding-top: 11px;
+    padding-top: 21px;
   }
 
   .xl\:pr-21 {
-    padding-right: 11px;
+    padding-right: 21px;
   }
 
   .xl\:pb-21 {
-    padding-bottom: 11px;
+    padding-bottom: 21px;
   }
 
   .xl\:pl-21 {
-    padding-left: 11px;
+    padding-left: 21px;
   }
 
   .xl\:pt-22 {
-    padding-top: 12px;
+    padding-top: 22px;
   }
 
   .xl\:pr-22 {
-    padding-right: 12px;
+    padding-right: 22px;
   }
 
   .xl\:pb-22 {
-    padding-bottom: 12px;
+    padding-bottom: 22px;
   }
 
   .xl\:pl-22 {
-    padding-left: 12px;
+    padding-left: 22px;
   }
 
   .xl\:pt-23 {
-    padding-top: 13px;
+    padding-top: 23px;
   }
 
   .xl\:pr-23 {
-    padding-right: 13px;
+    padding-right: 23px;
   }
 
   .xl\:pb-23 {
-    padding-bottom: 13px;
+    padding-bottom: 23px;
   }
 
   .xl\:pl-23 {
-    padding-left: 13px;
+    padding-left: 23px;
   }
 
   .xl\:pt-24 {
-    padding-top: 14px;
+    padding-top: 24px;
   }
 
   .xl\:pr-24 {
-    padding-right: 14px;
+    padding-right: 24px;
   }
 
   .xl\:pb-24 {
-    padding-bottom: 14px;
+    padding-bottom: 24px;
   }
 
   .xl\:pl-24 {
-    padding-left: 14px;
+    padding-left: 24px;
   }
 
   .xl\:pt-25 {
-    padding-top: 15px;
+    padding-top: 25px;
   }
 
   .xl\:pr-25 {
-    padding-right: 15px;
+    padding-right: 25px;
   }
 
   .xl\:pb-25 {
-    padding-bottom: 15px;
+    padding-bottom: 25px;
   }
 
   .xl\:pl-25 {
-    padding-left: 15px;
+    padding-left: 25px;
   }
 
   .xl\:pt-26 {
-    padding-top: 16px;
+    padding-top: 26px;
   }
 
   .xl\:pr-26 {
-    padding-right: 16px;
+    padding-right: 26px;
   }
 
   .xl\:pb-26 {
-    padding-bottom: 16px;
+    padding-bottom: 26px;
   }
 
   .xl\:pl-26 {
-    padding-left: 16px;
+    padding-left: 26px;
   }
 
   .xl\:pt-27 {
-    padding-top: 17px;
+    padding-top: 27px;
   }
 
   .xl\:pr-27 {
-    padding-right: 17px;
+    padding-right: 27px;
   }
 
   .xl\:pb-27 {
-    padding-bottom: 17px;
+    padding-bottom: 27px;
   }
 
   .xl\:pl-27 {
-    padding-left: 17px;
+    padding-left: 27px;
   }
 
   .xl\:pt-28 {
-    padding-top: 18px;
+    padding-top: 28px;
   }
 
   .xl\:pr-28 {
-    padding-right: 18px;
+    padding-right: 28px;
   }
 
   .xl\:pb-28 {
-    padding-bottom: 18px;
+    padding-bottom: 28px;
   }
 
   .xl\:pl-28 {
-    padding-left: 18px;
+    padding-left: 28px;
   }
 
   .xl\:pt-29 {
-    padding-top: 19px;
+    padding-top: 29px;
   }
 
   .xl\:pr-29 {
-    padding-right: 19px;
+    padding-right: 29px;
   }
 
   .xl\:pb-29 {
-    padding-bottom: 19px;
+    padding-bottom: 29px;
   }
 
   .xl\:pl-29 {
-    padding-left: 19px;
+    padding-left: 29px;
   }
 
   .xl\:pt-30 {
-    padding-top: 20px;
+    padding-top: 30px;
   }
 
   .xl\:pr-30 {
-    padding-right: 20px;
+    padding-right: 30px;
   }
 
   .xl\:pb-30 {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
   }
 
   .xl\:pl-30 {
-    padding-left: 20px;
+    padding-left: 30px;
   }
 
   .xl\:pointer-events-none {
@@ -24538,6 +26050,42 @@ table {
     color: #c967f2;
   }
 
+  .xl\:text-moxi-alt-mauve {
+    color: #d398f5;
+  }
+
+  .xl\:text-moxi-alt-mulberry {
+    color: #cd5482;
+  }
+
+  .xl\:text-moxi-alt-pale-violet-red {
+    color: #d67197;
+  }
+
+  .xl\:text-moxi-alt-viking {
+    color: #47c4b5;
+  }
+
+  .xl\:text-moxi-alt-riptide {
+    color: #7ed5cb;
+  }
+
+  .xl\:text-moxi-alt-lightning-yellow {
+    color: #f5a623;
+  }
+
+  .xl\:text-moxi-alt-texas-rose {
+    color: #f7b84f;
+  }
+
+  .xl\:text-moxi-alt-flamenco {
+    color: #ef6e41;
+  }
+
+  .xl\:text-moxi-alt-sandy-brown {
+    color: #f39371;
+  }
+
   .xl\:text-moxi-neutral-100 {
     color: #212e35;
   }
@@ -24646,6 +26194,42 @@ table {
     color: #c967f2;
   }
 
+  .xl\:hover\:text-moxi-alt-mauve:hover {
+    color: #d398f5;
+  }
+
+  .xl\:hover\:text-moxi-alt-mulberry:hover {
+    color: #cd5482;
+  }
+
+  .xl\:hover\:text-moxi-alt-pale-violet-red:hover {
+    color: #d67197;
+  }
+
+  .xl\:hover\:text-moxi-alt-viking:hover {
+    color: #47c4b5;
+  }
+
+  .xl\:hover\:text-moxi-alt-riptide:hover {
+    color: #7ed5cb;
+  }
+
+  .xl\:hover\:text-moxi-alt-lightning-yellow:hover {
+    color: #f5a623;
+  }
+
+  .xl\:hover\:text-moxi-alt-texas-rose:hover {
+    color: #f7b84f;
+  }
+
+  .xl\:hover\:text-moxi-alt-flamenco:hover {
+    color: #ef6e41;
+  }
+
+  .xl\:hover\:text-moxi-alt-sandy-brown:hover {
+    color: #f39371;
+  }
+
   .xl\:hover\:text-moxi-neutral-100:hover {
     color: #212e35;
   }
@@ -24752,6 +26336,42 @@ table {
 
   .xl\:focus\:text-moxi-alt-heliotrop:focus {
     color: #c967f2;
+  }
+
+  .xl\:focus\:text-moxi-alt-mauve:focus {
+    color: #d398f5;
+  }
+
+  .xl\:focus\:text-moxi-alt-mulberry:focus {
+    color: #cd5482;
+  }
+
+  .xl\:focus\:text-moxi-alt-pale-violet-red:focus {
+    color: #d67197;
+  }
+
+  .xl\:focus\:text-moxi-alt-viking:focus {
+    color: #47c4b5;
+  }
+
+  .xl\:focus\:text-moxi-alt-riptide:focus {
+    color: #7ed5cb;
+  }
+
+  .xl\:focus\:text-moxi-alt-lightning-yellow:focus {
+    color: #f5a623;
+  }
+
+  .xl\:focus\:text-moxi-alt-texas-rose:focus {
+    color: #f7b84f;
+  }
+
+  .xl\:focus\:text-moxi-alt-flamenco:focus {
+    color: #ef6e41;
+  }
+
+  .xl\:focus\:text-moxi-alt-sandy-brown:focus {
+    color: #f39371;
   }
 
   .xl\:focus\:text-moxi-neutral-100:focus {

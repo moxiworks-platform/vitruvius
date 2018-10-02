@@ -104,7 +104,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({"src/site_views/Home.vue":[function(require,module,exports) {
+})({"src/site_views/Buttons.vue":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -117,21 +117,52 @@ exports.default = void 0;
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 var _default = {
-  name: 'home',
+  name: 'buttons',
   data: function data() {
     return {};
   }
 };
 exports.default = _default;
-        var $17e551 = exports.default || module.exports;
+        var $8e9976 = exports.default || module.exports;
       
-      if (typeof $17e551 === 'function') {
-        $17e551 = $17e551.options;
+      if (typeof $8e9976 === 'function') {
+        $8e9976 = $8e9976.options;
       }
     
         /* template */
-        Object.assign($17e551, (function () {
+        Object.assign($8e9976, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -143,8 +174,90 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { attrs: { id: "home" } }, [
-      _c("h1", { staticClass: "mb-30" }, [_vm._v("Welcome to Vitruvious")])
+    return _c("section", { attrs: { id: "buttons" } }, [
+      _c("h1", { staticClass: "mb-30" }, [_vm._v("Buttons")]),
+      _vm._v(" "),
+      _c("div", [_c("strong", [_vm._v("Basic Button Styles")])]),
+      _vm._v(" "),
+      _c("div", { staticClass: "my-10" }, [
+        _c("button", { staticClass: "btn btn-flat" }, [_vm._v("Flat")]),
+        _vm._v(" "),
+        _c("button", { staticClass: "btn btn-default" }, [_vm._v("Default")]),
+        _vm._v(" "),
+        _c("button", { staticClass: "btn btn-primary" }, [_vm._v("Primary")]),
+        _vm._v(" "),
+        _c("button", { staticClass: "btn btn-destructive" }, [
+          _vm._v("Destructive")
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", [_c("strong", [_vm._v("Buttons with Icons")])]),
+      _vm._v(" "),
+      _c("div", { staticClass: "my-10" }, [
+        _c("button", { staticClass: "btn btn-flat" }, [
+          _c("i", { staticClass: "icon-location-pin-filled" }),
+          _vm._v(" Flat")
+        ]),
+        _vm._v(" "),
+        _c("button", { staticClass: "btn btn-default" }, [
+          _c("i", { staticClass: "icon-location-pin-filled" }),
+          _vm._v(" Default")
+        ]),
+        _vm._v(" "),
+        _c("button", { staticClass: "btn btn-primary" }, [
+          _c("i", { staticClass: "icon-location-pin-filled" }),
+          _vm._v(" Primary")
+        ]),
+        _vm._v(" "),
+        _c("button", { staticClass: "btn btn-destructive" }, [
+          _c("i", { staticClass: "icon-location-pin-filled" }),
+          _vm._v(" Destructive")
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", [_c("strong", [_vm._v("Dense Button Varient (smaller)")])]),
+      _vm._v(" "),
+      _c("div", { staticClass: "my-10" }, [
+        _c("button", { staticClass: "btn btn-flat btn-dense" }, [
+          _vm._v("Flat")
+        ]),
+        _vm._v(" "),
+        _c("button", { staticClass: "btn btn-default btn-dense" }, [
+          _vm._v("Default")
+        ]),
+        _vm._v(" "),
+        _c("button", { staticClass: "btn btn-primary btn-dense" }, [
+          _vm._v("Primary")
+        ]),
+        _vm._v(" "),
+        _c("button", { staticClass: "btn btn-destructive btn-dense" }, [
+          _vm._v("Destructive")
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", [_c("strong", [_vm._v("Buttons with Icons Dense (smaller)")])]),
+      _vm._v(" "),
+      _c("div", { staticClass: "my-10" }, [
+        _c("button", { staticClass: "btn btn-flat btn-dense" }, [
+          _c("i", { staticClass: "icon-location-pin-filled" }),
+          _vm._v(" Flat")
+        ]),
+        _vm._v(" "),
+        _c("button", { staticClass: "btn btn-default btn-dense" }, [
+          _c("i", { staticClass: "icon-location-pin-filled" }),
+          _vm._v(" Default")
+        ]),
+        _vm._v(" "),
+        _c("button", { staticClass: "btn btn-primary btn-dense" }, [
+          _c("i", { staticClass: "icon-location-pin-filled" }),
+          _vm._v(" Primary")
+        ]),
+        _vm._v(" "),
+        _c("button", { staticClass: "btn btn-destructive btn-dense" }, [
+          _c("i", { staticClass: "icon-location-pin-filled" }),
+          _vm._v(" Destructive")
+        ])
+      ])
     ])
   }
 ]
@@ -167,9 +280,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$17e551', $17e551);
+            api.createRecord('$8e9976', $8e9976);
           } else {
-            api.reload('$17e551', $17e551);
+            api.reload('$8e9976', $8e9976);
           }
         }
 
@@ -346,4 +459,4 @@ function hmrAccept(bundle, id) {
   });
 }
 },{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
-//# sourceMappingURL=/Home.93474c3d.map
+//# sourceMappingURL=/Buttons.a8e4d7f3.map

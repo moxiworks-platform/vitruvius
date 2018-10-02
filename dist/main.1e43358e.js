@@ -8490,11 +8490,115 @@ exports.default = _default;
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { attrs: { id: "app" } }, [
-    _vm._m(0),
+    _c(
+      "section",
+      {
+        staticClass: "p-30 bg-cn-100 text-white fixed pin-t pin-x z-100",
+        attrs: { id: "header" }
+      },
+      [
+        _c("router-link", { attrs: { to: "/" } }, [
+          _vm._v("Vitruvious Project")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "float-right" }, [_vm._v("v0.0.1")])
+      ],
+      1
+    ),
     _vm._v(" "),
     _c("section", { attrs: { id: "content" } }, [
       _c("div", { staticClass: "mx-flex-wrap" }, [
-        _vm._m(1),
+        _c(
+          "div",
+          { staticClass: "w-full sm:w-1 md:w-1/4 lg:w-1/4 xl:w-1/4 p-30" },
+          [
+            _c(
+              "div",
+              {
+                staticClass:
+                  "overflow-y-auto text-base lg:text-sm lg:py-12 lg:pl-6 lg:pr-8 sticky?lg:h-(screen-16)"
+              },
+              [
+                _c("div", { staticClass: "mb-8" }, [
+                  _c(
+                    "p",
+                    {
+                      staticClass:
+                        "mb-20 text-grey uppercase tracking-wide font-bold text-sm"
+                    },
+                    [_vm._v("CSS")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "p",
+                    { staticClass: "my-10 text-sm" },
+                    [
+                      _c("router-link", { attrs: { to: "/colors" } }, [
+                        _vm._v("Colors")
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "p",
+                    { staticClass: "my-10 text-sm" },
+                    [
+                      _c("router-link", { attrs: { to: "/grid" } }, [
+                        _vm._v("Grid")
+                      ])
+                    ],
+                    1
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "mb-8" }, [
+                  _c(
+                    "p",
+                    {
+                      staticClass:
+                        "my-20 text-grey uppercase tracking-wide font-bold text-sm"
+                    },
+                    [_vm._v("Components")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "p",
+                    { staticClass: "my-10 text-sm" },
+                    [
+                      _c("router-link", { attrs: { to: "/buttons" } }, [
+                        _vm._v("Buttons")
+                      ])
+                    ],
+                    1
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "mb-8" }, [
+                  _c(
+                    "p",
+                    {
+                      staticClass:
+                        "my-20 text-grey uppercase tracking-wide font-bold text-sm"
+                    },
+                    [_vm._v("Misc")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "p",
+                    { staticClass: "my-10 text-sm" },
+                    [
+                      _c("router-link", { attrs: { to: "/icons" } }, [
+                        _vm._v("Icons")
+                      ])
+                    ],
+                    1
+                  )
+                ])
+              ]
+            )
+          ]
+        ),
         _vm._v(" "),
         _c(
           "div",
@@ -8506,92 +8610,7 @@ exports.default = _default;
     ])
   ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "section",
-      {
-        staticClass: "p-30 bg-cn-100 text-white fixed pin-t pin-x z-100",
-        attrs: { id: "header" }
-      },
-      [
-        _vm._v("\n    Vitruvious Project\n    "),
-        _c("div", { staticClass: "float-right" }, [_vm._v("v0.0.1")])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "w-full sm:w-1 md:w-1/4 lg:w-1/4 xl:w-1/4 p-30" },
-      [
-        _c(
-          "div",
-          {
-            staticClass:
-              "overflow-y-auto text-base lg:text-sm lg:py-12 lg:pl-6 lg:pr-8 sticky?lg:h-(screen-16)"
-          },
-          [
-            _c("div", { staticClass: "mb-8" }, [
-              _c(
-                "p",
-                {
-                  staticClass:
-                    "mb-20 text-grey uppercase tracking-wide font-bold text-sm"
-                },
-                [_vm._v("CSS")]
-              ),
-              _vm._v(" "),
-              _c("p", { staticClass: "my-10 text-sm" }, [
-                _c("a", { attrs: { href: "" } }, [_vm._v("Colors")])
-              ]),
-              _vm._v(" "),
-              _c("p", { staticClass: "my-10 text-sm" }, [
-                _c("a", { attrs: { href: "" } }, [_vm._v("Grid")])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "mb-8" }, [
-              _c(
-                "p",
-                {
-                  staticClass:
-                    "my-20 text-grey uppercase tracking-wide font-bold text-sm"
-                },
-                [_vm._v("Components")]
-              ),
-              _vm._v(" "),
-              _c("p", { staticClass: "my-10 text-sm" }, [
-                _c("a", { attrs: { href: "" } }, [_vm._v("Buttons")])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "mb-8" }, [
-              _c(
-                "p",
-                {
-                  staticClass:
-                    "my-20 text-grey uppercase tracking-wide font-bold text-sm"
-                },
-                [_vm._v("Misc")]
-              ),
-              _vm._v(" "),
-              _c("p", { staticClass: "my-10 text-sm" }, [
-                _c("a", { attrs: { href: "" } }, [_vm._v("Icons")])
-              ])
-            ])
-          ]
-        )
-      ]
-    )
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
           return {
@@ -11298,6 +11317,30 @@ var Home = function Home() {
   './site_views/Home.vue'));
 };
 
+var Colors = function Colors() {
+  return require("_bundle_loader")(require.resolve(
+  /* webpackChunkName: "colors" */
+  './site_views/Colors.vue'));
+};
+
+var Grid = function Grid() {
+  return require("_bundle_loader")(require.resolve(
+  /* webpackChunkName: "grid" */
+  './site_views/Grid.vue'));
+};
+
+var Buttons = function Buttons() {
+  return require("_bundle_loader")(require.resolve(
+  /* webpackChunkName: "buttons" */
+  './site_views/Buttons.vue'));
+};
+
+var Icons = function Icons() {
+  return require("_bundle_loader")(require.resolve(
+  /* webpackChunkName: "icons" */
+  './site_views/Icons.vue'));
+};
+
 _vue.default.use(_vueRouter.default);
 
 var _default = new _vueRouter.default({
@@ -11305,11 +11348,27 @@ var _default = new _vueRouter.default({
     path: '/',
     name: 'home',
     component: Home
+  }, {
+    path: '/colors',
+    name: 'colors',
+    component: Colors
+  }, {
+    path: '/grid',
+    name: 'grid',
+    component: Grid
+  }, {
+    path: '/buttons',
+    name: 'buttons',
+    component: Buttons
+  }, {
+    path: '/icons',
+    name: 'icons',
+    component: Icons
   }]
 });
 
 exports.default = _default;
-},{"vue":"node_modules/vue/dist/vue.runtime.esm.js","vue-router":"node_modules/vue-router/dist/vue-router.esm.js","_bundle_loader":"node_modules/parcel-bundler/src/builtins/bundle-loader.js","./site_views/Home.vue":[["Home.93474c3d.js","src/site_views/Home.vue"],"Home.93474c3d.map","src/site_views/Home.vue"]}],"src/main.js":[function(require,module,exports) {
+},{"vue":"node_modules/vue/dist/vue.runtime.esm.js","vue-router":"node_modules/vue-router/dist/vue-router.esm.js","_bundle_loader":"node_modules/parcel-bundler/src/builtins/bundle-loader.js","./site_views/Home.vue":[["Home.93474c3d.js","src/site_views/Home.vue"],"Home.93474c3d.map","src/site_views/Home.vue"],"./site_views/Colors.vue":[["Colors.cafe1a20.js","src/site_views/Colors.vue"],"Colors.cafe1a20.map","src/site_views/Colors.vue"],"./site_views/Grid.vue":[["Grid.43ec562d.js","src/site_views/Grid.vue"],"Grid.43ec562d.map","src/site_views/Grid.vue"],"./site_views/Buttons.vue":[["Buttons.a8e4d7f3.js","src/site_views/Buttons.vue"],"Buttons.a8e4d7f3.map","src/site_views/Buttons.vue"],"./site_views/Icons.vue":[["Icons.de609e1c.js","src/site_views/Icons.vue"],"Icons.de609e1c.map","src/site_views/Icons.vue"]}],"src/main.js":[function(require,module,exports) {
 "use strict";
 
 var _vue = _interopRequireDefault(require("vue"));

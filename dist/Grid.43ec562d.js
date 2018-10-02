@@ -104,7 +104,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({"src/site_views/Home.vue":[function(require,module,exports) {
+})({"src/site_views/Grid.vue":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -117,21 +117,78 @@ exports.default = void 0;
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 var _default = {
-  name: 'home',
+  name: 'grid',
   data: function data() {
     return {};
   }
 };
 exports.default = _default;
-        var $17e551 = exports.default || module.exports;
+        var $b89eff = exports.default || module.exports;
       
-      if (typeof $17e551 === 'function') {
-        $17e551 = $17e551.options;
+      if (typeof $b89eff === 'function') {
+        $b89eff = $b89eff.options;
       }
     
         /* template */
-        Object.assign($17e551, (function () {
+        Object.assign($b89eff, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -143,8 +200,114 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { attrs: { id: "home" } }, [
-      _c("h1", { staticClass: "mb-30" }, [_vm._v("Welcome to Vitruvious")])
+    return _c("section", { attrs: { id: "grid" } }, [
+      _c("h1", { staticClass: "mb-30" }, [_vm._v("Grid")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "mx-flex mb-10" }, [
+        _c("div", { staticClass: "w-full bg-cn-40 h-12" })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "mx-flex mb-10" }, [
+        _c("div", { staticClass: "w-1/2 bg-cn-40 h-12" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "w-1/2 bg-cn-20 h-12" })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "mx-flex mb-10" }, [
+        _c("div", { staticClass: "w-1/3 bg-cn-40 h-12" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "w-1/3 bg-cn-20 h-12" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "w-1/3 bg-cn-40 h-12" })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "mx-flex mb-10" }, [
+        _c("div", { staticClass: "w-1/4 bg-cn-40 h-12" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "w-1/4 bg-cn-20 h-12" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "w-1/4 bg-cn-40 h-12" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "w-1/4 bg-cn-20 h-12" })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "mx-flex mb-10" }, [
+        _c("div", { staticClass: "w-1/5 bg-cn-40 h-12" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "w-1/5 bg-cn-20 h-12" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "w-1/5 bg-cn-40 h-12" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "w-1/5 bg-cn-20 h-12" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "w-1/5 bg-cn-40 h-12" })
+      ]),
+      _vm._v(" "),
+      _c("h3", { staticClass: "my-30" }, [_vm._v("Responsive Grid")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "mx-flex-wrap" }, [
+        _c("div", {
+          staticClass:
+            "w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 mb-10 bg-cn-40 h-12"
+        }),
+        _vm._v(" "),
+        _c("div", {
+          staticClass:
+            "w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 mb-10 bg-cn-20 h-12"
+        }),
+        _vm._v(" "),
+        _c("div", {
+          staticClass:
+            "w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 mb-10 bg-cn-40 h-12"
+        }),
+        _vm._v(" "),
+        _c("div", {
+          staticClass:
+            "w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 mb-10 bg-cn-20 h-12"
+        }),
+        _vm._v(" "),
+        _c("div", {
+          staticClass:
+            "w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6 mb-10 bg-cn-40 h-12"
+        }),
+        _vm._v(" "),
+        _c("div", {
+          staticClass:
+            "w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6 mb-10 bg-cn-20 h-12"
+        })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "mx-flex-wrap" }, [
+        _c("div", {
+          staticClass:
+            "w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 mb-10 bg-cn-40 h-12"
+        }),
+        _vm._v(" "),
+        _c("div", {
+          staticClass:
+            "w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 mb-10 bg-cn-20 h-12"
+        }),
+        _vm._v(" "),
+        _c("div", {
+          staticClass:
+            "w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 mb-10 bg-cn-40 h-12"
+        }),
+        _vm._v(" "),
+        _c("div", {
+          staticClass:
+            "w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 mb-10 bg-cn-20 h-12"
+        }),
+        _vm._v(" "),
+        _c("div", {
+          staticClass:
+            "w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6 mb-10 bg-cn-40 h-12"
+        }),
+        _vm._v(" "),
+        _c("div", {
+          staticClass:
+            "w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6 mb-10 bg-cn-20 h-12"
+        })
+      ])
     ])
   }
 ]
@@ -167,9 +330,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$17e551', $17e551);
+            api.createRecord('$b89eff', $b89eff);
           } else {
-            api.reload('$17e551', $17e551);
+            api.reload('$b89eff', $b89eff);
           }
         }
 
@@ -346,4 +509,4 @@ function hmrAccept(bundle, id) {
   });
 }
 },{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
-//# sourceMappingURL=/Home.93474c3d.map
+//# sourceMappingURL=/Grid.43ec562d.map

@@ -104,7 +104,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({"src/site_views/Home.vue":[function(require,module,exports) {
+})({"src/site_views/Colors.vue":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -117,21 +117,61 @@ exports.default = void 0;
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 var _default = {
-  name: 'home',
+  name: 'colors',
   data: function data() {
     return {};
   }
 };
 exports.default = _default;
-        var $17e551 = exports.default || module.exports;
+        var $0b59db = exports.default || module.exports;
       
-      if (typeof $17e551 === 'function') {
-        $17e551 = $17e551.options;
+      if (typeof $0b59db === 'function') {
+        $0b59db = $0b59db.options;
       }
     
         /* template */
-        Object.assign($17e551, (function () {
+        Object.assign($0b59db, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -143,8 +183,158 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { attrs: { id: "home" } }, [
-      _c("h1", { staticClass: "mb-30" }, [_vm._v("Welcome to Vitruvious")])
+    return _c("section", { attrs: { id: "colors" } }, [
+      _c("h1", { staticClass: "mb-30" }, [_vm._v("Colors")]),
+      _vm._v(" "),
+      _c("div", [_c("strong", [_vm._v("Moxi Core Colors (Blue)")])]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-moxi-blue-dark text-white" }, [
+        _vm._v(".bg-moxi-blue-dark")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-moxi-blue text-white" }, [
+        _vm._v(".bg-moxi-blue")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-moxi-blue-light text-white" }, [
+        _vm._v(".bg-moxi-blue-light")
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "p-20 my-10 bg-moxi-blue-lightest text-white" },
+        [_vm._v(".bg-moxi-blue-lightest")]
+      ),
+      _vm._v(" "),
+      _c("div", [_c("strong", [_vm._v("Moxi Core Colors (Green)")])]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-moxi-green-dark text-white" }, [
+        _vm._v(".bg-moxi-green-dark")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-moxi-green text-white" }, [
+        _vm._v(".bg-moxi-green")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-moxi-green-light text-white" }, [
+        _vm._v(".bg-moxi-green-light")
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "p-20 my-10 bg-moxi-green-lightest text-white" },
+        [_vm._v(".bg-moxi-blue-lightest")]
+      ),
+      _vm._v(" "),
+      _c("div", [_c("strong", [_vm._v("Neutrals")])]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-cn-100 text-white" }, [
+        _vm._v(".bg-cn-100")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-cn-90 text-white" }, [
+        _vm._v(".bg-cn-90")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-cn-80 text-white" }, [
+        _vm._v(".bg-cn-80")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-cn-70 text-white" }, [
+        _vm._v(".bg-cn-70")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-cn-60 text-white" }, [
+        _vm._v(".bg-cn-60")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-cn-50 text-white" }, [
+        _vm._v(".bg-cn-50")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-cn-40 text-black" }, [
+        _vm._v(".bg-cn-40")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-cn-30 text-black" }, [
+        _vm._v(".bg-cn-30")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-cn-20 text-black" }, [
+        _vm._v(".bg-cn-20")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-cn-15 text-black" }, [
+        _vm._v(".bg-cn-15")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-cn-10 text-black" }, [
+        _vm._v(".bg-cn-10")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-cn-05 text-black" }, [
+        _vm._v(".bg-cn-05")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-cn-0 text-black" }, [
+        _vm._v(".bg-cn-0")
+      ]),
+      _vm._v(" "),
+      _c("div", [_c("strong", [_vm._v("Alternatives")])]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-moxi-destructive text-white" }, [
+        _vm._v(".bg-moxi-destructive")
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "p-20 my-10 bg-moxi-destructive-light text-white" },
+        [_vm._v(".bg-moxi-destructive-light")]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-ca-heliotrop text-white" }, [
+        _vm._v(".bg-ca-heliotrop")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-ca-mauve text-white" }, [
+        _vm._v(".bg-ca-mauve")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-ca-mulberry text-white" }, [
+        _vm._v(".bg-ca-mulberry")
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "p-20 my-10 bg-ca-pale-violet-red text-white" },
+        [_vm._v(".bg-ca-pale-violet-red")]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-ca-viking text-white" }, [
+        _vm._v(".bg-ca-viking")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-ca-riptide text-white" }, [
+        _vm._v(".bg-ca-riptide")
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "p-20 my-10 bg-ca-lightning-yellow text-white" },
+        [_vm._v(".bg-ca-lightning-yellow")]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-ca-texas-rose text-white" }, [
+        _vm._v(".bg-ca-texas-rose")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-ca-flamenco text-white" }, [
+        _vm._v(".bg-ca-flamenco")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-ca-sandy-brown text-white" }, [
+        _vm._v(".bg-ca-sandy-brown")
+      ])
     ])
   }
 ]
@@ -167,9 +357,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$17e551', $17e551);
+            api.createRecord('$0b59db', $0b59db);
           } else {
-            api.reload('$17e551', $17e551);
+            api.reload('$0b59db', $0b59db);
           }
         }
 
@@ -346,4 +536,4 @@ function hmrAccept(bundle, id) {
   });
 }
 },{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
-//# sourceMappingURL=/Home.93474c3d.map
+//# sourceMappingURL=/Colors.cafe1a20.map

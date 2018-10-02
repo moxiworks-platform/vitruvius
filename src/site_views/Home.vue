@@ -1,6 +1,6 @@
 <template>
-  <section>
-    Hello
+  <section id="home">
+    <h1 class="mb-30">Welcome to Vitruvious</h1>
   </section>
 </template>
 

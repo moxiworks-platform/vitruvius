@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <section id="header" class="p-30 bg-cn-100 text-white fixed pin-t pin-x z-100">
-      Vitruvious Project
+      <router-link to="/">Vitruvious Project</router-link>
       <div class="float-right">v0.0.1</div>
     </section>
 
@@ -13,24 +13,24 @@
             <div class="mb-8">
               <p class="mb-20 text-grey uppercase tracking-wide font-bold text-sm">CSS</p>
               <p class="my-10 text-sm">
-                <a href="">Colors</a>
+                <router-link to="/colors">Colors</router-link></a>
               </p>
               <p class="my-10 text-sm">
-                <a href="">Grid</a>
+                <router-link to="/grid">Grid</router-link>
               </p>
             </div>
 
             <div class="mb-8">
               <p class="my-20 text-grey uppercase tracking-wide font-bold text-sm">Components</p>
               <p class="my-10 text-sm">
-                <a href="">Buttons</a>
+                <router-link to="/buttons">Buttons</router-link>
               </p>
             </div>
 
             <div class="mb-8">
               <p class="my-20 text-grey uppercase tracking-wide font-bold text-sm">Misc</p>
               <p class="my-10 text-sm">
-                <a href="">Icons</a>
+                <router-link to="/icons">Icons</router-link>
               </p>
             </div>
 
@@ -61,6 +61,14 @@
 </script>
 
 <style lang="scss">
+  #header {
+    a {
+      color: #fff;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+  }
   #content {
     padding-top: 78px;
   }

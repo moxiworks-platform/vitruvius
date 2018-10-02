@@ -7379,6 +7379,19 @@ table {
   background-color: #377cbf;
 }
 
+/*************************************************************************************
+ * Grid Classes
+ ************************************************************************************/
+
+.mx-flex {
+  display: flex;
+}
+
+.mx-flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 @media (min-width: 576px) {
   .sm\:list-reset {
     list-style: none;

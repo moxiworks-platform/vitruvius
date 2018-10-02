@@ -4,7 +4,7 @@
 
     <p>Since Project Vitruvious is a functional CSS framework, the syntax to add color is simple. Here are two simple examples:</p>
 
-    <pre class="prettyprint lang-html">&lt;div class="bg-moxi-blue-dark textcn-0"&gt;Background Moxi Blue Dark with white text using neutral color 0.&lt;/div&gt;
+    <pre class="prettyprint lang-html">&lt;div class="bg-moxi-blue-dark text-cn-0"&gt;Background Moxi Blue Dark with white text using neutral color 0.&lt;/div&gt;
 
 &lt;div class="text-cn-80"&gt;Text will be neutral color 80&lt;/div&gt;</pre>
 

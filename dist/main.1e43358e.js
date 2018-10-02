@@ -8450,6 +8450,25 @@ exports.default = void 0;
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 var _default = {
   name: 'app',
   data: function data() {
@@ -8524,13 +8543,47 @@ var staticRenderFns = [
                 "p",
                 {
                   staticClass:
-                    "mb-10 text-grey uppercase tracking-wide font-bold text-lg"
+                    "mb-20 text-grey uppercase tracking-wide font-bold text-sm"
                 },
                 [_vm._v("CSS")]
               ),
               _vm._v(" "),
               _c("p", { staticClass: "my-10 text-sm" }, [
                 _c("a", { attrs: { href: "" } }, [_vm._v("Colors")])
+              ]),
+              _vm._v(" "),
+              _c("p", { staticClass: "my-10 text-sm" }, [
+                _c("a", { attrs: { href: "" } }, [_vm._v("Grid")])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "mb-8" }, [
+              _c(
+                "p",
+                {
+                  staticClass:
+                    "my-20 text-grey uppercase tracking-wide font-bold text-sm"
+                },
+                [_vm._v("Components")]
+              ),
+              _vm._v(" "),
+              _c("p", { staticClass: "my-10 text-sm" }, [
+                _c("a", { attrs: { href: "" } }, [_vm._v("Buttons")])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "mb-8" }, [
+              _c(
+                "p",
+                {
+                  staticClass:
+                    "my-20 text-grey uppercase tracking-wide font-bold text-sm"
+                },
+                [_vm._v("Misc")]
+              ),
+              _vm._v(" "),
+              _c("p", { staticClass: "my-10 text-sm" }, [
+                _c("a", { attrs: { href: "" } }, [_vm._v("Icons")])
               ])
             ])
           ]

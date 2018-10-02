@@ -176,6 +176,60 @@ exports.default = void 0;
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 var _default = {
   name: 'grid',
   data: function data() {
@@ -206,6 +260,12 @@ var staticRenderFns = [
       _c("h1", { staticClass: "mb-30" }, [_vm._v("Grid")]),
       _vm._v(" "),
       _c("h3", { staticClass: "my-30" }, [_vm._v("Regular Grid")]),
+      _vm._v(" "),
+      _c("pre", { staticClass: "prettyprint lang-html" }, [
+        _vm._v(
+          '  <!-- Full width column -->\n  <div class="mx-flex">\n    <div class="w-full"></div>\n  </div>\n\n  <!-- Two columns -->\n  <div class="mx-flex">\n    <div class="w-1/2"></div>\n    <div class="w-1/2"></div>\n  </div>\n\n  <!-- Three columns -->\n  <div class="mx-flex">\n    <div class="w-1/3"></div>\n    <div class="w-1/3"></div>\n    <div class="w-1/3"></div>\n  </div>\n\n  <!-- Four columns -->\n  <div class="mx-flex">\n    <div class="w-1/4"></div>\n    <div class="w-1/4"></div>\n    <div class="w-1/4"></div>\n    <div class="w-1/4"></div>\n  </div>\n\n  <!-- Five columns -->\n  <div class="mx-flex">\n    <div class="w-1/5"></div>\n    <div class="w-1/5"></div>\n    <div class="w-1/5"></div>\n    <div class="w-1/5"></div>\n    <div class="w-1/5"></div>\n  </div>'
+        )
+      ]),
       _vm._v(" "),
       _c("div", { staticClass: "mx-flex mb-10" }, [
         _c("div", { staticClass: "w-full bg-cn-40 h-12" })
@@ -248,6 +308,12 @@ var staticRenderFns = [
       ]),
       _vm._v(" "),
       _c("h3", { staticClass: "my-30" }, [_vm._v("Responsive Grid")]),
+      _vm._v(" "),
+      _c("pre", { staticClass: "prettyprint lang-html" }, [
+        _vm._v(
+          '  <!-- Six columns -->\n  <div class="mx-flex-wrap">\n    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"></div>\n    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"></div>\n    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"></div>\n    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"></div>\n    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6"></div>\n    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6"></div>\n  </div>\n\n  <div class="mx-flex-wrap">\n    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"></div>\n    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"></div>\n    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"></div>\n    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"></div>\n    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6"></div>\n    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6"></div>\n  </div>'
+        )
+      ]),
       _vm._v(" "),
       _c("div", { staticClass: "mx-flex-wrap" }, [
         _c("div", {

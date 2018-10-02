@@ -8510,7 +8510,7 @@ exports.default = _default;
       _c("div", { staticClass: "mx-flex-wrap" }, [
         _c(
           "div",
-          { staticClass: "w-full sm:w-1 md:w-1/4 lg:w-1/4 xl:w-1/4 p-30" },
+          { staticClass: "w-full sm:w-full md:w-1/4 lg:w-1/4 xl:w-1/4 p-30" },
           [
             _c(
               "div",
@@ -8602,7 +8602,7 @@ exports.default = _default;
         _vm._v(" "),
         _c(
           "div",
-          { staticClass: "w-full sm:w-1 md:w-3/4 lg:w-3/4 xl:w-3/4 p-30" },
+          { staticClass: "w-full sm:w-full md:w-3/4 lg:w-3/4 xl:w-3/4 p-30" },
           [_c("router-view", { key: _vm.$route.fullPath })],
           1
         )

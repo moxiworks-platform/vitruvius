@@ -104,79 +104,70 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({"node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
-var bundleURL = null;
+})({"src/site_views/Home.vue":[function(require,module,exports) {
+"use strict";
 
-function getBundleURLCached() {
-  if (!bundleURL) {
-    bundleURL = getBundleURL();
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+//
+//
+//
+//
+//
+//
+var _default = {
+  name: 'home',
+  data: function data() {
+    return {};
   }
-
-  return bundleURL;
-}
-
-function getBundleURL() {
-  // Attempt to find the URL of the current script and use that as the base URL
-  try {
-    throw new Error();
-  } catch (err) {
-    var matches = ('' + err.stack).match(/(https?|file|ftp):\/\/[^)\n]+/g);
-
-    if (matches) {
-      return getBaseURL(matches[0]);
-    }
-  }
-
-  return '/';
-}
-
-function getBaseURL(url) {
-  return ('' + url).replace(/^((?:https?|file|ftp):\/\/.+)\/[^/]+$/, '$1') + '/';
-}
-
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-},{}],"node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
-var bundle = require('./bundle-url');
-
-function updateLink(link) {
-  var newLink = link.cloneNode();
-
-  newLink.onload = function () {
-    link.remove();
-  };
-
-  newLink.href = link.href.split('?')[0] + '?' + Date.now();
-  link.parentNode.insertBefore(newLink, link.nextSibling);
-}
-
-var cssTimeout = null;
-
-function reloadCSS() {
-  if (cssTimeout) {
-    return;
-  }
-
-  cssTimeout = setTimeout(function () {
-    var links = document.querySelectorAll('link[rel="stylesheet"]');
-
-    for (var i = 0; i < links.length; i++) {
-      if (bundle.getBaseURL(links[i].href) === bundle.getBundleURL()) {
-        updateLink(links[i]);
+};
+exports.default = _default;
+        var $17e551 = exports.default || module.exports;
+      
+      if (typeof $17e551 === 'function') {
+        $17e551 = $17e551.options;
       }
-    }
-
-    cssTimeout = null;
-  }, 50);
+    
+        /* template */
+        Object.assign($17e551, (function () {
+          var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("section", [_vm._v("\n  Hello\n")])
 }
+var staticRenderFns = []
+render._withStripped = true
 
-module.exports = reloadCSS;
-},{"./bundle-url":"node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"project-vitruvious/project-vitruvious.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
+          return {
+            render: render,
+            staticRenderFns: staticRenderFns,
+            _compiled: true,
+            _scopeId: null,
+            functional: undefined
+          };
+        })());
+      
+    /* hot reload */
+    (function () {
+      if (module.hot) {
+        var api = require('vue-hot-reload-api');
+        api.install(require('vue'));
+        if (api.compatible) {
+          module.hot.accept();
+          if (!module.hot.data) {
+            api.createRecord('$17e551', $17e551);
+          } else {
+            api.reload('$17e551', $17e551);
+          }
+        }
 
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"./fonts/Vitruvius-icon-set.eot":[["Vitruvius-icon-set.238cf8b2.eot","project-vitruvious/fonts/Vitruvius-icon-set.eot"],"project-vitruvious/fonts/Vitruvius-icon-set.eot"],"./fonts/Vitruvius-icon-set.ttf":[["Vitruvius-icon-set.16d8efd7.ttf","project-vitruvious/fonts/Vitruvius-icon-set.ttf"],"project-vitruvious/fonts/Vitruvius-icon-set.ttf"],"./fonts/Vitruvius-icon-set.woff":[["Vitruvius-icon-set.65913090.woff","project-vitruvious/fonts/Vitruvius-icon-set.woff"],"project-vitruvious/fonts/Vitruvius-icon-set.woff"],"./fonts/Vitruvius-icon-set.svg":[["Vitruvius-icon-set.fdafce53.svg","project-vitruvious/fonts/Vitruvius-icon-set.svg"],"project-vitruvious/fonts/Vitruvius-icon-set.svg"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+        
+      }
+    })();
+},{"vue-hot-reload-api":"node_modules/vue-hot-reload-api/dist/index.js","vue":"node_modules/vue/dist/vue.runtime.esm.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -203,7 +194,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54568" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54430" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
@@ -346,3 +337,4 @@ function hmrAccept(bundle, id) {
   });
 }
 },{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
+//# sourceMappingURL=/Home.93474c3d.map

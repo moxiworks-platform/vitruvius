@@ -1,6 +1,13 @@
 <template>
   <section id="colors">
     <h1 class="mb-30">Colors</h1>
+
+    <p>Since Project Vitruvious is a functional CSS framework, the syntax to add color is simple. Here are two simple examples:</p>
+
+    <pre class="prettyprint lang-html">&lt;div class="bg-moxi-blue-dark textcn-0"&gt;Background Moxi Blue Dark with white text using neutral color 0.&lt;/div&gt;
+
+&lt;div class="text-cn-80"&gt;Text will be neutral color 80&lt;/div&gt;</pre>
+
     <div><strong>Moxi Core Colors (Blue)</strong></div>
     <div class="p-20 my-10 bg-moxi-blue-dark text-white">.bg-moxi-blue-dark</div>
     <div class="p-20 my-10 bg-moxi-blue text-white">.bg-moxi-blue</div>

@@ -11379,6 +11379,12 @@ var _router = _interopRequireDefault(require("./router"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+_router.default.afterEach(function (to, from, next) {
+  setTimeout(function () {
+    PR.prettyPrint();
+  }, 250);
+});
+
 new _vue.default({
   router: _router.default,
   render: function render(h) {
@@ -11412,7 +11418,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54568" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52593" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

@@ -174,6 +174,8 @@ exports.default = void 0;
 //
 //
 //
+//
+//
 var _default = {
   name: 'grid',
   data: function data() {
@@ -202,6 +204,8 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("section", { attrs: { id: "grid" } }, [
       _c("h1", { staticClass: "mb-30" }, [_vm._v("Grid")]),
+      _vm._v(" "),
+      _c("h3", { staticClass: "my-30" }, [_vm._v("Regular Grid")]),
       _vm._v(" "),
       _c("div", { staticClass: "mx-flex mb-10" }, [
         _c("div", { staticClass: "w-full bg-cn-40 h-12" })
@@ -366,7 +370,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54568" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52593" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

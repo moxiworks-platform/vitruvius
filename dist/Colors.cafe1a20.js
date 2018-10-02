@@ -157,6 +157,13 @@ exports.default = void 0;
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
 var _default = {
   name: 'colors',
   data: function data() {
@@ -185,6 +192,18 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("section", { attrs: { id: "colors" } }, [
       _c("h1", { staticClass: "mb-30" }, [_vm._v("Colors")]),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v(
+          "Since Project Vitruvious is a functional CSS framework, the syntax to add color is simple. Here are two simple examples:"
+        )
+      ]),
+      _vm._v(" "),
+      _c("pre", { staticClass: "prettyprint lang-html" }, [
+        _vm._v(
+          '<div class="bg-moxi-blue-dark textcn-0">Background Moxi Blue Dark with white text using neutral color 0.</div>\n\n<div class="text-cn-80">Text will be neutral color 80</div>'
+        )
+      ]),
       _vm._v(" "),
       _c("div", [_c("strong", [_vm._v("Moxi Core Colors (Blue)")])]),
       _vm._v(" "),
@@ -393,7 +412,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54568" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52593" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

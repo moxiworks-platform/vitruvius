@@ -2,6 +2,8 @@
   <section id="grid">
     <h1 class="mb-30">Grid</h1>
 
+    <h3 class="my-30">Regular Grid</h3>
+
     <!-- Full width column -->
     <div class="mx-flex mb-10">
       <div class="w-full bg-cn-40 h-12"></div>

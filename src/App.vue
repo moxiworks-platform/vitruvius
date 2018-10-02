@@ -7,7 +7,7 @@
 
     <section id="content">
 
-      <div class="mx-flex-wrap">
+      <div class="v-flex-wrap">
         <div class="w-full sm:w-full md:w-1/4 lg:w-1/4 xl:w-1/4 p-30">
           <div class="overflow-y-auto text-base lg:text-sm lg:py-12 lg:pl-6 lg:pr-8 sticky?lg:h-(screen-16)">
             <div class="mb-8">

@@ -8507,7 +8507,7 @@ exports.default = _default;
     ),
     _vm._v(" "),
     _c("section", { attrs: { id: "content" } }, [
-      _c("div", { staticClass: "mx-flex-wrap" }, [
+      _c("div", { staticClass: "v-flex-wrap" }, [
         _c(
           "div",
           { staticClass: "w-full sm:w-full md:w-1/4 lg:w-1/4 xl:w-1/4 p-30" },

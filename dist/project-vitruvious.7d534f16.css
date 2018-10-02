@@ -7397,11 +7397,11 @@ a:hover {
  * Grid Classes
  ************************************************************************************/
 
-.mx-flex {
+.v-flex {
   display: flex;
 }
 
-.mx-flex-wrap {
+.v-flex-wrap {
   display: flex;
   flex-wrap: wrap;
 }

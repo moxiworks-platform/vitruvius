@@ -325,10 +325,10 @@
  * Grid Classes
  ************************************************************************************/
 
- .mx-flex {
+ .v-flex {
   @apply flex;
  }
 
-.mx-flex-wrap {
+.v-flex-wrap {
   @apply flex flex-wrap;
 }

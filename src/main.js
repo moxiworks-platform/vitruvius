@@ -5,7 +5,7 @@ import router from './router'
 router.afterEach((to, from, next) => {
   setTimeout(() => {
     PR.prettyPrint();
-  }, 250)
+  }, 10)
 })
 
 new Vue({

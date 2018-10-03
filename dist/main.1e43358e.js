@@ -8510,13 +8510,16 @@ exports.default = _default;
       _c("div", { staticClass: "v-flex-wrap" }, [
         _c(
           "div",
-          { staticClass: "w-full sm:w-full md:w-1/4 lg:w-1/4 xl:w-1/4 p-30" },
+          {
+            staticClass:
+              "w-full sm:w-full md:w-1/5 lg:w-1/5 xl:w-1/5 p-30 min-h-screen bg-cn-05 overflow-y-scroll"
+          },
           [
             _c(
               "div",
               {
                 staticClass:
-                  "overflow-y-auto text-base lg:text-sm lg:py-12 lg:pl-6 lg:pr-8 sticky?lg:h-(screen-16)"
+                  "overflow-y-auto text-base lg:text-sm lg:py-12 lg:pl-6 lg:pr-8 fixed"
               },
               [
                 _c("div", { staticClass: "mb-8" }, [
@@ -8602,7 +8605,7 @@ exports.default = _default;
         _vm._v(" "),
         _c(
           "div",
-          { staticClass: "w-full sm:w-full md:w-3/4 lg:w-3/4 xl:w-3/4 p-30" },
+          { staticClass: "w-full sm:w-full md:w-4/5 lg:w-4/5 xl:w-4/5 p-30" },
           [_c("router-view", { key: _vm.$route.fullPath })],
           1
         )
@@ -11382,7 +11385,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 _router.default.afterEach(function (to, from, next) {
   setTimeout(function () {
     PR.prettyPrint();
-  }, 250);
+  }, 10);
 });
 
 new _vue.default({
@@ -11418,7 +11421,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52593" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57480" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

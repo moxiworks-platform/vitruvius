@@ -12,7 +12,7 @@ module.exports = function(grunt) {
     },
     watch: {
       scripts: {
-        files: ['./src/scss/**/*.css', './src/scss/**/*.js'],
+        files: ['./src/css/**/*.css', './src/css/**/*.js'],
         tasks: ['exec'],
         options: {
           spawn: false,
@@ -23,6 +23,6 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-exec');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  
+
   grunt.registerTask('default', ['watch'])
 };

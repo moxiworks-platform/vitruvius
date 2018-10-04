@@ -7406,6 +7406,12 @@ a:hover {
   flex-wrap: wrap;
 }
 
+.v-flex .v-flex-item,
+.v-flex-wrap .v-flex-item {
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
 @media (min-width: 576px) {
   .sm\:list-reset {
     list-style: none;

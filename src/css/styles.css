@@ -332,3 +332,7 @@
 .v-flex-wrap {
   @apply flex flex-wrap;
 }
+
+.v-flex .v-flex-item, .v-flex-wrap .v-flex-item {
+  @apply p-8 mb-8;
+}

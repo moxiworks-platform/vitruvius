@@ -263,120 +263,224 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("pre", { staticClass: "prettyprint lang-html" }, [
         _vm._v(
-          '  <!-- Full width column -->\n  <div class="v-flex">\n    <div class="w-full"></div>\n  </div>\n\n  <!-- Two columns -->\n  <div class="v-flex">\n    <div class="w-1/2"></div>\n    <div class="w-1/2"></div>\n  </div>\n\n  <!-- Three columns -->\n  <div class="v-flex">\n    <div class="w-1/3"></div>\n    <div class="w-1/3"></div>\n    <div class="w-1/3"></div>\n  </div>\n\n  <!-- Four columns -->\n  <div class="v-flex">\n    <div class="w-1/4"></div>\n    <div class="w-1/4"></div>\n    <div class="w-1/4"></div>\n    <div class="w-1/4"></div>\n  </div>\n\n  <!-- Five columns -->\n  <div class="v-flex">\n    <div class="w-1/5"></div>\n    <div class="w-1/5"></div>\n    <div class="w-1/5"></div>\n    <div class="w-1/5"></div>\n    <div class="w-1/5"></div>\n  </div>'
+          '  <!-- Full width column -->\n  <div class="v-flex">\n    <div class="w-full"></div>\n  </div>\n\n  <!-- Two columns -->\n  <div class="v-flex">\n    <div class="v-flex-item w-1/2"></div>\n    <div class="v-flex-item w-1/2"></div>\n  </div>\n\n  <!-- Three columns -->\n  <div class="v-flex">\n    <div class="v-flex-item w-1/3"></div>\n    <div class="v-flex-item w-1/3"></div>\n    <div class="v-flex-item w-1/3"></div>\n  </div>\n\n  <!-- Four columns -->\n  <div class="v-flex">\n    <div class="v-flex-item w-1/4"></div>\n    <div class="v-flex-item w-1/4"></div>\n    <div class="v-flex-item w-1/4"></div>\n    <div class="v-flex-item w-1/4"></div>\n  </div>\n\n  <!-- Five columns -->\n  <div class="v-flex">\n    <div class="v-flex-item w-1/5"></div>\n    <div class="v-flex-item w-1/5"></div>\n    <div class="v-flex-item w-1/5"></div>\n    <div class="v-flex-item w-1/5"></div>\n    <div class="v-flex-item w-1/5"></div>\n  </div>'
         )
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "v-flex mb-10" }, [
-        _c("div", { staticClass: "w-full bg-cn-40 h-12" })
+      _c("div", { staticClass: "v-flex" }, [
+        _c("div", { staticClass: "v-flex-item w-full" })
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "v-flex mb-10" }, [
-        _c("div", { staticClass: "w-1/2 bg-cn-40 h-12" }),
+      _c("div", { staticClass: "v-flex" }, [
+        _c(
+          "div",
+          { staticClass: "v-flex-item w-1/2 bg-moxi-green text-center" },
+          [_vm._v("1")]
+        ),
         _vm._v(" "),
-        _c("div", { staticClass: "w-1/2 bg-cn-20 h-12" })
+        _c(
+          "div",
+          { staticClass: "v-flex-item w-1/2 bg-moxi-green-light text-center" },
+          [_vm._v("2")]
+        )
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "v-flex mb-10" }, [
-        _c("div", { staticClass: "w-1/3 bg-cn-40 h-12" }),
+      _c("div", { staticClass: "v-flex" }, [
+        _c(
+          "div",
+          { staticClass: "v-flex-item w-1/3 bg-moxi-green text-center" },
+          [_vm._v("1")]
+        ),
         _vm._v(" "),
-        _c("div", { staticClass: "w-1/3 bg-cn-20 h-12" }),
+        _c(
+          "div",
+          { staticClass: "v-flex-item w-1/3 bg-moxi-green-light text-center" },
+          [_vm._v("2")]
+        ),
         _vm._v(" "),
-        _c("div", { staticClass: "w-1/3 bg-cn-40 h-12" })
+        _c(
+          "div",
+          { staticClass: "v-flex-item w-1/3 bg-moxi-green text-center" },
+          [_vm._v("3")]
+        )
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "v-flex mb-10" }, [
-        _c("div", { staticClass: "w-1/4 bg-cn-40 h-12" }),
+      _c("div", { staticClass: "v-flex" }, [
+        _c(
+          "div",
+          { staticClass: "v-flex-item w-1/4 bg-moxi-green text-center" },
+          [_vm._v("1")]
+        ),
         _vm._v(" "),
-        _c("div", { staticClass: "w-1/4 bg-cn-20 h-12" }),
+        _c(
+          "div",
+          { staticClass: "v-flex-item w-1/4 bg-moxi-green-light text-center" },
+          [_vm._v("2")]
+        ),
         _vm._v(" "),
-        _c("div", { staticClass: "w-1/4 bg-cn-40 h-12" }),
+        _c(
+          "div",
+          { staticClass: "v-flex-item w-1/4 bg-moxi-green text-center" },
+          [_vm._v("3")]
+        ),
         _vm._v(" "),
-        _c("div", { staticClass: "w-1/4 bg-cn-20 h-12" })
+        _c(
+          "div",
+          { staticClass: "v-flex-item w-1/4 bg-moxi-green-light text-center" },
+          [_vm._v("4")]
+        )
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "v-flex mb-10" }, [
-        _c("div", { staticClass: "w-1/5 bg-cn-40 h-12" }),
+      _c("div", { staticClass: "v-flex" }, [
+        _c(
+          "div",
+          { staticClass: "v-flex-item w-1/5 bg-moxi-green text-center" },
+          [_vm._v("1")]
+        ),
         _vm._v(" "),
-        _c("div", { staticClass: "w-1/5 bg-cn-20 h-12" }),
+        _c(
+          "div",
+          { staticClass: "v-flex-item w-1/5 bg-moxi-green-light text-center" },
+          [_vm._v("2")]
+        ),
         _vm._v(" "),
-        _c("div", { staticClass: "w-1/5 bg-cn-40 h-12" }),
+        _c(
+          "div",
+          { staticClass: "v-flex-item w-1/5 bg-moxi-green text-center" },
+          [_vm._v("3")]
+        ),
         _vm._v(" "),
-        _c("div", { staticClass: "w-1/5 bg-cn-20 h-12" }),
+        _c(
+          "div",
+          { staticClass: "v-flex-item w-1/5 bg-moxi-green-light text-center" },
+          [_vm._v("4")]
+        ),
         _vm._v(" "),
-        _c("div", { staticClass: "w-1/5 bg-cn-40 h-12" })
+        _c(
+          "div",
+          { staticClass: "v-flex-item w-1/5 bg-moxi-green text-center" },
+          [_vm._v("5")]
+        )
       ]),
       _vm._v(" "),
       _c("h3", { staticClass: "my-30" }, [_vm._v("Responsive Grid")]),
       _vm._v(" "),
       _c("pre", { staticClass: "prettyprint lang-html" }, [
         _vm._v(
-          '  <!-- Six columns -->\n  <div class="v-flex-wrap">\n    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"></div>\n    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"></div>\n    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"></div>\n    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"></div>\n    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6"></div>\n    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6"></div>\n  </div>\n\n  <div class="v-flex-wrap">\n    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"></div>\n    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"></div>\n    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"></div>\n    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"></div>\n    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6"></div>\n    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6"></div>\n  </div>'
+          '  <!-- Six columns -->\n  <div class="v-flex-wrap">\n    <div class="v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"></div>\n    <div class="v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"></div>\n    <div class="v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"></div>\n    <div class="v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"></div>\n    <div class="v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6"></div>\n    <div class="v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6"></div>\n  </div>\n\n  <div class="v-flex-wrap">\n    <div class="v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"></div>\n    <div class="v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"></div>\n    <div class="v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"></div>\n    <div class="v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"></div>\n    <div class="v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6"></div>\n    <div class="v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6"></div>\n  </div>'
         )
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "v-flex-wrap" }, [
-        _c("div", {
-          staticClass:
-            "w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 mb-10 bg-cn-40 h-12"
-        }),
+        _c(
+          "div",
+          {
+            staticClass:
+              "v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 bg-moxi-green text-center"
+          },
+          [_vm._v("1")]
+        ),
         _vm._v(" "),
-        _c("div", {
-          staticClass:
-            "w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 mb-10 bg-cn-20 h-12"
-        }),
+        _c(
+          "div",
+          {
+            staticClass:
+              "v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 bg-moxi-green-light text-center"
+          },
+          [_vm._v("2")]
+        ),
         _vm._v(" "),
-        _c("div", {
-          staticClass:
-            "w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 mb-10 bg-cn-40 h-12"
-        }),
+        _c(
+          "div",
+          {
+            staticClass:
+              "v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 bg-moxi-green text-center"
+          },
+          [_vm._v("3")]
+        ),
         _vm._v(" "),
-        _c("div", {
-          staticClass:
-            "w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 mb-10 bg-cn-20 h-12"
-        }),
+        _c(
+          "div",
+          {
+            staticClass:
+              "v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 bg-moxi-green-light text-center"
+          },
+          [_vm._v("4")]
+        ),
         _vm._v(" "),
-        _c("div", {
-          staticClass:
-            "w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6 mb-10 bg-cn-40 h-12"
-        }),
+        _c(
+          "div",
+          {
+            staticClass:
+              "v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6 bg-moxi-green text-center"
+          },
+          [_vm._v("5")]
+        ),
         _vm._v(" "),
-        _c("div", {
-          staticClass:
-            "w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6 mb-10 bg-cn-20 h-12"
-        })
+        _c(
+          "div",
+          {
+            staticClass:
+              "v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6 bg-moxi-green-light text-center"
+          },
+          [_vm._v("6")]
+        )
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "v-flex-wrap" }, [
-        _c("div", {
-          staticClass:
-            "w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 mb-10 bg-cn-40 h-12"
-        }),
+        _c(
+          "div",
+          {
+            staticClass:
+              "v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 bg-moxi-green text-center"
+          },
+          [_vm._v("7")]
+        ),
         _vm._v(" "),
-        _c("div", {
-          staticClass:
-            "w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 mb-10 bg-cn-20 h-12"
-        }),
+        _c(
+          "div",
+          {
+            staticClass:
+              "v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 bg-moxi-green-light text-center"
+          },
+          [_vm._v("8")]
+        ),
         _vm._v(" "),
-        _c("div", {
-          staticClass:
-            "w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 mb-10 bg-cn-40 h-12"
-        }),
+        _c(
+          "div",
+          {
+            staticClass:
+              "v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 bg-moxi-green text-center"
+          },
+          [_vm._v("9")]
+        ),
         _vm._v(" "),
-        _c("div", {
-          staticClass:
-            "w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 mb-10 bg-cn-20 h-12"
-        }),
+        _c(
+          "div",
+          {
+            staticClass:
+              "v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 bg-moxi-green-light text-center"
+          },
+          [_vm._v("10")]
+        ),
         _vm._v(" "),
-        _c("div", {
-          staticClass:
-            "w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6 mb-10 bg-cn-40 h-12"
-        }),
+        _c(
+          "div",
+          {
+            staticClass:
+              "v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6 bg-moxi-green text-center"
+          },
+          [_vm._v("11")]
+        ),
         _vm._v(" "),
-        _c("div", {
-          staticClass:
-            "w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6 mb-10 bg-cn-20 h-12"
-        })
+        _c(
+          "div",
+          {
+            staticClass:
+              "v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6 bg-moxi-green-light text-center"
+          },
+          [_vm._v("12")]
+        )
       ])
     ])
   }
@@ -436,7 +540,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59661" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50909" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

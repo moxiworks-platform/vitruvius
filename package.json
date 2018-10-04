@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npx parcel index.html",
     "watch": "grunt watch",
-    "buildCSS": "./node_modules/.bin/tailwind build ./src/scss/styles.css -c ./src/scss/tailwind.js -o ./project-vitruvious/project-vitruvious.css",
+    "buildCSS": "./node_modules/.bin/tailwind build ./src/scss/styles.css -c ./src/scss/tailwind.js -o ./tmp/project-vitruvious.css",
     "dev": "npm-run-all --parallel watch \"start -- {@}\" --"
   },
   "keywords": [],

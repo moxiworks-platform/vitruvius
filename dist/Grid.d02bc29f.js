@@ -230,11 +230,6 @@ exports.default = void 0;
 //
 //
 //
-//
-//
-//
-//
-//
 var _default = {
   name: 'grid',
   data: function data() {
@@ -264,19 +259,9 @@ var staticRenderFns = [
     return _c("section", { attrs: { id: "grid" } }, [
       _c("h1", { staticClass: "mb-30" }, [_vm._v("Grid")]),
       _vm._v(" "),
-      _c("blockquote", [
-        _c("p", [_vm._v("Notes")]),
-        _vm._v(" "),
-        _c("p", [
-          _vm._v(
-            "`v-flex-item` class is only for quickly connforming to our design of 8px space in each cell. You can just as easily add the `p-8` class to each cell too but don't forget the `mb-8` for margin bottom."
-          )
-        ])
-      ]),
-      _vm._v(" "),
       _c("h3", { staticClass: "my-30" }, [_vm._v("Regular Grid")]),
       _vm._v(" "),
-      _c("pre", { staticClass: "prettyprint lang-html" }, [
+      _c("pre", { staticClass: "prettyprint linenums lang-html" }, [
         _vm._v(
           '  <!-- Full width column -->\n  <div class="v-flex">\n    <div class="w-full"></div>\n  </div>\n\n  <!-- Two columns -->\n  <div class="v-flex">\n    <div class="v-flex-item w-1/2"></div>\n    <div class="v-flex-item w-1/2"></div>\n  </div>\n\n  <!-- Three columns -->\n  <div class="v-flex">\n    <div class="v-flex-item w-1/3"></div>\n    <div class="v-flex-item w-1/3"></div>\n    <div class="v-flex-item w-1/3"></div>\n  </div>\n\n  <!-- Four columns -->\n  <div class="v-flex">\n    <div class="v-flex-item w-1/4"></div>\n    <div class="v-flex-item w-1/4"></div>\n    <div class="v-flex-item w-1/4"></div>\n    <div class="v-flex-item w-1/4"></div>\n  </div>\n\n  <!-- Five columns -->\n  <div class="v-flex">\n    <div class="v-flex-item w-1/5"></div>\n    <div class="v-flex-item w-1/5"></div>\n    <div class="v-flex-item w-1/5"></div>\n    <div class="v-flex-item w-1/5"></div>\n    <div class="v-flex-item w-1/5"></div>\n  </div>'
         )

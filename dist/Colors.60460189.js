@@ -104,7 +104,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({"src/site_views/Buttons.vue":[function(require,module,exports) {
+})({"src/vue/views/Colors.vue":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -148,21 +148,37 @@ exports.default = void 0;
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 var _default = {
-  name: 'buttons',
+  name: 'colors',
   data: function data() {
     return {};
   }
 };
 exports.default = _default;
-        var $8e9976 = exports.default || module.exports;
+        var $a63830 = exports.default || module.exports;
       
-      if (typeof $8e9976 === 'function') {
-        $8e9976 = $8e9976.options;
+      if (typeof $a63830 === 'function') {
+        $a63830 = $a63830.options;
       }
     
         /* template */
-        Object.assign($8e9976, (function () {
+        Object.assign($a63830, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -174,89 +190,169 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { attrs: { id: "buttons" } }, [
-      _c("h1", { staticClass: "mb-30" }, [_vm._v("Buttons")]),
+    return _c("section", { attrs: { id: "colors" } }, [
+      _c("h1", { staticClass: "mb-30" }, [_vm._v("Colors")]),
       _vm._v(" "),
-      _c("div", [_c("strong", [_vm._v("Basic Button Styles")])]),
-      _vm._v(" "),
-      _c("div", { staticClass: "my-10" }, [
-        _c("button", { staticClass: "btn btn-flat" }, [_vm._v("Flat")]),
-        _vm._v(" "),
-        _c("button", { staticClass: "btn btn-default" }, [_vm._v("Default")]),
-        _vm._v(" "),
-        _c("button", { staticClass: "btn btn-primary" }, [_vm._v("Primary")]),
-        _vm._v(" "),
-        _c("button", { staticClass: "btn btn-destructive" }, [
-          _vm._v("Destructive")
-        ])
+      _c("p", [
+        _vm._v(
+          "Since Project Vitruvious is a functional CSS framework, the syntax to add color is simple. Here are two simple examples:"
+        )
       ]),
       _vm._v(" "),
-      _c("div", [_c("strong", [_vm._v("Buttons with Icons")])]),
-      _vm._v(" "),
-      _c("div", { staticClass: "my-10" }, [
-        _c("button", { staticClass: "btn btn-flat" }, [
-          _c("i", { staticClass: "icon-location-pin-filled" }),
-          _vm._v(" Flat")
-        ]),
-        _vm._v(" "),
-        _c("button", { staticClass: "btn btn-default" }, [
-          _c("i", { staticClass: "icon-location-pin-filled" }),
-          _vm._v(" Default")
-        ]),
-        _vm._v(" "),
-        _c("button", { staticClass: "btn btn-primary" }, [
-          _c("i", { staticClass: "icon-location-pin-filled" }),
-          _vm._v(" Primary")
-        ]),
-        _vm._v(" "),
-        _c("button", { staticClass: "btn btn-destructive" }, [
-          _c("i", { staticClass: "icon-location-pin-filled" }),
-          _vm._v(" Destructive")
-        ])
+      _c("pre", { staticClass: "prettyprint lang-html" }, [
+        _vm._v(
+          '<div class="bg-moxi-blue-dark text-cn-0">Background Moxi Blue Dark with white text using neutral color 0.</div>\n\n<div class="text-cn-80">Text will be neutral color 80</div>'
+        )
       ]),
       _vm._v(" "),
-      _c("div", [_c("strong", [_vm._v("Dense Button Varient (smaller)")])]),
+      _c("div", [_c("strong", [_vm._v("Moxi Core Colors (Blue)")])]),
       _vm._v(" "),
-      _c("div", { staticClass: "my-10" }, [
-        _c("button", { staticClass: "btn btn-flat btn-dense" }, [
-          _vm._v("Flat")
-        ]),
-        _vm._v(" "),
-        _c("button", { staticClass: "btn btn-default btn-dense" }, [
-          _vm._v("Default")
-        ]),
-        _vm._v(" "),
-        _c("button", { staticClass: "btn btn-primary btn-dense" }, [
-          _vm._v("Primary")
-        ]),
-        _vm._v(" "),
-        _c("button", { staticClass: "btn btn-destructive btn-dense" }, [
-          _vm._v("Destructive")
-        ])
+      _c("div", { staticClass: "p-20 my-10 bg-moxi-blue-dark text-white" }, [
+        _vm._v(".bg-moxi-blue-dark")
       ]),
       _vm._v(" "),
-      _c("div", [_c("strong", [_vm._v("Buttons with Icons Dense (smaller)")])]),
+      _c("div", { staticClass: "p-20 my-10 bg-moxi-blue text-white" }, [
+        _vm._v(".bg-moxi-blue")
+      ]),
       _vm._v(" "),
-      _c("div", { staticClass: "my-10" }, [
-        _c("button", { staticClass: "btn btn-flat btn-dense" }, [
-          _c("i", { staticClass: "icon-location-pin-filled" }),
-          _vm._v(" Flat")
-        ]),
-        _vm._v(" "),
-        _c("button", { staticClass: "btn btn-default btn-dense" }, [
-          _c("i", { staticClass: "icon-location-pin-filled" }),
-          _vm._v(" Default")
-        ]),
-        _vm._v(" "),
-        _c("button", { staticClass: "btn btn-primary btn-dense" }, [
-          _c("i", { staticClass: "icon-location-pin-filled" }),
-          _vm._v(" Primary")
-        ]),
-        _vm._v(" "),
-        _c("button", { staticClass: "btn btn-destructive btn-dense" }, [
-          _c("i", { staticClass: "icon-location-pin-filled" }),
-          _vm._v(" Destructive")
-        ])
+      _c("div", { staticClass: "p-20 my-10 bg-moxi-blue-light text-white" }, [
+        _vm._v(".bg-moxi-blue-light")
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "p-20 my-10 bg-moxi-blue-lightest text-white" },
+        [_vm._v(".bg-moxi-blue-lightest")]
+      ),
+      _vm._v(" "),
+      _c("div", [_c("strong", [_vm._v("Moxi Core Colors (Green)")])]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-moxi-green-dark text-white" }, [
+        _vm._v(".bg-moxi-green-dark")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-moxi-green text-white" }, [
+        _vm._v(".bg-moxi-green")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-moxi-green-light text-white" }, [
+        _vm._v(".bg-moxi-green-light")
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "p-20 my-10 bg-moxi-green-lightest text-white" },
+        [_vm._v(".bg-moxi-blue-lightest")]
+      ),
+      _vm._v(" "),
+      _c("div", [_c("strong", [_vm._v("Neutrals")])]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-cn-100 text-white" }, [
+        _vm._v(".bg-cn-100")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-cn-90 text-white" }, [
+        _vm._v(".bg-cn-90")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-cn-80 text-white" }, [
+        _vm._v(".bg-cn-80")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-cn-70 text-white" }, [
+        _vm._v(".bg-cn-70")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-cn-60 text-white" }, [
+        _vm._v(".bg-cn-60")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-cn-50 text-white" }, [
+        _vm._v(".bg-cn-50")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-cn-40 text-black" }, [
+        _vm._v(".bg-cn-40")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-cn-30 text-black" }, [
+        _vm._v(".bg-cn-30")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-cn-20 text-black" }, [
+        _vm._v(".bg-cn-20")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-cn-15 text-black" }, [
+        _vm._v(".bg-cn-15")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-cn-10 text-black" }, [
+        _vm._v(".bg-cn-10")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-cn-05 text-black" }, [
+        _vm._v(".bg-cn-05")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-cn-0 text-black" }, [
+        _vm._v(".bg-cn-0")
+      ]),
+      _vm._v(" "),
+      _c("div", [_c("strong", [_vm._v("Alternatives")])]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-moxi-destructive text-white" }, [
+        _vm._v(".bg-moxi-destructive")
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "p-20 my-10 bg-moxi-destructive-light text-white" },
+        [_vm._v(".bg-moxi-destructive-light")]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-ca-heliotrop text-white" }, [
+        _vm._v(".bg-ca-heliotrop")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-ca-mauve text-white" }, [
+        _vm._v(".bg-ca-mauve")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-ca-mulberry text-white" }, [
+        _vm._v(".bg-ca-mulberry")
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "p-20 my-10 bg-ca-pale-violet-red text-white" },
+        [_vm._v(".bg-ca-pale-violet-red")]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-ca-viking text-white" }, [
+        _vm._v(".bg-ca-viking")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-ca-riptide text-white" }, [
+        _vm._v(".bg-ca-riptide")
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "p-20 my-10 bg-ca-lightning-yellow text-white" },
+        [_vm._v(".bg-ca-lightning-yellow")]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-ca-texas-rose text-white" }, [
+        _vm._v(".bg-ca-texas-rose")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-ca-flamenco text-white" }, [
+        _vm._v(".bg-ca-flamenco")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "p-20 my-10 bg-ca-sandy-brown text-white" }, [
+        _vm._v(".bg-ca-sandy-brown")
       ])
     ])
   }
@@ -280,9 +376,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$8e9976', $8e9976);
+            api.createRecord('$a63830', $a63830);
           } else {
-            api.reload('$8e9976', $8e9976);
+            api.reload('$a63830', $a63830);
           }
         }
 
@@ -316,7 +412,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51171" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59661" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
@@ -459,4 +555,4 @@ function hmrAccept(bundle, id) {
   });
 }
 },{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
-//# sourceMappingURL=/Buttons.a8e4d7f3.map
+//# sourceMappingURL=/Colors.60460189.map

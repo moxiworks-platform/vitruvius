@@ -8415,7 +8415,7 @@ exports.reload = tryWrap(function (id, options) {
   })
 })
 
-},{}],"src/App.vue":[function(require,module,exports) {
+},{}],"src/vue/App.vue":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -8477,14 +8477,14 @@ var _default = {
   components: {}
 };
 exports.default = _default;
-        var $3f4811 = exports.default || module.exports;
+        var $3cfac8 = exports.default || module.exports;
       
-      if (typeof $3f4811 === 'function') {
-        $3f4811 = $3f4811.options;
+      if (typeof $3cfac8 === 'function') {
+        $3cfac8 = $3cfac8.options;
       }
     
         /* template */
-        Object.assign($3f4811, (function () {
+        Object.assign($3cfac8, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -8633,9 +8633,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$3f4811', $3f4811);
+            api.createRecord('$3cfac8', $3cfac8);
           } else {
-            api.reload('$3f4811', $3f4811);
+            api.reload('$3cfac8', $3cfac8);
           }
         }
 
@@ -11300,7 +11300,7 @@ LazyPromise.prototype.catch = function (onError) {
   if (this.promise === null) this.promise = new Promise(this.executor);
   return this.promise.catch(onError);
 };
-},{"./bundle-url":"node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"src/router.js":[function(require,module,exports) {
+},{"./bundle-url":"node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"src/vue/router.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -11317,31 +11317,31 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Home = function Home() {
   return require("_bundle_loader")(require.resolve(
   /* webpackChunkName: "home" */
-  './site_views/Home.vue'));
+  './views/Home.vue'));
 };
 
 var Colors = function Colors() {
   return require("_bundle_loader")(require.resolve(
   /* webpackChunkName: "colors" */
-  './site_views/Colors.vue'));
+  './views/Colors.vue'));
 };
 
 var Grid = function Grid() {
   return require("_bundle_loader")(require.resolve(
   /* webpackChunkName: "grid" */
-  './site_views/Grid.vue'));
+  './views/Grid.vue'));
 };
 
 var Buttons = function Buttons() {
   return require("_bundle_loader")(require.resolve(
   /* webpackChunkName: "buttons" */
-  './site_views/Buttons.vue'));
+  './views/Buttons.vue'));
 };
 
 var Icons = function Icons() {
   return require("_bundle_loader")(require.resolve(
   /* webpackChunkName: "icons" */
-  './site_views/Icons.vue'));
+  './views/Icons.vue'));
 };
 
 _vue.default.use(_vueRouter.default);
@@ -11371,7 +11371,7 @@ var _default = new _vueRouter.default({
 });
 
 exports.default = _default;
-},{"vue":"node_modules/vue/dist/vue.runtime.esm.js","vue-router":"node_modules/vue-router/dist/vue-router.esm.js","_bundle_loader":"node_modules/parcel-bundler/src/builtins/bundle-loader.js","./site_views/Home.vue":[["Home.93474c3d.js","src/site_views/Home.vue"],"Home.93474c3d.map","src/site_views/Home.vue"],"./site_views/Colors.vue":[["Colors.cafe1a20.js","src/site_views/Colors.vue"],"Colors.cafe1a20.map","src/site_views/Colors.vue"],"./site_views/Grid.vue":[["Grid.43ec562d.js","src/site_views/Grid.vue"],"Grid.43ec562d.map","src/site_views/Grid.vue"],"./site_views/Buttons.vue":[["Buttons.a8e4d7f3.js","src/site_views/Buttons.vue"],"Buttons.a8e4d7f3.map","src/site_views/Buttons.vue"],"./site_views/Icons.vue":[["Icons.de609e1c.js","src/site_views/Icons.vue"],"Icons.de609e1c.map","src/site_views/Icons.vue"]}],"src/main.js":[function(require,module,exports) {
+},{"vue":"node_modules/vue/dist/vue.runtime.esm.js","vue-router":"node_modules/vue-router/dist/vue-router.esm.js","_bundle_loader":"node_modules/parcel-bundler/src/builtins/bundle-loader.js","./views/Home.vue":[["Home.1ed48368.js","src/vue/views/Home.vue"],"Home.1ed48368.map","src/vue/views/Home.vue"],"./views/Colors.vue":[["Colors.60460189.js","src/vue/views/Colors.vue"],"Colors.60460189.map","src/vue/views/Colors.vue"],"./views/Grid.vue":[["Grid.d02bc29f.js","src/vue/views/Grid.vue"],"Grid.d02bc29f.map","src/vue/views/Grid.vue"],"./views/Buttons.vue":[["Buttons.c433e237.js","src/vue/views/Buttons.vue"],"Buttons.c433e237.map","src/vue/views/Buttons.vue"],"./views/Icons.vue":[["Icons.ba11fe32.js","src/vue/views/Icons.vue"],"Icons.ba11fe32.map","src/vue/views/Icons.vue"]}],"src/vue/main.js":[function(require,module,exports) {
 "use strict";
 
 var _vue = _interopRequireDefault(require("vue"));
@@ -11394,7 +11394,7 @@ new _vue.default({
     return h(_App.default);
   }
 }).$mount('#app');
-},{"vue":"node_modules/vue/dist/vue.runtime.esm.js","./App.vue":"src/App.vue","./router":"src/router.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"vue":"node_modules/vue/dist/vue.runtime.esm.js","./App.vue":"src/vue/App.vue","./router":"src/vue/router.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -11421,7 +11421,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51171" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59661" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
@@ -11587,5 +11587,5 @@ module.exports = function loadJSBundle(bundle) {
 };
 },{}],0:[function(require,module,exports) {
 var b=require("node_modules/parcel-bundler/src/builtins/bundle-loader.js");b.register("js",require("node_modules/parcel-bundler/src/builtins/loaders/browser/js-loader.js"));
-},{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js",0,"src/main.js"], null)
-//# sourceMappingURL=/main.1e43358e.map
+},{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js",0,"src/vue/main.js"], null)
+//# sourceMappingURL=/main.79e35f6d.map

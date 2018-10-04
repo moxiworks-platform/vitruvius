@@ -104,7 +104,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({"src/site_views/Grid.vue":[function(require,module,exports) {
+})({"src/vue/views/Grid.vue":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -237,14 +237,14 @@ var _default = {
   }
 };
 exports.default = _default;
-        var $b89eff = exports.default || module.exports;
+        var $fef65e = exports.default || module.exports;
       
-      if (typeof $b89eff === 'function') {
-        $b89eff = $b89eff.options;
+      if (typeof $fef65e === 'function') {
+        $fef65e = $fef65e.options;
       }
     
         /* template */
-        Object.assign($b89eff, (function () {
+        Object.assign($fef65e, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -400,9 +400,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$b89eff', $b89eff);
+            api.createRecord('$fef65e', $fef65e);
           } else {
-            api.reload('$b89eff', $b89eff);
+            api.reload('$fef65e', $fef65e);
           }
         }
 
@@ -436,7 +436,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51171" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59661" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
@@ -579,4 +579,4 @@ function hmrAccept(bundle, id) {
   });
 }
 },{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
-//# sourceMappingURL=/Grid.43ec562d.map
+//# sourceMappingURL=/Grid.d02bc29f.map

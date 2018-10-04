@@ -104,7 +104,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({"src/site_views/Icons.vue":[function(require,module,exports) {
+})({"src/vue/views/Icons.vue":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -524,14 +524,14 @@ var _default = {
   }
 };
 exports.default = _default;
-        var $738185 = exports.default || module.exports;
+        var $93e363 = exports.default || module.exports;
       
-      if (typeof $738185 === 'function') {
-        $738185 = $738185.options;
+      if (typeof $93e363 === 'function') {
+        $93e363 = $93e363.options;
       }
     
         /* template */
-        Object.assign($738185, (function () {
+        Object.assign($93e363, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -1756,9 +1756,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$738185', $738185);
+            api.createRecord('$93e363', $93e363);
           } else {
-            api.reload('$738185', $738185);
+            api.reload('$93e363', $93e363);
           }
         }
 
@@ -1792,7 +1792,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51171" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59661" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
@@ -1935,4 +1935,4 @@ function hmrAccept(bundle, id) {
   });
 }
 },{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
-//# sourceMappingURL=/Icons.de609e1c.map
+//# sourceMappingURL=/Icons.ba11fe32.map

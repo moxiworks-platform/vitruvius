@@ -199,7 +199,7 @@ var staticRenderFns = [
         )
       ]),
       _vm._v(" "),
-      _c("pre", { staticClass: "prettyprint lang-html" }, [
+      _c("pre", { staticClass: "prettyprint linenums lang-html" }, [
         _vm._v(
           '<div class="bg-moxi-blue-dark text-cn-0">Background Moxi Blue Dark with white text using neutral color 0.</div>\n\n<div class="text-cn-80">Text will be neutral color 80</div>'
         )

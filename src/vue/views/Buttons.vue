@@ -1,6 +1,13 @@
 <template>
   <section id="buttons">
     <h1 class="mb-30">Buttons</h1>
+
+    <pre class="prettyprint linenums lang-html">
+    &lt;button class="btn btn-flat"&gt;&lt;i class="icon-location-pin-filled"&gt;&lt;/i&gt; Flat&lt;/button&gt;
+    &lt;button class="btn btn-default"&gt;&lt;i class="icon-location-pin-filled"&gt;&lt;/i&gt; Default&lt;/button&gt;
+    &lt;button class="btn btn-primary"&gt;&lt;i class="icon-location-pin-filled"&gt;&lt;/i&gt; Primary&lt;/button&gt;
+    &lt;button class="btn btn-destructive"&gt;&lt;i class="icon-location-pin-filled"&gt;&lt;/i&gt; Destructive&lt;/button&gt;</pre>
+
     <div><strong>Basic Button Styles</strong></div>
     <div class="my-10">
       <button class="btn btn-flat">Flat</button>

@@ -76,7 +76,7 @@
 
     <h3 class="my-30">Responsive Grid</h3>
 
-    <pre class="prettyprint lang-html">  &lt;!-- Six columns --&gt;
+    <pre class="prettyprint linenums lang-html">  &lt;!-- Six columns --&gt;
     &lt;div class="v-flex-wrap"&gt;
       &lt;div class="v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"&gt;&lt;/div&gt;
       &lt;div class="v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"&gt;&lt;/div&gt;

@@ -365,7 +365,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("h3", { staticClass: "my-30" }, [_vm._v("Responsive Grid")]),
       _vm._v(" "),
-      _c("pre", { staticClass: "prettyprint lang-html" }, [
+      _c("pre", { staticClass: "prettyprint linenums lang-html" }, [
         _vm._v(
           '  <!-- Six columns -->\n  <div class="v-flex-wrap">\n    <div class="v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"></div>\n    <div class="v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"></div>\n    <div class="v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"></div>\n    <div class="v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"></div>\n    <div class="v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6"></div>\n    <div class="v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6"></div>\n  </div>\n\n  <div class="v-flex-wrap">\n    <div class="v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"></div>\n    <div class="v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"></div>\n    <div class="v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"></div>\n    <div class="v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6"></div>\n    <div class="v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6"></div>\n    <div class="v-flex-item w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6"></div>\n  </div>'
         )

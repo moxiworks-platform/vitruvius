@@ -148,6 +148,13 @@ exports.default = void 0;
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
 var _default = {
   name: 'buttons',
   data: function data() {
@@ -176,6 +183,12 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("section", { attrs: { id: "buttons" } }, [
       _c("h1", { staticClass: "mb-30" }, [_vm._v("Buttons")]),
+      _vm._v(" "),
+      _c("pre", { staticClass: "prettyprint linenums lang-html" }, [
+        _vm._v(
+          '  <button class="btn btn-flat"><i class="icon-location-pin-filled"></i> Flat</button>\n  <button class="btn btn-default"><i class="icon-location-pin-filled"></i> Default</button>\n  <button class="btn btn-primary"><i class="icon-location-pin-filled"></i> Primary</button>\n  <button class="btn btn-destructive"><i class="icon-location-pin-filled"></i> Destructive</button>'
+        )
+      ]),
       _vm._v(" "),
       _c("div", [_c("strong", [_vm._v("Basic Button Styles")])]),
       _vm._v(" "),

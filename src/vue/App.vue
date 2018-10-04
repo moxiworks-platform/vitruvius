@@ -83,4 +83,9 @@
     white-space: -o-pre-wrap;    /* Opera 7 */
     word-wrap: break-word;       /* Internet Explorer 5.5+ */
   }
+  blockquote {
+    border: 1px solid #999;
+    background: #e5e5e5;
+    padding: 20px;
+  }
 </style>

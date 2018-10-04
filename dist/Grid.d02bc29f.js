@@ -230,6 +230,11 @@ exports.default = void 0;
 //
 //
 //
+//
+//
+//
+//
+//
 var _default = {
   name: 'grid',
   data: function data() {
@@ -258,6 +263,16 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("section", { attrs: { id: "grid" } }, [
       _c("h1", { staticClass: "mb-30" }, [_vm._v("Grid")]),
+      _vm._v(" "),
+      _c("blockquote", [
+        _c("p", [_vm._v("Notes")]),
+        _vm._v(" "),
+        _c("p", [
+          _vm._v(
+            "`v-flex-item` class is only for quickly connforming to our design of 8px space in each cell. You can just as easily add the `p-8` class to each cell too but don't forget the `mb-8` for margin bottom."
+          )
+        ])
+      ]),
       _vm._v(" "),
       _c("h3", { staticClass: "my-30" }, [_vm._v("Regular Grid")]),
       _vm._v(" "),

@@ -2,6 +2,11 @@
   <section id="grid">
     <h1 class="mb-30">Grid</h1>
 
+    <blockquote>
+      <p>Notes</p>
+      <p>`v-flex-item` class is only for quickly connforming to our design of 8px space in each cell. You can just as easily add the `p-8` class to each cell too but don't forget the `mb-8` for margin bottom.</p>
+    </blockquote>
+
     <h3 class="my-30">Regular Grid</h3>
 
     <pre class="prettyprint lang-html">  &lt;!-- Full width column --&gt;

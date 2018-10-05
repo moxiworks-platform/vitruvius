@@ -8469,6 +8469,9 @@ exports.default = void 0;
 //
 //
 //
+//
+//
+//
 var _default = {
   name: 'app',
   data: function data() {
@@ -8530,6 +8533,17 @@ exports.default = _default;
                         "mb-20 text-grey uppercase tracking-wide font-bold text-sm"
                     },
                     [_vm._v("CSS")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "p",
+                    { staticClass: "my-10 text-sm" },
+                    [
+                      _c("router-link", { attrs: { to: "/typography" } }, [
+                        _vm._v("Typography")
+                      ])
+                    ],
+                    1
                   ),
                   _vm._v(" "),
                   _c(
@@ -11344,6 +11358,12 @@ var Icons = function Icons() {
   './views/Icons.vue'));
 };
 
+var Typography = function Typography() {
+  return require("_bundle_loader")(require.resolve(
+  /* webpackChunkName: "typography" */
+  './views/Typography.vue'));
+};
+
 _vue.default.use(_vueRouter.default);
 
 var _default = new _vueRouter.default({
@@ -11367,11 +11387,15 @@ var _default = new _vueRouter.default({
     path: '/icons',
     name: 'icons',
     component: Icons
+  }, {
+    path: '/typography',
+    name: 'typography',
+    component: Typography
   }]
 });
 
 exports.default = _default;
-},{"vue":"node_modules/vue/dist/vue.runtime.esm.js","vue-router":"node_modules/vue-router/dist/vue-router.esm.js","_bundle_loader":"node_modules/parcel-bundler/src/builtins/bundle-loader.js","./views/Home.vue":[["Home.1ed48368.js","src/vue/views/Home.vue"],"Home.1ed48368.map","src/vue/views/Home.vue"],"./views/Colors.vue":[["Colors.60460189.js","src/vue/views/Colors.vue"],"Colors.60460189.map","src/vue/views/Colors.vue"],"./views/Grid.vue":[["Grid.d02bc29f.js","src/vue/views/Grid.vue"],"Grid.d02bc29f.map","src/vue/views/Grid.vue"],"./views/Buttons.vue":[["Buttons.c433e237.js","src/vue/views/Buttons.vue"],"Buttons.c433e237.map","src/vue/views/Buttons.vue"],"./views/Icons.vue":[["Icons.ba11fe32.js","src/vue/views/Icons.vue"],"Icons.ba11fe32.map","src/vue/views/Icons.vue"]}],"src/vue/main.js":[function(require,module,exports) {
+},{"vue":"node_modules/vue/dist/vue.runtime.esm.js","vue-router":"node_modules/vue-router/dist/vue-router.esm.js","_bundle_loader":"node_modules/parcel-bundler/src/builtins/bundle-loader.js","./views/Home.vue":[["Home.1ed48368.js","src/vue/views/Home.vue"],"Home.1ed48368.map","src/vue/views/Home.vue"],"./views/Colors.vue":[["Colors.60460189.js","src/vue/views/Colors.vue"],"Colors.60460189.map","src/vue/views/Colors.vue"],"./views/Grid.vue":[["Grid.d02bc29f.js","src/vue/views/Grid.vue"],"Grid.d02bc29f.map","src/vue/views/Grid.vue"],"./views/Buttons.vue":[["Buttons.c433e237.js","src/vue/views/Buttons.vue"],"Buttons.c433e237.map","src/vue/views/Buttons.vue"],"./views/Icons.vue":[["Icons.ba11fe32.js","src/vue/views/Icons.vue"],"Icons.ba11fe32.map","src/vue/views/Icons.vue"],"./views/Typography.vue":[["Typography.b470521a.js","src/vue/views/Typography.vue"],"Typography.b470521a.map","src/vue/views/Typography.vue"]}],"src/vue/main.js":[function(require,module,exports) {
 "use strict";
 
 var _vue = _interopRequireDefault(require("vue"));

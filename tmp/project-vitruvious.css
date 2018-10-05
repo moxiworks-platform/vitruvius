@@ -6628,7 +6628,7 @@ table {
 }
 
 .text-5xl {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .italic {
@@ -7391,6 +7391,40 @@ a:hover {
 
 .btn-blue:hover {
   background-color: #377cbf;
+}
+
+/*************************************************************************************
+ * Typography Classes
+ ************************************************************************************/
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.125rem;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+h5 {
+  font-size: .875rem;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /*************************************************************************************
@@ -13403,7 +13437,7 @@ a:hover {
   }
 
   .sm\:text-5xl {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .sm\:italic {
@@ -19766,7 +19800,7 @@ a:hover {
   }
 
   .md\:text-5xl {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .md\:italic {
@@ -26129,7 +26163,7 @@ a:hover {
   }
 
   .lg\:text-5xl {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .lg\:italic {
@@ -32492,7 +32526,7 @@ a:hover {
   }
 
   .xl\:text-5xl {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .xl\:italic {

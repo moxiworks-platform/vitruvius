@@ -6,6 +6,7 @@ const Colors = () => import(/* webpackChunkName: "colors" */ './views/Colors.vue
 const Grid = () => import(/* webpackChunkName: "grid" */ './views/Grid.vue');
 const Buttons = () => import(/* webpackChunkName: "buttons" */ './views/Buttons.vue');
 const Icons = () => import(/* webpackChunkName: "icons" */ './views/Icons.vue');
+const Typography = () => import(/* webpackChunkName: "typography" */ './views/Typography.vue');
 
 Vue.use(Router)
 
@@ -35,6 +36,11 @@ export default new Router({
       path: '/icons',
       name: 'icons',
       component: Icons
+    },
+    {
+      path: '/typography',
+      name: 'typography',
+      component: Typography
     }
   ]
 })

@@ -13,6 +13,9 @@
             <div class="mb-8">
               <p class="mb-20 text-grey uppercase tracking-wide font-bold text-sm">CSS</p>
               <p class="my-10 text-sm">
+                <router-link to="/typography">Typography</router-link></a>
+              </p>
+              <p class="my-10 text-sm">
                 <router-link to="/colors">Colors</router-link></a>
               </p>
               <p class="my-10 text-sm">
@@ -87,5 +90,10 @@
     border: 1px solid #999;
     background: #e5e5e5;
     padding: 20px;
+  }
+  .define {
+    background: #ececec;
+    padding: 20px;
+    margin: 30px 0;
   }
 </style>

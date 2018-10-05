@@ -258,10 +258,10 @@
  ************************************************************************************/
 
  a {
-   @apply text-moxi-blue no-underline
+   @apply text-moxi-blue no-underline;
  }
  a:hover {
-   @apply text-moxi-blue-dark underline
+   @apply text-moxi-blue-dark underline;
  }
 
 
@@ -306,7 +306,7 @@
 }
 
 .btn-dense {
-  @apply text-sm py-9 px-16
+  @apply text-sm py-9 px-16;
 }
 
 .btn-blue {

@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <section id="header" class="p-30 bg-cn-100 text-white fixed pin-t pin-x z-100">
-      <router-link to="/">Vitruvious Project</router-link>
-      <div class="float-right">v0.0.1</div>
+      <router-link to="/">Vitruvious Project<br /><span class="text-xs">Brought to you by Moxi Works</span></router-link>
+      <div class="float-right -mt-2">v0.0.1</div>
     </section>
 
     <section id="content">

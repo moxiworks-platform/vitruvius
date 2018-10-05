@@ -286,7 +286,7 @@ var staticRenderFns = [
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "text-xl" }, [
-        _vm._v("This is an example of our XL font size of 18px or 1.25rem.")
+        _vm._v("This is an example of our XL font size of 20px or 1.25rem.")
       ]),
       _vm._v(" "),
       _c("pre", { staticClass: "prettyprint linenums lang-html" }, [

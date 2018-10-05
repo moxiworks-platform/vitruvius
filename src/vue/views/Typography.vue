@@ -34,7 +34,7 @@
     <p class="text-lg">This is an example of our large font size of 18px or 1.125rem.</p>
 
     <pre class="prettyprint linenums lang-html">&lt;p class="text-xl"&gt;...&lt;/p&gt;</pre>
-    <p class="text-xl">This is an example of our XL font size of 18px or 1.25rem.</p>
+    <p class="text-xl">This is an example of our XL font size of 20px or 1.25rem.</p>
 
     <pre class="prettyprint linenums lang-html">&lt;p class="text-2xl"&gt;...&lt;/p&gt;</pre>
     <p class="text-2xl">This is an example of our 2xl font size of 20px or 1.5rem.</p>

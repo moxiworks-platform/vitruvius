@@ -8501,10 +8501,14 @@ exports.default = _default;
       },
       [
         _c("router-link", { attrs: { to: "/" } }, [
-          _vm._v("Vitruvious Project")
+          _vm._v("Vitruvious Project"),
+          _c("br"),
+          _c("span", { staticClass: "text-xs" }, [
+            _vm._v("Brought to you by Moxi Works")
+          ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "float-right" }, [_vm._v("v0.0.1")])
+        _c("div", { staticClass: "float-right -mt-2" }, [_vm._v("v0.0.1")])
       ],
       1
     ),

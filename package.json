@@ -9,7 +9,7 @@
     "buildCSS": "./node_modules/.bin/tailwind build ./src/css/styles.css -c ./src/css/tailwind.js -o ./tmp/project-vitruvious.css",
     "dev": "npm-run-all --parallel watch \"start -- {@}\" --",
     "buildGhPages": "grunt buildGhPages",
-    "build": "grunt build"
+    "build": "grunt build && grunt buildGhPages"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +21,7 @@
     "grunt": "^1.0.3",
     "grunt-contrib-clean": "^2.0.0",
     "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^3.0.0",
     "grunt-contrib-rename": "^0.2.0",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-exec": "^3.0.0",

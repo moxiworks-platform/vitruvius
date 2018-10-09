@@ -13,10 +13,10 @@
             <div class="mb-8">
               <p class="mb-20 text-grey uppercase tracking-wide font-bold text-sm">CSS</p>
               <p class="my-10 text-sm">
-                <router-link to="/typography">Typography</router-link></a>
+                <router-link to="/typography">Typography</router-link>
               </p>
               <p class="my-10 text-sm">
-                <router-link to="/colors">Colors</router-link></a>
+                <router-link to="/colors">Colors</router-link>
               </p>
               <p class="my-10 text-sm">
                 <router-link to="/grid">Grid</router-link>

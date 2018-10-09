@@ -104,79 +104,254 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({"node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
-var bundleURL = null;
+})({"src/vue/views/Typography.vue":[function(require,module,exports) {
+"use strict";
 
-function getBundleURLCached() {
-  if (!bundleURL) {
-    bundleURL = getBundleURL();
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+var _default = {
+  name: 'typography',
+  data: function data() {
+    return {};
   }
+};
+/*
+'xs': '.75rem',     // 12px
+'sm': '.875rem',    // 14px
+'base': '1rem',     // 16px
+'lg': '1.125rem',   // 18px
+'xl': '1.25rem',    // 20px
+'2xl': '1.5rem',    // 24px
+'3xl': '1.875rem',  // 30px
+'4xl': '2.25rem',   // 36px
+'5xl': '2.5rem',    // 40px
+*/
 
-  return bundleURL;
-}
-
-function getBundleURL() {
-  // Attempt to find the URL of the current script and use that as the base URL
-  try {
-    throw new Error();
-  } catch (err) {
-    var matches = ('' + err.stack).match(/(https?|file|ftp):\/\/[^)\n]+/g);
-
-    if (matches) {
-      return getBaseURL(matches[0]);
-    }
-  }
-
-  return '/';
-}
-
-function getBaseURL(url) {
-  return ('' + url).replace(/^((?:https?|file|ftp):\/\/.+)\/[^/]+$/, '$1') + '/';
-}
-
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-},{}],"node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
-var bundle = require('./bundle-url');
-
-function updateLink(link) {
-  var newLink = link.cloneNode();
-
-  newLink.onload = function () {
-    link.remove();
-  };
-
-  newLink.href = link.href.split('?')[0] + '?' + Date.now();
-  link.parentNode.insertBefore(newLink, link.nextSibling);
-}
-
-var cssTimeout = null;
-
-function reloadCSS() {
-  if (cssTimeout) {
-    return;
-  }
-
-  cssTimeout = setTimeout(function () {
-    var links = document.querySelectorAll('link[rel="stylesheet"]');
-
-    for (var i = 0; i < links.length; i++) {
-      if (bundle.getBaseURL(links[i].href) === bundle.getBundleURL()) {
-        updateLink(links[i]);
+exports.default = _default;
+        var $2eed90 = exports.default || module.exports;
+      
+      if (typeof $2eed90 === 'function') {
+        $2eed90 = $2eed90.options;
       }
-    }
-
-    cssTimeout = null;
-  }, 50);
+    
+        /* template */
+        Object.assign($2eed90, (function () {
+          var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
 }
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { attrs: { id: "buttons" } }, [
+      _c("h1", { staticClass: "mb-30" }, [_vm._v("Typography")]),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v(
+          "\n    Vitruvious uses the standard base font size of 16px which allows us to calculate font size in REM values from that point. If you're curious about conversions, you can look at this experiment here: "
+        ),
+        _c(
+          "a",
+          {
+            attrs: {
+              href: "https://daniellamb.com/experiments/px-to-rem-calc/",
+              target: "_blank"
+            }
+          },
+          [_vm._v("https://daniellamb.com/experiments/px-to-rem-calc/")]
+        )
+      ]),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v(
+          "\n    You might be asking, why REM values? Because REM allows for accessibility where PX do not. Think of an older user who's bumped up their computers base font size. 12px is 12px - but .75rem will adjust accordingly to help that user read content at their desired level.\n  "
+        )
+      ]),
+      _vm._v(" "),
+      _c("h3", { staticClass: "define" }, [_vm._v("Headings")]),
+      _vm._v(" "),
+      _c("h1", [_vm._v("h1. Headline Large - 2.5rem // 40px")]),
+      _vm._v(" "),
+      _c("h2", [_vm._v("h2. Headline Medium - 1.5rem // 24px")]),
+      _vm._v(" "),
+      _c("h3", [_vm._v("h3. Headline Regular - 1.125rem // 18px")]),
+      _vm._v(" "),
+      _c("h4", [_vm._v("h4. Headline Small - 1rem // 16px")]),
+      _vm._v(" "),
+      _c("h5", [_vm._v('h5. Headline "heading" - .875rem // 14px')]),
+      _vm._v(" "),
+      _c("h3", { staticClass: "define" }, [
+        _vm._v("Plain Text and Class Examples")
+      ]),
+      _vm._v(" "),
+      _c("p", [_vm._v("We have 9 font sizes accessible by class shown here")]),
+      _vm._v(" "),
+      _c("pre", { staticClass: "prettyprint linenums lang-html" }, [
+        _vm._v('<p class="text-xs">...</p>')
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "text-xs" }, [
+        _vm._v(
+          "This is an example of our extra small font size of 12px or .75rem."
+        )
+      ]),
+      _vm._v(" "),
+      _c("pre", { staticClass: "prettyprint linenums lang-html" }, [
+        _vm._v('<p class="text-sm">...</p>')
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "text-sm" }, [
+        _vm._v("This is an example of our small font size of 14px or .875rem.")
+      ]),
+      _vm._v(" "),
+      _c("pre", { staticClass: "prettyprint linenums lang-html" }, [
+        _vm._v("<p>...</p>")
+      ]),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v(
+          "This is an example of plain text of our base font size of 16px or 1rem."
+        )
+      ]),
+      _vm._v(" "),
+      _c("pre", { staticClass: "prettyprint linenums lang-html" }, [
+        _vm._v('<p class="text-lg">...</p>')
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "text-lg" }, [
+        _vm._v("This is an example of our large font size of 18px or 1.125rem.")
+      ]),
+      _vm._v(" "),
+      _c("pre", { staticClass: "prettyprint linenums lang-html" }, [
+        _vm._v('<p class="text-xl">...</p>')
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "text-xl" }, [
+        _vm._v("This is an example of our XL font size of 20px or 1.25rem.")
+      ]),
+      _vm._v(" "),
+      _c("pre", { staticClass: "prettyprint linenums lang-html" }, [
+        _vm._v('<p class="text-2xl">...</p>')
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "text-2xl" }, [
+        _vm._v("This is an example of our 2xl font size of 20px or 1.5rem.")
+      ]),
+      _vm._v(" "),
+      _c("pre", { staticClass: "prettyprint linenums lang-html" }, [
+        _vm._v('<p class="text-3xl">...</p>')
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "text-3xl" }, [
+        _vm._v("This is an example of our 2xl font size of 30px or 1.875rem.")
+      ]),
+      _vm._v(" "),
+      _c("pre", { staticClass: "prettyprint linenums lang-html" }, [
+        _vm._v('<p class="text-4xl">...</p>')
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "text-4xl" }, [
+        _vm._v("This is an example of our 4xl font size of 36px or 2.25rem.")
+      ]),
+      _vm._v(" "),
+      _c("pre", { staticClass: "prettyprint linenums lang-html" }, [
+        _vm._v('<p class="text-5xl">...</p>')
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "text-5xl" }, [
+        _vm._v("This is an example of our 5xl font size of 40px or 2.5rem.")
+      ])
+    ])
+  }
+]
+render._withStripped = true
 
-module.exports = reloadCSS;
-},{"./bundle-url":"node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"tmp/project-vitruvious.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
+          return {
+            render: render,
+            staticRenderFns: staticRenderFns,
+            _compiled: true,
+            _scopeId: null,
+            functional: undefined
+          };
+        })());
+      
+    /* hot reload */
+    (function () {
+      if (module.hot) {
+        var api = require('vue-hot-reload-api');
+        api.install(require('vue'));
+        if (api.compatible) {
+          module.hot.accept();
+          if (!module.hot.data) {
+            api.createRecord('$2eed90', $2eed90);
+          } else {
+            api.reload('$2eed90', $2eed90);
+          }
+        }
 
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+        
+      }
+    })();
+},{"vue-hot-reload-api":"node_modules/vue-hot-reload-api/dist/index.js","vue":"node_modules/vue/dist/vue.runtime.esm.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -346,3 +521,4 @@ function hmrAccept(bundle, id) {
   });
 }
 },{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
+//# sourceMappingURL=/Typography.b470521a.map

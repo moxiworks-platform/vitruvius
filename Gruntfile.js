@@ -23,7 +23,7 @@ module.exports = function(grunt) {
       main: {
         files: [
           // flattens results to a single level
-          {expand: true, flatten: true, src: ['./dist/**'], dest: 'docs/'},
+          {expand: true, flatten: true, src: ['./dist/**'], dest: 'docs/', filter: 'isFile'},
         ],
       },
     },
@@ -34,5 +34,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
 
   grunt.registerTask('default', ['watch'])
-  grunt.registerTask('buildGhPages', ['copy']) // Copies files to the docs directory for GH Pages.
+  grunt.registerTask('buildGhPages', ['copy:main'])
 };

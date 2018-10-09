@@ -8519,7 +8519,7 @@ exports.default = _default;
           "div",
           {
             staticClass:
-              "w-full sm:w-full md:w-1/5 lg:w-1/5 xl:w-1/5 p-30 min-h-screen bg-cn-05 overflow-y-scroll"
+              "w-full sm:w-full md:w-1/5 lg:w-1/5 xl:w-1/5 p-30 min-h-screen overflow-y-scroll"
           },
           [
             _c(

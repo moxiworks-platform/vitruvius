@@ -8,7 +8,7 @@
     <section id="content">
 
       <div class="v-flex-wrap">
-        <div class="w-full sm:w-full md:w-1/5 lg:w-1/5 xl:w-1/5 p-30 min-h-screen bg-cn-05 overflow-y-scroll">
+        <div class="w-full sm:w-full md:w-1/5 lg:w-1/5 xl:w-1/5 p-30 min-h-screen overflow-y-scroll">
           <div class="overflow-y-auto text-base lg:text-sm lg:py-12 lg:pl-6 lg:pr-8 fixed">
             <div class="mb-8">
               <p class="mb-20 text-grey uppercase tracking-wide font-bold text-sm">CSS</p>
@@ -73,7 +73,9 @@
     }
   }
   #content {
-    padding-top: 78px;
+    padding-top: 96px;
+    width: 75%;
+    margin: auto;
   }
   pre {
     padding: 20px !important;

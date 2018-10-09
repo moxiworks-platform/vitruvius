@@ -6,7 +6,9 @@
 }
 
 #content {
-  padding-top: 78px;
+  padding-top: 96px;
+  width: 75%;
+  margin: auto;
 }
 
 pre {

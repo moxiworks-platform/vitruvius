@@ -13,8 +13,71 @@
 @tailwind utilities;
 
 /*************************************************************************************
- * Icons
+ * Base Stylings for anchor tags, etc...
  ************************************************************************************/
+
+ a {
+   @apply text-moxi-blue no-underline;
+ }
+ a:hover {
+   @apply text-moxi-blue-dark underline;
+ }
+
+
+/*************************************************************************************
+ * Button Classes
+ ************************************************************************************/
+
+.btn {
+  @apply py-13 px-16 rounded;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.btn i {
+  @apply mr-8;
+}
+
+.btn-default {
+  @apply border-cn-30 border-solid border;
+}
+
+.btn-flat:hover, .btn-default:hover {
+  @apply bg-cn-10 text-black;
+}
+
+.btn-primary {
+  @apply bg-moxi-green text-white;
+}
+
+.btn-primary:hover {
+  @apply bg-moxi-green-dark;
+}
+
+.btn-destructive {
+  @apply border-moxi-destructive border-solid border text-moxi-destructive;
+}
+
+.btn-destructive:hover {
+  @apply bg-cn-10;
+}
+
+.btn-dense {
+  @apply text-sm py-9 px-16;
+}
+
+.btn-blue {
+  @apply bg-moxi-blue text-white;
+}
+
+.btn-blue {
+  @apply bg-moxi-blue text-white;
+}
+.btn-blue:hover {
+  @apply bg-moxi-blue-dark;
+}
 
 /*************************************************************************************
  * Typography Classes

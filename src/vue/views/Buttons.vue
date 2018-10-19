@@ -40,14 +40,13 @@
       <button class="btn btn-destructive btn-dense"><i class="icon-location-pin-filled"></i> Destructive</button>
     </div>
 
-    <v-button data-title="woot"></v-button>
-    
+    <vp-button title="John">Happening!</vp-button>
+
   </section>
 </template>
 
 <script>
-
-  import Btn from '../../components/button/button-test'
+  import '../../components/button/button'
 
   export default {
     name: 'buttons',
@@ -55,7 +54,7 @@
       return {}
     },
     mounted() {
-      Btn.init()
+
     }
   }
 </script>

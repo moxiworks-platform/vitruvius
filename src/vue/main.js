@@ -2,6 +2,8 @@ import Vue from 'vue';
 import App from './App.vue';
 import router from './router'
 
+Vue.config.ignoredElements = [/v-\w*/];
+
 router.afterEach((to, from, next) => {
   setTimeout(() => {
     PR.prettyPrint();

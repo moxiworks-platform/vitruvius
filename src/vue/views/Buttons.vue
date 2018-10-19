@@ -39,14 +39,23 @@
       <button class="btn btn-primary btn-dense"><i class="icon-location-pin-filled"></i> Primary</button>
       <button class="btn btn-destructive btn-dense"><i class="icon-location-pin-filled"></i> Destructive</button>
     </div>
+
+    <v-button data-title="woot"></v-button>
+    
   </section>
 </template>
 
 <script>
+
+  import Btn from '../../components/button/button-test'
+
   export default {
     name: 'buttons',
     data() {
       return {}
+    },
+    mounted() {
+      Btn.init()
     }
   }
 </script>

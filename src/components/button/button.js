@@ -1,8 +1,28 @@
-export const Button = {
-  title: hybrids.property('foo'),
-  render: ({ title }) => hybrids.html`
-    <button class="btn btn-flat"><i class="icon-location-pin-filled"></i> ${title}</button>
-  `,
-};
+import { props, withComponent } from 'skatejs';
 
-hybrids.define('vp-button', Button);
+class Button extends withComponent() {
+
+  get renderRoot() {
+    return this;
+  }
+
+  static get props() {
+    return {
+      name: props.string,
+      klass: props.string,
+      icon: props.string
+    };
+  }
+  
+  render({ name, klass, icon }) {
+    let icn = (icon) ? `<i class="${icon}"></i> ` : ''
+    return `
+      <button class="${klass}">
+        ${icn}
+        ${name}
+      </button>
+    `;
+  }
+}
+
+customElements.define('vp-button', Button);

@@ -11410,6 +11410,8 @@ var _router = _interopRequireDefault(require("./router"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+_vue.default.config.ignoredElements = [/vp-\w*/];
+
 _router.default.afterEach(function (to, from, next) {
   setTimeout(function () {
     PR.prettyPrint();
@@ -11449,7 +11451,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57690" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55549" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

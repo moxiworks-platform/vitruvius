@@ -40,13 +40,17 @@
       <button class="btn btn-destructive btn-dense"><i class="icon-location-pin-filled"></i> Destructive</button>
     </div>
 
-    <vp-button title="John">Happening!</vp-button>
+    <vp-button 
+      name="Click Me!" 
+      klass="btn btn-primary"
+      icon="icon-heart-broken"
+    ></vp-button>
 
   </section>
 </template>
 
 <script>
-  import '../../components/button/button'
+  import { button } from '../../components/button/button'
 
   export default {
     name: 'buttons',

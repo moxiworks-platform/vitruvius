@@ -1,8 +1,10 @@
 <template>
   <div id="app">
     <section id="header" class="p-30 bg-cn-100 text-white fixed pin-t pin-x z-100">
-      <router-link to="/">Vitruvious Project<br /><span class="text-xs">Brought to you by Moxi Works</span></router-link>
-      <div class="float-right -mt-2">v0.0.1</div>
+      <div class="w-3/4" style="margin:auto">
+        <router-link to="/">Vitruvious Project<br /><span class="text-xs">Brought to you by MoxiWorks</span></router-link>
+        <div class="float-right -mt-2">v0.0.1</div>
+      </div>
     </section>
 
     <section id="content">

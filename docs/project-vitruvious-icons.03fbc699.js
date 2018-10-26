@@ -104,288 +104,79 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({"src/vue/views/Colors.vue":[function(require,module,exports) {
-"use strict";
+})({"node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+var bundleURL = null;
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-var _default = {
-  name: 'colors',
-  data: function data() {
-    return {};
+function getBundleURLCached() {
+  if (!bundleURL) {
+    bundleURL = getBundleURL();
   }
-};
-exports.default = _default;
-        var $a63830 = exports.default || module.exports;
-      
-      if (typeof $a63830 === 'function') {
-        $a63830 = $a63830.options;
-      }
-    
-        /* template */
-        Object.assign($a63830, (function () {
-          var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _vm._m(0)
+
+  return bundleURL;
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("section", { attrs: { id: "colors" } }, [
-      _c("h1", { staticClass: "mb-30" }, [_vm._v("Colors")]),
-      _vm._v(" "),
-      _c("p", [
-        _vm._v(
-          "Since Project Vitruvious is a functional CSS framework, the syntax to add color is simple. Here are two simple examples:"
-        )
-      ]),
-      _vm._v(" "),
-      _c("pre", { staticClass: "prettyprint linenums lang-html" }, [
-        _vm._v(
-          '<div class="bg-moxi-blue-dark text-cn-0">Background Moxi Blue Dark with white text using neutral color 0.</div>\n\n<div class="text-cn-80">Text will be neutral color 80</div>'
-        )
-      ]),
-      _vm._v(" "),
-      _c("div", [_c("strong", [_vm._v("Moxi Core Colors (Blue)")])]),
-      _vm._v(" "),
-      _c("div", { staticClass: "p-20 my-10 bg-moxi-blue-dark text-white" }, [
-        _vm._v(".bg-moxi-blue-dark")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "p-20 my-10 bg-moxi-blue text-white" }, [
-        _vm._v(".bg-moxi-blue")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "p-20 my-10 bg-moxi-blue-light text-white" }, [
-        _vm._v(".bg-moxi-blue-light")
-      ]),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "p-20 my-10 bg-moxi-blue-lightest text-white" },
-        [_vm._v(".bg-moxi-blue-lightest")]
-      ),
-      _vm._v(" "),
-      _c("div", [_c("strong", [_vm._v("Moxi Core Colors (Green)")])]),
-      _vm._v(" "),
-      _c("div", { staticClass: "p-20 my-10 bg-moxi-green-dark text-white" }, [
-        _vm._v(".bg-moxi-green-dark")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "p-20 my-10 bg-moxi-green text-white" }, [
-        _vm._v(".bg-moxi-green")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "p-20 my-10 bg-moxi-green-light text-white" }, [
-        _vm._v(".bg-moxi-green-light")
-      ]),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "p-20 my-10 bg-moxi-green-lightest text-white" },
-        [_vm._v(".bg-moxi-blue-lightest")]
-      ),
-      _vm._v(" "),
-      _c("div", [_c("strong", [_vm._v("Neutrals")])]),
-      _vm._v(" "),
-      _c("div", { staticClass: "p-20 my-10 bg-cn-100 text-white" }, [
-        _vm._v(".bg-cn-100")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "p-20 my-10 bg-cn-90 text-white" }, [
-        _vm._v(".bg-cn-90")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "p-20 my-10 bg-cn-80 text-white" }, [
-        _vm._v(".bg-cn-80")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "p-20 my-10 bg-cn-70 text-white" }, [
-        _vm._v(".bg-cn-70")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "p-20 my-10 bg-cn-60 text-white" }, [
-        _vm._v(".bg-cn-60")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "p-20 my-10 bg-cn-50 text-white" }, [
-        _vm._v(".bg-cn-50")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "p-20 my-10 bg-cn-40 text-black" }, [
-        _vm._v(".bg-cn-40")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "p-20 my-10 bg-cn-30 text-black" }, [
-        _vm._v(".bg-cn-30")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "p-20 my-10 bg-cn-20 text-black" }, [
-        _vm._v(".bg-cn-20")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "p-20 my-10 bg-cn-15 text-black" }, [
-        _vm._v(".bg-cn-15")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "p-20 my-10 bg-cn-10 text-black" }, [
-        _vm._v(".bg-cn-10")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "p-20 my-10 bg-cn-05 text-black" }, [
-        _vm._v(".bg-cn-05")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "p-20 my-10 bg-cn-0 text-black" }, [
-        _vm._v(".bg-cn-0")
-      ]),
-      _vm._v(" "),
-      _c("div", [_c("strong", [_vm._v("Alternatives")])]),
-      _vm._v(" "),
-      _c("div", { staticClass: "p-20 my-10 bg-moxi-destructive text-white" }, [
-        _vm._v(".bg-moxi-destructive")
-      ]),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "p-20 my-10 bg-moxi-destructive-light text-white" },
-        [_vm._v(".bg-moxi-destructive-light")]
-      ),
-      _vm._v(" "),
-      _c("div", { staticClass: "p-20 my-10 bg-ca-heliotrop text-white" }, [
-        _vm._v(".bg-ca-heliotrop")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "p-20 my-10 bg-ca-mauve text-white" }, [
-        _vm._v(".bg-ca-mauve")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "p-20 my-10 bg-ca-mulberry text-white" }, [
-        _vm._v(".bg-ca-mulberry")
-      ]),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "p-20 my-10 bg-ca-pale-violet-red text-white" },
-        [_vm._v(".bg-ca-pale-violet-red")]
-      ),
-      _vm._v(" "),
-      _c("div", { staticClass: "p-20 my-10 bg-ca-viking text-white" }, [
-        _vm._v(".bg-ca-viking")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "p-20 my-10 bg-ca-riptide text-white" }, [
-        _vm._v(".bg-ca-riptide")
-      ]),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "p-20 my-10 bg-ca-lightning-yellow text-white" },
-        [_vm._v(".bg-ca-lightning-yellow")]
-      ),
-      _vm._v(" "),
-      _c("div", { staticClass: "p-20 my-10 bg-ca-texas-rose text-white" }, [
-        _vm._v(".bg-ca-texas-rose")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "p-20 my-10 bg-ca-flamenco text-white" }, [
-        _vm._v(".bg-ca-flamenco")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "p-20 my-10 bg-ca-sandy-brown text-white" }, [
-        _vm._v(".bg-ca-sandy-brown")
-      ])
-    ])
+
+function getBundleURL() {
+  // Attempt to find the URL of the current script and use that as the base URL
+  try {
+    throw new Error();
+  } catch (err) {
+    var matches = ('' + err.stack).match(/(https?|file|ftp):\/\/[^)\n]+/g);
+
+    if (matches) {
+      return getBaseURL(matches[0]);
+    }
   }
-]
-render._withStripped = true
 
-          return {
-            render: render,
-            staticRenderFns: staticRenderFns,
-            _compiled: true,
-            _scopeId: null,
-            functional: undefined
-          };
-        })());
-      
-    /* hot reload */
-    (function () {
-      if (module.hot) {
-        var api = require('vue-hot-reload-api');
-        api.install(require('vue'));
-        if (api.compatible) {
-          module.hot.accept();
-          if (!module.hot.data) {
-            api.createRecord('$a63830', $a63830);
-          } else {
-            api.reload('$a63830', $a63830);
-          }
-        }
+  return '/';
+}
 
-        
+function getBaseURL(url) {
+  return ('' + url).replace(/^((?:https?|file|ftp):\/\/.+)\/[^/]+$/, '$1') + '/';
+}
+
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+},{}],"node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+var bundle = require('./bundle-url');
+
+function updateLink(link) {
+  var newLink = link.cloneNode();
+
+  newLink.onload = function () {
+    link.remove();
+  };
+
+  newLink.href = link.href.split('?')[0] + '?' + Date.now();
+  link.parentNode.insertBefore(newLink, link.nextSibling);
+}
+
+var cssTimeout = null;
+
+function reloadCSS() {
+  if (cssTimeout) {
+    return;
+  }
+
+  cssTimeout = setTimeout(function () {
+    var links = document.querySelectorAll('link[rel="stylesheet"]');
+
+    for (var i = 0; i < links.length; i++) {
+      if (bundle.getBaseURL(links[i].href) === bundle.getBundleURL()) {
+        updateLink(links[i]);
       }
-    })();
-},{"vue-hot-reload-api":"node_modules/vue-hot-reload-api/dist/index.js","vue":"node_modules/vue/dist/vue.runtime.esm.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+    }
+
+    cssTimeout = null;
+  }, 50);
+}
+
+module.exports = reloadCSS;
+},{"./bundle-url":"node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"css/project-vitruvious-icons.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./fonts/Vitruvius-icon-set.eot":[["Vitruvius-icon-set.95b4dfae.eot","css/fonts/Vitruvius-icon-set.eot"],"css/fonts/Vitruvius-icon-set.eot"],"./fonts/Vitruvius-icon-set.ttf":[["Vitruvius-icon-set.32a83006.ttf","css/fonts/Vitruvius-icon-set.ttf"],"css/fonts/Vitruvius-icon-set.ttf"],"./fonts/Vitruvius-icon-set.woff":[["Vitruvius-icon-set.8ca9d6bd.woff","css/fonts/Vitruvius-icon-set.woff"],"css/fonts/Vitruvius-icon-set.woff"],"./fonts/Vitruvius-icon-set.svg":[["Vitruvius-icon-set.12686363.svg","css/fonts/Vitruvius-icon-set.svg"],"css/fonts/Vitruvius-icon-set.svg"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -554,5 +345,86 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
-//# sourceMappingURL=/Colors.60460189.map
+},{}],"node_modules/parcel-bundler/src/builtins/bundle-loader.js":[function(require,module,exports) {
+var getBundleURL = require('./bundle-url').getBundleURL;
+
+function loadBundlesLazy(bundles) {
+  if (!Array.isArray(bundles)) {
+    bundles = [bundles];
+  }
+
+  var id = bundles[bundles.length - 1];
+
+  try {
+    return Promise.resolve(require(id));
+  } catch (err) {
+    if (err.code === 'MODULE_NOT_FOUND') {
+      return new LazyPromise(function (resolve, reject) {
+        loadBundles(bundles.slice(0, -1)).then(function () {
+          return require(id);
+        }).then(resolve, reject);
+      });
+    }
+
+    throw err;
+  }
+}
+
+function loadBundles(bundles) {
+  return Promise.all(bundles.map(loadBundle));
+}
+
+var bundleLoaders = {};
+
+function registerBundleLoader(type, loader) {
+  bundleLoaders[type] = loader;
+}
+
+module.exports = exports = loadBundlesLazy;
+exports.load = loadBundles;
+exports.register = registerBundleLoader;
+var bundles = {};
+
+function loadBundle(bundle) {
+  var id;
+
+  if (Array.isArray(bundle)) {
+    id = bundle[1];
+    bundle = bundle[0];
+  }
+
+  if (bundles[bundle]) {
+    return bundles[bundle];
+  }
+
+  var type = (bundle.substring(bundle.lastIndexOf('.') + 1, bundle.length) || bundle).toLowerCase();
+  var bundleLoader = bundleLoaders[type];
+
+  if (bundleLoader) {
+    return bundles[bundle] = bundleLoader(getBundleURL() + bundle).then(function (resolved) {
+      if (resolved) {
+        module.bundle.register(id, resolved);
+      }
+
+      return resolved;
+    });
+  }
+}
+
+function LazyPromise(executor) {
+  this.executor = executor;
+  this.promise = null;
+}
+
+LazyPromise.prototype.then = function (onSuccess, onError) {
+  if (this.promise === null) this.promise = new Promise(this.executor);
+  return this.promise.then(onSuccess, onError);
+};
+
+LazyPromise.prototype.catch = function (onError) {
+  if (this.promise === null) this.promise = new Promise(this.executor);
+  return this.promise.catch(onError);
+};
+},{"./bundle-url":"node_modules/parcel-bundler/src/builtins/bundle-url.js"}],0:[function(require,module,exports) {
+var b=require("node_modules/parcel-bundler/src/builtins/bundle-loader.js");
+},{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js",0], null)

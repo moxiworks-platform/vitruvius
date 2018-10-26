@@ -2,12 +2,12 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     pkg: grunt.file.readJSON("package.json"),
-    clean: {
-      www: ['eventualy....'],
-    },
     exec: {
       buildCSS: {
         cmd: 'npm run buildCSS'
+      },
+      rmBuild: {
+        cmd: 'rm -rf build'
       }
     },
     watch: {
@@ -33,7 +33,7 @@ module.exports = function(grunt) {
       },
       fonts: {
         files: [
-          {expand: true, flatten: true, src: ['./tmp/fonts/*'], dest: './build/.', filter: 'isFile'},
+          {expand: true, flatten: true, src: ['./css/fonts/*'], dest: './build/.', filter: 'isFile'},
         ],
       },
     },
@@ -52,7 +52,7 @@ module.exports = function(grunt) {
           expand: true,
           cwd: './build',
           src: ['*.css', '!*.min.css'],
-          dest: './project-vitruvious',
+          dest: './build',
           ext: '.min.css'
         }]
       }
@@ -67,6 +67,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-cssmin');
 
   grunt.registerTask('default', ['watch'])
-  grunt.registerTask('buildGhPages', ['copy:main'])
-  grunt.registerTask('build', ['clean', 'copy:css', 'rename:css', 'cssmin', 'copy:fonts'])
+  grunt.registerTask('build', ['exec:rmBuild', 'copy:css', 'rename:css', 'cssmin', 'copy:fonts', 'copy:main'])
 };

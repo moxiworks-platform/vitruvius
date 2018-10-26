@@ -27,21 +27,21 @@ module.exports = function(grunt) {
       },
       css: {
         files: [
-          {expand: true, flatten: true, src: ['./dist/project-vitruvious.*.css'], dest: './project-vitruvious/.', filter: 'isFile'},
-          {expand: true, flatten: true, src: ['./dist/project-vitruvious-icons.*.css'], dest: './project-vitruvious/.', filter: 'isFile'},
+          {expand: true, flatten: true, src: ['./dist/project-vitruvious.*.css'], dest: './build/.', filter: 'isFile'},
+          {expand: true, flatten: true, src: ['./dist/project-vitruvious-icons.*.css'], dest: './build/.', filter: 'isFile'},
         ],
       },
       fonts: {
         files: [
-          {expand: true, flatten: true, src: ['./tmp/fonts/*'], dest: './project-vitruvious/.', filter: 'isFile'},
+          {expand: true, flatten: true, src: ['./tmp/fonts/*'], dest: './build/.', filter: 'isFile'},
         ],
       },
     },
     rename: {
       css: {
         files: [
-          {src: ['./project-vitruvious/project-vitruvious.*.css'], dest: './project-vitruvious/project-vitruvious.css'},
-          {src: ['./project-vitruvious/project-vitruvious-icons.*.css'], dest: './project-vitruvious/project-vitruvious-icons.css'},
+          {src: ['./build/project-vitruvious.*.css'], dest: './build/project-vitruvious.css'},
+          {src: ['./build/project-vitruvious-icons.*.css'], dest: './build/project-vitruvious-icons.css'},
         ]
       }
     },
@@ -50,7 +50,7 @@ module.exports = function(grunt) {
       target: {
         files: [{
           expand: true,
-          cwd: './project-vitruvious',
+          cwd: './build',
           src: ['*.css', '!*.min.css'],
           dest: './project-vitruvious',
           ext: '.min.css'

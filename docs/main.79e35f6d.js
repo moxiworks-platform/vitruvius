@@ -8472,6 +8472,8 @@ exports.default = void 0;
 //
 //
 //
+//
+//
 var _default = {
   name: 'app',
   data: function data() {
@@ -8500,17 +8502,23 @@ exports.default = _default;
         attrs: { id: "header" }
       },
       [
-        _c("router-link", { attrs: { to: "/" } }, [
-          _vm._v("Vitruvious Project"),
-          _c("br"),
-          _c("span", { staticClass: "text-xs" }, [
-            _vm._v("Brought to you by Moxi Works")
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "float-right -mt-2" }, [_vm._v("v0.0.1")])
-      ],
-      1
+        _c(
+          "div",
+          { staticClass: "w-3/4", staticStyle: { margin: "auto" } },
+          [
+            _c("router-link", { attrs: { to: "/" } }, [
+              _vm._v("Vitruvious Project"),
+              _c("br"),
+              _c("span", { staticClass: "text-xs" }, [
+                _vm._v("Brought to you by MoxiWorks")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "float-right -mt-2" }, [_vm._v("v0.0.1")])
+          ],
+          1
+        )
+      ]
     ),
     _vm._v(" "),
     _c("section", { attrs: { id: "content" } }, [
@@ -11451,7 +11459,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58564" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64325" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

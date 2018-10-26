@@ -40,11 +40,11 @@
       <button class="btn btn-destructive btn-dense"><i class="icon-location-pin-filled"></i> Destructive</button>
     </div>
 
-    <vp-button 
+    <!-- vp-button 
       name="Click Me!" 
       klass="btn btn-primary"
       icon="icon-heart-broken"
-    ></vp-button>
+    ></vp-button -->
 
   </section>
 </template>

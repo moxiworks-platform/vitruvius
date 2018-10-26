@@ -1,28 +1,10 @@
-
-/*************************************************************************************
- * Import Mulit Font
- ************************************************************************************/
-
-@import url('https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,700,700i');
-
-/*************************************************************************************
- * Import TailwindsCSS utilities
- ************************************************************************************/
-
-@tailwind preflight;
-@tailwind utilities;
-
-/*************************************************************************************
- * Icons
- ************************************************************************************/
-
 @font-face {
   font-family: 'Vitruvius-icon-set';
-  src:  url('fonts/Vitruvius-icon-set.eot?xu4n51');
-  src:  url('fonts/Vitruvius-icon-set.eot?xu4n51#iefix') format('embedded-opentype'),
-    url('fonts/Vitruvius-icon-set.ttf?xu4n51') format('truetype'),
-    url('fonts/Vitruvius-icon-set.woff?xu4n51') format('woff'),
-    url('fonts/Vitruvius-icon-set.svg?xu4n51#Vitruvius-icon-set') format('svg');
+  src:  url('Vitruvius-icon-set.a29de10e.eot?xu4n51');
+  src:  url('Vitruvius-icon-set.a29de10e.eot?xu4n51#iefix') format('embedded-opentype'),
+    url('Vitruvius-icon-set.46ca7cf9.ttf?xu4n51') format('truetype'),
+    url('Vitruvius-icon-set.ec9d629d.woff?xu4n51') format('woff'),
+    url('Vitruvius-icon-set.0588469e.svg?xu4n51#Vitruvius-icon-set') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -253,6 +235,17 @@
   content: "\e945";
 }
 
+/*************************************************************************************
+ * Base Stylings for anchor tags, etc...
+ ************************************************************************************/
+
+ a {
+   @apply text-moxi-blue no-underline;
+ }
+ a:hover {
+   @apply text-moxi-blue-dark underline;
+ }
+
 
 /*************************************************************************************
  * Button Classes
@@ -295,7 +288,7 @@
 }
 
 .btn-dense {
-  @apply text-sm py-9 px-16
+  @apply text-sm py-9 px-16;
 }
 
 .btn-blue {
@@ -308,19 +301,3 @@
 .btn-blue:hover {
   @apply bg-moxi-blue-dark;
 }
-
-
-/*************************************************************************************
- * Grid Classes
- ************************************************************************************/
-
- .mx-flex {
-  @apply flex;
- }
-
-.mx-flex-wrap {
-  @apply flex flex-wrap;
-}
-
-
-

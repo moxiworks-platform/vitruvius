@@ -1,0 +1,125 @@
+
+/*************************************************************************************
+ * Import Mulit Font
+ ************************************************************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,700,700i');
+
+/*************************************************************************************
+ * Import TailwindsCSS utilities
+ ************************************************************************************/
+
+@tailwind preflight;
+@tailwind utilities;
+
+/*************************************************************************************
+ * Base Stylings for anchor tags, etc...
+ ************************************************************************************/
+
+ a {
+   @apply text-moxi-blue no-underline;
+ }
+ a:hover {
+   @apply text-moxi-blue-dark underline;
+ }
+
+
+/*************************************************************************************
+ * Button Classes
+ ************************************************************************************/
+
+.btn {
+  @apply py-13 px-16 rounded;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.btn i {
+  @apply mr-8;
+}
+
+.btn-default {
+  @apply border-cn-30 border-solid border;
+}
+
+.btn-flat:hover, .btn-default:hover {
+  @apply bg-cn-10 text-black;
+}
+
+.btn-primary {
+  @apply bg-moxi-green text-white;
+}
+
+.btn-primary:hover {
+  @apply bg-moxi-green-dark;
+}
+
+.btn-destructive {
+  @apply border-moxi-destructive border-solid border text-moxi-destructive;
+}
+
+.btn-destructive:hover {
+  @apply bg-cn-10;
+}
+
+.btn-dense {
+  @apply text-sm py-9 px-16;
+}
+
+.btn-blue {
+  @apply bg-moxi-blue text-white;
+}
+
+.btn-blue {
+  @apply bg-moxi-blue text-white;
+}
+.btn-blue:hover {
+  @apply bg-moxi-blue-dark;
+}
+
+/*************************************************************************************
+ * Typography Classes
+ ************************************************************************************/
+
+ h1 {
+   @apply text-5xl mb-10;
+ }
+
+ h2 {
+   @apply text-2xl mb-10;
+ }
+
+ h3 {
+   @apply text-lg mb-10;
+ }
+
+ h4 {
+   @apply text-base mb-10;
+ }
+
+ h5 {
+   @apply text-sm mb-10;
+ }
+
+ p {
+   @apply my-20;
+ }
+
+
+/*************************************************************************************
+ * Grid Classes
+ ************************************************************************************/
+
+ .v-flex {
+  @apply flex;
+ }
+
+.v-flex-wrap {
+  @apply flex flex-wrap;
+}
+
+.v-flex .v-flex-item, .v-flex-wrap .v-flex-item {
+  @apply p-8 mb-8;
+}

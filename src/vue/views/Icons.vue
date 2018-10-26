@@ -400,6 +400,39 @@
         <div class="text-sm pt-5">Townhouse</div>
         <div class="text-sm pt-5">.icon-townhouse</div>
       </div>
+      <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 bg-cn-15 p-15 text-center mb-4">
+        <i class="icon-caret-down text-3xl"></i>
+        <div class="text-sm pt-5">Caret Down</div>
+        <div class="text-sm pt-5">.icon-caret-down</div>
+      </div>
+      <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 bg-cn-30 p-15 text-center mb-4">
+        <i class="icon-caret-left text-3xl"></i>
+        <div class="text-sm pt-5">Caret Left</div>
+        <div class="text-sm pt-5">.icon-caret-left</div>
+      </div>
+      <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 bg-cn-15 p-15 text-center mb-4">
+        <i class="icon-caret-right text-3xl"></i>
+        <div class="text-sm pt-5">Caret Right</div>
+        <div class="text-sm pt-5">.icon-caret-right</div>
+      </div>
+    </div>
+
+    <div class="flex flex-wrap">
+      <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 bg-cn-30 p-15 text-center mb-4">
+        <i class="icon-caret-up text-3xl"></i>
+        <div class="text-sm pt-5">Caret Up</div>
+        <div class="text-sm pt-5">.icon-caret-up</div>
+      </div>
+      <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 bg-cn-15 p-15 text-center mb-4">
+        <i class="icon-sort-table-header text-3xl"></i>
+        <div class="text-sm pt-5">Sort Table Header</div>
+        <div class="text-sm pt-5">.icon-sort-table-header</div>
+      </div>
+      <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 bg-cn-30 p-15 text-center mb-4">
+        <i class="icon-people text-3xl"></i>
+        <div class="text-sm pt-5">People</div>
+        <div class="text-sm pt-5">.icon-people</div>
+      </div>
     </div>
   </section>
 </template>

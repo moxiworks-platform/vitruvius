@@ -1537,8 +1537,10 @@ function (_withComponent) {
     key: "render",
     value: function render(_ref) {
       var name = _ref.name,
-          klass = _ref.klass;
-      return "\n      <button class=\"".concat(klass, "\"><i class=\"icon-location-pin-filled\"></i> ").concat(name, "</button>\n    ");
+          klass = _ref.klass,
+          icon = _ref.icon;
+      var icn = icon ? "<i class=\"".concat(icon, "\"></i> ") : '';
+      return "\n      <button class=\"".concat(klass, "\">\n        ").concat(icn, "\n        ").concat(name, "\n      </button>\n    ");
     }
   }, {
     key: "renderRoot",
@@ -1550,7 +1552,8 @@ function (_withComponent) {
     get: function get() {
       return {
         name: _skatejs.props.string,
-        klass: _skatejs.props.string
+        klass: _skatejs.props.string,
+        icon: _skatejs.props.string
       };
     }
   }]);
@@ -1569,6 +1572,10 @@ exports.default = void 0;
 
 var _button = require("../../components/button/button");
 
+//
+//
+//
+//
 //
 //
 //
@@ -1665,7 +1672,11 @@ exports.default = _default;
       _vm._m(7),
       _vm._v(" "),
       _c("vp-button", {
-        attrs: { name: "Click Me!", klass: "btn btn-primary" }
+        attrs: {
+          name: "Click Me!",
+          klass: "btn btn-primary",
+          icon: "icon-heart-broken"
+        }
       })
     ],
     1
@@ -1842,7 +1853,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55549" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60735" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

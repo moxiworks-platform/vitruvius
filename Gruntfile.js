@@ -52,7 +52,7 @@ module.exports = function(grunt) {
           expand: true,
           cwd: './build',
           src: ['*.css', '!*.min.css'],
-          dest: './project-vitruvious',
+          dest: './build',
           ext: '.min.css'
         }]
       }

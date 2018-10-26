@@ -7000,8 +7000,92 @@ table {
 }
 
 /*************************************************************************************
- * Icons
+ * Base Stylings for anchor tags, etc...
  ************************************************************************************/
+
+a {
+  color: #5092d3;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #377cbf;
+  text-decoration: underline;
+}
+
+/*************************************************************************************
+ * Button Classes
+ ************************************************************************************/
+
+.btn {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: .25rem;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.btn i {
+  margin-right: 8px;
+}
+
+.btn-default {
+  border-color: #bcc0c2;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.btn-flat:hover,
+.btn-default:hover {
+  background-color: #f2f3f3;
+  color: #212e35;
+}
+
+.btn-primary {
+  background-color: #50b64c;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #42a33e;
+}
+
+.btn-destructive {
+  border-color: #f44336;
+  border-style: solid;
+  border-width: 1px;
+  color: #f44336;
+}
+
+.btn-destructive:hover {
+  background-color: #f2f3f3;
+}
+
+.btn-dense {
+  font-size: .875rem;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.btn-blue {
+  background-color: #5092d3;
+  color: #fff;
+}
+
+.btn-blue {
+  background-color: #5092d3;
+  color: #fff;
+}
+
+.btn-blue:hover {
+  background-color: #377cbf;
+}
 
 /*************************************************************************************
  * Typography Classes

@@ -39,14 +39,26 @@
       <button class="btn btn-primary btn-dense"><i class="icon-location-pin-filled"></i> Primary</button>
       <button class="btn btn-destructive btn-dense"><i class="icon-location-pin-filled"></i> Destructive</button>
     </div>
+
+    <vp-button 
+      name="Click Me!" 
+      klass="btn btn-primary"
+      icon="icon-heart-broken"
+    ></vp-button>
+
   </section>
 </template>
 
 <script>
+  import { button } from '../../components/button/button'
+
   export default {
     name: 'buttons',
     data() {
       return {}
+    },
+    mounted() {
+
     }
   }
 </script>

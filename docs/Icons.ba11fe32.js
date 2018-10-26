@@ -517,6 +517,39 @@ exports.default = void 0;
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 var _default = {
   name: 'buttons',
   data: function data() {
@@ -1732,6 +1765,110 @@ var staticRenderFns = [
               _vm._v(".icon-townhouse")
             ])
           ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass:
+              "w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 bg-cn-15 p-15 text-center mb-4"
+          },
+          [
+            _c("i", { staticClass: "icon-caret-down text-3xl" }),
+            _vm._v(" "),
+            _c("div", { staticClass: "text-sm pt-5" }, [_vm._v("Caret Down")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "text-sm pt-5" }, [
+              _vm._v(".icon-caret-down")
+            ])
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass:
+              "w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 bg-cn-30 p-15 text-center mb-4"
+          },
+          [
+            _c("i", { staticClass: "icon-caret-left text-3xl" }),
+            _vm._v(" "),
+            _c("div", { staticClass: "text-sm pt-5" }, [_vm._v("Caret Left")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "text-sm pt-5" }, [
+              _vm._v(".icon-caret-left")
+            ])
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass:
+              "w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 bg-cn-15 p-15 text-center mb-4"
+          },
+          [
+            _c("i", { staticClass: "icon-caret-right text-3xl" }),
+            _vm._v(" "),
+            _c("div", { staticClass: "text-sm pt-5" }, [_vm._v("Caret Right")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "text-sm pt-5" }, [
+              _vm._v(".icon-caret-right")
+            ])
+          ]
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "flex flex-wrap" }, [
+        _c(
+          "div",
+          {
+            staticClass:
+              "w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 bg-cn-30 p-15 text-center mb-4"
+          },
+          [
+            _c("i", { staticClass: "icon-caret-up text-3xl" }),
+            _vm._v(" "),
+            _c("div", { staticClass: "text-sm pt-5" }, [_vm._v("Caret Up")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "text-sm pt-5" }, [
+              _vm._v(".icon-caret-up")
+            ])
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass:
+              "w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 bg-cn-15 p-15 text-center mb-4"
+          },
+          [
+            _c("i", { staticClass: "icon-sort-table-header text-3xl" }),
+            _vm._v(" "),
+            _c("div", { staticClass: "text-sm pt-5" }, [
+              _vm._v("Sort Table Header")
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "text-sm pt-5" }, [
+              _vm._v(".icon-sort-table-header")
+            ])
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass:
+              "w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 bg-cn-30 p-15 text-center mb-4"
+          },
+          [
+            _c("i", { staticClass: "icon-people text-3xl" }),
+            _vm._v(" "),
+            _c("div", { staticClass: "text-sm pt-5" }, [_vm._v("People")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "text-sm pt-5" }, [_vm._v(".icon-people")])
+          ]
         )
       ])
     ])
@@ -1792,7 +1929,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55549" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60735" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

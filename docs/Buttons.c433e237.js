@@ -1643,10 +1643,14 @@ exports.default = _default;
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "section",
-    { attrs: { id: "buttons" } },
-    [
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { attrs: { id: "buttons" } }, [
       _c("h1", { staticClass: "mb-30" }, [_vm._v("Buttons")]),
       _vm._v(" "),
       _c("pre", { staticClass: "prettyprint linenums lang-html" }, [
@@ -1655,145 +1659,86 @@ exports.default = _default;
         )
       ]),
       _vm._v(" "),
-      _vm._m(0),
+      _c("div", [_c("strong", [_vm._v("Basic Button Styles")])]),
       _vm._v(" "),
-      _vm._m(1),
-      _vm._v(" "),
-      _vm._m(2),
-      _vm._v(" "),
-      _vm._m(3),
-      _vm._v(" "),
-      _vm._m(4),
-      _vm._v(" "),
-      _vm._m(5),
-      _vm._v(" "),
-      _vm._m(6),
-      _vm._v(" "),
-      _vm._m(7),
-      _vm._v(" "),
-      _c("vp-button", {
-        attrs: {
-          name: "Click Me!",
-          klass: "btn btn-primary",
-          icon: "icon-heart-broken"
-        }
-      })
-    ],
-    1
-  )
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [_c("strong", [_vm._v("Basic Button Styles")])])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "my-10" }, [
-      _c("button", { staticClass: "btn btn-flat" }, [_vm._v("Flat")]),
-      _vm._v(" "),
-      _c("button", { staticClass: "btn btn-default" }, [_vm._v("Default")]),
-      _vm._v(" "),
-      _c("button", { staticClass: "btn btn-primary" }, [_vm._v("Primary")]),
-      _vm._v(" "),
-      _c("button", { staticClass: "btn btn-destructive" }, [
-        _vm._v("Destructive")
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [_c("strong", [_vm._v("Buttons with Icons")])])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "my-10" }, [
-      _c("button", { staticClass: "btn btn-flat" }, [
-        _c("i", { staticClass: "icon-location-pin-filled" }),
-        _vm._v(" Flat")
+      _c("div", { staticClass: "my-10" }, [
+        _c("button", { staticClass: "btn btn-flat" }, [_vm._v("Flat")]),
+        _vm._v(" "),
+        _c("button", { staticClass: "btn btn-default" }, [_vm._v("Default")]),
+        _vm._v(" "),
+        _c("button", { staticClass: "btn btn-primary" }, [_vm._v("Primary")]),
+        _vm._v(" "),
+        _c("button", { staticClass: "btn btn-destructive" }, [
+          _vm._v("Destructive")
+        ])
       ]),
       _vm._v(" "),
-      _c("button", { staticClass: "btn btn-default" }, [
-        _c("i", { staticClass: "icon-location-pin-filled" }),
-        _vm._v(" Default")
+      _c("div", [_c("strong", [_vm._v("Buttons with Icons")])]),
+      _vm._v(" "),
+      _c("div", { staticClass: "my-10" }, [
+        _c("button", { staticClass: "btn btn-flat" }, [
+          _c("i", { staticClass: "icon-location-pin-filled" }),
+          _vm._v(" Flat")
+        ]),
+        _vm._v(" "),
+        _c("button", { staticClass: "btn btn-default" }, [
+          _c("i", { staticClass: "icon-location-pin-filled" }),
+          _vm._v(" Default")
+        ]),
+        _vm._v(" "),
+        _c("button", { staticClass: "btn btn-primary" }, [
+          _c("i", { staticClass: "icon-location-pin-filled" }),
+          _vm._v(" Primary")
+        ]),
+        _vm._v(" "),
+        _c("button", { staticClass: "btn btn-destructive" }, [
+          _c("i", { staticClass: "icon-location-pin-filled" }),
+          _vm._v(" Destructive")
+        ])
       ]),
       _vm._v(" "),
-      _c("button", { staticClass: "btn btn-primary" }, [
-        _c("i", { staticClass: "icon-location-pin-filled" }),
-        _vm._v(" Primary")
+      _c("div", [_c("strong", [_vm._v("Dense Button Varient (smaller)")])]),
+      _vm._v(" "),
+      _c("div", { staticClass: "my-10" }, [
+        _c("button", { staticClass: "btn btn-flat btn-dense" }, [
+          _vm._v("Flat")
+        ]),
+        _vm._v(" "),
+        _c("button", { staticClass: "btn btn-default btn-dense" }, [
+          _vm._v("Default")
+        ]),
+        _vm._v(" "),
+        _c("button", { staticClass: "btn btn-primary btn-dense" }, [
+          _vm._v("Primary")
+        ]),
+        _vm._v(" "),
+        _c("button", { staticClass: "btn btn-destructive btn-dense" }, [
+          _vm._v("Destructive")
+        ])
       ]),
       _vm._v(" "),
-      _c("button", { staticClass: "btn btn-destructive" }, [
-        _c("i", { staticClass: "icon-location-pin-filled" }),
-        _vm._v(" Destructive")
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [_c("strong", [_vm._v("Dense Button Varient (smaller)")])])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "my-10" }, [
-      _c("button", { staticClass: "btn btn-flat btn-dense" }, [_vm._v("Flat")]),
+      _c("div", [_c("strong", [_vm._v("Buttons with Icons Dense (smaller)")])]),
       _vm._v(" "),
-      _c("button", { staticClass: "btn btn-default btn-dense" }, [
-        _vm._v("Default")
-      ]),
-      _vm._v(" "),
-      _c("button", { staticClass: "btn btn-primary btn-dense" }, [
-        _vm._v("Primary")
-      ]),
-      _vm._v(" "),
-      _c("button", { staticClass: "btn btn-destructive btn-dense" }, [
-        _vm._v("Destructive")
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("strong", [_vm._v("Buttons with Icons Dense (smaller)")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "my-10" }, [
-      _c("button", { staticClass: "btn btn-flat btn-dense" }, [
-        _c("i", { staticClass: "icon-location-pin-filled" }),
-        _vm._v(" Flat")
-      ]),
-      _vm._v(" "),
-      _c("button", { staticClass: "btn btn-default btn-dense" }, [
-        _c("i", { staticClass: "icon-location-pin-filled" }),
-        _vm._v(" Default")
-      ]),
-      _vm._v(" "),
-      _c("button", { staticClass: "btn btn-primary btn-dense" }, [
-        _c("i", { staticClass: "icon-location-pin-filled" }),
-        _vm._v(" Primary")
-      ]),
-      _vm._v(" "),
-      _c("button", { staticClass: "btn btn-destructive btn-dense" }, [
-        _c("i", { staticClass: "icon-location-pin-filled" }),
-        _vm._v(" Destructive")
+      _c("div", { staticClass: "my-10" }, [
+        _c("button", { staticClass: "btn btn-flat btn-dense" }, [
+          _c("i", { staticClass: "icon-location-pin-filled" }),
+          _vm._v(" Flat")
+        ]),
+        _vm._v(" "),
+        _c("button", { staticClass: "btn btn-default btn-dense" }, [
+          _c("i", { staticClass: "icon-location-pin-filled" }),
+          _vm._v(" Default")
+        ]),
+        _vm._v(" "),
+        _c("button", { staticClass: "btn btn-primary btn-dense" }, [
+          _c("i", { staticClass: "icon-location-pin-filled" }),
+          _vm._v(" Primary")
+        ]),
+        _vm._v(" "),
+        _c("button", { staticClass: "btn btn-destructive btn-dense" }, [
+          _c("i", { staticClass: "icon-location-pin-filled" }),
+          _vm._v(" Destructive")
+        ])
       ])
     ])
   }

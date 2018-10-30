@@ -30,6 +30,9 @@
               <p class="my-10 text-sm">
                 <router-link to="/buttons">Buttons</router-link>
               </p>
+              <p class="my-10 text-sm">
+                <router-link to="/card">Cards</router-link>
+              </p>
             </div>
 
             <div class="mb-8">

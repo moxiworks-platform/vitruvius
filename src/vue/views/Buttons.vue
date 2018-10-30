@@ -10,7 +10,7 @@
 
     <div><strong>Basic Button Styles</strong></div>
     <div class="my-10">
-      <button class="btn btn-flat">Flat</button>
+      <vp-button text="Flat" klass="btn btn-flat" onClick="alert('Hello World!')"></vp-button>
       <button class="btn btn-default">Default</button>
       <button class="btn btn-primary">Primary</button>
       <button class="btn btn-destructive">Destructive</button>
@@ -39,12 +39,6 @@
       <button class="btn btn-primary btn-dense"><i class="icon-location-pin-filled"></i> Primary</button>
       <button class="btn btn-destructive btn-dense"><i class="icon-location-pin-filled"></i> Destructive</button>
     </div>
-
-    <!-- vp-button 
-      name="Click Me!" 
-      klass="btn btn-primary"
-      icon="icon-heart-broken"
-    ></vp-button -->
 
   </section>
 </template>

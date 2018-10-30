@@ -96,8 +96,8 @@
     padding: 20px;
   }
   .define {
-    background: #ececec;
-    padding: 20px;
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 15px;
     margin: 30px 0;
   }
 </style>

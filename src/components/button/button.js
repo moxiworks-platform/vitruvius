@@ -8,18 +8,19 @@ class Button extends withComponent() {
 
   static get props() {
     return {
-      name: props.string,
+      text: props.string,
       klass: props.string,
-      icon: props.string
+      icon: props.string,
+      onClick: props.string
     };
   }
   
-  render({ name, klass, icon }) {
+  render({ text, klass, icon, onClick }) {
     let icn = (icon) ? `<i class="${icon}"></i> ` : ''
     return `
-      <button class="${klass}">
+      <button class="${klass}" onclick="${onClick}">
         ${icn}
-        ${name}
+        ${text}
       </button>
     `;
   }

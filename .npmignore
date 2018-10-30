@@ -6,6 +6,10 @@ design_assets/
 css/
 docs/
 src/
+.babelrc
+components.js
+Gruntfile.js
+index.html
 node_modules/
 npm-debug.log*
 yarn-debug.log*

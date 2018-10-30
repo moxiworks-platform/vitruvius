@@ -227,7 +227,10 @@ var staticRenderFns = [
         )
       ]),
       _vm._v(" "),
-      _c("h3", { staticClass: "define" }, [_vm._v("Headings")]),
+      _c("h2", { staticClass: "define" }, [
+        _c("i", { staticClass: "icon-chat mr-20" }),
+        _vm._v("Headings")
+      ]),
       _vm._v(" "),
       _c("h1", [_vm._v("h1. Headline Large - 2.5rem // 40px")]),
       _vm._v(" "),
@@ -239,7 +242,8 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("h5", [_vm._v('h5. Headline "heading" - .875rem // 14px')]),
       _vm._v(" "),
-      _c("h3", { staticClass: "define" }, [
+      _c("h2", { staticClass: "define" }, [
+        _c("i", { staticClass: "icon-chat mr-20" }),
         _vm._v("Plain Text and Class Examples")
       ]),
       _vm._v(" "),
@@ -378,7 +382,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64325" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58819" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

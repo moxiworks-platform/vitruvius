@@ -36,6 +36,11 @@ module.exports = function(grunt) {
           {expand: true, flatten: true, src: ['./css/fonts/*'], dest: './build/.', filter: 'isFile'},
         ],
       },
+      components: {
+        files: [
+          {expand: true, flatten: true, src: ['./src/components/**/*.js'], dest: './build/.', filter: 'isFile'},
+        ],
+      },
     },
     rename: {
       css: {
@@ -67,5 +72,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-cssmin');
 
   grunt.registerTask('default', ['watch'])
-  grunt.registerTask('build', ['exec:rmBuild', 'copy:css', 'rename:css', 'cssmin', 'copy:fonts', 'copy:main'])
+  grunt.registerTask('build', ['exec:rmBuild', 'copy:css', 'rename:css', 'cssmin', 'copy:fonts', 'copy:main', 'copy:components'])
 };

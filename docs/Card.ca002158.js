@@ -104,7 +104,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({"src/components/button/button.js":[function(require,module,exports) {
+})({"src/components/card/card.js":[function(require,module,exports) {
 "use strict";
 
 var _skatejs = require("skatejs");
@@ -127,35 +127,22 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
-var Button =
+var Card =
 /*#__PURE__*/
 function (_withComponent) {
-  _inherits(Button, _withComponent);
+  _inherits(Card, _withComponent);
 
-  function Button() {
-    _classCallCheck(this, Button);
+  function Card() {
+    _classCallCheck(this, Card);
 
-    return _possibleConstructorReturn(this, _getPrototypeOf(Button).apply(this, arguments));
+    return _possibleConstructorReturn(this, _getPrototypeOf(Card).apply(this, arguments));
   }
 
-  _createClass(Button, [{
-    key: "returnClass",
-    value: function returnClass(type) {
-      var tmp = type.split(',');
-      var str = '';
-      tmp.forEach(function (o) {
-        str += "btn-".concat(o, " ");
-      });
-      return str;
-    }
-  }, {
+  _createClass(Card, [{
     key: "render",
     value: function render(_ref) {
-      var type = _ref.type,
-          icon = _ref.icon,
-          onClick = _ref.onClick;
-      var icn = icon ? "<i class=\"".concat(icon, "\"></i> ") : '';
-      return "\n      <button class=\"btn ".concat(this.returnClass(type), "\" onclick=\"").concat(onClick, "\">\n        ").concat(icn, "\n        ").concat(this.innerHTML, "\n      </button>\n    ");
+      var name = _ref.name;
+      return "\n      <div class=\"ax-w-sm rounded overflow-hidden shadow-lg p-16\">\n        ".concat(this.innerHTML, "\n      </div>\n    ");
     }
   }, {
     key: "renderRoot",
@@ -166,18 +153,16 @@ function (_withComponent) {
     key: "props",
     get: function get() {
       return {
-        type: _skatejs.props.string,
-        icon: _skatejs.props.string,
-        onClick: _skatejs.props.string
+        name: _skatejs.props.string
       };
     }
   }]);
 
-  return Button;
+  return Card;
 }((0, _skatejs.withComponent)());
 
-customElements.define('vp-button', Button);
-},{"skatejs":"node_modules/skatejs/dist/es/index.js"}],"src/vue/views/Buttons.vue":[function(require,module,exports) {
+customElements.define('vp-card', Card);
+},{"skatejs":"node_modules/skatejs/dist/es/index.js"}],"src/vue/views/Card.vue":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -185,44 +170,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _button = require("../../components/button/button");
+var _card = require("../../components/card/card");
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -233,252 +182,35 @@ var _button = require("../../components/button/button");
 //
 //
 var _default = {
-  name: 'buttons',
   data: function data() {
     return {};
-  },
-  mounted: function mounted() {}
+  }
 };
 exports.default = _default;
-        var $c734a2 = exports.default || module.exports;
+        var $35501c = exports.default || module.exports;
       
-      if (typeof $c734a2 === 'function') {
-        $c734a2 = $c734a2.options;
+      if (typeof $35501c === 'function') {
+        $35501c = $35501c.options;
       }
     
         /* template */
-        Object.assign($c734a2, (function () {
+        Object.assign($35501c, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("section", { attrs: { id: "buttons" } }, [
-    _c("h1", { staticClass: "mb-30" }, [_vm._v("Buttons")]),
-    _vm._v(" "),
-    _c("pre", { staticClass: "prettyprint linenums lang-html" }, [
-      _vm._v(
-        '  <button class="btn btn-flat"><i class="icon-location-pin-filled"></i> Flat</button>\n  <button class="btn btn-default"><i class="icon-location-pin-filled"></i> Default</button>\n  <button class="btn btn-primary"><i class="icon-location-pin-filled"></i> Primary</button>\n  <button class="btn btn-destructive"><i class="icon-location-pin-filled"></i> Destructive</button>'
-      )
-    ]),
-    _vm._v(" "),
-    _vm._m(0),
-    _vm._v(" "),
-    _c(
-      "div",
-      { staticClass: "my-10" },
-      [
-        _c(
-          "vp-button",
-          { attrs: { type: "flat", onclick: "alert('Hello World!')" } },
-          [_vm._v("Flat")]
-        ),
-        _vm._v(" "),
-        _c(
-          "vp-button",
-          { attrs: { type: "default", onclick: "alert('Hello World!')" } },
-          [_vm._v("Default")]
-        ),
-        _vm._v(" "),
-        _c(
-          "vp-button",
-          { attrs: { type: "primary", onclick: "alert('Hello World!')" } },
-          [_vm._v("Primary")]
-        ),
-        _vm._v(" "),
-        _c(
-          "vp-button",
-          { attrs: { type: "destructive", onclick: "alert('Hello World!')" } },
-          [_vm._v("Destructive")]
-        )
-      ],
-      1
-    ),
-    _vm._v(" "),
-    _vm._m(1),
-    _vm._v(" "),
-    _c(
-      "div",
-      { staticClass: "my-10" },
-      [
-        _c(
-          "vp-button",
-          {
-            attrs: {
-              type: "flat",
-              icon: "icon-location-pin-filled",
-              onclick: "alert('Hello World!')"
-            }
-          },
-          [_vm._v("Flat")]
-        ),
-        _vm._v(" "),
-        _c(
-          "vp-button",
-          {
-            attrs: {
-              type: "default",
-              icon: "icon-location-pin-filled",
-              onclick: "alert('Hello World!')"
-            }
-          },
-          [_vm._v("Default")]
-        ),
-        _vm._v(" "),
-        _c(
-          "vp-button",
-          {
-            attrs: {
-              type: "primary",
-              icon: "icon-location-pin-filled",
-              onclick: "alert('Hello World!')"
-            }
-          },
-          [_vm._v("Primary")]
-        ),
-        _vm._v(" "),
-        _c(
-          "vp-button",
-          {
-            attrs: {
-              type: "destructive",
-              icon: "icon-location-pin-filled",
-              onclick: "alert('Hello World!')"
-            }
-          },
-          [_vm._v("Destructive")]
-        )
-      ],
-      1
-    ),
-    _vm._v(" "),
-    _vm._m(2),
-    _vm._v(" "),
-    _c(
-      "div",
-      { staticClass: "my-10" },
-      [
-        _c(
-          "vp-button",
-          { attrs: { type: "flat,dense", onclick: "alert('Hello World!')" } },
-          [_vm._v("flat")]
-        ),
-        _vm._v(" "),
-        _c(
-          "vp-button",
-          {
-            attrs: { type: "default,dense", onclick: "alert('Hello World!')" }
-          },
-          [_vm._v("Default")]
-        ),
-        _vm._v(" "),
-        _c(
-          "vp-button",
-          {
-            attrs: { type: "primary,dense", onclick: "alert('Hello World!')" }
-          },
-          [_vm._v("Default")]
-        ),
-        _vm._v(" "),
-        _c(
-          "vp-button",
-          {
-            attrs: {
-              type: "destructive,dense",
-              onclick: "alert('Hello World!')"
-            }
-          },
-          [_vm._v("Default")]
-        )
-      ],
-      1
-    ),
-    _vm._v(" "),
-    _vm._m(3),
-    _vm._v(" "),
-    _c(
-      "div",
-      { staticClass: "my-10" },
-      [
-        _c(
-          "vp-button",
-          {
-            attrs: {
-              type: "flat,dense",
-              icon: "icon-location-pin-filled",
-              onclick: "alert('Hello World!')"
-            }
-          },
-          [_vm._v("flat")]
-        ),
-        _vm._v(" "),
-        _c(
-          "vp-button",
-          {
-            attrs: {
-              type: "default,dense",
-              icon: "icon-location-pin-filled",
-              onclick: "alert('Hello World!')"
-            }
-          },
-          [_vm._v("Default")]
-        ),
-        _vm._v(" "),
-        _c(
-          "vp-button",
-          {
-            attrs: {
-              type: "primary,dense",
-              icon: "icon-location-pin-filled",
-              onclick: "alert('Hello World!')"
-            }
-          },
-          [_vm._v("Default")]
-        ),
-        _vm._v(" "),
-        _c(
-          "vp-button",
-          {
-            attrs: {
-              type: "destructive,dense",
-              icon: "icon-location-pin-filled",
-              onclick: "alert('Hello World!')"
-            }
-          },
-          [_vm._v("Default")]
-        )
-      ],
-      1
-    )
-  ])
+  return _c(
+    "section",
+    { attrs: { id: "card" } },
+    [
+      _c("h1", { staticClass: "mb-30" }, [_vm._v("Cards")]),
+      _vm._v(" "),
+      _c("vp-card", [_vm._v("\n    This is a card\n  ")])
+    ],
+    1
+  )
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [_c("strong", [_vm._v("Basic Button Styles")])])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [_c("strong", [_vm._v("Buttons with Icons")])])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [_c("strong", [_vm._v("Dense Button Varient (smaller)")])])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("strong", [_vm._v("Buttons with Icons Dense (smaller)")])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
           return {
@@ -498,16 +230,20 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$c734a2', $c734a2);
+            api.createRecord('$35501c', $35501c);
           } else {
-            api.reload('$c734a2', $c734a2);
+            api.reload('$35501c', $35501c);
           }
         }
 
         
+        var reloadCSS = require('_css_loader');
+        module.hot.dispose(reloadCSS);
+        module.hot.accept(reloadCSS);
+      
       }
     })();
-},{"../../components/button/button":"src/components/button/button.js","vue-hot-reload-api":"node_modules/vue-hot-reload-api/dist/index.js","vue":"node_modules/vue/dist/vue.runtime.esm.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"../../components/card/card":"src/components/card/card.js","_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js","vue-hot-reload-api":"node_modules/vue-hot-reload-api/dist/index.js","vue":"node_modules/vue/dist/vue.runtime.esm.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -677,4 +413,4 @@ function hmrAccept(bundle, id) {
   });
 }
 },{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
-//# sourceMappingURL=/Buttons.c433e237.map
+//# sourceMappingURL=/Card.ca002158.map

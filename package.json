@@ -1,6 +1,6 @@
 {
   "name": "project-vitruvious",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -30,15 +30,15 @@
     "parcel-bundler": "^1.10.1",
     "preact": "^8.3.1",
     "sass": "^1.14.1",
-    "skatejs": "^5.2.4",
+    "highlight.js": "^9.12.0",
+    "hybrids": "^1.4.1",
+    "vue": "^2.5.17",
+    "vue-hot-reload-api": "^2.3.1",
     "tailwindcss": "^0.6.6",
     "vue-router": "^3.0.1",
     "vue-template-compiler": "^2.5.17"
   },
   "dependencies": {
-    "highlight.js": "^9.12.0",
-    "hybrids": "^1.4.1",
-    "vue": "^2.5.17",
-    "vue-hot-reload-api": "^2.3.1"
+    "skatejs": "^5.2.4"
   }
 }

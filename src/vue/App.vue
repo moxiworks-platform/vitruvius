@@ -30,6 +30,9 @@
               <p class="my-10 text-sm">
                 <router-link to="/buttons">Buttons</router-link>
               </p>
+              <p class="my-10 text-sm">
+                <router-link to="/card">Cards</router-link>
+              </p>
             </div>
 
             <div class="mb-8">
@@ -96,8 +99,8 @@
     padding: 20px;
   }
   .define {
-    background: #ececec;
-    padding: 20px;
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 15px;
     margin: 30px 0;
   }
 </style>

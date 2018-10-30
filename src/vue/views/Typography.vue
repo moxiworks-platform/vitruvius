@@ -9,7 +9,7 @@
       You might be asking, why REM values? Because REM allows for accessibility where PX do not. Think of an older user who's bumped up their computers base font size. 12px is 12px - but .75rem will adjust accordingly to help that user read content at their desired level.
     </p>
 
-    <h3 class="define">Headings</h3>
+    <h2 class="define"><i class="icon-chat mr-20"></i>Headings</h2>
 
     <h1>h1. Headline Large - 2.5rem // 40px</h1>
     <h2>h2. Headline Medium - 1.5rem // 24px</h2>
@@ -17,7 +17,7 @@
     <h4>h4. Headline Small - 1rem // 16px</h4>
     <h5>h5. Headline "heading" - .875rem // 14px</h5>
 
-    <h3 class="define">Plain Text and Class Examples</h3>
+    <h2 class="define"><i class="icon-chat mr-20"></i>Plain Text and Class Examples</h2>
 
     <p>We have 9 font sizes accessible by class shown here</p>
 

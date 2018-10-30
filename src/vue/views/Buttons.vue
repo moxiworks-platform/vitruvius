@@ -10,34 +10,34 @@
 
     <div><strong>Basic Button Styles</strong></div>
     <div class="my-10">
-      <vp-button text="Flat" klass="btn btn-flat" onClick="alert('Hello World!')"></vp-button>
-      <button class="btn btn-default">Default</button>
-      <button class="btn btn-primary">Primary</button>
-      <button class="btn btn-destructive">Destructive</button>
+      <vp-button type="flat" onClick="alert('Hello World!')">Flat</vp-button>
+      <vp-button type="default" onClick="alert('Hello World!')">Default</vp-button>
+      <vp-button type="primary" onClick="alert('Hello World!')">Primary</vp-button>
+      <vp-button type="destructive" onClick="alert('Hello World!')">Destructive</vp-button>
     </div>
 
     <div><strong>Buttons with Icons</strong></div>
     <div class="my-10">
-      <button class="btn btn-flat"><i class="icon-location-pin-filled"></i> Flat</button>
-      <button class="btn btn-default"><i class="icon-location-pin-filled"></i> Default</button>
-      <button class="btn btn-primary"><i class="icon-location-pin-filled"></i> Primary</button>
-      <button class="btn btn-destructive"><i class="icon-location-pin-filled"></i> Destructive</button>
+      <vp-button type="flat" icon="icon-location-pin-filled" onClick="alert('Hello World!')">Flat</vp-button>
+      <vp-button type="default" icon="icon-location-pin-filled" onClick="alert('Hello World!')">Default</vp-button>
+      <vp-button type="primary" icon="icon-location-pin-filled" onClick="alert('Hello World!')">Primary</vp-button>
+      <vp-button type="destructive" icon="icon-location-pin-filled" onClick="alert('Hello World!')">Destructive</vp-button>
     </div>
 
     <div><strong>Dense Button Varient (smaller)</strong></div>
     <div class="my-10">
-      <button class="btn btn-flat btn-dense">Flat</button>
-      <button class="btn btn-default btn-dense">Default</button>
-      <button class="btn btn-primary btn-dense">Primary</button>
-      <button class="btn btn-destructive btn-dense">Destructive</button>
+      <vp-button type="flat,dense" onClick="alert('Hello World!')">flat</vp-button>
+      <vp-button type="default,dense" onClick="alert('Hello World!')">Default</vp-button>
+      <vp-button type="primary,dense" onClick="alert('Hello World!')">Default</vp-button>
+      <vp-button type="destructive,dense" onClick="alert('Hello World!')">Default</vp-button>
     </div>
 
     <div><strong>Buttons with Icons Dense (smaller)</strong></div>
     <div class="my-10">
-      <button class="btn btn-flat btn-dense"><i class="icon-location-pin-filled"></i> Flat</button>
-      <button class="btn btn-default btn-dense"><i class="icon-location-pin-filled"></i> Default</button>
-      <button class="btn btn-primary btn-dense"><i class="icon-location-pin-filled"></i> Primary</button>
-      <button class="btn btn-destructive btn-dense"><i class="icon-location-pin-filled"></i> Destructive</button>
+      <vp-button type="flat,dense" icon="icon-location-pin-filled" onClick="alert('Hello World!')">flat</vp-button>
+      <vp-button type="default,dense" icon="icon-location-pin-filled" onClick="alert('Hello World!')">Default</vp-button>
+      <vp-button type="primary,dense" icon="icon-location-pin-filled" onClick="alert('Hello World!')">Default</vp-button>
+      <vp-button type="destructive,dense" icon="icon-location-pin-filled" onClick="alert('Hello World!')">Default</vp-button>
     </div>
 
   </section>

@@ -10,13 +10,18 @@ class Card extends withComponent(withLitHtml()) {
 
   static get props() {
     return {
-      name: props.string
+      name: props.string,
+      image: props.string
     };
   }
   
-  render({ name }) {
+  render({ name, image }) {
+    
+    let img = (image) ? html`<div class="v-card-image"><img src="${image}"></div>` : ''
+
     return html`
-      <div class="ax-w-sm rounded overflow-hidden shadow-lg p-16">
+      <div class="v-card">
+        ${img}
         ${this.innerHTML}
       </div>
     `;

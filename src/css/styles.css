@@ -123,3 +123,19 @@
 .v-flex .v-flex-item, .v-flex-wrap .v-flex-item {
   @apply p-8 mb-8;
 }
+
+/*************************************************************************************
+* Card Classes
+************************************************************************************/
+
+.v-card {
+  @apply rounded overflow-hidden shadow-md p-16
+}
+
+.v-card-image {
+  margin: -16px -16px 16px -16px;
+}
+
+.v-card-image img {
+  min-width: 100%;
+}

@@ -7140,6 +7140,25 @@ p {
   margin-bottom: 8px;
 }
 
+/*************************************************************************************
+* Card Classes
+************************************************************************************/
+
+.v-card {
+  border-radius: .25rem;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .12), 0 2px 4px 0 rgba(0, 0, 0, .08);
+  padding: 16px;
+}
+
+.v-card-image {
+  margin: -16px -16px 16px -16px;
+}
+
+.v-card-image img {
+  min-width: 100%;
+}
+
 @media (min-width: 576px) {
   .sm\:list-reset {
     list-style: none;

@@ -9,7 +9,7 @@
     <br />
     <br />
 
-    <vp-card  name="foo"image="https://i.imgur.com/Hb21JAa.jpg">
+    <vp-card  name="foo" image="https://i.imgur.com/Hb21JAa.jpg">
       This is a card with an image.
     </vp-card>
 

@@ -109,6 +109,12 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
 var _skatejs = require("skatejs");
 
+var _rendererPreact = _interopRequireDefault(require("@skatejs/renderer-preact"));
+
+var _preact = require("preact");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -139,10 +145,29 @@ function (_withComponent) {
   }
 
   _createClass(Card, [{
+    key: "showReveal",
+    value: function showReveal() {
+      console.log('Show Reveal');
+    }
+  }, {
     key: "render",
     value: function render(_ref) {
-      var name = _ref.name;
-      return "\n      <div class=\"ax-w-sm rounded overflow-hidden shadow-lg p-16\">\n        ".concat(this.innerHTML, "\n      </div>\n    ");
+      var _this = this;
+
+      var image = _ref.image,
+          reveal = _ref.reveal;
+      return (0, _preact.h)("div", {
+        class: "v-card"
+      }, image && (0, _preact.h)("div", {
+        class: "v-card-image"
+      }, (0, _preact.h)("img", {
+        src: image
+      })), reveal && (0, _preact.h)("i", {
+        class: "icon-more--vertical text-xl float-right cursor-pointer",
+        onClick: function onClick(e) {
+          return _this.showReveal();
+        }
+      }), this.innerHTML);
     }
   }, {
     key: "renderRoot",
@@ -153,16 +178,18 @@ function (_withComponent) {
     key: "props",
     get: function get() {
       return {
-        name: _skatejs.props.string
+        name: _skatejs.props.string,
+        image: _skatejs.props.string,
+        reveal: _skatejs.props.string
       };
     }
   }]);
 
   return Card;
-}((0, _skatejs.withComponent)());
+}((0, _skatejs.withComponent)((0, _rendererPreact.default)()));
 
 customElements.define('vp-card', Card);
-},{"skatejs":"node_modules/skatejs/dist/es/index.js"}],"src/vue/views/Card.vue":[function(require,module,exports) {
+},{"skatejs":"node_modules/skatejs/dist/es/index.js","@skatejs/renderer-preact":"node_modules/@skatejs/renderer-preact/dist/es/index.js","preact":"node_modules/preact/dist/preact.mjs"}],"src/vue/views/Card.vue":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -172,6 +199,24 @@ exports.default = void 0;
 
 var _card = require("../../components/card/card");
 
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -205,7 +250,36 @@ exports.default = _default;
     [
       _c("h1", { staticClass: "mb-30" }, [_vm._v("Cards")]),
       _vm._v(" "),
-      _c("vp-card", [_vm._v("\n    This is a card\n  ")])
+      _c("vp-card", { attrs: { name: "foo" } }, [
+        _vm._v("\n    This is a card.\n  ")
+      ]),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c(
+        "vp-card",
+        { attrs: { name: "foo", image: "https://i.imgur.com/Hb21JAa.jpg" } },
+        [_vm._v("\n    This is a card with an image.\n  ")]
+      ),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c(
+        "vp-card",
+        {
+          attrs: {
+            name: "foo",
+            image: "https://i.imgur.com/Hb21JAa.jpg",
+            reveal:
+              "This is Richard Sherman. Perhaps the greatest niner of all time."
+          }
+        },
+        [_vm._v("\n    This is a card with an image and image reveal.\n  ")]
+      )
     ],
     1
   )
@@ -270,7 +344,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58833" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56277" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

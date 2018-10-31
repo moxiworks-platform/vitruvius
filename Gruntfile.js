@@ -30,8 +30,8 @@ module.exports = function(grunt) {
       },
       css: {
         files: [
-          {expand: true, flatten: true, src: ['./dist/project-vitruvious.*.css'], dest: './build/.', filter: 'isFile'},
-          {expand: true, flatten: true, src: ['./dist/project-vitruvious-icons.*.css'], dest: './build/.', filter: 'isFile'},
+          {expand: true, flatten: true, src: ['./css/project-vitruvious.css'], dest: './build/.', filter: 'isFile'},
+          {expand: true, flatten: true, src: ['./css/project-vitruvious-icons.css'], dest: './build/.', filter: 'isFile'},
         ],
       },
       fonts: {
@@ -59,6 +59,16 @@ module.exports = function(grunt) {
           ext: '.min.css'
         }]
       }
+    },
+    fileWrap: {
+      regular: {
+        header: 'window.global = window; var parcelRequire; ',
+        footer: '',
+        src: ['components/*.js'],
+        options: {
+          // fileMode, skipCheck, unique
+        }
+      }
     }
   });
 
@@ -68,7 +78,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-rename');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-file-wrap');
 
   grunt.registerTask('default', ['watch'])
-  grunt.registerTask('build', ['exec:rmBuild', 'copy:css', 'rename:css', 'cssmin', 'copy:fonts', 'copy:main', 'exec:buildComponents'])
+  grunt.registerTask('build', ['exec:rmBuild', 'copy:css', 'rename:css', 'cssmin', 'copy:fonts', 'copy:main', 'exec:buildComponents', 'fileWrap'])
 };

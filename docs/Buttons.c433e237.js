@@ -109,6 +109,12 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
 var _skatejs = require("skatejs");
 
+var _rendererPreact = _interopRequireDefault(require("@skatejs/renderer-preact"));
+
+var _preact = require("preact");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -154,8 +160,12 @@ function (_withComponent) {
       var type = _ref.type,
           icon = _ref.icon,
           onClick = _ref.onClick;
-      var icn = icon ? "<i class=\"".concat(icon, "\"></i> ") : '';
-      return "\n      <button class=\"btn ".concat(this.returnClass(type), "\" onclick=\"").concat(onClick, "\">\n        ").concat(icn, "\n        ").concat(this.innerHTML, "\n      </button>\n    ");
+      return (0, _preact.h)("button", {
+        className: 'btn ' + this.returnClass(type),
+        onClick: onClick
+      }, icon && (0, _preact.h)("i", {
+        class: icon
+      }), this.innerHTML);
     }
   }, {
     key: "renderRoot",
@@ -174,10 +184,10 @@ function (_withComponent) {
   }]);
 
   return Button;
-}((0, _skatejs.withComponent)());
+}((0, _skatejs.withComponent)((0, _rendererPreact.default)()));
 
 customElements.define('vp-button', Button);
-},{"skatejs":"node_modules/skatejs/dist/es/index.js"}],"src/vue/views/Buttons.vue":[function(require,module,exports) {
+},{"skatejs":"node_modules/skatejs/dist/es/index.js","@skatejs/renderer-preact":"node_modules/@skatejs/renderer-preact/dist/es/index.js","preact":"node_modules/preact/dist/preact.mjs"}],"src/vue/views/Buttons.vue":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -534,7 +544,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58833" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56277" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

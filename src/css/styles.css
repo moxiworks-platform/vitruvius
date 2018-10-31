@@ -139,3 +139,7 @@
 .v-card-image img {
   min-width: 100%;
 }
+
+.v-card-fake {
+  display: none;
+}

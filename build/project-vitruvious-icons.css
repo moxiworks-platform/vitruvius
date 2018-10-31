@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Vitruvius-icon-set';
-  src:  url('Vitruvius-icon-set.95b4dfae.eot?xu4n51');
-  src:  url('Vitruvius-icon-set.95b4dfae.eot?xu4n51#iefix') format('embedded-opentype'),
-    url('Vitruvius-icon-set.32a83006.ttf?xu4n51') format('truetype'),
-    url('Vitruvius-icon-set.8ca9d6bd.woff?xu4n51') format('woff'),
-    url('Vitruvius-icon-set.12686363.svg?xu4n51#Vitruvius-icon-set') format('svg');
+  src:  url('fonts/Vitruvius-icon-set.eot?xu4n51');
+  src:  url('fonts/Vitruvius-icon-set.eot?xu4n51#iefix') format('embedded-opentype'),
+    url('fonts/Vitruvius-icon-set.ttf?xu4n51') format('truetype'),
+    url('fonts/Vitruvius-icon-set.woff?xu4n51') format('woff'),
+    url('fonts/Vitruvius-icon-set.svg?xu4n51#Vitruvius-icon-set') format('svg');
   font-weight: normal;
   font-style: normal;
 }

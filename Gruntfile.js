@@ -36,7 +36,7 @@ module.exports = function(grunt) {
       },
       fonts: {
         files: [
-          {expand: true, flatten: true, src: ['./css/fonts/*'], dest: './build/.', filter: 'isFile'},
+          {expand: true, flatten: true, src: ['./css/fonts/*'], dest: './build/fonts/.', filter: 'isFile'},
         ],
       }
     },

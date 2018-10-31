@@ -1,9 +1,11 @@
+// @jsx h
+
 import { props, withComponent } from 'skatejs';
-import withLitHtml from '@skatejs/renderer-lit-html';
-import { html } from 'lit-html';
+import withPreact from '@skatejs/renderer-preact';
+import { h } from 'preact';
 
-class Card extends withComponent(withLitHtml()) {
-
+class Card extends withComponent(withPreact()) {
+  
   get renderRoot() {
     return this;
   }
@@ -19,19 +21,20 @@ class Card extends withComponent(withLitHtml()) {
   showReveal() {
     console.log('Show Reveal')
   }
-  
-  render({ image, reveal }) {
-    
-    let img = (image) ? html`<div class="v-card-image"><img src="${image}"></div>` : ''
-    let rev = (reveal) ? html`<i class="icon-more--vertical text-xl float-right cursor-pointer" onclick="this.showReveal()"></i>` : ''
 
-    return html`
-      <div class="v-card" on-click=${(e) => { this._showReveal(); }}>
-        ${img}
-        ${rev}
-        ${this.innerHTML}
+  render({ image, reveal }) {
+
+    return(
+      <div class="v-card">
+        { image &&
+          <div class="v-card-image"><img src={ image } /></div>
+        }
+        { reveal &&
+          <i class="icon-more--vertical text-xl float-right cursor-pointer" onClick={ e => this.showReveal() }></i>
+        }
+        { this.innerHTML }
       </div>
-    `;
+    )
   }
 }
 

@@ -1,6 +1,8 @@
 import { props, withComponent } from 'skatejs';
+import withLitHtml from '@skatejs/renderer-lit-html';
+import { html } from 'lit-html';
 
-class Card extends withComponent() {
+class Card extends withComponent(withLitHtml()) {
 
   get renderRoot() {
     return this;
@@ -13,7 +15,7 @@ class Card extends withComponent() {
   }
   
   render({ name }) {
-    return `
+    return html`
       <div class="ax-w-sm rounded overflow-hidden shadow-lg p-16">
         ${this.innerHTML}
       </div>

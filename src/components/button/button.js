@@ -1,6 +1,8 @@
 import { props, withComponent } from 'skatejs';
+import withLitHtml from '@skatejs/renderer-lit-html';
+import { html } from 'lit-html';
 
-class Button extends withComponent() {
+class Button extends withComponent(withLitHtml()) {
 
   get renderRoot() {
     return this;
@@ -25,8 +27,8 @@ class Button extends withComponent() {
   }
   
   render({ type, icon, onClick }) {
-    let icn = (icon) ? `<i class="${icon}"></i> ` : ''
-    return `
+    let icn = (icon) ? html`<i class="${icon}"></i> ` : ''
+    return html`
       <button class="btn ${this.returnClass(type)}" onclick="${onClick}">
         ${icn}
         ${this.innerHTML}

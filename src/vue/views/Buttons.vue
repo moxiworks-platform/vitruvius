@@ -45,6 +45,7 @@
 
 <script>
   import { button } from '../../components/button/button'
+  import { test } from '../../components/test/test'
 
   export default {
     name: 'buttons',

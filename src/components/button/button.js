@@ -1,10 +1,8 @@
-// @jsx h
-
 import { props, withComponent } from 'skatejs';
-import withPreact from '@skatejs/renderer-preact';
-import { h } from 'preact';
+import withLitHtml from '@skatejs/renderer-lit-html';
+import { html } from 'lit-html';
 
-class Button extends withComponent(withPreact()) {
+class Button extends withComponent(withLitHtml()) {
 
   get renderRoot() {
     return this;
@@ -27,17 +25,14 @@ class Button extends withComponent(withPreact()) {
     })
     return str
   }
-  
-  render({ type, icon, onClick }) {
 
-    return(
-      <button className={ 'btn ' + this.returnClass(type) } onClick={onClick}>
-        { icon &&
-          <i class={icon}></i>
-        }
-        { this.innerHTML }
+  render({ type, icon, onClick }) {
+    return html`
+      <button class="btn ${this.returnClass(type)}" @click="${onClick}">
+        ${ icon ? html`<i class="${icon}"></i>` : '' }
+        ${this.innerHTML}
       </button>
-    )
+    `;
   }
 }
 

@@ -2,7 +2,9 @@
   <section id="grid">
     <h1 class="mb-30">Grid</h1>
 
-    <h3 class="my-30">Regular Grid</h3>
+    <p>Vitruvious uses a flex box based grid system. Regular grid and responsive grid examples are below.</p>
+
+    <h2>Regular Grid</h2>
 
     <pre class="prettyprint linenums lang-html">  &lt;!-- Full width column --&gt;
     &lt;div class="v-flex"&gt;
@@ -41,7 +43,7 @@
 
     <!-- Full width column -->
     <div class="v-flex">
-      <div class="v-flex-item w-full"></div>
+      <div class="v-flex-item w-full bg-moxi-green text-center">1</div>
     </div>
 
     <!-- Two columns -->
@@ -74,7 +76,7 @@
       <div class="v-flex-item w-1/5 bg-moxi-green text-center">5</div>
     </div>
 
-    <h3 class="my-30">Responsive Grid</h3>
+    <h2>Responsive Grid</h2>
 
     <pre class="prettyprint linenums lang-html">  &lt;!-- Six columns --&gt;
     &lt;div class="v-flex-wrap"&gt;

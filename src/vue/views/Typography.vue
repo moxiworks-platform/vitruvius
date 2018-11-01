@@ -6,20 +6,20 @@
       Vitruvious uses the standard base font size of 16px which allows us to calculate font size in REM values from that point. If you're curious about conversions, you can look at this experiment here: <a href="https://daniellamb.com/experiments/px-to-rem-calc/" target="_blank">https://daniellamb.com/experiments/px-to-rem-calc/</a>
     </p>
     <p>
-      You might be asking, why REM values? Because REM allows for accessibility where PX do not. Think of an older user who's bumped up their computers base font size. 12px is 12px - but .75rem will adjust accordingly to help that user read content at their desired level.
+      We're opting for REM values as accessibility is a goal of this project. If our user has changed their base font setting then our font sizes should adjust accordingly.
     </p>
 
-    <h2 class="define"><i class="icon-chat mr-20"></i>Headings</h2>
+    <h2></i>Headings</h2>
 
-    <h1>h1. Headline Large - 2.5rem // 40px</h1>
-    <h2>h2. Headline Medium - 1.5rem // 24px</h2>
-    <h3>h3. Headline Regular - 1.125rem // 18px</h3>
-    <h4>h4. Headline Small - 1rem // 16px</h4>
-    <h5>h5. Headline "heading" - .875rem // 14px</h5>
+    <h1 class="hexept">h1. Headline Large - 2.5rem // 40px</h1>
+    <h2 class="hexept">h2. Headline Medium - 1.5rem // 24px</h2>
+    <h3 class="hexept">h3. Headline Regular - 1.125rem // 18px</h3>
+    <h4 class="hexept">h4. Headline Small - 1rem // 16px</h4>
+    <h5 class="hexept">h5. Headline "heading" - .875rem // 14px</h5>
 
-    <h2 class="define"><i class="icon-chat mr-20"></i>Plain Text and Class Examples</h2>
+    <h2 class="define"></i>Class Examples</h2>
 
-    <p>We have 9 font sizes accessible by class shown here</p>
+    <p>9 font sizes accessible by class.</p>
 
     <pre class="prettyprint linenums lang-html">&lt;p class="text-xs"&gt;...&lt;/p&gt;</pre>
     <p class="text-xs">This is an example of our extra small font size of 12px or .75rem.</p>

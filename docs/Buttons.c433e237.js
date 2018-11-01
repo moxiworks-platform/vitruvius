@@ -109,13 +109,35 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
 var _skatejs = require("skatejs");
 
-var _rendererPreact = _interopRequireDefault(require("@skatejs/renderer-preact"));
+var _rendererLitHtml = _interopRequireDefault(require("@skatejs/renderer-lit-html"));
 
-var _preact = require("preact");
+var _litHtml = require("lit-html");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _templateObject2() {
+  var data = _taggedTemplateLiteral(["<i class=\"", "\"></i>"]);
+
+  _templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject() {
+  var data = _taggedTemplateLiteral(["\n      <button class=\"btn ", "\" @click=\"", "\">\n        ", "\n        ", "\n      </button>\n    "]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -160,12 +182,7 @@ function (_withComponent) {
       var type = _ref.type,
           icon = _ref.icon,
           onClick = _ref.onClick;
-      return (0, _preact.h)("button", {
-        className: 'btn ' + this.returnClass(type),
-        onClick: onClick
-      }, icon && (0, _preact.h)("i", {
-        class: icon
-      }), this.innerHTML);
+      return (0, _litHtml.html)(_templateObject(), this.returnClass(type), onClick, icon ? (0, _litHtml.html)(_templateObject2(), icon) : '', this.innerHTML);
     }
   }, {
     key: "renderRoot",
@@ -184,10 +201,90 @@ function (_withComponent) {
   }]);
 
   return Button;
-}((0, _skatejs.withComponent)((0, _rendererPreact.default)()));
+}((0, _skatejs.withComponent)((0, _rendererLitHtml.default)()));
 
 customElements.define('vp-button', Button);
-},{"skatejs":"node_modules/skatejs/dist/es/index.js","@skatejs/renderer-preact":"node_modules/@skatejs/renderer-preact/dist/es/index.js","preact":"node_modules/preact/dist/preact.mjs"}],"src/vue/views/Buttons.vue":[function(require,module,exports) {
+},{"skatejs":"node_modules/skatejs/dist/es/index.js","@skatejs/renderer-lit-html":"node_modules/@skatejs/renderer-lit-html/dist/es/index.js","lit-html":"node_modules/lit-html/lit-html.js"}],"src/components/test/test.js":[function(require,module,exports) {
+"use strict";
+
+var _skatejs = require("skatejs");
+
+var _rendererLitHtml = _interopRequireDefault(require("@skatejs/renderer-lit-html"));
+
+var _litHtml = require("lit-html");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _templateObject() {
+  var data = _taggedTemplateLiteral(["\n      <div @click=", ">Hello, ", "!</div>\n    "]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+var WithLitHtml =
+/*#__PURE__*/
+function (_withComponent) {
+  _inherits(WithLitHtml, _withComponent);
+
+  function WithLitHtml() {
+    _classCallCheck(this, WithLitHtml);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(WithLitHtml).apply(this, arguments));
+  }
+
+  _createClass(WithLitHtml, [{
+    key: "foo",
+    value: function foo() {
+      console.log('foo');
+    }
+  }, {
+    key: "render",
+    value: function render(_ref) {
+      var _this = this;
+
+      var name = _ref.name;
+      return (0, _litHtml.html)(_templateObject(), function (e) {
+        return _this.foo();
+      }, name);
+    }
+  }], [{
+    key: "props",
+    get: function get() {
+      return {
+        name: _skatejs.props.string
+      };
+    }
+  }]);
+
+  return WithLitHtml;
+}((0, _skatejs.withComponent)((0, _rendererLitHtml.default)()));
+
+customElements.define('vp-test', WithLitHtml);
+},{"skatejs":"node_modules/skatejs/dist/es/index.js","@skatejs/renderer-lit-html":"node_modules/@skatejs/renderer-lit-html/dist/es/index.js","lit-html":"node_modules/lit-html/lit-html.js"}],"src/vue/views/Buttons.vue":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -196,6 +293,8 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _button = require("../../components/button/button");
+
+var _test = require("../../components/test/test");
 
 //
 //
@@ -517,7 +616,7 @@ render._withStripped = true
         
       }
     })();
-},{"../../components/button/button":"src/components/button/button.js","vue-hot-reload-api":"node_modules/vue-hot-reload-api/dist/index.js","vue":"node_modules/vue/dist/vue.runtime.esm.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"../../components/button/button":"src/components/button/button.js","../../components/test/test":"src/components/test/test.js","vue-hot-reload-api":"node_modules/vue-hot-reload-api/dist/index.js","vue":"node_modules/vue/dist/vue.runtime.esm.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -544,7 +643,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55298" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54159" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

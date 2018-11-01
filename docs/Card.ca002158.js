@@ -109,13 +109,45 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
 var _skatejs = require("skatejs");
 
-var _rendererPreact = _interopRequireDefault(require("@skatejs/renderer-preact"));
+var _rendererLitHtml = _interopRequireDefault(require("@skatejs/renderer-lit-html"));
 
-var _preact = require("preact");
+var _litHtml = require("lit-html");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _templateObject3() {
+  var data = _taggedTemplateLiteral(["<i class=\"icon-more--vertical text-xl float-right cursor-pointer\" @click=\"", "\"></i>"]);
+
+  _templateObject3 = function _templateObject3() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject2() {
+  var data = _taggedTemplateLiteral(["<div class=\"v-card-image\"><img src=\"", "\" /></div>"]);
+
+  _templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject() {
+  var data = _taggedTemplateLiteral(["\n      <div class=\"v-card\">\n        ", "\n        ", "\n        ", "\n      </div>\n    "]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -156,18 +188,9 @@ function (_withComponent) {
 
       var image = _ref.image,
           reveal = _ref.reveal;
-      return (0, _preact.h)("div", {
-        class: "v-card"
-      }, image && (0, _preact.h)("div", {
-        class: "v-card-image"
-      }, (0, _preact.h)("img", {
-        src: image
-      })), reveal && (0, _preact.h)("i", {
-        class: "icon-more--vertical text-xl float-right cursor-pointer",
-        onClick: function onClick(e) {
-          return _this.showReveal();
-        }
-      }), this.innerHTML);
+      return (0, _litHtml.html)(_templateObject(), image ? (0, _litHtml.html)(_templateObject2(), image) : '', reveal ? (0, _litHtml.html)(_templateObject3(), function () {
+        return _this.showReveal();
+      }) : '', this.innerHTML);
     }
   }, {
     key: "renderRoot",
@@ -178,7 +201,6 @@ function (_withComponent) {
     key: "props",
     get: function get() {
       return {
-        name: _skatejs.props.string,
         image: _skatejs.props.string,
         reveal: _skatejs.props.string
       };
@@ -186,10 +208,10 @@ function (_withComponent) {
   }]);
 
   return Card;
-}((0, _skatejs.withComponent)((0, _rendererPreact.default)()));
+}((0, _skatejs.withComponent)((0, _rendererLitHtml.default)()));
 
 customElements.define('vp-card', Card);
-},{"skatejs":"node_modules/skatejs/dist/es/index.js","@skatejs/renderer-preact":"node_modules/@skatejs/renderer-preact/dist/es/index.js","preact":"node_modules/preact/dist/preact.mjs"}],"src/vue/views/Card.vue":[function(require,module,exports) {
+},{"skatejs":"node_modules/skatejs/dist/es/index.js","@skatejs/renderer-lit-html":"node_modules/@skatejs/renderer-lit-html/dist/es/index.js","lit-html":"node_modules/lit-html/lit-html.js"}],"src/vue/views/Card.vue":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -344,7 +366,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55298" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54159" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

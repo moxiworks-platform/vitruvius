@@ -10,7 +10,7 @@
 
     <h2>Card with Image</h2>
 
-    <vp-card image="https://i.imgur.com/Hb21JAa.jpg">
+    <vp-card image="https://i.imgur.com/75kuZXj.jpg">
       This is a card with an image.
     </vp-card>
 

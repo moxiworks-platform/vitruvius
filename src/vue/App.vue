@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <section id="header" class="p-30 bg-cn-100 text-white fixed pin-t pin-x z-100">
+    <section id="header" class="p-50 bg-cn-05 fixed pin-t pin-x z-100">
       <div class="w-3/4" style="margin:auto">
-        <router-link to="/">Vitruvious Project<br /><span class="text-xs">Brought to you by MoxiWorks</span></router-link>
+        <router-link to="/" class="font-bold">Project Vitruvious</router-link>
         <div class="float-right -mt-2">v0.0.1</div>
       </div>
     </section>
@@ -69,16 +69,31 @@
 </script>
 
 <style lang="scss">
+  h1, h2 {
+    font-weight: normal !important;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+  }
+  h2 {
+    margin-top: 30px;
+  }
+  .hexept {
+    font-weight: bold !important;
+    border-bottom: 0px !important;
+    padding-bottom: initial;
+    margin: initial;
+  }
   #header {
     a {
-      color: #fff;
+      color: #222;
     }
     a:hover {
       text-decoration: none;
     }
   }
   #content {
-    padding-top: 96px;
+    padding-top: 156px;
     width: 75%;
     margin: auto;
   }
@@ -97,10 +112,5 @@
     border: 1px solid #999;
     background: #e5e5e5;
     padding: 20px;
-  }
-  .define {
-    border-bottom: 1px solid #ececec;
-    padding-bottom: 15px;
-    margin: 30px 0;
   }
 </style>

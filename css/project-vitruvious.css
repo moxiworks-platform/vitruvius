@@ -7145,6 +7145,7 @@ p {
 ************************************************************************************/
 
 .v-card {
+  position: relative;
   border-radius: .25rem;
   overflow: hidden;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .12), 0 2px 4px 0 rgba(0, 0, 0, .08);
@@ -7161,6 +7162,41 @@ p {
 
 .v-card-fake {
   display: none;
+}
+
+.v-reveal {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 40;
+  background-color: #fff;
+  display: none;
+}
+
+.v-reveal-content {
+  min-width: 100%;
+  text-align: center;
+}
+
+.v-close-reveal {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+/*************************************************************************************
+* Utility Classes
+************************************************************************************/
+
+.absolute-center {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 @media (min-width: 576px) {

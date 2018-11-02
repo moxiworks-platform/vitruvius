@@ -8,19 +8,19 @@
 
 &lt;div class="text-cn-80"&gt;Text will be neutral color 80&lt;/div&gt;</pre>
 
-    <div><strong>Moxi Core Colors (Blue)</strong></div>
+    <h2>Moxi Core Colors (Blue)</h2>
     <div class="p-20 my-10 bg-moxi-blue-dark text-white">.bg-moxi-blue-dark</div>
     <div class="p-20 my-10 bg-moxi-blue text-white">.bg-moxi-blue</div>
     <div class="p-20 my-10 bg-moxi-blue-light text-white">.bg-moxi-blue-light</div>
     <div class="p-20 my-10 bg-moxi-blue-lightest text-white">.bg-moxi-blue-lightest</div>
 
-    <div><strong>Moxi Core Colors (Green)</strong></div>
+    <h2>Moxi Core Colors (Green)</h2>
     <div class="p-20 my-10 bg-moxi-green-dark text-white">.bg-moxi-green-dark</div>
     <div class="p-20 my-10 bg-moxi-green text-white">.bg-moxi-green</div>
     <div class="p-20 my-10 bg-moxi-green-light text-white">.bg-moxi-green-light</div>
     <div class="p-20 my-10 bg-moxi-green-lightest text-white">.bg-moxi-blue-lightest</div>
 
-    <div><strong>Neutrals</strong></div>
+    <h2>Neutrals</h2>
     <div class="p-20 my-10 bg-cn-100 text-white">.bg-cn-100</div>
     <div class="p-20 my-10 bg-cn-90 text-white">.bg-cn-90</div>
     <div class="p-20 my-10 bg-cn-80 text-white">.bg-cn-80</div>
@@ -35,7 +35,7 @@
     <div class="p-20 my-10 bg-cn-05 text-black">.bg-cn-05</div>
     <div class="p-20 my-10 bg-cn-0 text-black">.bg-cn-0</div>
 
-    <div><strong>Alternatives</strong></div>
+    <h2>Alternatives</h2>
     <div class="p-20 my-10 bg-moxi-destructive text-white">.bg-moxi-destructive</div>
     <div class="p-20 my-10 bg-moxi-destructive-light text-white">.bg-moxi-destructive-light</div>
     <div class="p-20 my-10 bg-ca-heliotrop text-white">.bg-ca-heliotrop</div>

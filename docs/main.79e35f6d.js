@@ -8485,14 +8485,14 @@ var _default = {
   components: {}
 };
 exports.default = _default;
-        var $3cfac8 = exports.default || module.exports;
+        var $d81ccc = exports.default || module.exports;
       
-      if (typeof $3cfac8 === 'function') {
-        $3cfac8 = $3cfac8.options;
+      if (typeof $d81ccc === 'function') {
+        $d81ccc = $d81ccc.options;
       }
     
         /* template */
-        Object.assign($3cfac8, (function () {
+        Object.assign($d81ccc, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -8501,7 +8501,7 @@ exports.default = _default;
     _c(
       "section",
       {
-        staticClass: "p-30 bg-cn-100 text-white fixed pin-t pin-x z-100",
+        staticClass: "p-50 bg-cn-05 fixed pin-t pin-x z-100",
         attrs: { id: "header" }
       },
       [
@@ -8509,13 +8509,11 @@ exports.default = _default;
           "div",
           { staticClass: "w-3/4", staticStyle: { margin: "auto" } },
           [
-            _c("router-link", { attrs: { to: "/" } }, [
-              _vm._v("Vitruvious Project"),
-              _c("br"),
-              _c("span", { staticClass: "text-xs" }, [
-                _vm._v("Brought to you by MoxiWorks")
-              ])
-            ]),
+            _c(
+              "router-link",
+              { staticClass: "font-bold", attrs: { to: "/" } },
+              [_vm._v("Project Vitruvious")]
+            ),
             _vm._v(" "),
             _c("div", { staticClass: "float-right -mt-2" }, [_vm._v("v0.0.1")])
           ],
@@ -8673,9 +8671,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$3cfac8', $3cfac8);
+            api.createRecord('$d81ccc', $d81ccc);
           } else {
-            api.reload('$3cfac8', $3cfac8);
+            api.reload('$d81ccc', $d81ccc);
           }
         }
 
@@ -11399,6 +11397,12 @@ var Card = function Card() {
 _vue.default.use(_vueRouter.default);
 
 var _default = new _vueRouter.default({
+  scrollBehavior: function scrollBehavior(to, from, savedPosition) {
+    return {
+      x: 0,
+      y: 0
+    };
+  },
   routes: [{
     path: '/',
     name: 'home',
@@ -14429,7 +14433,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54159" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61858" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

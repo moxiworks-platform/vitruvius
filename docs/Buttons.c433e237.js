@@ -349,14 +349,14 @@ var _default = {
   mounted: function mounted() {}
 };
 exports.default = _default;
-        var $c734a2 = exports.default || module.exports;
+        var $e522b7 = exports.default || module.exports;
       
-      if (typeof $c734a2 === 'function') {
-        $c734a2 = $c734a2.options;
+      if (typeof $e522b7 === 'function') {
+        $e522b7 = $e522b7.options;
       }
     
         /* template */
-        Object.assign($c734a2, (function () {
+        Object.assign($e522b7, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -370,7 +370,7 @@ exports.default = _default;
       )
     ]),
     _vm._v(" "),
-    _vm._m(0),
+    _c("h2", [_vm._v("Basic Button Styles")]),
     _vm._v(" "),
     _c(
       "div",
@@ -403,7 +403,7 @@ exports.default = _default;
       1
     ),
     _vm._v(" "),
-    _vm._m(1),
+    _c("h2", [_vm._v("Buttons with Icons")]),
     _vm._v(" "),
     _c(
       "div",
@@ -460,7 +460,7 @@ exports.default = _default;
       1
     ),
     _vm._v(" "),
-    _vm._m(2),
+    _c("h2", [_vm._v("Dense Button Varient (smaller)")]),
     _vm._v(" "),
     _c(
       "div",
@@ -502,7 +502,7 @@ exports.default = _default;
       1
     ),
     _vm._v(" "),
-    _vm._m(3),
+    _c("h2", [_vm._v("Buttons with Icons Dense (smaller)")]),
     _vm._v(" "),
     _c(
       "div",
@@ -560,34 +560,7 @@ exports.default = _default;
     )
   ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [_c("strong", [_vm._v("Basic Button Styles")])])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [_c("strong", [_vm._v("Buttons with Icons")])])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [_c("strong", [_vm._v("Dense Button Varient (smaller)")])])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("strong", [_vm._v("Buttons with Icons Dense (smaller)")])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
           return {
@@ -607,9 +580,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$c734a2', $c734a2);
+            api.createRecord('$e522b7', $e522b7);
           } else {
-            api.reload('$c734a2', $c734a2);
+            api.reload('$e522b7', $e522b7);
           }
         }
 
@@ -643,7 +616,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54159" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61858" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

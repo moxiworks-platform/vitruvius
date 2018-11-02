@@ -1,7 +1,6 @@
 {
-
-  "name": "@moxiworks/project-vitruvious",
-  "version": "0.0.8",
+  "name": "@moxiworks/project-vitruvius",
+  "version": "0.0.9",
   "description": "",
   "main": "index.js",
   "scripts": {

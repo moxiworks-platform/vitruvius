@@ -171,14 +171,14 @@ var _default = {
   }
 };
 exports.default = _default;
-        var $a63830 = exports.default || module.exports;
+        var $0c91b3 = exports.default || module.exports;
       
-      if (typeof $a63830 === 'function') {
-        $a63830 = $a63830.options;
+      if (typeof $0c91b3 === 'function') {
+        $0c91b3 = $0c91b3.options;
       }
     
         /* template */
-        Object.assign($a63830, (function () {
+        Object.assign($0c91b3, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -205,7 +205,7 @@ var staticRenderFns = [
         )
       ]),
       _vm._v(" "),
-      _c("div", [_c("strong", [_vm._v("Moxi Core Colors (Blue)")])]),
+      _c("h2", [_vm._v("Moxi Core Colors (Blue)")]),
       _vm._v(" "),
       _c("div", { staticClass: "p-20 my-10 bg-moxi-blue-dark text-white" }, [
         _vm._v(".bg-moxi-blue-dark")
@@ -225,7 +225,7 @@ var staticRenderFns = [
         [_vm._v(".bg-moxi-blue-lightest")]
       ),
       _vm._v(" "),
-      _c("div", [_c("strong", [_vm._v("Moxi Core Colors (Green)")])]),
+      _c("h2", [_vm._v("Moxi Core Colors (Green)")]),
       _vm._v(" "),
       _c("div", { staticClass: "p-20 my-10 bg-moxi-green-dark text-white" }, [
         _vm._v(".bg-moxi-green-dark")
@@ -245,7 +245,7 @@ var staticRenderFns = [
         [_vm._v(".bg-moxi-blue-lightest")]
       ),
       _vm._v(" "),
-      _c("div", [_c("strong", [_vm._v("Neutrals")])]),
+      _c("h2", [_vm._v("Neutrals")]),
       _vm._v(" "),
       _c("div", { staticClass: "p-20 my-10 bg-cn-100 text-white" }, [
         _vm._v(".bg-cn-100")
@@ -299,7 +299,7 @@ var staticRenderFns = [
         _vm._v(".bg-cn-0")
       ]),
       _vm._v(" "),
-      _c("div", [_c("strong", [_vm._v("Alternatives")])]),
+      _c("h2", [_vm._v("Alternatives")]),
       _vm._v(" "),
       _c("div", { staticClass: "p-20 my-10 bg-moxi-destructive text-white" }, [
         _vm._v(".bg-moxi-destructive")
@@ -376,9 +376,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$a63830', $a63830);
+            api.createRecord('$0c91b3', $0c91b3);
           } else {
-            api.reload('$a63830', $a63830);
+            api.reload('$0c91b3', $0c91b3);
           }
         }
 
@@ -412,7 +412,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54159" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61858" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

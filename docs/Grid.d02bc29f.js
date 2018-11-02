@@ -230,6 +230,8 @@ exports.default = void 0;
 //
 //
 //
+//
+//
 var _default = {
   name: 'grid',
   data: function data() {
@@ -237,14 +239,14 @@ var _default = {
   }
 };
 exports.default = _default;
-        var $fef65e = exports.default || module.exports;
+        var $a8754c = exports.default || module.exports;
       
-      if (typeof $fef65e === 'function') {
-        $fef65e = $fef65e.options;
+      if (typeof $a8754c === 'function') {
+        $a8754c = $a8754c.options;
       }
     
         /* template */
-        Object.assign($fef65e, (function () {
+        Object.assign($a8754c, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -259,7 +261,13 @@ var staticRenderFns = [
     return _c("section", { attrs: { id: "grid" } }, [
       _c("h1", { staticClass: "mb-30" }, [_vm._v("Grid")]),
       _vm._v(" "),
-      _c("h3", { staticClass: "my-30" }, [_vm._v("Regular Grid")]),
+      _c("p", [
+        _vm._v(
+          "Vitruvious uses a flex box based grid system. Regular grid and responsive grid examples are below."
+        )
+      ]),
+      _vm._v(" "),
+      _c("h2", [_vm._v("Regular Grid")]),
       _vm._v(" "),
       _c("pre", { staticClass: "prettyprint linenums lang-html" }, [
         _vm._v(
@@ -268,7 +276,11 @@ var staticRenderFns = [
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "v-flex" }, [
-        _c("div", { staticClass: "v-flex-item w-full" })
+        _c(
+          "div",
+          { staticClass: "v-flex-item w-full bg-moxi-green text-center" },
+          [_vm._v("1")]
+        )
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "v-flex" }, [
@@ -363,7 +375,7 @@ var staticRenderFns = [
         )
       ]),
       _vm._v(" "),
-      _c("h3", { staticClass: "my-30" }, [_vm._v("Responsive Grid")]),
+      _c("h2", [_vm._v("Responsive Grid")]),
       _vm._v(" "),
       _c("pre", { staticClass: "prettyprint linenums lang-html" }, [
         _vm._v(
@@ -504,9 +516,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$fef65e', $fef65e);
+            api.createRecord('$a8754c', $a8754c);
           } else {
-            api.reload('$fef65e', $fef65e);
+            api.reload('$a8754c', $a8754c);
           }
         }
 
@@ -540,7 +552,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54159" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61858" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

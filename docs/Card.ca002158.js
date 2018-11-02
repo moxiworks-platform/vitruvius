@@ -117,8 +117,18 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
-function _templateObject3() {
+function _templateObject4() {
   var data = _taggedTemplateLiteral(["<i class=\"icon-more--vertical text-xl float-right cursor-pointer\" @click=\"", "\"></i>"]);
+
+  _templateObject4 = function _templateObject4() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject3() {
+  var data = _taggedTemplateLiteral(["<div class=\"v-card-image\"><img src=\"", "\" /></div>"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -128,7 +138,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  var data = _taggedTemplateLiteral(["<div class=\"v-card-image\"><img src=\"", "\" /></div>"]);
+  var data = _taggedTemplateLiteral(["\n          <div class=\"v-reveal\">\n            <div class=\"v-close-reveal\"><i class=\"icon-close\" @click=\"", "\"></i></div>\n            <div class=\"v-reveal-content absolute-center\">\n              ", "\n            </div>\n          </div>"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -138,7 +148,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n      <div class=\"v-card\">\n        ", "\n        ", "\n        ", "\n      </div>\n    "]);
+  var data = _taggedTemplateLiteral(["\n      <div class=\"v-card\">\n        ", "\n        ", "\n        ", "\n        ", "\n      </div>\n    "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -178,8 +188,13 @@ function (_withComponent) {
 
   _createClass(Card, [{
     key: "showReveal",
-    value: function showReveal() {
-      console.log('Show Reveal');
+    value: function showReveal(e) {
+      e.target.parentNode.querySelector('.v-reveal').style.display = 'block';
+    }
+  }, {
+    key: "hideReveal",
+    value: function hideReveal(e) {
+      e.target.parentNode.parentNode.style.display = 'none';
     }
   }, {
     key: "render",
@@ -188,8 +203,10 @@ function (_withComponent) {
 
       var image = _ref.image,
           reveal = _ref.reveal;
-      return (0, _litHtml.html)(_templateObject(), image ? (0, _litHtml.html)(_templateObject2(), image) : '', reveal ? (0, _litHtml.html)(_templateObject3(), function () {
-        return _this.showReveal();
+      return (0, _litHtml.html)(_templateObject(), reveal ? (0, _litHtml.html)(_templateObject2(), function (e) {
+        return _this.hideReveal(e);
+      }, this.reveal) : '', image ? (0, _litHtml.html)(_templateObject3(), image) : '', reveal ? (0, _litHtml.html)(_templateObject4(), function (e) {
+        return _this.showReveal(e);
       }) : '', this.innerHTML);
     }
   }, {
@@ -254,14 +271,14 @@ var _default = {
   }
 };
 exports.default = _default;
-        var $35501c = exports.default || module.exports;
+        var $44f712 = exports.default || module.exports;
       
-      if (typeof $35501c === 'function') {
-        $35501c = $35501c.options;
+      if (typeof $44f712 === 'function') {
+        $44f712 = $44f712.options;
       }
     
         /* template */
-        Object.assign($35501c, (function () {
+        Object.assign($44f712, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -272,29 +289,24 @@ exports.default = _default;
     [
       _c("h1", { staticClass: "mb-30" }, [_vm._v("Cards")]),
       _vm._v(" "),
+      _c("h2", [_vm._v("Basic Card")]),
+      _vm._v(" "),
       _c("vp-card", { attrs: { name: "foo" } }, [
         _vm._v("\n    This is a card.\n  ")
       ]),
       _vm._v(" "),
-      _c("br"),
+      _c("h2", [_vm._v("Card with Image")]),
       _vm._v(" "),
-      _c("br"),
+      _c("vp-card", { attrs: { image: "https://i.imgur.com/75kuZXj.jpg" } }, [
+        _vm._v("\n    This is a card with an image.\n  ")
+      ]),
       _vm._v(" "),
-      _c(
-        "vp-card",
-        { attrs: { name: "foo", image: "https://i.imgur.com/Hb21JAa.jpg" } },
-        [_vm._v("\n    This is a card with an image.\n  ")]
-      ),
-      _vm._v(" "),
-      _c("br"),
-      _vm._v(" "),
-      _c("br"),
+      _c("h2", [_vm._v("Card with Image and Reveal")]),
       _vm._v(" "),
       _c(
         "vp-card",
         {
           attrs: {
-            name: "foo",
             image: "https://i.imgur.com/Hb21JAa.jpg",
             reveal:
               "This is Richard Sherman. Perhaps the greatest niner of all time."
@@ -326,9 +338,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$35501c', $35501c);
+            api.createRecord('$44f712', $44f712);
           } else {
-            api.reload('$35501c', $35501c);
+            api.reload('$44f712', $44f712);
           }
         }
 
@@ -366,7 +378,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54159" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61858" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

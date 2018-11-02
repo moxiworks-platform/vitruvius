@@ -557,14 +557,14 @@ var _default = {
   }
 };
 exports.default = _default;
-        var $93e363 = exports.default || module.exports;
+        var $924d7f = exports.default || module.exports;
       
-      if (typeof $93e363 === 'function') {
-        $93e363 = $93e363.options;
+      if (typeof $924d7f === 'function') {
+        $924d7f = $924d7f.options;
       }
     
         /* template */
-        Object.assign($93e363, (function () {
+        Object.assign($924d7f, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -1893,9 +1893,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$93e363', $93e363);
+            api.createRecord('$924d7f', $924d7f);
           } else {
-            api.reload('$93e363', $93e363);
+            api.reload('$924d7f', $924d7f);
           }
         }
 
@@ -1929,7 +1929,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54159" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61858" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

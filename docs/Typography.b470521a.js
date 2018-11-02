@@ -183,14 +183,14 @@ var _default = {
 */
 
 exports.default = _default;
-        var $2eed90 = exports.default || module.exports;
+        var $cb6bc8 = exports.default || module.exports;
       
-      if (typeof $2eed90 === 'function') {
-        $2eed90 = $2eed90.options;
+      if (typeof $cb6bc8 === 'function') {
+        $cb6bc8 = $cb6bc8.options;
       }
     
         /* template */
-        Object.assign($2eed90, (function () {
+        Object.assign($cb6bc8, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -223,31 +223,35 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "\n    You might be asking, why REM values? Because REM allows for accessibility where PX do not. Think of an older user who's bumped up their computers base font size. 12px is 12px - but .75rem will adjust accordingly to help that user read content at their desired level.\n  "
+          "\n    We're opting for REM values as accessibility is a goal of this project. If our user has changed their base font setting then our font sizes should adjust accordingly.\n  "
         )
       ]),
       _vm._v(" "),
-      _c("h2", { staticClass: "define" }, [
-        _c("i", { staticClass: "icon-chat mr-20" }),
-        _vm._v("Headings")
+      _c("h2", [_vm._v("Headings")]),
+      _vm._v(" "),
+      _c("h1", { staticClass: "hexept" }, [
+        _vm._v("h1. Headline Large - 2.5rem // 40px")
       ]),
       _vm._v(" "),
-      _c("h1", [_vm._v("h1. Headline Large - 2.5rem // 40px")]),
-      _vm._v(" "),
-      _c("h2", [_vm._v("h2. Headline Medium - 1.5rem // 24px")]),
-      _vm._v(" "),
-      _c("h3", [_vm._v("h3. Headline Regular - 1.125rem // 18px")]),
-      _vm._v(" "),
-      _c("h4", [_vm._v("h4. Headline Small - 1rem // 16px")]),
-      _vm._v(" "),
-      _c("h5", [_vm._v('h5. Headline "heading" - .875rem // 14px')]),
-      _vm._v(" "),
-      _c("h2", { staticClass: "define" }, [
-        _c("i", { staticClass: "icon-chat mr-20" }),
-        _vm._v("Plain Text and Class Examples")
+      _c("h2", { staticClass: "hexept" }, [
+        _vm._v("h2. Headline Medium - 1.5rem // 24px")
       ]),
       _vm._v(" "),
-      _c("p", [_vm._v("We have 9 font sizes accessible by class shown here")]),
+      _c("h3", { staticClass: "hexept" }, [
+        _vm._v("h3. Headline Regular - 1.125rem // 18px")
+      ]),
+      _vm._v(" "),
+      _c("h4", { staticClass: "hexept" }, [
+        _vm._v("h4. Headline Small - 1rem // 16px")
+      ]),
+      _vm._v(" "),
+      _c("h5", { staticClass: "hexept" }, [
+        _vm._v('h5. Headline "heading" - .875rem // 14px')
+      ]),
+      _vm._v(" "),
+      _c("h2", { staticClass: "define" }, [_vm._v("Class Examples")]),
+      _vm._v(" "),
+      _c("p", [_vm._v("9 font sizes accessible by class.")]),
       _vm._v(" "),
       _c("pre", { staticClass: "prettyprint linenums lang-html" }, [
         _vm._v('<p class="text-xs">...</p>')
@@ -346,9 +350,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$2eed90', $2eed90);
+            api.createRecord('$cb6bc8', $cb6bc8);
           } else {
-            api.reload('$2eed90', $2eed90);
+            api.reload('$cb6bc8', $cb6bc8);
           }
         }
 
@@ -382,7 +386,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54159" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61858" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

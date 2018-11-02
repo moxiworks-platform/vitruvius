@@ -69,21 +69,6 @@
 </script>
 
 <style lang="scss">
-  h1, h2 {
-    font-weight: normal !important;
-    border-bottom: 1px solid #e5e5e5;
-    padding-bottom: 20px;
-    margin-bottom: 30px;
-  }
-  h2 {
-    margin-top: 30px;
-  }
-  .hexept {
-    font-weight: bold !important;
-    border-bottom: 0px !important;
-    padding-bottom: initial;
-    margin: initial;
-  }
   #header {
     a {
       color: #222;

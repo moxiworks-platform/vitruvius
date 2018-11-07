@@ -1,3 +1,3 @@
-# Icons Via CDN
-https://cdn.jsdelivr.net/gh/moxiworks-platform/vitruvious@0.0.9/build/project-vitruvious-icons.css
-https://cdn.jsdelivr.net/gh/moxiworks-platform/vitruvious@0.0.9/build/project-vitruvious-icons.min.css
+# Project Vitruvius
+
+Project Vitruvius is a CSS and Component Framework created by MoxiWorks with the ideal of creating "framework agnostic" components and a CSS framework which matches our UX teams design ethos.

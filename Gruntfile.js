@@ -54,13 +54,25 @@ module.exports = function(grunt) {
           {expand: true, flatten: true, src: ['./src/components/**/*.js'], dest: './build/components/.', filter: 'isFile'},
         ],
       },
+    },
+    cssmin: {
+      target: {
+        files: [{
+          expand: true,
+          cwd: 'build',
+          src: ['*.css', '!*.min.css'],
+          dest: 'build',
+          ext: '.min.css'
+        }]
+      }
     }
   });
 
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-exec');
   grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
 
   grunt.registerTask('default', ['watch'])
-  grunt.registerTask('build', ['exec:rm', 'exec:buildVue', 'copy:docs', 'copy:css', 'copy:fonts', 'copy:components']);
+  grunt.registerTask('build', ['exec:rm', 'exec:buildVue', 'copy:docs', 'copy:css', 'copy:fonts', 'copy:components', 'cssmin']);
 }

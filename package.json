@@ -1,6 +1,6 @@
 {
   "name": "@moxiworks/project-vitruvius",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "private": false,
   "scripts": {
     "dev": "npm-run-all --parallel watch \"serve -- {@}\" --",
@@ -37,6 +37,7 @@
     "eslint-plugin-vue": "^5.0.0-0",
     "grunt": "^1.0.3",
     "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^3.0.0",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-exec": "^3.0.0",
     "install": "^0.12.2",

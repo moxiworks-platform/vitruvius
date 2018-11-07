@@ -40,6 +40,10 @@
       <vp-button type="destructive,dense" icon="icon-location-pin-filled">Destructive</vp-button>
     </div>
 
+    <br /><br />
+
+    <vp-button title="Testing Link" type="blue" href="https://moxiworks-platform.github.io/vitruvius" target="_blank" />
+
   </section>
 </template>
 

@@ -1,8 +1,12 @@
 <vp-button>
-  <button class={ returnClass(this.opts.type) }>
+  <button id="{ this.opts.id }" class="{ returnClass(this.opts.type) }" if="{ !this.opts.href }">
     <i class={ this.opts.icon } if={ this.opts.icon }></i>
     { this.opts.title || this.root._innerHTML }
   </button>
+
+  <a id="{ this.opts.id }" class="{ returnClass(this.opts.type) }" href="{ this.opts.href }" target="{ this.opts.target || '' }" if="{ this.opts.href }">
+    { this.opts.title || this.root._innerHTML }
+  </a>
 
   <script>
     returnClass(type) {

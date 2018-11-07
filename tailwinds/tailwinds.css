@@ -11,6 +11,10 @@
  
  @tailwind preflight;
  @tailwind utilities;
+
+ /*************************************************************************************
+ * Body Base Font
+ ************************************************************************************/
  
  body {
    font-family: 'Muli', sans-serif !important;
@@ -23,6 +27,7 @@
   a {
     @apply text-moxi-blue no-underline;
   }
+
   a:hover {
     @apply text-moxi-blue-dark underline;
   }
@@ -79,8 +84,14 @@
  .btn-blue {
    @apply bg-moxi-blue text-white;
  }
+
  .btn-blue:hover {
-   @apply bg-moxi-blue-dark;
+   @apply bg-moxi-blue-dark text-white;
+ }
+
+ a.btn:hover {
+   color: default;
+   text-decoration: none;
  }
  
  /*************************************************************************************

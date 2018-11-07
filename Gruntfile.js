@@ -33,9 +33,10 @@ module.exports = function(grunt) {
     },
     copy: {
       docs: {
-        files: [
-          {expand: true, flatten: false, src: ['./dist/**'], dest: 'docs/', filter: 'isFile'},
-        ],
+        cwd: 'dist',  // set working folder / root to copy
+        src: '**/*',           // copy all files and subfolders
+        dest: 'docs',    // destination folder
+        expand: true,          // required when using cwd
       },
       css: {
         files: [

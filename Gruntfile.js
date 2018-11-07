@@ -40,8 +40,8 @@ module.exports = function(grunt) {
       },
       css: {
         files: [
-          {expand: true, flatten: true, src: ['./public/css/project-vitruvious.css'], dest: './build/.', filter: 'isFile'},
-          {expand: true, flatten: true, src: ['./public/css/project-vitruvious-icons.css'], dest: './build/.', filter: 'isFile'},
+          {expand: true, flatten: true, src: ['./public/css/project-vitruvius.css'], dest: './build/.', filter: 'isFile'},
+          {expand: true, flatten: true, src: ['./public/css/project-vitruvius-icons.css'], dest: './build/.', filter: 'isFile'},
         ],
       },
       fonts: {

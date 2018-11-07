@@ -9,7 +9,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
-    "buildCSS": "./node_modules/.bin/tailwind build ./tailwinds/tailwinds.css -c ./tailwinds/tailwinds.js -o ./public/css/project-vitruvious.css"
+    "buildCSS": "./node_modules/.bin/tailwind build ./tailwinds/tailwinds.css -c ./tailwinds/tailwinds.js -o ./public/css/project-vitruvius.css"
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0",

@@ -2,7 +2,7 @@
   <div id="app">
     <section id="header" class="p-50 bg-cn-05 fixed pin-t pin-x z-100">
       <div class="w-3/4" style="margin:auto">
-        <router-link to="/" class="font-bold">Project Vitruvious</router-link>
+        <router-link to="/" class="font-bold">Project Vitruvius</router-link>
         <div class="float-right -mt-2">v0.0.1</div>
       </div>
     </section>

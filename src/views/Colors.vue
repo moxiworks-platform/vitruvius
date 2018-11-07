@@ -2,7 +2,7 @@
   <section id="colors">
     <h1 class="mb-30">Colors</h1>
 
-    <p>Since Project Vitruvious is a functional CSS framework, the syntax to add color is simple. Here are two simple examples:</p>
+    <p>Since Project Vitruvius is a functional CSS framework, the syntax to add color is simple. Here are two simple examples:</p>
 
     <pre class="prettyprint linenums lang-html">&lt;div class="bg-moxi-blue-dark text-cn-0"&gt;Background Moxi Blue Dark with white text using neutral color 0.&lt;/div&gt;
 

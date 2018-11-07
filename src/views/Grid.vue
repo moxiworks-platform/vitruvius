@@ -2,7 +2,7 @@
   <section id="grid">
     <h1 class="mb-30">Grid</h1>
 
-    <p>Vitruvious uses a flex box based grid system. Regular grid and responsive grid examples are below.</p>
+    <p>Vitruvius uses a flex box based grid system. Regular grid and responsive grid examples are below.</p>
 
     <h2>Regular Grid</h2>
 

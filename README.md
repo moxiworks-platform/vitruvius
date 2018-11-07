@@ -14,3 +14,4 @@ https://cdn.jsdelivr.net/npm/@moxiworks/project-vitruvius@0.0.13/build/project-v
 https://cdn.jsdelivr.net/npm/@moxiworks/project-vitruvius@0.0.13/build/project-vitruvius-icons.css
 https://cdn.jsdelivr.net/npm/@moxiworks/project-vitruvius@0.0.13/build/project-vitruvius-icons.min.css
 
+Icons can be referenced here: [https://moxiworks-platform.github.io/vitruvius/#/icons](https://moxiworks-platform.github.io/vitruvius/#/icons)

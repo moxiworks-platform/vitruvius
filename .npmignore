@@ -6,8 +6,11 @@ design_assets/
 css/
 docs/
 src/
+public/
 .babelrc
-components.js
+postcss.config.js
+vue.config.js
+babel.config.js
 Gruntfile.js
 index.html
 node_modules/

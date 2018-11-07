@@ -1,5 +1,5 @@
 {
-  "name": "vitruvius2",
+  "name": "@moxiworks/project-vitruvius",
   "version": "0.0.10",
   "private": true,
   "scripts": {

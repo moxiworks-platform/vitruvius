@@ -103,19 +103,19 @@
   }
  
   h2 {
-    @apply text-2xl mb-14 mt-14;
+    @apply text-2xl my-20;
   }
  
   h3 {
-    @apply text-lg mb-8 mt-14;
+    @apply text-lg my-20;
   }
  
   h4 {
-    @apply text-base mb-8 mt-14;
+    @apply text-base my-20;
   }
  
   h5 {
-    @apply text-sm mb-8 mt-14;
+    @apply text-sm my-20;
   }
  
   p {

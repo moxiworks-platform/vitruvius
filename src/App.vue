@@ -1,52 +1,48 @@
 <template>
   <div id="app">
-    <section id="header" class="p-50 bg-cn-05 fixed pin-t pin-x z-100">
-      <div class="w-3/4" style="margin:auto">
+    <section id="header" class="p-50 bg-cn-05">
+      <div class="w-full">
         <router-link to="/" class="font-bold">Project Vitruvius</router-link>
         <div class="float-right -mt-2">v0.0.1</div>
       </div>
     </section>
 
-    <section id="content">
+    <section id="container">
 
-      <div class="v-flex-wrap">
-        <div class="w-full sm:w-full md:w-1/5 lg:w-1/5 xl:w-1/5 p-30 min-h-screen overflow-y-scroll">
-          <div class="overflow-y-auto text-base lg:text-sm lg:py-12 lg:pl-6 lg:pr-8 fixed">
-            <div class="mb-8">
-              <p class="mb-20 text-grey uppercase tracking-wide font-bold text-sm">CSS</p>
-              <p class="my-10 text-sm">
-                <router-link to="/typography">Typography</router-link>
-              </p>
-              <p class="my-10 text-sm">
-                <router-link to="/colors">Colors</router-link>
-              </p>
-              <p class="my-10 text-sm">
-                <router-link to="/grid">Grid</router-link>
-              </p>
-            </div>
-
-            <div class="mb-8">
-              <p class="my-20 text-grey uppercase tracking-wide font-bold text-sm">Components</p>
-              <p class="my-10 text-sm">
-                <router-link to="/buttons">Buttons</router-link>
-              </p>
-              <p class="my-10 text-sm">
-                <router-link to="/card">Cards</router-link>
-              </p>
-            </div>
-
-            <div class="mb-8">
-              <p class="my-20 text-grey uppercase tracking-wide font-bold text-sm">Misc</p>
-              <p class="my-10 text-sm">
-                <router-link to="/icons">Icons</router-link>
-              </p>
-            </div>
-
-          </div>
+      <div id="nav">
+        <div class="mb-8">
+          <p class="mb-20 text-grey uppercase tracking-wide font-bold text-sm">CSS</p>
+          <p class="my-10 text-sm">
+            <router-link to="/typography">Typography</router-link>
+          </p>
+          <p class="my-10 text-sm">
+            <router-link to="/colors">Colors</router-link>
+          </p>
+          <p class="my-10 text-sm">
+            <router-link to="/grid">Grid</router-link>
+          </p>
         </div>
-        <div class="w-full sm:w-full md:w-4/5 lg:w-4/5 xl:w-4/5 p-30">
-          <router-view :key="$route.fullPath" />
+
+        <div class="mb-8">
+          <p class="my-20 text-grey uppercase tracking-wide font-bold text-sm">Components</p>
+          <p class="my-10 text-sm">
+            <router-link to="/buttons">Buttons</router-link>
+          </p>
+          <p class="my-10 text-sm">
+            <router-link to="/card">Cards</router-link>
+          </p>
         </div>
+
+        <div class="mb-8">
+          <p class="my-20 text-grey uppercase tracking-wide font-bold text-sm">Misc</p>
+          <p class="my-10 text-sm">
+            <router-link to="/icons">Icons</router-link>
+          </p>
+        </div>
+      </div>
+
+      <div id="content">
+        <router-view :key="$route.fullPath" />
       </div>
 
     </section>
@@ -63,6 +59,9 @@ export default {
 
 <style lang="scss">
 #header {
+  position: fixed;
+  width: 100vw;
+  z-index: 5000;
   a {
     color: #222;
   }
@@ -70,14 +69,27 @@ export default {
     text-decoration: none;
   }
 }
+#container {
+  padding-top: 118px;
+}
+#nav {
+  width: 275px;
+  padding: 50px;
+  position: fixed;
+  top: 118px;
+  bottom: 0;
+  overflow: auto;
+}
 #content {
-  padding-top: 156px;
-  width: 75%;
-  margin: auto;
+  position: absolute;
+  top: 118px;
+  left: 275px;
+  right: 0;
+  padding: 50px;
 }
 pre {
   padding: 20px !important;
-  margin: 30px 0;
+  /* margin: 30px 0; */
 }
 pre {
   white-space: pre-wrap;

@@ -97,7 +97,7 @@ export default {
   a:hover {
     text-decoration: none;
   }
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 420px) {
     padding-left: 70px;
   }
 }
@@ -106,7 +106,7 @@ export default {
   top: 29px;
   left: 0;
   display: none;
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 420px) {
     display: block;
   }
 }
@@ -167,7 +167,7 @@ export default {
   bottom: 0;
   overflow: auto;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
   #nav, #nav.close {
     position: absolute;
     left: -275px;
@@ -183,7 +183,7 @@ export default {
   left: 275px;
   right: 0;
   padding: 50px;
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 420px) {
     position: initial;
   }
 }

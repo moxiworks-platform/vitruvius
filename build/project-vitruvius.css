@@ -6897,6 +6897,10 @@ table {
   z-index: auto;
 }
 
+/*************************************************************************************
+ * Body Base Font
+ ************************************************************************************/
+
 body {
   font-family: 'Muli', sans-serif !important;
 }
@@ -6989,6 +6993,12 @@ a:hover {
 
 .btn-blue:hover {
   background-color: #377cbf;
+  color: #fff;
+}
+
+a.btn:hover {
+  color: default;
+  text-decoration: none;
 }
 
 /*************************************************************************************
@@ -7002,26 +7012,26 @@ h1 {
 
 h2 {
   font-size: 1.5rem;
-  margin-bottom: 14px;
-  margin-top: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 h3 {
   font-size: 1.125rem;
-  margin-bottom: 8px;
-  margin-top: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 h4 {
   font-size: 1rem;
-  margin-bottom: 8px;
-  margin-top: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 h5 {
   font-size: .875rem;
-  margin-bottom: 8px;
-  margin-top: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 p {

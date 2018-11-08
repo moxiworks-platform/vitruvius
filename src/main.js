@@ -3,11 +3,11 @@ import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
 import store from './store';
-import 'whatwg-fetch'
-import VueFetch from 'vue-fetch'
+import 'whatwg-fetch';
+import VueFetch from 'vue-fetch';
 
 Vue.use(VueFetch, {
-  polyfill: true
+  polyfill: true,
 });
 
 // Secret sauce to ignore custom skateJS components.

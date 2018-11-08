@@ -3,7 +3,7 @@
     <section id="header" class="p-50 bg-cn-05">
       <div class="w-full">
         <router-link to="/" class="font-bold">Project Vitruvius</router-link>
-        <div class="float-right -mt-2">v0.0.1</div>
+        <div class="float-right">v0.0.1</div>
       </div>
     </section>
 
@@ -79,6 +79,9 @@ export default {
   top: 118px;
   bottom: 0;
   overflow: auto;
+  @media screen and (max-width: 375px) {
+    display: none;
+  }
 }
 #content {
   position: absolute;
@@ -86,6 +89,9 @@ export default {
   left: 275px;
   right: 0;
   padding: 50px;
+  @media screen and (max-width: 375px) {
+    position: initial;
+  }
 }
 pre {
   padding: 20px !important;

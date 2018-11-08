@@ -15,7 +15,14 @@ module.exports = function(grunt) {
         options: {
           spawn: false,
         },
-      }
+      },
+      package: {
+        files: ['./package.json'],
+        tasks: ['copy:packagejson'],
+        options: {
+          spawn: false,
+        }
+      },
     },
     exec: {
       rm: {
@@ -53,6 +60,11 @@ module.exports = function(grunt) {
         files: [
           {expand: true, flatten: true, src: ['./src/components/**/*.js'], dest: './build/components/.', filter: 'isFile'},
         ],
+      },
+      packagejson: {
+        files: [
+          {expand: true, flatten: true, src: ['./package.json'], dest: './public/.', filter: 'isFile'},
+        ]
       },
     },
     cssmin: {

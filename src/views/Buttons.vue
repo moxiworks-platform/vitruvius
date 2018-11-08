@@ -98,7 +98,6 @@
         Optional. String for any acceptable HTML target. For use with href property.
       </div>
     </div>
-    
   </section>
 </template>
 

@@ -10,7 +10,9 @@ module.exports = {
     "max-len": "off",
     "no-undef": "off",
     "import/extensions": "off",
-    "class-methods-use-this": "off"
+    "class-methods-use-this": "off",
+    "arrow-body-style": "off",
+    "no-mixed-operators": "off"
   },
   parserOptions: {
     parser: "babel-eslint"

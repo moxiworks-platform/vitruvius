@@ -29,7 +29,7 @@
   }
 
   a:hover {
-    @apply text-moxi-blue-dark underline;
+    @apply underline;
   }
  
  
@@ -90,7 +90,6 @@
  }
 
  a.btn:hover {
-   color: default;
    text-decoration: none;
  }
  

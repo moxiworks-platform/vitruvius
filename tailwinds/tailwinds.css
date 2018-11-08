@@ -11,6 +11,10 @@
  
  @tailwind preflight;
  @tailwind utilities;
+
+ /*************************************************************************************
+ * Body Base Font
+ ************************************************************************************/
  
  body {
    font-family: 'Muli', sans-serif !important;
@@ -23,6 +27,7 @@
   a {
     @apply text-moxi-blue no-underline;
   }
+
   a:hover {
     @apply text-moxi-blue-dark underline;
   }
@@ -79,8 +84,14 @@
  .btn-blue {
    @apply bg-moxi-blue text-white;
  }
+
  .btn-blue:hover {
-   @apply bg-moxi-blue-dark;
+   @apply bg-moxi-blue-dark text-white;
+ }
+
+ a.btn:hover {
+   color: default;
+   text-decoration: none;
  }
  
  /*************************************************************************************
@@ -92,19 +103,19 @@
   }
  
   h2 {
-    @apply text-2xl mb-14 mt-14;
+    @apply text-2xl my-20;
   }
  
   h3 {
-    @apply text-lg mb-8 mt-14;
+    @apply text-lg my-20;
   }
  
   h4 {
-    @apply text-base mb-8 mt-14;
+    @apply text-base my-20;
   }
  
   h5 {
-    @apply text-sm mb-8 mt-14;
+    @apply text-sm my-20;
   }
  
   p {

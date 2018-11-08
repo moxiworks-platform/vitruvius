@@ -71,7 +71,7 @@ export default {
     },
     toggleMenu(force = false) {
       const nav = document.querySelector('.menu-toggle');
-      const menu = document.querySelector('#menu');
+      const menu = document.querySelector('#nav');
 
       if (nav.classList && nav.classList.contains('close') || force) {
         nav.classList.remove('close');
@@ -166,8 +166,15 @@ export default {
   top: 118px;
   bottom: 0;
   overflow: auto;
-  @media screen and (max-width: 375px) {
-    display: none;
+}
+@media screen and (max-width: 375px) {
+  #nav, #nav.close {
+    position: absolute;
+    left: -275px;
+    background: #fff;
+  }
+  #nav.open {
+    left: 0;
   }
 }
 #content {

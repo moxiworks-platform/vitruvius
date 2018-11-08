@@ -17,6 +17,9 @@ router.afterEach(() => {
   setTimeout(() => {
     PR.prettyPrint();
     riot.mount('*');
+    document.querySelector('.menu-toggle').classList.remove('close');
+    document.querySelector('#nav').classList.remove('open');
+    document.querySelector('#nav').classList.add('close');
   }, 10);
 });
 

@@ -63,7 +63,7 @@ export default {
   },
   methods: {
     getVersion() {
-      this.$fetch.get('/package.json').then((response) => {
+      this.$fetch.get('./package.json').then((response) => {
         return response.json().then((json) => {
           this.version = json.version;
         });

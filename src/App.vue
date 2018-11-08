@@ -2,8 +2,9 @@
   <div id="app">
     <section id="header" class="p-50 bg-cn-05">
       <div class="w-full">
+        <div id="btn-nav" v-on:click="toggleMenu()"><a href="#" class="menu-toggle"><span></span><span></span><span></span></a></div>
         <router-link to="/" class="font-bold">Project Vitruvius</router-link>
-        <div class="float-right">v0.0.1</div>
+        <div class="float-right">v{{version}}</div>
       </div>
     </section>
 
@@ -52,7 +53,35 @@
 <script>
 export default {
   data() {
-    return {};
+    return {
+      package: {},
+      version: '0.0.1',
+    };
+  },
+  mounted() {
+    this.getVersion();
+  },
+  methods: {
+    getVersion() {
+      this.$fetch.get('/package.json').then((response) => {
+        return response.json().then((json) => {
+          this.version = json.version;
+        });
+      });
+    },
+    toggleMenu(force = false) {
+      const nav = document.querySelector('.menu-toggle');
+      const menu = document.querySelector('#nav');
+
+      if (nav.classList && nav.classList.contains('close') || force) {
+        nav.classList.remove('close');
+        menu.classList.remove('open');
+      } else {
+        nav.classList.add('close');
+        menu.classList.add('open');
+        menu.scrollTop = 0;
+      }
+    },
   },
 };
 </script>
@@ -68,6 +97,64 @@ export default {
   a:hover {
     text-decoration: none;
   }
+  @media screen and (max-width: 375px) {
+    padding-left: 70px;
+  }
+}
+#btn-nav {
+  position: absolute;
+  top: 29px;
+  left: 0;
+  display: none;
+  @media screen and (max-width: 375px) {
+    display: block;
+  }
+}
+.menu-toggle {
+    width: 24px;
+    height: 53px;
+    position: absolute;
+    left: 23px;
+    top: 3px;
+    transition: cubic-bezier(.22,.61,.36,1);
+    z-index: 110;
+}
+.menu-toggle span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #222;
+    position: absolute;
+    left: 0;
+    transition: all 0.125s ease-out;
+}
+.menu-toggle span:first-child {
+    top: 19px;
+    width: 90%;
+}
+.menu-toggle span:nth-child(2) {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.menu-toggle span:nth-child(3) {
+    bottom: 18px;
+    width: 80%;
+}
+.menu-toggle.close span:first-child {
+    opacity: 0;
+    visibility: hidden;
+}
+.menu-toggle.close span:nth-child(2) {
+    top: 50%;
+    -webkit-transform: rotate(45deg) translateY(-50%);
+    transform: rotate(45deg) translateY(-50%);
+}
+.menu-toggle.close span:nth-child(3) {
+    bottom: 50%;
+    -webkit-transform: rotate(-45deg) translateY(50%);
+    transform: rotate(-45deg) translateY(50%);
+    width: 100%;
 }
 #container {
   padding-top: 118px;
@@ -79,8 +166,15 @@ export default {
   top: 118px;
   bottom: 0;
   overflow: auto;
-  @media screen and (max-width: 375px) {
-    display: none;
+}
+@media screen and (max-width: 375px) {
+  #nav, #nav.close {
+    position: absolute;
+    left: -275px;
+    background: #fff;
+  }
+  #nav.open {
+    left: 0;
   }
 }
 #content {

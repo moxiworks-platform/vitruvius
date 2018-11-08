@@ -6915,7 +6915,6 @@ a {
 }
 
 a:hover {
-  color: #377cbf;
   text-decoration: underline;
 }
 
@@ -6997,7 +6996,6 @@ a:hover {
 }
 
 a.btn:hover {
-  color: default;
   text-decoration: none;
 }
 

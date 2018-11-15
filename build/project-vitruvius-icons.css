@@ -252,3 +252,9 @@
 .icon-townhouse:before {
   content: "\e945";
 }
+.icon-draft:before {
+  content: "\e94b";
+}
+.icon-google1:before {
+  content: "\e94c";
+}

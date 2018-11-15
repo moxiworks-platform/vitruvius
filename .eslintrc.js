@@ -12,7 +12,8 @@ module.exports = {
     "import/extensions": "off",
     "class-methods-use-this": "off",
     "arrow-body-style": "off",
-    "no-mixed-operators": "off"
+    "no-mixed-operators": "off",
+    "no-param-reassign": "off"
   },
   parserOptions: {
     parser: "babel-eslint"

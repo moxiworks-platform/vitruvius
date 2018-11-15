@@ -1,6 +1,15 @@
 <template>
   <section id="icons">
     <h1 class="mb-30">Icons</h1>
+
+    <div class="v-flex">
+      <div class="v-flex-item w-1/3">
+        <p>
+          <input type="text" name="filter-icons" id="filter-icons" placeholder="Filter Icons" v-on:keyup="filterIcons($event)" />
+        </p>
+      </div>
+    </div>
+
     <div class="flex flex-wrap">
       <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 bg-cn-30 p-15 text-center mb-4">
         <i class="icon-sort text-3xl"></i>
@@ -433,6 +442,19 @@
         <div class="text-sm pt-5">People</div>
         <div class="text-sm pt-5">.icon-people</div>
       </div>
+      <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 bg-cn-15 p-15 text-center mb-4">
+        <i class="icon-google1 text-3xl"></i>
+        <div class="text-sm pt-5">Google</div>
+        <div class="text-sm pt-5">.icon-google1</div>
+      </div>
+    </div>
+
+    <div class="flex flex-wrap">
+      <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 bg-cn-30 p-15 text-center mb-4">
+        <i class="icon-draft text-3xl"></i>
+        <div class="text-sm pt-5">Draft</div>
+        <div class="text-sm pt-5">.icon-draft</div>
+      </div>
     </div>
   </section>
 </template>
@@ -441,7 +463,24 @@
 export default {
   name: 'buttons',
   data() {
-    return {};
+    return {
+      elems: [],
+    };
+  },
+  mounted() {
+    this.elems = document.querySelectorAll('.text-sm.pt-5');
+  },
+  methods: {
+    filterIcons(e) {
+      const val = e.target.value;
+      [].forEach.call(this.elems, (div) => {
+        if (div.innerHTML.indexOf(val) === -1) {
+          div.parentNode.style.display = 'none';
+        } else {
+          div.parentNode.style.display = 'block';
+        }
+      });
+    },
   },
 };
 </script>

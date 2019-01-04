@@ -778,6 +778,9 @@ module.exports = {
     'inner': 'inset 0 2px 4px 0 rgba(0,0,0,0.06)',
     'outline': '0 0 0 3px rgba(52,144,220,0.5)',
     'none': 'none',
+    'level-1': '0 1px 2px 0 rgba(33,46,53,0.50)',
+    'level-2': '0 2px 4px 0 rgba(0,0,0,0.24), 0 5px 10px 0 rgba(33,46,53,0.20)',
+    'level-3': '0 31px 41px 0 rgba(33,43,54,0.20), 0 2px 16px 0 rgba(33,43,54,0.08)'
   },
 
 

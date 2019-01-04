@@ -30,7 +30,7 @@
             <router-link to="/buttons">Buttons</router-link>
           </p>
           <p class="my-10 text-sm">
-            <router-link to="/card">Cards</router-link>
+            <router-link to="/card">Cards / Surfaces</router-link>
           </p>
         </div>
 

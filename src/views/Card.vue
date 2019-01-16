@@ -17,6 +17,15 @@
     <div class="my-10">
       <vp-card type="level-3">This is a level 3 card.</vp-card>
     </div>
+    <h2>Clickable Lists</h2>
+    <h3>List With Icon</h3>
+    <vp-card type="level-1 showhover" icon="icon-heart-filled">Item 1</vp-card>
+    <vp-card type="level-1 showhover" icon="icon-heart-filled">Item 2</vp-card>
+    <vp-card type="level-1 showhover" icon="icon-heart-filled">Item 3</vp-card>
+    <h3>List With Image</h3>
+    <vp-card type="level-1 showhover" image="https://moxi3.ssl.hwcdn.net/img-pr/a/a8bcb974-2170-4698-946d-aeae23ed8d2b/0_3_full.jpg">Item 1</vp-card>
+    <vp-card type="level-1 showhover" image="https://moxi3.ssl.hwcdn.net/img-pr/a/a8bcb974-2170-4698-946d-aeae23ed8d2b/0_3_full.jpg">Item 2</vp-card>
+    <vp-card type="level-1 showhover" image="https://moxi3.ssl.hwcdn.net/img-pr/a/a8bcb974-2170-4698-946d-aeae23ed8d2b/0_3_full.jpg">Item 3</vp-card>
   </section>
 </template>
 

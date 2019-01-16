@@ -7099,9 +7099,16 @@ p {
 
 .v-card {
   position: relative;
+  display: flex;
   background-color: #f2f3f3;
   overflow: hidden;
   padding: 16px;
+  margin-bottom: 3px;
+}
+
+.v-card.showhover:hover {
+  cursor: pointer;
+  background: #f8f8f8;
 }
 
 .v-card.level-1 {
@@ -7117,6 +7124,15 @@ p {
 .v-card.level-3 {
   background-color: #fff;
   box-shadow: 0 31px 41px 0 rgba(33, 43, 54, .2), 0 2px 16px 0 rgba(33, 43, 54, .08);
+}
+
+.v-card i {
+  font-size: 24px;
+  margin-right: 15px;
+}
+
+.v-card .rounded-image {
+  margin-right: 15px;
 }
 
 /*************************************************************************************
@@ -7138,6 +7154,15 @@ input[type="text"] {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.rounded-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  display: inline-block;
+  background-size: cover;
+  background-position: center center;
 }
 
 @media (min-width: 576px) {

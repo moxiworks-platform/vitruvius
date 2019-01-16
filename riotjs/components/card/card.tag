@@ -1,5 +1,7 @@
 <vp-card>
   <div class="v-card { returnClass(this.opts.type) }">
+    <i class={ this.opts.icon } if={ this.opts.icon }></i>
+    <div class="rounded-image" style="background-image: url({ this.opts.image })" if={ this.opts.image }></div>
     { this.root._innerHTML }
   </div>
 

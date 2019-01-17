@@ -30,7 +30,7 @@
             <router-link to="/buttons">Buttons</router-link>
           </p>
           <p class="my-10 text-sm">
-            <router-link to="/card">Cards</router-link>
+            <router-link to="/card">Cards / Surfaces</router-link>
           </p>
         </div>
 
@@ -172,6 +172,7 @@ export default {
     position: absolute;
     left: -275px;
     background: #fff;
+    z-index: 1000;
   }
   #nav.open {
     left: 0;
@@ -189,7 +190,7 @@ export default {
 }
 pre {
   padding: 20px !important;
-  /* margin: 30px 0; */
+  margin: 30px 0;
 }
 pre {
   white-space: pre-wrap;

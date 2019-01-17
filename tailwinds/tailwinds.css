@@ -97,6 +97,10 @@
  /*************************************************************************************
   * Typography Classes
   ************************************************************************************/
+
+  h1, h2, h3, h4, h5 {
+    line-height: 120%;
+  }
  
   h1 {
     @apply text-5xl mb-30;
@@ -144,38 +148,35 @@
  ************************************************************************************/
  
  .v-card {
-   @apply relative rounded overflow-hidden shadow-md p-16
+   @apply relative flex bg-cn-10 overflow-hidden p-16 mb-3;
  }
- 
- .v-card-image {
-   margin: -16px -16px 16px -16px;
- }
- 
- .v-card-image img {
-   min-width: 100%;
- }
- 
- .v-card-fake {
-   display: none;
- }
- 
- .v-reveal {
-   @apply flex absolute pin-t pin-r pin-l pin-b z-40 bg-cn-0;
-   display: none;
- }
- 
- .v-reveal-content {
-   min-width: 100%;
-   text-align: center;
- }
- 
- .v-close-reveal {
-   position: absolute;
-   top: 16px;
-   right: 16px;
+
+ .v-card.showhover:hover {
    cursor: pointer;
-   font-size: 1.5rem;
+   background: #F8F8F8
  }
+
+ .v-card.level-1 {
+   @apply bg-cn-0 shadow-level-1;
+ }
+
+ .v-card.level-2 {
+   @apply bg-cn-0 shadow-level-2;
+ }
+
+ .v-card.level-3 {
+   @apply bg-cn-0 shadow-level-3;
+ }
+
+ .v-card i {
+   font-size: 24px;
+   margin-right: 15px;
+ }
+
+ .v-card .rounded-image {
+  margin-right: 15px;
+ }
+
 
  /*************************************************************************************
  * Form Classes
@@ -197,3 +198,12 @@
    top: 50%;
    transform: translateY(-50%);
  }
+
+.rounded-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  display: inline-block;
+  background-size: cover;
+  background-position: center center;
+}

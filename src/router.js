@@ -6,6 +6,7 @@ import Buttons from './views/Buttons';
 import Typography from './views/Typography';
 import Grid from './views/Grid';
 import Icons from './views/Icons';
+import Card from './views/Card';
 
 Vue.use(Router);
 
@@ -43,6 +44,11 @@ export default new Router({
       path: '/icons',
       name: 'icons',
       component: Icons,
+    },
+    {
+      path: '/card',
+      name: 'card',
+      component: Card,
     },
   ],
 });

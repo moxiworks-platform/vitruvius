@@ -6,6 +6,7 @@
   </div>
 
   <script>
+    import debounce from 'debounce';
     returnClass(type) {
       if (!type)  return false;
       let tmp = type.split(',')

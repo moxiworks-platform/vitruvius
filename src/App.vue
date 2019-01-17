@@ -172,6 +172,7 @@ export default {
     position: absolute;
     left: -275px;
     background: #fff;
+    z-index: 1000;
   }
   #nav.open {
     left: 0;
@@ -189,7 +190,7 @@ export default {
 }
 pre {
   padding: 20px !important;
-  /* margin: 30px 0; */
+  margin: 30px 0;
 }
 pre {
   white-space: pre-wrap;

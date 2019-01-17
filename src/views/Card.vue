@@ -90,9 +90,9 @@ export default {
   },
   methods: {
     handleOnClick() {
-      alert('You Clicked a Thing!');
-    }
-  }
+      console.log('You Clicked a Thing!');
+    },
+  },
 };
 </script>
 

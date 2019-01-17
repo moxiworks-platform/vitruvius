@@ -5975,6 +5975,18 @@ table {
   box-shadow: none;
 }
 
+.shadow-level-1 {
+  box-shadow: 0 1px 2px 0 rgba(33, 46, 53, .5);
+}
+
+.shadow-level-2 {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .24), 0 5px 10px 0 rgba(33, 46, 53, .2);
+}
+
+.shadow-level-3 {
+  box-shadow: 0 31px 41px 0 rgba(33, 43, 54, .2), 0 2px 16px 0 rgba(33, 43, 54, .08);
+}
+
 .hover\:shadow:hover {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
 }
@@ -5999,6 +6011,18 @@ table {
   box-shadow: none;
 }
 
+.hover\:shadow-level-1:hover {
+  box-shadow: 0 1px 2px 0 rgba(33, 46, 53, .5);
+}
+
+.hover\:shadow-level-2:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .24), 0 5px 10px 0 rgba(33, 46, 53, .2);
+}
+
+.hover\:shadow-level-3:hover {
+  box-shadow: 0 31px 41px 0 rgba(33, 43, 54, .2), 0 2px 16px 0 rgba(33, 43, 54, .08);
+}
+
 .focus\:shadow:focus {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
 }
@@ -6021,6 +6045,18 @@ table {
 
 .focus\:shadow-none:focus {
   box-shadow: none;
+}
+
+.focus\:shadow-level-1:focus {
+  box-shadow: 0 1px 2px 0 rgba(33, 46, 53, .5);
+}
+
+.focus\:shadow-level-2:focus {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .24), 0 5px 10px 0 rgba(33, 46, 53, .2);
+}
+
+.focus\:shadow-level-3:focus {
+  box-shadow: 0 31px 41px 0 rgba(33, 43, 54, .2), 0 2px 16px 0 rgba(33, 43, 54, .08);
 }
 
 .fill-current {
@@ -7004,6 +7040,14 @@ a.btn:hover {
   * Typography Classes
   ************************************************************************************/
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 120%;
+}
+
 h1 {
   font-size: 2.5rem;
   margin-bottom: 30px;
@@ -7063,47 +7107,40 @@ p {
 
 .v-card {
   position: relative;
-  border-radius: .25rem;
-  overflow: hidden;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .12), 0 2px 4px 0 rgba(0, 0, 0, .08);
-  padding: 16px;
-}
-
-.v-card-image {
-  margin: -16px -16px 16px -16px;
-}
-
-.v-card-image img {
-  min-width: 100%;
-}
-
-.v-card-fake {
-  display: none;
-}
-
-.v-reveal {
   display: flex;
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  z-index: 40;
-  background-color: #fff;
-  display: none;
+  background-color: #f2f3f3;
+  overflow: hidden;
+  padding: 16px;
+  margin-bottom: 3px;
 }
 
-.v-reveal-content {
-  min-width: 100%;
-  text-align: center;
-}
-
-.v-close-reveal {
-  position: absolute;
-  top: 16px;
-  right: 16px;
+.v-card.showhover:hover {
   cursor: pointer;
-  font-size: 1.5rem;
+  background: #f8f8f8;
+}
+
+.v-card.level-1 {
+  background-color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(33, 46, 53, .5);
+}
+
+.v-card.level-2 {
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .24), 0 5px 10px 0 rgba(33, 46, 53, .2);
+}
+
+.v-card.level-3 {
+  background-color: #fff;
+  box-shadow: 0 31px 41px 0 rgba(33, 43, 54, .2), 0 2px 16px 0 rgba(33, 43, 54, .08);
+}
+
+.v-card i {
+  font-size: 24px;
+  margin-right: 15px;
+}
+
+.v-card .rounded-image {
+  margin-right: 15px;
 }
 
 /*************************************************************************************
@@ -7125,6 +7162,15 @@ input[type="text"] {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.rounded-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  display: inline-block;
+  background-size: cover;
+  background-position: center center;
 }
 
 @media (min-width: 576px) {
@@ -12584,6 +12630,18 @@ input[type="text"] {
     box-shadow: none;
   }
 
+  .sm\:shadow-level-1 {
+    box-shadow: 0 1px 2px 0 rgba(33, 46, 53, .5);
+  }
+
+  .sm\:shadow-level-2 {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .24), 0 5px 10px 0 rgba(33, 46, 53, .2);
+  }
+
+  .sm\:shadow-level-3 {
+    box-shadow: 0 31px 41px 0 rgba(33, 43, 54, .2), 0 2px 16px 0 rgba(33, 43, 54, .08);
+  }
+
   .sm\:hover\:shadow:hover {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
   }
@@ -12608,6 +12666,18 @@ input[type="text"] {
     box-shadow: none;
   }
 
+  .sm\:hover\:shadow-level-1:hover {
+    box-shadow: 0 1px 2px 0 rgba(33, 46, 53, .5);
+  }
+
+  .sm\:hover\:shadow-level-2:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .24), 0 5px 10px 0 rgba(33, 46, 53, .2);
+  }
+
+  .sm\:hover\:shadow-level-3:hover {
+    box-shadow: 0 31px 41px 0 rgba(33, 43, 54, .2), 0 2px 16px 0 rgba(33, 43, 54, .08);
+  }
+
   .sm\:focus\:shadow:focus {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
   }
@@ -12630,6 +12700,18 @@ input[type="text"] {
 
   .sm\:focus\:shadow-none:focus {
     box-shadow: none;
+  }
+
+  .sm\:focus\:shadow-level-1:focus {
+    box-shadow: 0 1px 2px 0 rgba(33, 46, 53, .5);
+  }
+
+  .sm\:focus\:shadow-level-2:focus {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .24), 0 5px 10px 0 rgba(33, 46, 53, .2);
+  }
+
+  .sm\:focus\:shadow-level-3:focus {
+    box-shadow: 0 31px 41px 0 rgba(33, 43, 54, .2), 0 2px 16px 0 rgba(33, 43, 54, .08);
   }
 
   .sm\:table-auto {
@@ -18956,6 +19038,18 @@ input[type="text"] {
     box-shadow: none;
   }
 
+  .md\:shadow-level-1 {
+    box-shadow: 0 1px 2px 0 rgba(33, 46, 53, .5);
+  }
+
+  .md\:shadow-level-2 {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .24), 0 5px 10px 0 rgba(33, 46, 53, .2);
+  }
+
+  .md\:shadow-level-3 {
+    box-shadow: 0 31px 41px 0 rgba(33, 43, 54, .2), 0 2px 16px 0 rgba(33, 43, 54, .08);
+  }
+
   .md\:hover\:shadow:hover {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
   }
@@ -18980,6 +19074,18 @@ input[type="text"] {
     box-shadow: none;
   }
 
+  .md\:hover\:shadow-level-1:hover {
+    box-shadow: 0 1px 2px 0 rgba(33, 46, 53, .5);
+  }
+
+  .md\:hover\:shadow-level-2:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .24), 0 5px 10px 0 rgba(33, 46, 53, .2);
+  }
+
+  .md\:hover\:shadow-level-3:hover {
+    box-shadow: 0 31px 41px 0 rgba(33, 43, 54, .2), 0 2px 16px 0 rgba(33, 43, 54, .08);
+  }
+
   .md\:focus\:shadow:focus {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
   }
@@ -19002,6 +19108,18 @@ input[type="text"] {
 
   .md\:focus\:shadow-none:focus {
     box-shadow: none;
+  }
+
+  .md\:focus\:shadow-level-1:focus {
+    box-shadow: 0 1px 2px 0 rgba(33, 46, 53, .5);
+  }
+
+  .md\:focus\:shadow-level-2:focus {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .24), 0 5px 10px 0 rgba(33, 46, 53, .2);
+  }
+
+  .md\:focus\:shadow-level-3:focus {
+    box-shadow: 0 31px 41px 0 rgba(33, 43, 54, .2), 0 2px 16px 0 rgba(33, 43, 54, .08);
   }
 
   .md\:table-auto {
@@ -25328,6 +25446,18 @@ input[type="text"] {
     box-shadow: none;
   }
 
+  .lg\:shadow-level-1 {
+    box-shadow: 0 1px 2px 0 rgba(33, 46, 53, .5);
+  }
+
+  .lg\:shadow-level-2 {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .24), 0 5px 10px 0 rgba(33, 46, 53, .2);
+  }
+
+  .lg\:shadow-level-3 {
+    box-shadow: 0 31px 41px 0 rgba(33, 43, 54, .2), 0 2px 16px 0 rgba(33, 43, 54, .08);
+  }
+
   .lg\:hover\:shadow:hover {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
   }
@@ -25352,6 +25482,18 @@ input[type="text"] {
     box-shadow: none;
   }
 
+  .lg\:hover\:shadow-level-1:hover {
+    box-shadow: 0 1px 2px 0 rgba(33, 46, 53, .5);
+  }
+
+  .lg\:hover\:shadow-level-2:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .24), 0 5px 10px 0 rgba(33, 46, 53, .2);
+  }
+
+  .lg\:hover\:shadow-level-3:hover {
+    box-shadow: 0 31px 41px 0 rgba(33, 43, 54, .2), 0 2px 16px 0 rgba(33, 43, 54, .08);
+  }
+
   .lg\:focus\:shadow:focus {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
   }
@@ -25374,6 +25516,18 @@ input[type="text"] {
 
   .lg\:focus\:shadow-none:focus {
     box-shadow: none;
+  }
+
+  .lg\:focus\:shadow-level-1:focus {
+    box-shadow: 0 1px 2px 0 rgba(33, 46, 53, .5);
+  }
+
+  .lg\:focus\:shadow-level-2:focus {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .24), 0 5px 10px 0 rgba(33, 46, 53, .2);
+  }
+
+  .lg\:focus\:shadow-level-3:focus {
+    box-shadow: 0 31px 41px 0 rgba(33, 43, 54, .2), 0 2px 16px 0 rgba(33, 43, 54, .08);
   }
 
   .lg\:table-auto {
@@ -31700,6 +31854,18 @@ input[type="text"] {
     box-shadow: none;
   }
 
+  .xl\:shadow-level-1 {
+    box-shadow: 0 1px 2px 0 rgba(33, 46, 53, .5);
+  }
+
+  .xl\:shadow-level-2 {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .24), 0 5px 10px 0 rgba(33, 46, 53, .2);
+  }
+
+  .xl\:shadow-level-3 {
+    box-shadow: 0 31px 41px 0 rgba(33, 43, 54, .2), 0 2px 16px 0 rgba(33, 43, 54, .08);
+  }
+
   .xl\:hover\:shadow:hover {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
   }
@@ -31724,6 +31890,18 @@ input[type="text"] {
     box-shadow: none;
   }
 
+  .xl\:hover\:shadow-level-1:hover {
+    box-shadow: 0 1px 2px 0 rgba(33, 46, 53, .5);
+  }
+
+  .xl\:hover\:shadow-level-2:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .24), 0 5px 10px 0 rgba(33, 46, 53, .2);
+  }
+
+  .xl\:hover\:shadow-level-3:hover {
+    box-shadow: 0 31px 41px 0 rgba(33, 43, 54, .2), 0 2px 16px 0 rgba(33, 43, 54, .08);
+  }
+
   .xl\:focus\:shadow:focus {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
   }
@@ -31746,6 +31924,18 @@ input[type="text"] {
 
   .xl\:focus\:shadow-none:focus {
     box-shadow: none;
+  }
+
+  .xl\:focus\:shadow-level-1:focus {
+    box-shadow: 0 1px 2px 0 rgba(33, 46, 53, .5);
+  }
+
+  .xl\:focus\:shadow-level-2:focus {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .24), 0 5px 10px 0 rgba(33, 46, 53, .2);
+  }
+
+  .xl\:focus\:shadow-level-3:focus {
+    box-shadow: 0 31px 41px 0 rgba(33, 43, 54, .2), 0 2px 16px 0 rgba(33, 43, 54, .08);
   }
 
   .xl\:table-auto {

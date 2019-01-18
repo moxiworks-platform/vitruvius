@@ -7235,6 +7235,21 @@ input[type="text"] {
   border-width: 0 2px 2px 0;
 }
 
+/* Disabled Styles */
+
+.element-container.disabled {
+  color: #90969a;
+}
+
+.element-container .checkmark.disabled {
+  border: 1px solid #d3d5d7;
+}
+
+.element-container .checkmark.disabled:after {
+  border: solid #90969a;
+  border-width: 0 2px 2px 0;
+}
+
 /*************************************************************************************
  * Utility Classes
  ************************************************************************************/

@@ -1,15 +1,17 @@
 <template>
   <section id="form-elements">
     <div>
-      <label class="element-container">Basic Checkbox
-        <input type="checkbox">
-        <span class="checkmark"></span>
-      </label>
+      <vp-checkbox label="Basic Checkbox" name="check-box-name" checked="true"></vp-checkbox>
+    </div>
+    <div>
+      <vp-checkbox label="Destrictive Checkbox" type="destructive" name="check-box-name" checked="true"></vp-checkbox>
     </div>
   </section>
 </template>
 
 <script>
+import '../components/checkbox/checkbox';
+
 export default {
   data() {
     return {}

@@ -1,6 +1,12 @@
 <vp-radio>
   <label class="{ returnStyles('element-container radio', this.opts.type) }">{ this.opts.label }
-    <input type="radio" name="{ this.opts.name }" checked={ (this.opts.checked && JSON.parse(this.opts.checked)) ? true : false; } disabled={ (this.opts.type && this.opts.type.indexOf('disabled') > -1) ? true : false; }>
+    <input 
+      type="radio" 
+      name="{ this.opts.name }" 
+      value="{ this.opts.value }"
+      checked={ (this.opts.checked && JSON.parse(this.opts.checked)) ? true : false; } 
+      disabled={ (this.opts.type && this.opts.type.indexOf('disabled') > -1) ? true : false; }
+    >
     <span class="{ returnStyles('checkmark radio', this.opts.type) }"></span>
   </label>
 

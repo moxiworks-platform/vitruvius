@@ -7220,6 +7220,22 @@ input[type="text"] {
   transform: rotate(45deg);
 }
 
+/* Slight alteratons for radios */
+
+.checkmark.radio {
+  border-radius: 50%;
+}
+
+.element-container .checkmark.radio:after {
+  top: 3px;
+  left: 3px;
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 50%;
+  border-width: 0;
+  background: #636c71;
+}
+
 /* Destructive Styles */
 
 .element-container.destructive {
@@ -7235,6 +7251,11 @@ input[type="text"] {
   border-width: 0 2px 2px 0;
 }
 
+.element-container .checkmark.radio.destructive:after {
+  background: #f44336;
+  border: 0;
+}
+
 /* Disabled Styles */
 
 .element-container.disabled {
@@ -7248,6 +7269,10 @@ input[type="text"] {
 .element-container .checkmark.disabled:after {
   border: solid #90969a;
   border-width: 0 2px 2px 0;
+}
+
+.element-container.disabled:hover input ~ .checkmark {
+  background: transparent;
 }
 
 /*************************************************************************************

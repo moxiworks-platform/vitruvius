@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import '../components/checkbox/checkbox';
+import '../components/form-elements/checkbox';
 
 export default {
   data() {

@@ -101,6 +101,10 @@
   h1, h2, h3, h4, h5 {
     line-height: 120%;
   }
+
+  div[class^="text-"], p[class^="text-"] {
+    line-height: 120%;
+  }
  
   h1 {
     @apply text-5xl mb-30;
@@ -188,6 +192,118 @@
   border-radius: 3px;
   width: 100%;
  }
+
+ /*************************************************************************************
+ * Radio/Checkbox Classes
+ ************************************************************************************/
+
+ /* Customize the label (the container) */
+ .element-container {
+   position: relative;
+   padding-left: 23px;
+   margin-bottom: 12px;
+   cursor: pointer;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+ }
+
+ /* Hide the browser's default checkbox */
+ .element-container input {
+   position: absolute;
+   opacity: 0;
+   cursor: pointer;
+   height: 0;
+   width: 0;
+ }
+
+ .element-container .checkmark {
+   position: absolute;
+   top: 2px;
+   left: 0;
+   height: 16px;
+   width: 16px;
+   border: 1px solid #212e35;
+   border-radius: 3px;
+ }
+
+ .element-container:hover input ~ .checkmark {
+   background-color: #f5f5f5;
+ }
+
+ .checkmark:after {
+   content: "";
+   position: absolute;
+   display: none;
+ }
+
+ .element-container input:checked ~ .checkmark:after {
+   display: block;
+ }
+
+ .element-container .checkmark:after {
+  left: 5px;
+   top: 2px;
+   width: 5px;
+   height: 8px;
+   border: solid #636c71;
+   border-width: 0 2px 2px 0;
+   transform: rotate(45deg);
+ }
+
+ /* Slight alteratons for radios */
+ .checkmark.radio {
+  border-radius: 50%;
+ }
+
+ .element-container .checkmark.radio:after {
+   top: 3px;
+   left: 3px;
+   width: 8px !important;
+   height: 8px !important;
+   border-radius: 50%;
+   border-width: 0;
+   background: #636c71;
+ }
+
+ /* Destructive Styles */
+ .element-container.destructive {
+  color: #f44336;
+ }
+
+ .element-container .checkmark.destructive {
+   border: 1px solid #f44336;
+ }
+
+ .element-container .checkmark.destructive:after {
+   border: solid #f44336;
+   border-width: 0 2px 2px 0;
+ }
+
+ .element-container .checkmark.radio.destructive:after {
+   background: #f44336;
+   border: 0;
+ }
+
+ /* Disabled Styles */
+ .element-container.disabled {
+  color: #90969a;
+ }
+
+ .element-container .checkmark.disabled {
+   border: 1px solid #d3d5d7;
+ }
+
+ .element-container .checkmark.disabled:after {
+   border: solid #90969a;
+   border-width: 0 2px 2px 0;
+ }
+
+ .element-container.disabled:hover input ~ .checkmark {
+  background: transparent;
+ }
+
  
  /*************************************************************************************
  * Utility Classes

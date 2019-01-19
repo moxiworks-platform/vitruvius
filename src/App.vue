@@ -32,6 +32,9 @@
           <p class="my-10 text-sm">
             <router-link to="/card">Cards / Surfaces</router-link>
           </p>
+          <p class="my-10 text-sm">
+            <router-link to="/form-elements">Form Elements</router-link>
+          </p>
         </div>
 
         <div class="mb-8">

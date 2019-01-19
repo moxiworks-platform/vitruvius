@@ -7,6 +7,7 @@ import Typography from './views/Typography';
 import Grid from './views/Grid';
 import Icons from './views/Icons';
 import Card from './views/Card';
+import FormElements from './views/FormElements';
 
 Vue.use(Router);
 
@@ -49,6 +50,11 @@ export default new Router({
       path: '/card',
       name: 'card',
       component: Card,
+    },
+    {
+      path: '/form-elements',
+      name: 'form-elements',
+      component: FormElements,
     },
   ],
 });

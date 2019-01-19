@@ -17,9 +17,9 @@ import '../components/form-elements/checkbox';
 
 export default {
   data() {
-    return {}
-  }
-}
+    return {};
+  },
+};
 </script>
 
 <style>

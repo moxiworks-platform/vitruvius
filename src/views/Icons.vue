@@ -474,7 +474,7 @@ export default {
     filterIcons(e) {
       const val = e.target.value;
       [].forEach.call(this.elems, (div) => {
-        if (div.innerHTML.indexOf(val) === -1) {
+        if (div.innerHTML.indexOf(val.toLowerCase()) === -1) {
           div.parentNode.style.display = 'none';
         } else {
           div.parentNode.style.display = 'block';

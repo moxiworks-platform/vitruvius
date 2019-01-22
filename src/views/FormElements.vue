@@ -31,12 +31,39 @@
     <div>
       <vp-radio label="Disabled Radio" type="disabled" name="radio1" value="baz"></vp-radio>
     </div>
+    <h3>Switches</h3>
+    <pre class="prettyprint linenums lang-html">
+    &lt;div class="v-flex"&gt;
+      &lt;div class="v-flex-item w-1/5"&gt;Option 1&lt;/div&gt;
+      &lt;div class="v-flex-item w-1/5"&gt;&lt;vp-switch name="doctor" value="dre" checked="true"&gt;&lt;/vp-switch&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="v-flex"&gt;
+      &lt;div class="v-flex-item w-1/5"&gt;Option 2 (rounded)&lt;/div&gt;
+      &lt;div class="v-flex-item w-1/5"&gt;&lt;vp-switch name="tribe" value="called quest" type="round"&gt;&lt;/vp-switch&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="v-flex"&gt;
+      &lt;div class="v-flex-item w-1/5"&gt;Option 3 (destructive)&lt;/div&gt;
+      &lt;div class="v-flex-item w-1/5"&gt;&lt;vp-switch name="snoop" value="dogg" type="destructive"&gt;&lt;/vp-switch&gt;&lt;/div&gt;
+    &lt;/div&gt;</pre>
+    <div class="v-flex">
+      <div class="v-flex-item w-1/5">Option 1</div>
+      <div class="v-flex-item w-1/5"><vp-switch name="doctor" value="dre" checked="true"></vp-switch></div>
+    </div>
+    <div class="v-flex">
+      <div class="v-flex-item w-1/5">Option 2 (rounded)</div>
+      <div class="v-flex-item w-1/5"><vp-switch name="tribe" value="called quest" type="round"></vp-switch></div>
+    </div>
+    <div class="v-flex">
+      <div class="v-flex-item w-1/5">Option 3 (destructive)</div>
+      <div class="v-flex-item w-1/5"><vp-switch name="snoop" value="dogg" type="destructive"></vp-switch></div>
+    </div>
   </section>
 </template>
 
 <script>
 import '../components/form-elements/checkbox';
 import '../components/form-elements/radio';
+import '../components/form-elements/switch';
 
 export default {
   data() {

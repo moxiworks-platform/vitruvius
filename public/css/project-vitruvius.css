@@ -7340,6 +7340,16 @@ input[type="text"] {
   border-radius: 50%;
 }
 
+/* destructive slider */
+
+.vp-switch .slider.destructive:before {
+  background-color: #f44336;
+}
+
+.vp-switch input:checked + .slider.destructive {
+  background-color: #f77b73;
+}
+
 /*************************************************************************************
  * Utility Classes
  ************************************************************************************/

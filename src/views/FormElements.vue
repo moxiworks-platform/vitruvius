@@ -31,12 +31,22 @@
     <div>
       <vp-radio label="Disabled Radio" type="disabled" name="radio1" value="baz"></vp-radio>
     </div>
+    <h3>Switches</h3>
+    <div class="v-flex">
+      <div class="v-flex-item w-1/5">Option 1</div>
+      <div class="v-flex-item w-1/5"><vp-switch></vp-switch></div>
+    </div>
+    <div class="v-flex">
+      <div class="v-flex-item w-1/5">Option 2 (rounded)</div>
+      <div class="v-flex-item w-1/5"><vp-switch type="round"></vp-switch></div>
+    </div>
   </section>
 </template>
 
 <script>
 import '../components/form-elements/checkbox';
 import '../components/form-elements/radio';
+import '../components/form-elements/switch';
 
 export default {
   data() {

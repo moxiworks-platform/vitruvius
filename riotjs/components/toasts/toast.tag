@@ -1,5 +1,5 @@
 <vp-toast>
-  <div class="vp-toast">
+  <div class="vp-toast" onclick={ hideToast }>
     <div class="vp-toast-icon">
       <i class="icon-check-circle"></i>
     </div>
@@ -9,6 +9,9 @@
     </div>
   </div>
   <script>
-    
+    hideToast(e) {
+      let el = (e.target.offsetParent.classList.contains('vp-toast')) ? e.target.offsetParent : e.target;
+      el.classList.remove('show');
+    }
   </script>
 </vp-toast>

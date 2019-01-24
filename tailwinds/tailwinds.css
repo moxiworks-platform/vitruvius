@@ -390,22 +390,22 @@ input[type="text"] {
 
 .vp-toast {
   position: absolute;
-  top: 700px;
+  top: 80px;
   right: 16px;
   padding: 16px 8px;
   min-width: 280px;
   max-width: 280px;
   display: none;
+  cursor: pointer;
   @apply bg-cn-0 shadow-level-1;
 }
 
 .vp-toast.show {
   display: flex;
-  top: 80px;
-  -webkit-animation: showtoast 1s;
-  -moz-animation:    showtoast 1s;
-  -o-animation:      showtoast 1s;
-  animation:         showtoast 1s;
+  -webkit-animation: showtoast 2s;
+  -moz-animation:    showtoast 2s;
+  -o-animation:      showtoast 2s;
+  animation:         showtoast 2s;
 }
 
 .vp-toast-icon {

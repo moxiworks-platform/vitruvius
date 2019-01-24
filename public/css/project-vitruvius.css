@@ -7356,21 +7356,21 @@ input[type="text"] {
 
 .vp-toast {
   position: absolute;
-  top: 700px;
+  top: 80px;
   right: 16px;
   padding: 16px 8px;
   min-width: 280px;
   max-width: 280px;
   display: none;
+  cursor: pointer;
   background-color: #fff;
   box-shadow: 0 1px 2px 0 rgba(33, 46, 53, .5);
 }
 
 .vp-toast.show {
   display: flex;
-  top: 80px;
-  -webkit-animation: showtoast 1s;
-          animation: showtoast 1s;
+  -webkit-animation: showtoast 2s;
+          animation: showtoast 2s;
 }
 
 .vp-toast-icon {

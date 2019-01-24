@@ -7355,6 +7355,56 @@ input[type="text"] {
 ************************************************************************************/
 
 .vp-toast {
+  position: absolute;
+  top: 700px;
+  right: 16px;
+  padding: 16px 8px;
+  min-width: 280px;
+  max-width: 280px;
+  display: none;
+  background-color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(33, 46, 53, .5);
+}
+
+.vp-toast.show {
+  display: flex;
+  top: 80px;
+  -webkit-animation: showtoast 1s;
+          animation: showtoast 1s;
+}
+
+.vp-toast-icon {
+  flex: 32px;
+}
+
+.vp-toast-message p {
+  margin: 5px 0;
+}
+
+.vp-toast i {
+  margin-right: 8px;
+  font-size: 24px;
+  color: #50b64c;
+}
+
+@-webkit-keyframes showtoast {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes showtoast {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 /*************************************************************************************

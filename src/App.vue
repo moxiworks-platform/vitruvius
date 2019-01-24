@@ -35,6 +35,9 @@
           <p class="my-10 text-sm">
             <router-link to="/form-elements">Form Elements</router-link>
           </p>
+          <p class="my-10 text-sm">
+            <router-link to="/toasts">Toasts</router-link>
+          </p>
         </div>
 
         <div class="mb-8">

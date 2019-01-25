@@ -1,6 +1,5 @@
 <template>
   <section>
-    <div v-on:click="showToast">Hello</div>
     <vp-button type="primary" v-on:click="showToast">Show Toast</vp-button>
   </section>
 </template>

@@ -9,6 +9,7 @@ class Toast {
   }
 
   createToast(options) {
+    const self = this;
     let div = document.createElement('div');
     let iconDiv = document.createElement('div');
     let icon = document.createElement('i');
@@ -39,6 +40,12 @@ class Toast {
     div.appendChild(iconDiv);
     div.appendChild(messageDiv);
 
+    // Remove toast with click.
+    div.addEventListener('click', function() {
+      this.parentNode.removeChild(this);
+      self.checkContainer();
+    })
+
     
     return div;
   }
@@ -57,6 +64,13 @@ class Toast {
     this.initContainer();
     document.querySelector('#vp-toast-container').appendChild(this.createToast(options));
     document.querySelector('#vp-toast-container').style.display = 'block';
+  }
+
+  checkContainer() {
+    if (!document.querySelectorAll('.vp-toast').length) {
+      const container = document.querySelector('#vp-toast-container');
+      container.parentNode.removeChild(container)
+    }
   }
 
 }

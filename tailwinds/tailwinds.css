@@ -388,15 +388,19 @@ input[type="text"] {
 * Toasts
 ************************************************************************************/
 
-.vp-toast {
+#vp-toast-container {
   position: absolute;
   top: 80px;
   right: 16px;
+  display: none;
+}
+
+.vp-toast {
   padding: 16px 8px;
   min-width: 280px;
   max-width: 280px;
-  display: none;
   cursor: pointer;
+  display: none;
   @apply bg-cn-0 shadow-level-1;
 }
 

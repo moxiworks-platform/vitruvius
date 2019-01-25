@@ -15,7 +15,9 @@ export default {
   },
   methods: {
     showToast() {
-      document.querySelector('.vp-toast').classList.add('show');
+      alert(1);
+      console.log(VpToast);
+      VpToast.showToast();
     },
   },
 };

@@ -13,19 +13,28 @@ class Toast {
     let iconDiv = document.createElement('div');
     let icon = document.createElement('i');
     let messageDiv = document.createElement('div');
-    let header = document.createElement('strong');
+    let header = document.createElement('div');
     let message = document.createElement('p');
 
-    iconDiv.className = 'vp-toast-icon';
-    messageDiv.className = 'vp-toast-message';
     icon.className = 'icon-check-circle';
+
+    if (options.type === 'info') {
+      icon.className = 'icon-info-circle info';
+    } else if (options.type === 'error') {
+      icon.className = 'icon-info-circle error';
+    }
+
+    iconDiv.className = icon;
+    messageDiv.className = 'vp-toast-message';
+    header.className = 'font-bold mb-5';
+    
     div.className = 'vp-toast show';
 
-    header.innerHTML = options.header;
-    message.innerHTML = options.message;
+    header.innerHTML = options.header || '';
+    message.innerHTML = options.message || '';
 
     iconDiv.appendChild(icon);
-    messageDiv.appendChild(header);
+    if (options.header) messageDiv.appendChild(header);
     messageDiv.appendChild(message);
     div.appendChild(iconDiv);
     div.appendChild(messageDiv);
@@ -42,8 +51,8 @@ class Toast {
   
   show(options={
     type: 'success',
-    header: 'Foo',
-    message: 'This is a message of some kind. You know, something you will need to read.'
+    header: null,
+    message: null
   }) {
     this.initContainer();
     document.querySelector('#vp-toast-container').appendChild(this.createToast(options));

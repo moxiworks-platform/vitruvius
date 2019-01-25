@@ -419,13 +419,21 @@ input[type="text"] {
 }
 
 .vp-toast-message p {
-  margin: 5px 0;
+  margin: 0;
 }
 
 .vp-toast i {
   margin-right: 8px;
   font-size: 24px;
   @apply text-moxi-green;
+}
+
+.vp-toast i.info {
+  @apply text-cn-70;
+}
+
+.vp-toast i.error {
+  @apply text-moxi-destructive;
 }
 
 @-webkit-keyframes showtoast {

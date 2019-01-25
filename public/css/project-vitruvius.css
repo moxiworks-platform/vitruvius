@@ -7384,13 +7384,21 @@ input[type="text"] {
 }
 
 .vp-toast-message p {
-  margin: 5px 0;
+  margin: 0;
 }
 
 .vp-toast i {
   margin-right: 8px;
   font-size: 24px;
   color: #50b64c;
+}
+
+.vp-toast i.info {
+  color: #636c71;
+}
+
+.vp-toast i.error {
+  color: #f44336;
 }
 
 @-webkit-keyframes showtoast {

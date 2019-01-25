@@ -15,8 +15,11 @@ export default {
   },
   methods: {
     showToast() {
-      console.log(0)
-      Toast.show()
+      Toast.show({
+        type: 'error',
+        header: 'From Component',
+        message: 'This is the message I would like the user to see.'
+      })
     },
   },
 };

@@ -16,13 +16,6 @@ module.exports = function(grunt) {
           spawn: false,
         },
       },
-      javascript: {
-        files: ['./riotjs/**/*.js'],
-        tasks: ['copy:javascript_components'],
-        options: {
-          spawn: false,
-        },
-      },
       package: {
         files: ['./package.json'],
         tasks: ['copy:packagejson'],
@@ -51,12 +44,6 @@ module.exports = function(grunt) {
         src: '**/*',           // copy all files and subfolders
         dest: 'docs',    // destination folder
         expand: true,          // required when using cwd
-      },
-      javascript_components: {
-        expand: true,
-        cwd: './riotjs',
-        src: '**/*.js',
-        dest: './src/components',
       },
       css: {
         files: [

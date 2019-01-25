@@ -1,13 +1,13 @@
 <template>
   <section>
-    <vp-button type="primary" v-on:click="showToast()">Show Toast</vp-button>
-    <vp-toast></vp-toast>
+    <div v-on:click="showToast">Hello</div>
+    <vp-button type="primary" v-on:click="showToast">Show Toast</vp-button>
   </section>
 </template>
 
 <script>
 import '../components/button/button';
-import '../components/toasts/toast';
+import Toast from '../components/toasts/toast';
 
 export default {
   data() {
@@ -15,9 +15,8 @@ export default {
   },
   methods: {
     showToast() {
-      alert(1);
-      console.log(VpToast);
-      VpToast.showToast();
+      console.log(0)
+      Toast.show()
     },
   },
 };

@@ -7358,6 +7358,7 @@ input[type="text"] {
   position: absolute;
   top: 80px;
   right: 16px;
+  z-index: 10000;
   display: none;
 }
 
@@ -7367,6 +7368,7 @@ input[type="text"] {
   max-width: 280px;
   cursor: pointer;
   display: none;
+  margin-bottom: 8px;
   background-color: #fff;
   box-shadow: 0 1px 2px 0 rgba(33, 46, 53, .5);
 }

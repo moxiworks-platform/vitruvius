@@ -6,7 +6,7 @@
 
     <pre class="prettyprint linenums lang-js">
     import Toast from 'path_to_toasts_component';
-    
+
     Toast.show({
       type: 'success',
       header: 'From Component',

@@ -44,7 +44,13 @@ class Toast {
     div.addEventListener('click', function() {
       this.parentNode.removeChild(this);
       self.checkContainer();
-    })
+    });
+
+    if (options.removeIn && !isNaN(options.removeIn)) {
+      setTimeout(function() {
+        if (div.parentNode) div.parentNode.removeChild(div);
+      }, options.removeIn);
+    }
 
     
     return div;
@@ -59,7 +65,8 @@ class Toast {
   show(options={
     type: 'success',
     header: null,
-    message: null
+    message: null,
+    removeIn: null
   }) {
     this.initContainer();
     document.querySelector('#vp-toast-container').appendChild(this.createToast(options));

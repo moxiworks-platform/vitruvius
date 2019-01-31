@@ -8,6 +8,7 @@ import Grid from './views/Grid';
 import Icons from './views/Icons';
 import Card from './views/Card';
 import FormElements from './views/FormElements';
+import Toasts from './views/Toasts';
 
 Vue.use(Router);
 
@@ -55,6 +56,11 @@ export default new Router({
       path: '/form-elements',
       name: 'form-elements',
       component: FormElements,
+    },
+    {
+      path: '/toasts',
+      name: 'toasts',
+      component: Toasts,
     },
   ],
 });

@@ -1,391 +1,467 @@
+/*************************************************************************************
+* Import Mulit Font
+************************************************************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,700,700i');
 
 /*************************************************************************************
- * Import Mulit Font
- ************************************************************************************/
+* Import TailwindsCSS utilities
+************************************************************************************/
 
- @import url('https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,700,700i');
+@tailwind preflight;
+@tailwind utilities;
 
- /*************************************************************************************
-  * Import TailwindsCSS utilities
-  ************************************************************************************/
- 
- @tailwind preflight;
- @tailwind utilities;
+/*************************************************************************************
+* Body Base Font
+************************************************************************************/
 
- /*************************************************************************************
- * Body Base Font
- ************************************************************************************/
- 
- body {
-   font-family: 'Muli', sans-serif !important;
-   line-height: 150%;
- }
+body {
+  font-family: 'Muli', sans-serif !important;
+  line-height: 150%;
+}
 
- *:focus { outline: none !important; }
- 
- /*************************************************************************************
-  * Base Stylings for anchor tags, etc...
-  ************************************************************************************/
- 
-  a {
-    @apply text-moxi-blue no-underline;
-  }
+*:focus {
+  outline: none !important;
+}
 
-  a:hover {
-    @apply underline;
-  }
- 
- 
- /*************************************************************************************
-  * Button Classes
-  ************************************************************************************/
- 
- .btn {
-   @apply py-13 px-16 rounded mx-2;
-   display: inline-flex;
-   align-items: center;
-   text-align: center;
-   vertical-align: middle;
- }
- 
- .btn i {
-   @apply mr-8;
- }
- 
- .btn-default {
-   @apply border-cn-30 border-solid border;
- }
- 
- .btn-flat:hover, .btn-default:hover {
-   @apply bg-cn-10 text-black;
- }
- 
- .btn-primary {
-   @apply bg-moxi-green text-white;
- }
- 
- .btn-primary:hover {
-   @apply bg-moxi-green-dark;
- }
- 
- .btn-destructive {
-   @apply border-moxi-destructive border-solid border text-moxi-destructive;
- }
- 
- .btn-destructive:hover {
-   @apply bg-cn-10;
- }
- 
- .btn-dense {
-   @apply text-sm py-9 px-16;
- }
- 
- .btn-blue {
-   @apply bg-moxi-blue text-white;
- }
- 
- .btn-blue {
-   @apply bg-moxi-blue text-white;
- }
+/*************************************************************************************
+* Base Stylings for anchor tags, etc...
+************************************************************************************/
 
- .btn-blue:hover {
-   @apply bg-moxi-blue-dark text-white;
- }
+a {
+  @apply text-moxi-blue no-underline;
+}
 
- a.btn:hover {
-   text-decoration: none;
- }
- 
- /*************************************************************************************
-  * Typography Classes
-  ************************************************************************************/
+a:hover {
+  @apply underline;
+}
 
-  h1, h2, h3, h4, h5 {
-    line-height: 120%;
-  }
+/*************************************************************************************
+* Button Classes
+************************************************************************************/
 
-  div[class^="text-"], p[class^="text-"] {
-    line-height: 120%;
-  }
- 
-  h1 {
-    @apply text-5xl mb-30;
-  }
- 
-  h2 {
-    @apply text-2xl my-20;
-  }
- 
-  h3 {
-    @apply text-lg my-20;
-  }
- 
-  h4 {
-    @apply text-base my-20;
-  }
- 
-  h5 {
-    @apply text-sm my-20;
-  }
- 
-  p {
-    @apply my-20;
-  }
- 
- 
- /*************************************************************************************
-  * Grid Classes
-  ************************************************************************************/
- 
-  .v-flex {
-   @apply flex;
-  }
- 
- .v-flex-wrap {
-   @apply flex flex-wrap;
- }
- 
- .v-flex .v-flex-item, .v-flex-wrap .v-flex-item {
-   @apply p-8 mb-8;
- }
- 
- /*************************************************************************************
- * Card Classes
- ************************************************************************************/
- 
- .v-card {
-   @apply relative flex bg-cn-10 overflow-hidden p-16 mb-3;
- }
+.btn {
+  @apply py-13 px-16 rounded mx-2;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+}
 
- .v-card.showhover:hover {
-   cursor: pointer;
-   background: #F8F8F8
- }
+.btn i {
+  @apply mr-8;
+}
 
- .v-card.level-1 {
-   @apply bg-cn-0 shadow-level-1;
- }
+.btn-default {
+  @apply border-cn-30 border-solid border;
+}
 
- .v-card.level-2 {
-   @apply bg-cn-0 shadow-level-2;
- }
+.btn-flat:hover, .btn-default:hover {
+  @apply bg-cn-10 text-black;
+}
 
- .v-card.level-3 {
-   @apply bg-cn-0 shadow-level-3;
- }
+.btn-primary {
+  @apply bg-moxi-green text-white;
+}
 
- .v-card i {
-   font-size: 24px;
-   margin-right: 15px;
- }
+.btn-primary:hover {
+  @apply bg-moxi-green-dark;
+}
 
- .v-card .rounded-image {
+.btn-destructive {
+  @apply border-moxi-destructive border-solid border text-moxi-destructive;
+}
+
+.btn-destructive:hover {
+  @apply bg-cn-10;
+}
+
+.btn-dense {
+  @apply text-sm py-9 px-16;
+}
+
+.btn-blue {
+  @apply bg-moxi-blue text-white;
+}
+
+.btn-blue {
+  @apply bg-moxi-blue text-white;
+}
+
+.btn-blue:hover {
+  @apply bg-moxi-blue-dark text-white;
+}
+
+a.btn:hover {
+  text-decoration: none;
+}
+
+/*************************************************************************************
+* Typography Classes
+************************************************************************************/
+
+h1, h2, h3, h4, h5 {
+  line-height: 120%;
+}
+
+div[class^="text-"], p[class^="text-"] {
+  line-height: 120%;
+}
+
+h1 {
+  @apply text-5xl mb-30;
+}
+
+h2 {
+  @apply text-2xl my-20;
+}
+
+h3 {
+  @apply text-lg my-20;
+}
+
+h4 {
+  @apply text-base my-20;
+}
+
+h5 {
+  @apply text-sm my-20;
+}
+
+p {
+  @apply my-20;
+}
+
+/*************************************************************************************
+* Grid Classes
+************************************************************************************/
+
+.v-flex {
+  @apply flex;
+}
+
+.v-flex-wrap {
+  @apply flex flex-wrap;
+}
+
+.v-flex .v-flex-item, .v-flex-wrap .v-flex-item {
+  @apply p-8 mb-8;
+}
+
+/*************************************************************************************
+* Card Classes
+************************************************************************************/
+
+.v-card {
+  @apply relative flex bg-cn-10 overflow-hidden p-16 mb-3;
+}
+
+.v-card.showhover:hover {
+  cursor: pointer;
+  background: #F8F8F8
+}
+
+.v-card.level-1 {
+  @apply bg-cn-0 shadow-level-1;
+}
+
+.v-card.level-2 {
+  @apply bg-cn-0 shadow-level-2;
+}
+
+.v-card.level-3 {
+  @apply bg-cn-0 shadow-level-3;
+}
+
+.v-card i {
+  font-size: 24px;
   margin-right: 15px;
- }
+}
 
+.v-card .rounded-image {
+  margin-right: 15px;
+}
 
- /*************************************************************************************
- * Form Classes
- ************************************************************************************/
+/*************************************************************************************
+* Form Classes
+************************************************************************************/
 
- input[type="text"] {
+input[type="text"] {
   border: 1px solid #bcc0c2;
   padding: 10px;
   border-radius: 3px;
   width: 100%;
- }
+}
 
- /*************************************************************************************
- * Radio/Checkbox Classes
- ************************************************************************************/
+/*************************************************************************************
+* Radio/Checkbox Classes
+************************************************************************************/
 
- /* Customize the label (the container) */
- .element-container {
-   position: relative;
-   padding-left: 23px;
-   margin-bottom: 12px;
-   cursor: pointer;
-   -webkit-user-select: none;
-   -moz-user-select: none;
-   -ms-user-select: none;
-   user-select: none;
- }
+/* Customize the label (the container) */
 
- /* Hide the browser's default checkbox */
- .element-container input {
-   position: absolute;
-   opacity: 0;
-   cursor: pointer;
-   height: 0;
-   width: 0;
- }
+.element-container {
+  position: relative;
+  padding-left: 23px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 
- .element-container .checkmark {
-   position: absolute;
-   top: 2px;
-   left: 0;
-   height: 16px;
-   width: 16px;
-   border: 1px solid #212e35;
-   border-radius: 3px;
- }
+/* Hide the browser's default checkbox */
 
- .element-container:hover input ~ .checkmark {
-   background-color: #f5f5f5;
- }
+.element-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
 
- .checkmark:after {
-   content: "";
-   position: absolute;
-   display: none;
- }
+.element-container .checkmark {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  border: 1px solid #212e35;
+  border-radius: 3px;
+}
 
- .element-container input:checked ~ .checkmark:after {
-   display: block;
- }
+.element-container:hover input~.checkmark {
+  background-color: #f5f5f5;
+}
 
- .element-container .checkmark:after {
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.element-container input:checked~.checkmark:after {
+  display: block;
+}
+
+.element-container .checkmark:after {
   left: 5px;
-   top: 2px;
-   width: 5px;
-   height: 8px;
-   border: solid #636c71;
-   border-width: 0 2px 2px 0;
-   transform: rotate(45deg);
- }
+  top: 2px;
+  width: 5px;
+  height: 8px;
+  border: solid #636c71;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
 
- /* Slight alteratons for radios */
- .checkmark.radio {
+/* Slight alteratons for radios */
+
+.checkmark.radio {
   border-radius: 50%;
- }
+}
 
- .element-container .checkmark.radio:after {
-   top: 3px;
-   left: 3px;
-   width: 8px !important;
-   height: 8px !important;
-   border-radius: 50%;
-   border-width: 0;
-   background: #636c71;
- }
+.element-container .checkmark.radio:after {
+  top: 3px;
+  left: 3px;
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 50%;
+  border-width: 0;
+  background: #636c71;
+}
 
- /* Destructive Styles */
- .element-container.destructive {
+/* Destructive Styles */
+
+.element-container.destructive {
   color: #f44336;
- }
+}
 
- .element-container .checkmark.destructive {
-   border: 1px solid #f44336;
- }
+.element-container .checkmark.destructive {
+  border: 1px solid #f44336;
+}
 
- .element-container .checkmark.destructive:after {
-   border: solid #f44336;
-   border-width: 0 2px 2px 0;
- }
+.element-container .checkmark.destructive:after {
+  border: solid #f44336;
+  border-width: 0 2px 2px 0;
+}
 
- .element-container .checkmark.radio.destructive:after {
-   background: #f44336;
-   border: 0;
- }
+.element-container .checkmark.radio.destructive:after {
+  background: #f44336;
+  border: 0;
+}
 
- /* Disabled Styles */
- .element-container.disabled {
+/* Disabled Styles */
+
+.element-container.disabled {
   color: #90969a;
- }
+}
 
- .element-container .checkmark.disabled {
-   border: 1px solid #d3d5d7;
- }
+.element-container .checkmark.disabled {
+  border: 1px solid #d3d5d7;
+}
 
- .element-container .checkmark.disabled:after {
-   border: solid #90969a;
-   border-width: 0 2px 2px 0;
- }
+.element-container .checkmark.disabled:after {
+  border: solid #90969a;
+  border-width: 0 2px 2px 0;
+}
 
- .element-container.disabled:hover input ~ .checkmark {
+.element-container.disabled:hover input~.checkmark {
   background: transparent;
- }
+}
 
- /*************************************************************************************
- * Switches
- ************************************************************************************/
+/*************************************************************************************
+* Switches
+************************************************************************************/
 
- .vp-switch {
-   position: relative;
-   display: inline-block;
-   width: 40px;
-   height: 20px;
- }
+.vp-switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
 
- /* Hide default HTML checkbox */
- .vp-switch input {
-   opacity: 0;
-   width: 0;
-   height: 0;
- }
+/* Hide default HTML checkbox */
 
- /* The slider */
- .vp-switch .slider {
-   position: absolute;
-   cursor: pointer;
-   top: 0;
-   left: 0;
-   right: 0;
-   bottom: 0;
-   background-color: #d3d5d7;
-   -webkit-transition: .4s;
-   transition: .4s;
- }
+.vp-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
 
- .vp-switch .slider:before {
-   position: absolute;
-   content: "";
-   height: 12px;
-   width: 12px;
-   left: 4px;
-   bottom: 4px;
-   background-color: white;
-   -webkit-transition: .4s;
-   transition: .4s;
- }
+/* The slider */
 
- .vp-switch input:checked + .slider {
-   background-color: #377cbf;
- }
+.vp-switch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #d3d5d7;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
 
- .vp-switch input:checked + .slider:before {
-   -webkit-transform: translateX(18px);
-   -ms-transform: translateX(18px);
-   transform: translateX(18px);
- }
+.vp-switch .slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
 
- /* Rounded sliders */
- .vp-switch .slider.round {
-   border-radius: 34px;
- }
+.vp-switch input:checked+.slider {
+  background-color: #377cbf;
+}
 
- .vp-switch .slider.round:before {
-   border-radius: 50%;
- }
+.vp-switch input:checked+.slider:before {
+  -webkit-transform: translateX(18px);
+  -ms-transform: translateX(18px);
+  transform: translateX(18px);
+}
 
- /* destructive slider */
- .vp-switch .slider.destructive:before {
-   background-color: #f44336;
- }
- .vp-switch input:checked + .slider.destructive {
-   background-color: #F77B73;
- }
+/* Rounded sliders */
 
- 
- /*************************************************************************************
- * Utility Classes
- ************************************************************************************/
- 
- .absolute-center {
-   position: absolute;
-   top: 50%;
-   transform: translateY(-50%);
- }
+.vp-switch .slider.round {
+  border-radius: 34px;
+}
+
+.vp-switch .slider.round:before {
+  border-radius: 50%;
+}
+
+/* destructive slider */
+
+.vp-switch .slider.destructive:before {
+  background-color: #f44336;
+}
+
+.vp-switch input:checked+.slider.destructive {
+  background-color: #F77B73;
+}
+
+/*************************************************************************************
+* Toasts
+************************************************************************************/
+
+#vp-toast-container {
+  position: absolute;
+  top: 80px;
+  right: 16px;
+  z-index: 10000;
+  display: none;
+}
+
+.vp-toast {
+  padding: 16px 8px;
+  min-width: 280px;
+  max-width: 280px;
+  cursor: pointer;
+  display: none;
+  margin-bottom: 8px;
+  @apply bg-cn-0 shadow-level-1;
+}
+
+.vp-toast.show {
+  display: flex;
+  -webkit-animation: showtoast 2s;
+  -moz-animation:    showtoast 2s;
+  -o-animation:      showtoast 2s;
+  animation:         showtoast 2s;
+}
+
+.vp-toast-icon {
+  flex: 32px;
+}
+
+.vp-toast-message p {
+  margin: 0;
+}
+
+.vp-toast i {
+  margin-right: 8px;
+  font-size: 24px;
+  @apply text-moxi-green;
+}
+
+.vp-toast i.info {
+  @apply text-cn-70;
+}
+
+.vp-toast i.error {
+  @apply text-moxi-destructive;
+}
+
+@-webkit-keyframes showtoast {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes showtoast {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes showtoast {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes showtoast {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/*************************************************************************************
+* Utility Classes
+************************************************************************************/
+
+.absolute-center {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
 .rounded-image {
   width: 30px;

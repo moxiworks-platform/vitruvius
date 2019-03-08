@@ -183,17 +183,6 @@ p {
 }
 
 /*************************************************************************************
-* Form Classes
-************************************************************************************/
-
-input[type="text"] {
-  border: 1px solid #bcc0c2;
-  padding: 10px;
-  border-radius: 3px;
-  width: 100%;
-}
-
-/*************************************************************************************
 * Radio/Checkbox Classes
 ************************************************************************************/
 
@@ -382,6 +371,37 @@ input[type="text"] {
 
 .vp-switch input:checked+.slider.destructive {
   background-color: #F77B73;
+}
+
+/*************************************************************************************
+* Input Elements
+************************************************************************************/
+
+.vp-input-container {
+  position: relative;
+  min-width: 100%;
+}
+
+.vp-input-container i {
+  position: absolute;
+  color: #666;
+  top: 10px;
+  left: 10px;
+  font-size: 24px;
+}
+
+.vp-input-container .icon-close-circle {
+  left: unset;
+  right: 10px;
+  cursor: pointer;
+  display: none;
+}
+
+input[type="text"], input[type="tel"] {
+  border: 1px solid #bcc0c2;
+  padding: 10px;
+  border-radius: 3px;
+  width: 100%;
 }
 
 /*************************************************************************************

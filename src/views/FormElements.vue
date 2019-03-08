@@ -57,6 +57,18 @@
       <div class="v-flex-item w-1/5">Option 3 (destructive)</div>
       <div class="v-flex-item w-1/5"><vp-switch name="snoop" value="dogg" type="destructive"></vp-switch></div>
     </div>
+    <h3>Input Text Fields</h3>
+    <div class="short">
+      <vp-input type="text" placeholder="Plain Input Text Field" name="foo"></vp-input>
+    </div>
+    <br />
+    <div class="short">
+      <vp-input label="Some Label" type="tel" placeholder="Icon Left With label" name="foo" iconleft="icon-chat"></vp-input>
+    </div>
+    <br />
+    <div class="short">
+      <vp-input label="Type inside to show clear" type="tel" placeholder="Input with clear button" name="foo" iconclose="true"></vp-input>
+    </div>
   </section>
 </template>
 
@@ -64,6 +76,7 @@
 import '../components/form-elements/checkbox';
 import '../components/form-elements/radio';
 import '../components/form-elements/switch';
+import '../components/form-elements/input';
 
 export default {
   data() {
@@ -72,6 +85,8 @@ export default {
 };
 </script>
 
-<style>
-
+<style scoped>
+  .short {
+    width: 380px;
+  }
 </style>

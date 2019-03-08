@@ -59,17 +59,11 @@
     </div>
     <h3>Input Text Fields</h3>
     <pre class="prettyprint linenums lang-html">
-      &lt;div class="short"&gt;
-        &lt;vp-input type="text" placeholder="Plain Input Text Field" name="foo"&gt;&lt;/vp-input&gt;
-      &lt;/div&gt;
-      &lt;br /&gt;
-      &lt;div class="short"&gt;
-        &lt;vp-input label="Some Label" type="tel" placeholder="Icon Left With label" name="foo" iconleft="icon-chat"&gt;&lt;/vp-input&gt;
-      &lt;/div&gt;
-      &lt;br /&gt;
-      &lt;div class="short"&gt;
-        &lt;vp-input label="Type inside to show clear" type="tel" placeholder="Input with clear button" name="foo" iconclose="true"&gt;&lt;/vp-input&gt;
-      &lt;/div&gt;</pre>
+    &lt;vp-input type="text" placeholder="Plain Input Text Field" name="foo"&gt;&lt;/vp-input&gt;
+
+    &lt;vp-input label="Some Label" type="tel" placeholder="Icon Left With label" name="foo" iconleft="icon-chat"&gt;&lt;/vp-input&gt;
+
+    &lt;vp-input label="Type inside to show clear" type="tel" placeholder="Input with clear button" name="foo" iconclose="true"&gt;&lt;/vp-input&gt;</pre>
     <div class="short">
       <vp-input type="text" placeholder="Plain Input Text Field" name="foo"></vp-input>
     </div>

@@ -64,16 +64,17 @@
     &lt;vp-input label="Some Label" type="tel" placeholder="Icon Left With label" name="foo" iconleft="icon-chat"&gt;&lt;/vp-input&gt;
 
     &lt;vp-input label="Type inside to show clear" type="tel" placeholder="Input with clear button" name="foo" iconclose="true"&gt;&lt;/vp-input&gt;</pre>
+
     <div class="short">
       <vp-input type="text" placeholder="Plain Input Text Field" name="foo"></vp-input>
     </div>
     <br />
     <div class="short">
-      <vp-input label="Some Label" type="tel" placeholder="Icon Left With label" name="foo" iconleft="icon-chat"></vp-input>
+      <vp-input type="tel" placeholder="Icon Left With label" name="foo" iconleft="icon-chat"></vp-input>
     </div>
     <br />
     <div class="short">
-      <vp-input label="Type inside to show clear" type="tel" placeholder="Input with clear button" name="foo" iconclose="true"></vp-input>
+      <vp-input type="tel" placeholder="Input with clear button" name="foo" iconclose="true"></vp-input>
     </div>
   </section>
 </template>

@@ -380,6 +380,17 @@ p {
 .vp-input-container {
   position: relative;
   min-width: 100%;
+  padding: 10px;
+  height: 46px;
+  max-height: 46px;
+  min-height: 46px;
+}
+
+.vp-input-container label {
+  font-size: 10px;
+  position: absolute;
+  top: -2px;
+  display: none;
 }
 
 .vp-input-container i {
@@ -397,11 +408,16 @@ p {
   display: none;
 }
 
-input[type="text"], input[type="tel"] {
-  border: 1px solid #bcc0c2;
-  padding: 10px;
+.vp-input-container input[type="text"], .vp-input-container input[type="tel"] {
   border-radius: 3px;
   width: 100%;
+}
+
+.vp-input-container input[type="text"]:focus,
+.vp-input-container input[type="tel"]:focus,
+.vp-input-container input[type="text"]:not(:placeholder-shown),
+.vp-input-container input[type="tel"]:not(:placeholder-shown) {
+  padding-top: 8px;
 }
 
 /*************************************************************************************

@@ -89,7 +89,8 @@ export default {
       {
         type: 'info',
         header: 'Information',
-        message: 'You need to know about this! You\'re going to have to click to remove me!',
+        message: 'You need to know about this! This one will be removed in 5 seconds!',
+        removeIn: 5000,
       },
       {
         type: 'error',
@@ -105,6 +106,7 @@ export default {
         header: 'This is a Header',
         message: 'This toast was created with the "removeIn" option meaning this toast will dissapear in 5 seconds.',
         centered: true,
+        removeIn: 5000,
       });
     },
   },

@@ -6,9 +6,14 @@ class Toast {
     let div = document.createElement('div');
     div.id = 'vp-toast-container';
     if (options.centered) {
+      let wrapper = document.createElement('div');
+      wrapper.className = 'vp-toast-wrapper';
       div.className = 'centered';
+      wrapper.appendChild(div);
+      return wrapper;
+    } else {
+      return div;
     }
-    return div;
   }
 
   createToast(options) {
@@ -28,7 +33,7 @@ class Toast {
       icon.className = 'icon-info-circle error';
     }
 
-    iconDiv.className = icon;
+    // iconDiv.className = icon;
     messageDiv.className = 'vp-toast-message';
     header.className = 'font-bold mb-5';
 
@@ -80,6 +85,10 @@ class Toast {
     if (!document.querySelectorAll('.vp-toast').length) {
       const container = document.querySelector('#vp-toast-container');
       container.parentNode.removeChild(container)
+    }
+    if (document.querySelectorAll('.vp-toast-wrapper').length) {
+      const wrapper = document.querySelector('.vp-toast-wrapper');
+      wrapper.parentNode.removeChild(wrapper);
     }
   }
 

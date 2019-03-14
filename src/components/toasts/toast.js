@@ -3,6 +3,7 @@ class Toast {
   constructor() {}
 
   createContainer(options) {
+    const self = this;
     let div = document.createElement('div');
     div.id = 'vp-toast-container';
     if (options.centered) {
@@ -10,6 +11,10 @@ class Toast {
       wrapper.className = 'vp-toast-wrapper';
       div.className = 'centered';
       wrapper.appendChild(div);
+      wrapper.addEventListener('click', function() {
+        if (this.parentNode) this.parentNode.removeChild(this);
+        self.checkCenteredContainer();
+      });
       return wrapper;
     } else {
       return div;
@@ -99,9 +104,4 @@ class Toast {
 
 }
 
-// This component is a singleton.
-const instance = new Toast();
-Object.freeze(instance);
-
-// Export
-export default instance;
+export default Toast;

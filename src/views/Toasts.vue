@@ -65,9 +65,12 @@ export default {
   data() {
     return {};
   },
+  mounted() {
+    this.ToastMessage = new Toast();
+  },
   methods: {
     showToast() {
-      Toast.show({
+      this.ToastMessage.show({
         type: 'success',
         header: 'This is a Header',
         message: 'This toast was created with the "removeIn" option meaning this toast will dissapear in 5 seconds.',
@@ -75,7 +78,7 @@ export default {
       });
     },
     showToastNoHeader() {
-      Toast.show({
+      this.ToastMessage.show({
         type: 'success',
         message: 'Toast without a header - only message.',
       });
@@ -97,11 +100,11 @@ export default {
         header: 'Error',
         message: 'Uh, oh. Something went wrong. You\'re going to have to click to remove me!',
       }].forEach((o) => {
-        Toast.show(o);
+        this.ToastMessage.show(o);
       });
     },
     showCenteredToast() {
-      Toast.show({
+      this.ToastMessage.show({
         type: 'success',
         header: 'This is a Header',
         message: 'This toast was created with the "removeIn" option meaning this toast will dissapear in 5 seconds.',

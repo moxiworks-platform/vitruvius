@@ -17,6 +17,7 @@
     <vp-button type="primary" v-on:click="showToast">Show Toast Example</vp-button>
     <vp-button type="primary" v-on:click="showToastNoHeader">Show Toast with no Header</vp-button>
     <vp-button type="primary" v-on:click="showStackedToasts">Show Multiple Toasts with Type!</vp-button>
+    <vp-button type="primary" v-on:click="showCenteredToast">Show Centered Toast</vp-button>
 
     <h3>Properties</h3>
 
@@ -98,6 +99,14 @@ export default {
         Toast.show(o);
       });
     },
+    showCenteredToast() {
+      Toast.show({
+        type: 'success',
+        header: 'This is a Header',
+        message: 'This toast was created with the "removeIn" option meaning this toast will dissapear in 5 seconds.',
+        centered: true,
+      });
+    }
   },
 };
 </script>

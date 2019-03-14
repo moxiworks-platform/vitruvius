@@ -7383,6 +7383,15 @@ input[type="tel"] {
   display: none;
 }
 
+#vp-toast-container.centered {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .3);
+}
+
 .vp-toast {
   padding: 16px 8px;
   min-width: 280px;
@@ -7392,6 +7401,12 @@ input[type="tel"] {
   margin-bottom: 8px;
   background-color: #fff;
   box-shadow: 0 1px 2px 0 rgba(33, 46, 53, .5);
+}
+
+#vp-toast-container.centered .vp-toast {
+  margin: auto;
+  margin-top: 30%;
+  max-width: 580px;
 }
 
 .vp-toast.show {

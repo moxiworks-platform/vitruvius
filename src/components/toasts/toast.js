@@ -2,9 +2,12 @@ class Toast {
 
   constructor() {}
 
-  createContainer() {
+  createContainer(options) {
     let div = document.createElement('div');
     div.id = 'vp-toast-container';
+    if (options.centered) {
+      div.className = 'centered';
+    }
     return div;
   }
 
@@ -28,7 +31,7 @@ class Toast {
     iconDiv.className = icon;
     messageDiv.className = 'vp-toast-message';
     header.className = 'font-bold mb-5';
-    
+
     div.className = 'vp-toast show';
 
     header.innerHTML = options.header || '';
@@ -52,23 +55,23 @@ class Toast {
       }, options.removeIn);
     }
 
-    
+
     return div;
   }
 
-  initContainer() {
+  initContainer(options) {
     if (document.querySelector('#vp-toast-container') === null) {
-      document.body.appendChild(this.createContainer());
+      document.body.appendChild(this.createContainer(options));
     }
   }
-  
+
   show(options={
     type: 'success',
     header: null,
     message: null,
     removeIn: null
   }) {
-    this.initContainer();
+    this.initContainer(options);
     document.querySelector('#vp-toast-container').appendChild(this.createToast(options));
     document.querySelector('#vp-toast-container').style.display = 'block';
   }

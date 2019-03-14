@@ -27,7 +27,7 @@ riot.tag2('vp-input', '<div class="vp-input-container border border-cn-30"> <i d
     this.hidePlaceHolder = function() {
       self.root.querySelector('input').placeholder = '';
       self.root.querySelector('label').style.display = 'block';
-      if (self.root.querySelectorAll('i')[0] && self.root.querySelectorAll('i')[0]['dataset'].icontype === 'left') {
+      if (self.opts.iconleft) {
         self.root.querySelector('label').style.left = '50px';
       }
     }.bind(this)

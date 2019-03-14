@@ -106,7 +106,7 @@ export default {
         message: 'This toast was created with the "removeIn" option meaning this toast will dissapear in 5 seconds.',
         centered: true,
       });
-    }
+    },
   },
 };
 </script>

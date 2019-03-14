@@ -7350,12 +7350,19 @@ p {
   height: 46px;
   max-height: 46px;
   min-height: 46px;
+  border-width: 1px;
+  border-color: #bcc0c2;
+}
+
+.vp-input-container.dark {
+  border-width: 1px;
+  border-color: #212e35;
 }
 
 .vp-input-container label {
   font-size: 10px;
   position: absolute;
-  top: -2px;
+  top: 0;
   display: none;
 }
 
@@ -7384,7 +7391,7 @@ p {
 .vp-input-container input[type="tel"]:focus,
 .vp-input-container input[type="text"]:not(:placeholder-shown),
 .vp-input-container input[type="tel"]:not(:placeholder-shown) {
-  padding-top: 8px;
+  padding-top: 10px;
 }
 
 /*************************************************************************************

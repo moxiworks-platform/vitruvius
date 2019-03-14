@@ -1,5 +1,5 @@
 <vp-input>
-    <div class="vp-input-container border border-cn-30">
+    <div class="vp-input-container">
       <i data-icontype="left" class="{ this.opts.iconleft }" if="{ this.opts.iconleft }"></i>
       <i class="icon-close-circle" if="{ this.opts.iconclose }" onclick="{ clearField }"></i>
       <label>{ this.opts.placeholder }</label>
@@ -45,6 +45,7 @@
     hidePlaceHolder() {
       self.root.querySelector('input').placeholder = '';
       self.root.querySelector('label').style.display = 'block';
+      self.root.querySelector('.vp-input-container').classList.add('dark');
       if (self.opts.iconleft) {
         self.root.querySelector('label').style.left = '50px';
       }
@@ -57,6 +58,7 @@
     hideLabel(el) {
       if (el.value === '') {
         self.root.querySelector('label').style.display = 'none';
+        self.root.querySelector('.vp-input-container').classList.remove('dark');
       }
     }
   </script>

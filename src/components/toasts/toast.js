@@ -60,7 +60,7 @@ class Toast {
     });
 
     if (options.removeIn && !isNaN(options.removeIn)) {
-      setTimeout(function() {
+      self.elemTimeout = setTimeout(function() {
         if (div.parentNode) div.parentNode.removeChild(div);
         self.checkCenteredContainer();
       }, options.removeIn);
@@ -99,6 +99,10 @@ class Toast {
     if (document.querySelectorAll('.vp-toast-wrapper').length) {
       const wrapper = document.querySelector('.vp-toast-wrapper');
       wrapper.parentNode.removeChild(wrapper);
+    }
+    
+    if (this.elemTimeout) {
+      clearTimeout(this.elemTimeout);
     }
   }
 

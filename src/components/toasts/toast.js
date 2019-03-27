@@ -2,10 +2,23 @@ class Toast {
 
   constructor() {}
 
-  createContainer() {
+  createContainer(options) {
+    const self = this;
     let div = document.createElement('div');
     div.id = 'vp-toast-container';
-    return div;
+    if (options.centered) {
+      let wrapper = document.createElement('div');
+      wrapper.className = 'vp-toast-wrapper';
+      div.className = 'centered';
+      wrapper.appendChild(div);
+      wrapper.addEventListener('click', function() {
+        if (this.parentNode) this.parentNode.removeChild(this);
+        self.checkCenteredContainer();
+      });
+      return wrapper;
+    } else {
+      return div;
+    }
   }
 
   createToast(options) {
@@ -25,10 +38,10 @@ class Toast {
       icon.className = 'icon-info-circle error';
     }
 
-    iconDiv.className = icon;
+    // iconDiv.className = icon;
     messageDiv.className = 'vp-toast-message';
     header.className = 'font-bold mb-5';
-    
+
     div.className = 'vp-toast show';
 
     header.innerHTML = options.header || '';
@@ -47,28 +60,29 @@ class Toast {
     });
 
     if (options.removeIn && !isNaN(options.removeIn)) {
-      setTimeout(function() {
+      self.elemTimeout = setTimeout(function() {
         if (div.parentNode) div.parentNode.removeChild(div);
+        self.checkCenteredContainer();
       }, options.removeIn);
     }
 
-    
+
     return div;
   }
 
-  initContainer() {
+  initContainer(options) {
     if (document.querySelector('#vp-toast-container') === null) {
-      document.body.appendChild(this.createContainer());
+      document.body.appendChild(this.createContainer(options));
     }
   }
-  
+
   show(options={
     type: 'success',
     header: null,
     message: null,
     removeIn: null
   }) {
-    this.initContainer();
+    this.initContainer(options);
     document.querySelector('#vp-toast-container').appendChild(this.createToast(options));
     document.querySelector('#vp-toast-container').style.display = 'block';
   }
@@ -78,13 +92,20 @@ class Toast {
       const container = document.querySelector('#vp-toast-container');
       container.parentNode.removeChild(container)
     }
+    this.checkCenteredContainer();
+  }
+
+  checkCenteredContainer() {
+    if (document.querySelectorAll('.vp-toast-wrapper').length) {
+      const wrapper = document.querySelector('.vp-toast-wrapper');
+      wrapper.parentNode.removeChild(wrapper);
+    }
+    
+    if (this.elemTimeout) {
+      clearTimeout(this.elemTimeout);
+    }
   }
 
 }
 
-// This component is a singleton.
-const instance = new Toast();
-Object.freeze(instance);
-
-// Export
-export default instance;
+export default Toast;

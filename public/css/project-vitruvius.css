@@ -7153,17 +7153,6 @@ p {
 }
 
 /*************************************************************************************
-* Form Classes
-************************************************************************************/
-
-input[type="text"] {
-  border: 1px solid #bcc0c2;
-  padding: 10px;
-  border-radius: 3px;
-  width: 100%;
-}
-
-/*************************************************************************************
 * Radio/Checkbox Classes
 ************************************************************************************/
 
@@ -7351,15 +7340,90 @@ input[type="text"] {
 }
 
 /*************************************************************************************
+* Input Elements
+************************************************************************************/
+
+.vp-input-container {
+  position: relative;
+  min-width: 100%;
+  padding: 10px;
+  height: 46px;
+  max-height: 46px;
+  min-height: 46px;
+  border-width: 1px;
+  border-color: #bcc0c2;
+}
+
+.vp-input-container.dark {
+  border-width: 1px;
+  border-color: #212e35;
+}
+
+.vp-input-container label {
+  font-size: 10px;
+  position: absolute;
+  top: 0;
+  display: none;
+}
+
+.vp-input-container i {
+  position: absolute;
+  color: #666;
+  top: 10px;
+  left: 10px;
+  font-size: 24px;
+}
+
+.vp-input-container .icon-close-circle {
+  left: unset;
+  right: 10px;
+  cursor: pointer;
+  display: none;
+}
+
+.vp-input-container input[type="text"],
+.vp-input-container input[type="tel"] {
+  border-radius: 3px;
+  width: 100%;
+}
+
+.vp-input-container input[type="text"]:focus,
+.vp-input-container input[type="tel"]:focus,
+.vp-input-container input[type="text"]:not(:placeholder-shown),
+.vp-input-container input[type="tel"]:not(:placeholder-shown) {
+  padding-top: 10px;
+}
+
+/*************************************************************************************
 * Toasts
 ************************************************************************************/
 
-#vp-toast-container {
+.vp-toast-wrapper {
   position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, .3);
+  z-index: 10000;
+  cursor: pointer;
+}
+
+#vp-toast-container {
+  position: fixed;
   top: 80px;
   right: 16px;
   z-index: 10000;
   display: none;
+}
+
+#vp-toast-container.centered {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .vp-toast {
@@ -7371,6 +7435,11 @@ input[type="text"] {
   margin-bottom: 8px;
   background-color: #fff;
   box-shadow: 0 1px 2px 0 rgba(33, 46, 53, .5);
+}
+
+#vp-toast-container.centered .vp-toast {
+  margin: auto;
+  max-width: 580px;
 }
 
 .vp-toast.show {

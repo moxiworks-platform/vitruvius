@@ -17,6 +17,7 @@
     <vp-button type="primary" v-on:click="showToast">Show Toast Example</vp-button>
     <vp-button type="primary" v-on:click="showToastNoHeader">Show Toast with no Header</vp-button>
     <vp-button type="primary" v-on:click="showStackedToasts">Show Multiple Toasts with Type!</vp-button>
+    <vp-button type="primary" v-on:click="showCenteredToast">Show Centered Toast</vp-button>
 
     <h3>Properties</h3>
 
@@ -64,9 +65,12 @@ export default {
   data() {
     return {};
   },
+  mounted() {
+    this.ToastMessage = new Toast();
+  },
   methods: {
     showToast() {
-      Toast.show({
+      this.ToastMessage.show({
         type: 'success',
         header: 'This is a Header',
         message: 'This toast was created with the "removeIn" option meaning this toast will dissapear in 5 seconds.',
@@ -74,7 +78,7 @@ export default {
       });
     },
     showToastNoHeader() {
-      Toast.show({
+      this.ToastMessage.show({
         type: 'success',
         message: 'Toast without a header - only message.',
       });
@@ -88,14 +92,24 @@ export default {
       {
         type: 'info',
         header: 'Information',
-        message: 'You need to know about this! You\'re going to have to click to remove me!',
+        message: 'You need to know about this! This one will be removed in 5 seconds!',
+        removeIn: 5000,
       },
       {
         type: 'error',
         header: 'Error',
         message: 'Uh, oh. Something went wrong. You\'re going to have to click to remove me!',
       }].forEach((o) => {
-        Toast.show(o);
+        this.ToastMessage.show(o);
+      });
+    },
+    showCenteredToast() {
+      this.ToastMessage.show({
+        type: 'success',
+        header: 'This is a Header',
+        message: 'This toast was created with the "removeIn" option meaning this toast will dissapear in 5 seconds.',
+        centered: true,
+        removeIn: 5000,
       });
     },
   },

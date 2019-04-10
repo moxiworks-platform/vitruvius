@@ -70,7 +70,7 @@
     </div>
     <br />
     <div class="short">
-      <vp-input type="tel" placeholder="Icon Left With label" name="foo" iconleft="icon-chat"></vp-input>
+      <vp-input type="tel" placeholder="Icon Left With label" name="foo" iconleft="v-icon-chat"></vp-input>
     </div>
     <br />
     <div class="short">

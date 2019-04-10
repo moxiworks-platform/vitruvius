@@ -1,7 +1,7 @@
-riot.tag2('vp-input', '<div class="vp-input-container"> <i data-icontype="left" class="{this.opts.iconleft}" if="{this.opts.iconleft}"></i> <i class="icon-close-circle" if="{this.opts.iconclose}" onclick="{clearField}"></i> <label>{this.opts.placeholder}</label> <input autocomplete="off" riot-style="{returnClass(this.opts.iconleft, this.opts.iconclose)}" type="{this.opts.type}" placeholder="{this.opts.placeholder}" name="{this.opts.name}" riot-value="{this.opts.value}" onkeyup="{showHideClearButton}" onfocus="{hidePlaceHolder}" onblur="{showPlaceHolder}"> </div>', '', '', function(opts) {
+riot.tag2('vp-input', '<div class="vp-input-container"> <i data-icontype="left" class="{this.opts.iconleft}" if="{this.opts.iconleft}"></i> <i class="v-icon-close-circle" if="{this.opts.iconclose}" onclick="{clearField}"></i> <label>{this.opts.placeholder}</label> <input autocomplete="off" riot-style="{returnClass(this.opts.iconleft, this.opts.iconclose)}" type="{this.opts.type}" placeholder="{this.opts.placeholder}" name="{this.opts.name}" riot-value="{this.opts.value}" onkeyup="{showHideClearButton}" onfocus="{hidePlaceHolder}" onblur="{showPlaceHolder}"> </div>', '', '', function(opts) {
     const self = this;
     this.showHideClearButton = function() {
-      const closeElem = self.root.querySelector('.icon-close-circle');
+      const closeElem = self.root.querySelector('.v-icon-close-circle');
       const inputElem = self.root.querySelector('input');
       if (closeElem && inputElem && inputElem.value === '') {
         closeElem.style.display = 'none';

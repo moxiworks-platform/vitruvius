@@ -7365,6 +7365,16 @@ p {
   left: 10px;
   color: #a6abae;
   display: block;
+  cursor: text;
+  transition: transform .2s ease-out, color .2s ease-out;
+  transform-origin: 0% 100%;
+  text-align: initial;
+}
+
+.vp-input-container label.active {
+  color: #636c71;
+  transform: translateY(-9px) scale(.8);
+  transform-origin: 0 0;
 }
 
 .vp-input-container i {

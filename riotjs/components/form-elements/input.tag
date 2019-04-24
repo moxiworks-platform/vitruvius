@@ -2,7 +2,7 @@
   <div class="vp-input-container">
     <i data-icontype="left" class="{ this.opts.iconleft }" if="{ this.opts.iconleft }"></i>
     <i class="v-icon-close-circle" if="{ this.opts.iconclose }" onclick="{ clearField }"></i>
-    <label style="{checkLeftLabelPlacement()}">{ this.opts.placeholder }</label>
+    <label style="{checkLeftLabelPlacement()}" onclick="{ focusOnInput }">{ this.opts.placeholder }</label>
     <input
       autocomplete="off"
       style="{returnClass(this.opts.iconleft, this.opts.iconclose)}"
@@ -42,8 +42,7 @@
       self.showHideClearButton();
     }
     hidePlaceHolder() {
-      self.root.querySelector('input').placeholder = '';
-      self.root.querySelector('label').style.display = 'block';
+      self.root.querySelector('label').classList.add('active');
       self.root.querySelector('.vp-input-container').classList.add('dark');
       if (self.opts.iconleft) {
         self.root.querySelector('label').style.left = '50px';
@@ -51,18 +50,22 @@
     }
     showPlaceHolder() {
       const inputElem = self.root.querySelector('input');
-      inputElem.placeholder = self.opts.placeholder;
       self.hideLabel(inputElem);
     }
     hideLabel(el) {
       if (el.value === '') {
-        self.root.querySelector('label').style.display = 'none';
+        self.root.querySelector('label').classList.remove('active');
         self.root.querySelector('.vp-input-container').classList.remove('dark');
       }
     }
     checkLeftLabelPlacement() {
       if (self.opts.iconleft) {
         return `left: 40px;`
+      }
+    }
+    focusOnInput() {
+      if (self.root.querySelector('input')) {
+        self.root.querySelector('input').focus();
       }
     }
   </script>

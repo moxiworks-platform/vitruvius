@@ -397,6 +397,22 @@ p {
   left: 10px;
   @apply text-cn-40;
   display: block;
+  cursor: text;
+  -webkit-transition: color .2s ease-out, -webkit-transform .2s ease-out;
+  transition: color .2s ease-out, -webkit-transform .2s ease-out;
+  transition: transform .2s ease-out, color .2s ease-out;
+  transition: transform .2s ease-out, color .2s ease-out, -webkit-transform .2s ease-out;
+  -webkit-transform-origin: 0% 100%;
+  transform-origin: 0% 100%;
+  text-align: initial;
+}
+
+.vp-input-container label.active {
+  @apply text-cn-70;
+  -webkit-transform: translateY(-9px) scale(0.8);
+  transform: translateY(-9px) scale(0.8);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
 }
 
 .vp-input-container i {

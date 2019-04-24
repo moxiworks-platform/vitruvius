@@ -16,10 +16,10 @@ riot.tag2('vp-input', '<div class="vp-input-container"> <i data-icontype="left" 
     this.returnClass = function(leftIcon, iconClose) {
       let str = '';
       if (leftIcon) {
-        str += 'padding-left: 40px; ';
+        str += 'padding-left: 30px; ';
       }
       if (iconClose) {
-        str += 'padding-right: 40px;'
+        str += 'padding-right: 30px;'
       }
       return str;
     }.bind(this)
@@ -30,9 +30,6 @@ riot.tag2('vp-input', '<div class="vp-input-container"> <i data-icontype="left" 
     this.hidePlaceHolder = function() {
       self.root.querySelector('label').classList.add('active');
       self.root.querySelector('.vp-input-container').classList.add('dark');
-      if (self.opts.iconleft) {
-        self.root.querySelector('label').style.left = '50px';
-      }
     }.bind(this)
     this.showPlaceHolder = function() {
       const inputElem = self.root.querySelector('input');

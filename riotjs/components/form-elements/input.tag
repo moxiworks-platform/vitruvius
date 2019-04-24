@@ -33,10 +33,10 @@
     returnClass(leftIcon, iconClose) {
       let str = '';
       if (leftIcon) {
-        str += 'padding-left: 40px; ';
+        str += 'padding-left: 30px; ';
       }
       if (iconClose) {
-        str += 'padding-right: 40px;'
+        str += 'padding-right: 30px;'
       }
       return str;
     }
@@ -47,9 +47,6 @@
     hidePlaceHolder() {
       self.root.querySelector('label').classList.add('active');
       self.root.querySelector('.vp-input-container').classList.add('dark');
-      if (self.opts.iconleft) {
-        self.root.querySelector('label').style.left = '50px';
-      }
     }
     showPlaceHolder() {
       const inputElem = self.root.querySelector('input');

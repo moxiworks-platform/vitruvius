@@ -8,6 +8,9 @@ riot.tag2('vp-input', '<div class="vp-input-container"> <i data-icontype="left" 
       } else if (closeElem) {
         closeElem.style.display = 'block';
       }
+      if (inputElem.value === '') {
+        inputElem.blur();
+      }
       self.hideLabel(inputElem);
     }.bind(this)
     this.returnClass = function(leftIcon, iconClose) {

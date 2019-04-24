@@ -25,6 +25,9 @@
       } else if (closeElem) {
         closeElem.style.display = 'block';
       }
+      if (inputElem.value === '') {
+        inputElem.blur();
+      }
       self.hideLabel(inputElem);
     }
     returnClass(leftIcon, iconClose) {

@@ -392,10 +392,11 @@ p {
 }
 
 .vp-input-container label {
-  font-size: 10px;
   position: absolute;
-  top: 0;
-  display: none;
+  top: 10px;
+  left: 10px;
+  @apply text-cn-40;
+  display: block;
 }
 
 .vp-input-container i {

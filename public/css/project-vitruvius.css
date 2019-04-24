@@ -7360,10 +7360,11 @@ p {
 }
 
 .vp-input-container label {
-  font-size: 10px;
   position: absolute;
-  top: 0;
-  display: none;
+  top: 10px;
+  left: 10px;
+  color: #a6abae;
+  display: block;
 }
 
 .vp-input-container i {

@@ -1,20 +1,20 @@
 <vp-input>
-    <div class="vp-input-container">
-      <i data-icontype="left" class="{ this.opts.iconleft }" if="{ this.opts.iconleft }"></i>
-      <i class="v-icon-close-circle" if="{ this.opts.iconclose }" onclick="{ clearField }"></i>
-      <label>{ this.opts.placeholder }</label>
-      <input
-        autocomplete="off"
-        style="{returnClass(this.opts.iconleft, this.opts.iconclose)}"
-        type="{ this.opts.type }"
-        placeholder="{ this.opts.placeholder }"
-        name="{ this.opts.name }"
-        value="{ this.opts.value }"
-        onkeyup="{ showHideClearButton }"
-        onfocus="{ hidePlaceHolder }"
-        onblur="{ showPlaceHolder }"
-      >
-    </div>
+  <div class="vp-input-container">
+    <i data-icontype="left" class="{ this.opts.iconleft }" if="{ this.opts.iconleft }"></i>
+    <i class="v-icon-close-circle" if="{ this.opts.iconclose }" onclick="{ clearField }"></i>
+    <label>{ this.opts.placeholder }</label>
+    <input
+      autocomplete="off"
+      style="{returnClass(this.opts.iconleft, this.opts.iconclose)}"
+      type="{ this.opts.type }"
+      placeholder="{ this.opts.placeholder }"
+      name="{ this.opts.name }"
+      value="{ this.opts.value }"
+      onkeyup="{ showHideClearButton }"
+      onfocus="{ hidePlaceHolder }"
+      onblur="{ showPlaceHolder }"
+    >
+  </div>
 
   <script>
     const self = this;

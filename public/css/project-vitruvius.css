@@ -7369,12 +7369,14 @@ p {
   transition: transform .2s ease-out, color .2s ease-out;
   transform-origin: 0% 100%;
   text-align: initial;
+  padding: 0 5px;
 }
 
 .vp-input-container label.active {
   color: #636c71;
-  transform: translateY(-9px) scale(.8);
+  transform: translateY(-20px) scale(.8);
   transform-origin: 0 0;
+  background: #fff;
 }
 
 .vp-input-container i {
@@ -7402,7 +7404,7 @@ p {
 .vp-input-container input[type="tel"]:focus,
 .vp-input-container input[type="text"]:not(:placeholder-shown),
 .vp-input-container input[type="tel"]:not(:placeholder-shown) {
-  padding-top: 10px;
+  padding-top: 4px;
 }
 
 /*************************************************************************************

@@ -2,7 +2,7 @@
   <div class="vp-input-container">
     <i data-icontype="left" class="{ this.opts.iconleft }" if="{ this.opts.iconleft }"></i>
     <i class="v-icon-close-circle" if="{ this.opts.iconclose }" onclick="{ clearField }"></i>
-    <label style="{checkLeftLabelPlacement()}" onclick="{ focusOnInput }">{ this.opts.placeholder }</label>
+    <label style="{checkLabelStyles()}" onclick="{ focusOnInput }">{ this.opts.label }</label>
     <input
       autocomplete="off"
       style="{returnClass(this.opts.iconleft, this.opts.iconclose)}"
@@ -58,10 +58,12 @@
         self.root.querySelector('.vp-input-container').classList.remove('dark');
       }
     }
-    checkLeftLabelPlacement() {
+    checkLabelStyles() {
+      let str = '';
       if (self.opts.iconleft) {
-        return `left: 40px;`
+        str += `left: 40px; `
       }
+      return str;
     }
     focusOnInput() {
       if (self.root.querySelector('input')) {

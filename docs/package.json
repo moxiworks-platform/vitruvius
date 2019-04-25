@@ -1,6 +1,6 @@
 {
   "name": "@moxiworks/project-vitruvius",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "private": false,
   "scripts": {
     "dev": "npm-run-all --parallel watch \"serve -- {@}\" --",

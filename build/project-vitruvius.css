@@ -7360,10 +7360,23 @@ p {
 }
 
 .vp-input-container label {
-  font-size: 10px;
   position: absolute;
-  top: 0;
-  display: none;
+  top: 10px;
+  left: 10px;
+  color: #a6abae;
+  display: block;
+  cursor: text;
+  transition: transform .2s ease-out, color .2s ease-out;
+  transform-origin: 0% 100%;
+  text-align: initial;
+  padding: 0 5px;
+}
+
+.vp-input-container label.active {
+  color: #636c71;
+  transform: translateY(-20px) scale(.8);
+  transform-origin: 0 0;
+  background: #fff;
 }
 
 .vp-input-container i {
@@ -7374,7 +7387,7 @@ p {
   font-size: 24px;
 }
 
-.vp-input-container .icon-close-circle {
+.vp-input-container .v-icon-close-circle {
   left: unset;
   right: 10px;
   cursor: pointer;
@@ -7391,7 +7404,7 @@ p {
 .vp-input-container input[type="tel"]:focus,
 .vp-input-container input[type="text"]:not(:placeholder-shown),
 .vp-input-container input[type="tel"]:not(:placeholder-shown) {
-  padding-top: 10px;
+  padding-top: 4px;
 }
 
 /*************************************************************************************

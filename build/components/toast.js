@@ -30,12 +30,12 @@ class Toast {
     let header = document.createElement('div');
     let message = document.createElement('p');
 
-    icon.className = 'icon-check-circle';
+    icon.className = 'v-icon-check-circle';
 
     if (options.type === 'info') {
-      icon.className = 'icon-info-circle info';
+      icon.className = 'v-icon-info-circle info';
     } else if (options.type === 'error') {
-      icon.className = 'icon-info-circle error';
+      icon.className = 'v-icon-info-circle error';
     }
 
     // iconDiv.className = icon;
@@ -100,7 +100,7 @@ class Toast {
       const wrapper = document.querySelector('.vp-toast-wrapper');
       wrapper.parentNode.removeChild(wrapper);
     }
-    
+
     if (this.elemTimeout) {
       clearTimeout(this.elemTimeout);
     }

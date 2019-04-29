@@ -66,7 +66,7 @@
     &lt;vp-input label="Type inside to show clear" type="tel" placeholder="Input with clear button" name="foo" iconclose="true"&gt;&lt;/vp-input&gt;</pre>
 
     <div class="short">
-      <vp-input type="text" label="Plain Input Text Field" name="foo"></vp-input>
+      <vp-input type="text" label="Plain Input Text Field" name="foo" value="bar"></vp-input>
     </div>
     <br />
     <div class="short">
@@ -75,6 +75,10 @@
     <br />
     <div class="short">
       <vp-input type="tel" label="Input with clear button" name="foo" iconclose="true"></vp-input>
+    </div>
+    <br />
+    <div class="short p-10 bg-cn-70">
+      <vp-input type="tel" label="Input Matching Background" name="foo" background="#636C71"></vp-input>
     </div>
   </section>
 </template>
@@ -94,6 +98,6 @@ export default {
 
 <style scoped>
   .short {
-    width: 380px;
+    max-width: 380px;
   }
 </style>

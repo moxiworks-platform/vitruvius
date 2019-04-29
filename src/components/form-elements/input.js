@@ -1,6 +1,12 @@
-riot.tag2('vp-input', '<div class="vp-input-container"> <i data-icontype="left" class="{this.opts.iconleft}" if="{this.opts.iconleft}"></i> <i class="v-icon-close-circle" if="{this.opts.iconclose}" onclick="{clearField}"></i> <label riot-style="{checkLabelStyles()}" onclick="{focusOnInput}">{this.opts.label}</label> <input autocomplete="off" riot-style="{returnClass(this.opts.iconleft, this.opts.iconclose)}" type="{this.opts.type}" name="{this.opts.name}" riot-value="{this.opts.value}" onkeyup="{showHideClearButton}" onfocus="{hidePlaceHolder}" onblur="{showPlaceHolder}"> </div>', '', '', function(opts) {
+riot.tag2('vp-input', '<div class="vp-input-container"> <i data-icontype="left" class="{this.opts.iconleft}" if="{this.opts.iconleft}"></i> <i class="v-icon-close-circle" if="{this.opts.iconclose}" onclick="{clearField}"></i> <label riot-style="{checkLabelStyles()}" onclick="{focusOnInput}">{this.opts.label}</label> <input autocomplete="off" riot-style="{returnClass()}" type="{this.opts.type}" name="{this.opts.name}" riot-value="{this.opts.value}" onkeyup="{showHideClearButton}" onfocus="{hidePlaceHolder}" onblur="{showPlaceHolder}"> </div>', '', '', function(opts) {
     const self = this;
-    this.showHideClearButton = function() {
+    this.noop = function() {}.bind(this);
+    this.oneTimeValueSet = function() {
+      self.oneTimeValueSet = self.noop;
+      self.hidePlaceHolder();
+    }.bind(this)
+    this.showHideClearButton = function(e) {
+      if(e.which === 9) return false;
       const closeElem = self.root.querySelector('.v-icon-close-circle');
       const inputElem = self.root.querySelector('input');
       if (closeElem && inputElem && inputElem.value === '') {
@@ -13,13 +19,16 @@ riot.tag2('vp-input', '<div class="vp-input-container"> <i data-icontype="left" 
       }
       self.hideLabel(inputElem);
     }.bind(this)
-    this.returnClass = function(leftIcon, iconClose) {
+    this.returnClass = function() {
       let str = '';
-      if (leftIcon) {
+      if (self.opts.iconleft) {
         str += 'padding-left: 30px; ';
       }
-      if (iconClose) {
-        str += 'padding-right: 30px;'
+      if (self.opts.iconClose) {
+        str += 'padding-right: 30px; '
+      }
+      if (self.opts.color) {
+        str += `color: ${self.opts.color}; `
       }
       return str;
     }.bind(this)
@@ -45,6 +54,17 @@ riot.tag2('vp-input', '<div class="vp-input-container"> <i data-icontype="left" 
       let str = '';
       if (self.opts.iconleft) {
         str += `left: 40px; `
+      }
+      if (self.opts.background) {
+        str += `background: ${self.opts.background}; `;
+      }
+      if (self.opts.color) {
+        str += `color: ${self.opts.color}; `;
+      }
+      if (self.opts.value && self.opts.value !== '') {
+        setTimeout(function() {
+          self.oneTimeValueSet();
+        });
       }
       return str;
     }.bind(this)

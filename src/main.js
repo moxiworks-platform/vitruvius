@@ -10,7 +10,7 @@ Vue.use(VueFetch, {
   polyfill: true,
 });
 
-// Secret sauce to ignore custom skateJS components.
+// Secret sauce to ignore custom riotJS components.
 Vue.config.ignoredElements = [/vp-\w*/];
 
 router.afterEach(() => {

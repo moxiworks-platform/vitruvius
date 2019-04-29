@@ -7354,6 +7354,10 @@ p {
   border-color: #bcc0c2;
 }
 
+.vp-input-container input {
+  background: transparent;
+}
+
 .vp-input-container.dark {
   border-width: 1px;
   border-color: #212e35;
@@ -7396,7 +7400,6 @@ p {
 
 .vp-input-container input[type="text"],
 .vp-input-container input[type="tel"] {
-  border-radius: 3px;
   width: 100%;
 }
 

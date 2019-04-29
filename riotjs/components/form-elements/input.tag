@@ -5,7 +5,7 @@
     <label style="{checkLabelStyles()}" onclick="{ focusOnInput }">{ this.opts.label }</label>
     <input
       autocomplete="off"
-      style="{returnClass(this.opts.iconleft, this.opts.iconclose)}"
+      style="{ returnClass() }"
       type="{ this.opts.type }"
       name="{ this.opts.name }"
       value="{ this.opts.value }"
@@ -17,7 +17,13 @@
 
   <script>
     const self = this;
-    showHideClearButton() {
+    noop() {};
+    oneTimeValueSet() {
+      self.oneTimeValueSet = self.noop;
+      self.hidePlaceHolder();
+    }
+    showHideClearButton(e) {
+      if(e.which === 9) return false;
       const closeElem = self.root.querySelector('.v-icon-close-circle');
       const inputElem = self.root.querySelector('input');
       if (closeElem && inputElem && inputElem.value === '') {
@@ -30,13 +36,16 @@
       }
       self.hideLabel(inputElem);
     }
-    returnClass(leftIcon, iconClose) {
+    returnClass() {
       let str = '';
-      if (leftIcon) {
+      if (self.opts.iconleft) {
         str += 'padding-left: 30px; ';
       }
-      if (iconClose) {
-        str += 'padding-right: 30px;'
+      if (self.opts.iconClose) {
+        str += 'padding-right: 30px; '
+      }
+      if (self.opts.color) {
+        str += `color: ${self.opts.color}; `
       }
       return str;
     }
@@ -62,6 +71,17 @@
       let str = '';
       if (self.opts.iconleft) {
         str += `left: 40px; `
+      }
+      if (self.opts.background) {
+        str += `background: ${self.opts.background}; `;
+      }
+      if (self.opts.color) {
+        str += `color: ${self.opts.color}; `;
+      }
+      if (self.opts.value && self.opts.value !== '') {
+        setTimeout(function() {
+          self.oneTimeValueSet();
+        });
       }
       return str;
     }

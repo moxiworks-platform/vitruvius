@@ -1,40 +1,58 @@
 <vp-input>
-  <div class="vp-input-container">
+  <div class="{ returnBaseContainerClass() }">
     <i data-icontype="left" class="{ this.opts.iconleft }" if="{ this.opts.iconleft }"></i>
     <i class="v-icon-close-circle" if="{ this.opts.iconclose }" onclick="{ clearField }"></i>
     <label style="{checkLabelStyles()}" onclick="{ focusOnInput }">{ this.opts.label }</label>
     <input
+      if="{ !this.opts.textarea }"
       autocomplete="off"
+      id="{ this.opts.id }"
       style="{ returnClass() }"
       type="{ this.opts.type }"
       name="{ this.opts.name }"
       value="{ this.opts.value }"
+      pattern="{ this.opts.pattern }"
       onkeyup="{ showHideClearButton }"
       onfocus="{ hidePlaceHolder }"
       onblur="{ showPlaceHolder }"
     >
+    <textarea
+      if="{ this.opts.textarea }"
+      autocomplete="off"
+      id="{ this.opts.id }"
+      rows="{ this.opts.rows }"
+      style="{ returnClass() }"
+      type="{ this.opts.type }"
+      name="{ this.opts.name }"
+      pattern="{ this.opts.pattern }"
+      onkeyup="{ showHideClearButton }"
+      onfocus="{ hidePlaceHolder }"
+      onblur="{ showPlaceHolder }"
+    >{ this.opts.value }</textarea>
   </div>
 
   <script>
     const self = this;
     noop() {};
     oneTimeValueSet() {
+      console.log(self.opts.pattern)
       self.oneTimeValueSet = self.noop;
       self.hidePlaceHolder();
     }
+    returnBaseContainerClass() {
+      let str = `vp-input-container`;
+      if (self.opts.textarea) str += ` textarea`;
+      return str;
+    }
     showHideClearButton(e) {
-      if(e.which === 9) return false;
+      if(e.which === 9 || e.which === 16) return false;
       const closeElem = self.root.querySelector('.v-icon-close-circle');
-      const inputElem = self.root.querySelector('input');
+      const inputElem = (self.opts.textarea) ? self.root.querySelector('textarea') : self.root.querySelector('input');
       if (closeElem && inputElem && inputElem.value === '') {
         closeElem.style.display = 'none';
       } else if (closeElem) {
         closeElem.style.display = 'block';
       }
-      if (inputElem.value === '') {
-        inputElem.blur();
-      }
-      self.hideLabel(inputElem);
     }
     returnClass() {
       let str = '';
@@ -58,7 +76,7 @@
       self.root.querySelector('.vp-input-container').classList.add('dark');
     }
     showPlaceHolder() {
-      const inputElem = self.root.querySelector('input');
+      const inputElem = (self.opts.textarea) ? self.root.querySelector('textarea') : self.root.querySelector('input');
       self.hideLabel(inputElem);
     }
     hideLabel(el) {
@@ -88,6 +106,8 @@
     focusOnInput() {
       if (self.root.querySelector('input')) {
         self.root.querySelector('input').focus();
+      } else if (self.root.querySelector('textarea')) {
+        self.root.querySelector('textarea').focus();
       }
     }
   </script>

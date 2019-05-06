@@ -74,7 +74,11 @@
     </div>
     <br />
     <div class="short">
-      <vp-input type="tel" label="Input with clear button" name="foo" iconclose="true"></vp-input>
+      <vp-input type="tel" label="Input with clear button" name="foo" iconclose="true" pattern="[0-9]*"></vp-input>
+    </div>
+    <br />
+    <div class="short">
+      <vp-input type="text" label="Text Area Example" name="foo" textarea="true" id="plop" value="somethjing"></vp-input>
     </div>
     <br />
     <div class="short p-10 bg-cn-70">

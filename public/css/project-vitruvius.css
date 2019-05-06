@@ -7344,6 +7344,7 @@ p {
 ************************************************************************************/
 
 .vp-input-container {
+  box-sizing: border-box;
   position: relative;
   min-width: 100%;
   padding: 10px;
@@ -7352,10 +7353,32 @@ p {
   min-height: 46px;
   border-width: 1px;
   border-color: #bcc0c2;
+  border-style: solid;
 }
 
-.vp-input-container input {
+.vp-input-container.textarea {
+  height: unset;
+  min-height: unset;
+  max-height: unset;
+}
+
+.vp-input-container input,
+.vp-input-container textarea {
   background: transparent;
+  font-family: inherit;
+  font-size: 16px;
+  margin: 0;
+  border-width: 0;
+  border: 0 !important;		
+  outline: none;
+  width: 100%;		
+  padding: 0;		
+  height: initial !important;
+}
+
+.vp-input-container input:focus, 
+.vp-input-container textarea:focus {		
+  outline: none;		
 }
 
 .vp-input-container.dark {
@@ -7370,7 +7393,7 @@ p {
   color: #a6abae;
   display: block;
   cursor: text;
-  transition: transform .2s ease-out, color .2s ease-out;
+  transition: transform 0.2s ease-out, color 0.2s ease-out;
   transform-origin: 0% 100%;
   text-align: initial;
   padding: 0 5px;
@@ -7378,7 +7401,7 @@ p {
 
 .vp-input-container label.active {
   color: #636c71;
-  transform: translateY(-20px) scale(.8);
+  transform: translateY(-20px) scale(0.8);
   transform-origin: 0 0;
   background: #fff;
 }
@@ -7396,11 +7419,6 @@ p {
   right: 10px;
   cursor: pointer;
   display: none;
-}
-
-.vp-input-container input[type="text"],
-.vp-input-container input[type="tel"] {
-  width: 100%;
 }
 
 .vp-input-container input[type="text"]:focus,

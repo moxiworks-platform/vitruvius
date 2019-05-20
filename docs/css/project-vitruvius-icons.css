@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Vitruvius-icon-set';
-  src:  url('fonts/Vitruvius-icon-set.eot?xu4n51');
-  src:  url('fonts/Vitruvius-icon-set.eot?xu4n51#iefix') format('embedded-opentype'),
-    url('fonts/Vitruvius-icon-set.ttf?xu4n51') format('truetype'),
-    url('fonts/Vitruvius-icon-set.woff?xu4n51') format('woff'),
-    url('fonts/Vitruvius-icon-set.svg?xu4n51#Vitruvius-icon-set') format('svg');
+  src:  url('fonts/Vitruvius-icon-set.eot?iz5215');
+  src:  url('fonts/Vitruvius-icon-set.eot?iz5215#iefix') format('embedded-opentype'),
+    url('fonts/Vitruvius-icon-set.ttf?iz5215') format('truetype'),
+    url('fonts/Vitruvius-icon-set.woff?iz5215') format('woff'),
+    url('fonts/Vitruvius-icon-set.svg?iz5215#Vitruvius-icon-set') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,60 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.v-icon-demographics:before {
+  content: "\e94d";
+}
+.v-icon-family:before {
+  content: "\e94e";
+}
+.v-icon-financials:before {
+  content: "\e94f";
+}
+.v-icon-lifestyle:before {
+  content: "\e950";
+}
+.v-icon-living:before {
+  content: "\e951";
+}
+.v-icon-moreinfo:before {
+  content: "\e952";
+}
+.v-icon-vehicle:before {
+  content: "\e953";
+}
+.v-icon-building-large:before {
+  content: "\e954";
+}
+.v-icon-building:before {
+  content: "\e955";
+}
+.v-icon-bullhorn:before {
+  content: "\e956";
+}
+.v-icon-handshake:before {
+  content: "\e957";
+}
+.v-icon-mls-title:before {
+  content: "\e958";
+}
+.v-icon-page-image:before {
+  content: "\e959";
+}
+.v-icon-paragraph:before {
+  content: "\e95a";
+}
+.v-icon-region:before {
+  content: "\e95b";
+}
+.v-icon-teams:before {
+  content: "\e95c";
+}
+.v-icon-title:before {
+  content: "\e95d";
+}
+.v-icon-us-map:before {
+  content: "\e95e";
+}
 .v-icon-caret-down:before {
   content: "\e93a";
 }
@@ -65,6 +119,21 @@
 }
 .v-icon-up-chevron:before {
   content: "\e92c";
+}
+.v-icon-play-circle:before {
+  content: "\e903";
+}
+.v-icon-map:before {
+  content: "\e963";
+}
+.v-icon-signature:before {
+  content: "\e964";
+}
+.v-icon-activity:before {
+  content: "\e95f";
+}
+.v-icon-draft:before {
+  content: "\e94b";
 }
 .v-icon-people:before {
   content: "\e94a";
@@ -111,14 +180,8 @@
 .v-icon-add-circle:before {
   content: "\e900";
 }
-.v-icon-bell .path1:before {
+.v-icon-bell:before {
   content: "\e902";
-  color: rgb(0, 0, 0);
-}
-.v-icon-bell .path2:before {
-  content: "\e903";
-  margin-left: -1em;
-  color: rgb(35, 31, 32);
 }
 .v-icon-calendar:before {
   content: "\e904";
@@ -195,6 +258,18 @@
 .v-icon-attention-circle:before {
   content: "\e901";
 }
+.v-icon-blogger:before {
+  content: "\e960";
+}
+.v-icon-instagram:before {
+  content: "\e961";
+}
+.v-icon-youtube:before {
+  content: "\e962";
+}
+.v-icon-google1:before {
+  content: "\e94c";
+}
 .v-icon-facebook:before {
   content: "\e932";
 }
@@ -206,6 +281,9 @@
 }
 .v-icon-twitter:before {
   content: "\e935";
+}
+.v-icon-web-page:before {
+  content: "\e965";
 }
 .v-icon-credit-card:before {
   content: "\e936";
@@ -251,10 +329,4 @@
 }
 .v-icon-townhouse:before {
   content: "\e945";
-}
-.v-icon-draft:before {
-  content: "\e94b";
-}
-.v-icon-google1:before {
-  content: "\e94c";
 }

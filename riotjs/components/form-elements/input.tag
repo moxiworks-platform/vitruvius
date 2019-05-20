@@ -6,7 +6,7 @@
     <input
       if="{ !this.opts.textarea }"
       autocomplete="off"
-      id="{ this.opts.id }"
+      id="{ this.opts.elemid }"
       style="{ returnClass() }"
       type="{ this.opts.type }"
       name="{ this.opts.name }"
@@ -19,7 +19,7 @@
     <textarea
       if="{ this.opts.textarea }"
       autocomplete="off"
-      id="{ this.opts.id }"
+      id="{ this.opts.elemid }"
       rows="{ this.opts.rows }"
       style="{ returnClass() }"
       type="{ this.opts.type }"
@@ -33,9 +33,14 @@
 
   <script>
     const self = this;
+    this.on('mount', (eventName) => {
+      const inputElem = (self.opts.textarea) ? self.root.querySelector('textarea') : self.root.querySelector('input');
+      inputElem.addEventListener('change', function (evt) {
+        if (this.value !== '') self.hidePlaceHolder();
+      });
+    });
     noop() {};
     oneTimeValueSet() {
-      console.log(self.opts.pattern)
       self.oneTimeValueSet = self.noop;
       self.hidePlaceHolder();
     }
@@ -65,6 +70,7 @@
       if (self.opts.color) {
         str += `color: ${self.opts.color}; `
       }
+      str = `padding: 0; ${str}`
       return str;
     }
     clearField() {

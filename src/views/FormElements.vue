@@ -66,7 +66,7 @@
     &lt;vp-input label="Type inside to show clear" type="tel" placeholder="Input with clear button" name="foo" iconclose="true"&gt;&lt;/vp-input&gt;</pre>
 
     <div class="short">
-      <vp-input type="text" label="Plain Input Text Field" name="foo" value="bar"></vp-input>
+      <vp-input type="text" label="Plain Input Text Field" name="foo" elemid="bar"></vp-input>
     </div>
     <br />
     <div class="short">
@@ -78,7 +78,7 @@
     </div>
     <br />
     <div class="short">
-      <vp-input type="text" label="Text Area Example" name="foo" textarea="true" id="plop" value="somethjing"></vp-input>
+      <vp-input type="text" label="Text Area Example" name="foo" textarea="true" elemid="plop" value="somethjing"></vp-input>
     </div>
     <br />
     <div class="short p-10 bg-cn-70">

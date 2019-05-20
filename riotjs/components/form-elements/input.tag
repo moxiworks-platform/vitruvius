@@ -1,43 +1,76 @@
 <vp-input>
-  <div class="vp-input-container">
+  <div class="{ returnBaseContainerClass() }">
     <i data-icontype="left" class="{ this.opts.iconleft }" if="{ this.opts.iconleft }"></i>
     <i class="v-icon-close-circle" if="{ this.opts.iconclose }" onclick="{ clearField }"></i>
     <label style="{checkLabelStyles()}" onclick="{ focusOnInput }">{ this.opts.label }</label>
     <input
+      if="{ !this.opts.textarea }"
       autocomplete="off"
-      style="{returnClass(this.opts.iconleft, this.opts.iconclose)}"
+      id="{ this.opts.elemid }"
+      style="{ returnClass() }"
       type="{ this.opts.type }"
       name="{ this.opts.name }"
       value="{ this.opts.value }"
+      pattern="{ this.opts.pattern }"
       onkeyup="{ showHideClearButton }"
       onfocus="{ hidePlaceHolder }"
       onblur="{ showPlaceHolder }"
     >
+    <textarea
+      if="{ this.opts.textarea }"
+      autocomplete="off"
+      id="{ this.opts.elemid }"
+      rows="{ this.opts.rows }"
+      style="{ returnClass() }"
+      type="{ this.opts.type }"
+      name="{ this.opts.name }"
+      pattern="{ this.opts.pattern }"
+      onkeyup="{ showHideClearButton }"
+      onfocus="{ hidePlaceHolder }"
+      onblur="{ showPlaceHolder }"
+    >{ this.opts.value }</textarea>
   </div>
 
   <script>
     const self = this;
-    showHideClearButton() {
+    this.on('mount', (eventName) => {
+      const inputElem = (self.opts.textarea) ? self.root.querySelector('textarea') : self.root.querySelector('input');
+      inputElem.addEventListener('change', function (evt) {
+        if (this.value !== '') self.hidePlaceHolder();
+      });
+    });
+    noop() {};
+    oneTimeValueSet() {
+      self.oneTimeValueSet = self.noop;
+      self.hidePlaceHolder();
+    }
+    returnBaseContainerClass() {
+      let str = `vp-input-container`;
+      if (self.opts.textarea) str += ` textarea`;
+      return str;
+    }
+    showHideClearButton(e) {
+      if(e.which === 9 || e.which === 16) return false;
       const closeElem = self.root.querySelector('.v-icon-close-circle');
-      const inputElem = self.root.querySelector('input');
+      const inputElem = (self.opts.textarea) ? self.root.querySelector('textarea') : self.root.querySelector('input');
       if (closeElem && inputElem && inputElem.value === '') {
         closeElem.style.display = 'none';
       } else if (closeElem) {
         closeElem.style.display = 'block';
       }
-      if (inputElem.value === '') {
-        inputElem.blur();
-      }
-      self.hideLabel(inputElem);
     }
-    returnClass(leftIcon, iconClose) {
+    returnClass() {
       let str = '';
-      if (leftIcon) {
+      if (self.opts.iconleft) {
         str += 'padding-left: 30px; ';
       }
-      if (iconClose) {
-        str += 'padding-right: 30px;'
+      if (self.opts.iconClose) {
+        str += 'padding-right: 30px; '
       }
+      if (self.opts.color) {
+        str += `color: ${self.opts.color}; `
+      }
+      str = `padding: 0; ${str}`
       return str;
     }
     clearField() {
@@ -49,7 +82,7 @@
       self.root.querySelector('.vp-input-container').classList.add('dark');
     }
     showPlaceHolder() {
-      const inputElem = self.root.querySelector('input');
+      const inputElem = (self.opts.textarea) ? self.root.querySelector('textarea') : self.root.querySelector('input');
       self.hideLabel(inputElem);
     }
     hideLabel(el) {
@@ -63,11 +96,24 @@
       if (self.opts.iconleft) {
         str += `left: 40px; `
       }
+      if (self.opts.background) {
+        str += `background: ${self.opts.background}; `;
+      }
+      if (self.opts.color) {
+        str += `color: ${self.opts.color}; `;
+      }
+      if (self.opts.value && self.opts.value !== '') {
+        setTimeout(function() {
+          self.oneTimeValueSet();
+        });
+      }
       return str;
     }
     focusOnInput() {
       if (self.root.querySelector('input')) {
         self.root.querySelector('input').focus();
+      } else if (self.root.querySelector('textarea')) {
+        self.root.querySelector('textarea').focus();
       }
     }
   </script>

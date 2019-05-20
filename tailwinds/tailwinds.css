@@ -387,6 +387,10 @@ p {
   @apply border border-cn-30;
 }
 
+.vp-input-container input {
+  background: transparent;
+}
+
 .vp-input-container.dark {
   @apply border border-cn-100;
 }
@@ -433,7 +437,6 @@ p {
 }
 
 .vp-input-container input[type="text"], .vp-input-container input[type="tel"] {
-  border-radius: 3px;
   width: 100%;
 }
 

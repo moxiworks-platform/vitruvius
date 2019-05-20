@@ -455,6 +455,44 @@
         <div class="text-sm pt-5">Draft</div>
         <div class="text-sm pt-5">.v-icon-draft</div>
       </div>
+      <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 bg-cn-15 p-15 text-center mb-4">
+        <i class="v-icon-play-circle text-3xl"></i>
+        <div class="text-sm pt-5">Play</div>
+        <div class="text-sm pt-5">.v-icon-play-circle</div>
+      </div>
+      <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 bg-cn-30 p-15 text-center mb-4">
+        <i class="v-icon-map text-3xl"></i>
+        <div class="text-sm pt-5">Map</div>
+        <div class="text-sm pt-5">.v-icon-map</div>
+      </div>
+      <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 bg-cn-15 p-15 text-center mb-4">
+        <i class="v-icon-signature text-3xl"></i>
+        <div class="text-sm pt-5">Signature</div>
+        <div class="text-sm pt-5">.v-icon-signature</div>
+      </div>
+    </div>
+
+    <div class="flex flex-wrap">
+      <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 bg-cn-30 p-15 text-center mb-4">
+        <i class="v-icon-activity text-3xl"></i>
+        <div class="text-sm pt-5">Activity</div>
+        <div class="text-sm pt-5">.v-icon-activity</div>
+      </div>
+      <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 bg-cn-15 p-15 text-center mb-4">
+        <i class="v-icon-blogger text-3xl"></i>
+        <div class="text-sm pt-5">Activity</div>
+        <div class="text-sm pt-5">.v-icon-blogger</div>
+      </div>
+      <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 bg-cn-30 p-15 text-center mb-4">
+        <i class="v-icon-instagram text-3xl"></i>
+        <div class="text-sm pt-5">Instagram</div>
+        <div class="text-sm pt-5">.v-icon-instagram</div>
+      </div>
+      <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 bg-cn-15 p-15 text-center mb-4">
+        <i class="v-icon-youtube text-3xl"></i>
+        <div class="text-sm pt-5">YouTube</div>
+        <div class="text-sm pt-5">.v-icon-youtube</div>
+      </div>
     </div>
   </section>
 </template>

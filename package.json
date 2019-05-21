@@ -1,0 +1,19 @@
+{
+  "name": "@moxiworks/vitruvius",
+  "version": "0.1.0",
+  "description": "Vitruvius Framework by MoxiWorks",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JP Given <jgiven@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "tailwindcss": "^1.0.1",
+    "webpack": "^4.32.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  }
+}

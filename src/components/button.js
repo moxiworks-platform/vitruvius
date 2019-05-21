@@ -10,7 +10,8 @@ class VpButton extends LitElement {
 
   static get properties() {
     return { 
-      type: { type: String }
+      type: { type: String },
+      title: { stype: String }
     };
   }
 
@@ -19,9 +20,22 @@ class VpButton extends LitElement {
     return this;
   }
 
+  returnTypes() {
+    let tmp = this.type.split(',')
+    let str = ''
+    tmp.forEach((o) => {
+      str += `btn-${o} `
+    })
+    return `btn ${str}`
+  }
+
+  returnInnerText() {
+    return (this.title) ? this.title : this.innerText;
+  }
+
   render() {
     return html`
-      <button class="${this.type}">I'm a Button!</button>
+      <button class="${this.returnTypes()}">${this.returnInnerText()}</button>
     `;
   }
 }

@@ -7,6 +7,7 @@ class VpButton extends LitElement {
   static get properties() {
     return { 
       type: { type: String },
+      id: { type: String },
       title: { type: String },
       href: { type: String },
       target: { type: String }
@@ -38,9 +39,9 @@ class VpButton extends LitElement {
 
   returnProperTag() {
     if (this.href) {
-      return html `<a href="${this.href}" target="${this.target || ''}" class="${this.returnTypes()}">${this.returnInnerText()}</a>`;
+      return html `<a href="${this.href}" target="${this.target || ''}" class="${this.returnTypes()}" id="${this.id || ''}">${this.returnInnerText()}</a>`;
     } else {
-      return html `<button class="${this.returnTypes()}">${this.returnInnerText()}</button>`;
+      return html `<button class="${this.returnTypes()}" id="${this.id || ''}">${this.returnInnerText()}</button>`;
     }
   }
 

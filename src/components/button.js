@@ -10,8 +10,14 @@ class VpButton extends LitElement {
 
   static get properties() {
     return { 
-      type: { type: String }
+      type: { type: String },
+      title: { stype: String }
     };
+  }
+
+  // No Shadowdom
+  createRenderRoot() {
+    return this;
   }
 
   returnTypes() {
@@ -23,14 +29,13 @@ class VpButton extends LitElement {
     return `btn ${str}`
   }
 
-  // No Shadowdom
-  createRenderRoot() {
-    return this;
+  returnInnerText() {
+    return (this.title) ? this.title : this.innerText;
   }
 
   render() {
     return html`
-      <button class="${this.returnTypes()}">I'm a Button!</button>
+      <button class="${this.returnTypes()}">${this.returnInnerText()}</button>
     `;
   }
 }

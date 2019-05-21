@@ -7,9 +7,17 @@ import {
 
 import '../../src/components/button.js';
 
-describe('Property Check', () => {
-  it('is false by default', async () => {
-    const el = await fixture('<vp-button></vp-button>');
-    expect(el).to.have.property('tea');
+describe('Button / Anchor Tag Tests', () => {
+  it('is button tag', async () => {
+    const el = await fixture('<vp-button>Im a Button</vp-button>');
+    expect(document.querySelector('button.btn-flat')).to.exist;
+  });
+  it('is anchor tag', async () => {
+    const el = await fixture('<vp-button href="foo">Im a anchor tag</vp-button>');
+    expect(document.querySelector('a.btn-flat')).to.exist;
+  });
+  it('has primary class name', async () => {
+    const el = await fixture('<vp-button type="primary">Im a anchor tag</vp-button>');
+    expect(document.querySelector('button.btn-primary')).to.exist;
   });
 });

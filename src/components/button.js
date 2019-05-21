@@ -4,10 +4,6 @@ import { LitElement, html } from 'lit-element';
 // Extend the LitElement base class
 class VpButton extends LitElement {
 
-  constructor() {
-    super();
-  }
-
   static get properties() {
     return { 
       type: { type: String },
@@ -15,6 +11,11 @@ class VpButton extends LitElement {
       href: { type: String },
       target: { type: String }
     };
+  }
+
+  constructor() {
+    super();
+    this.type = this.type || 'flat';
   }
 
   // Remove Shadow Dom

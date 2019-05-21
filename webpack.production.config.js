@@ -20,5 +20,8 @@ module.exports = {
     new CopyPlugin([
       { from: './dist/vitruvius.css', to: 'styles/vitruvius.css' },
     ]),
-  ]
+  ],
+  stats: {
+    warnings: false
+  }
 };

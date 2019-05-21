@@ -1,0 +1,10 @@
+{
+  "name": "vitruvius-documentation",
+  "scripts": {
+    "dev": "nuxt",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.7.1"
+  }
+}

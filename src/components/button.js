@@ -11,11 +11,12 @@ class VpButton extends LitElement {
   static get properties() {
     return { 
       type: { type: String },
-      title: { stype: String }
+      title: { type: String },
+      href: { type: String }
     };
   }
 
-  // No Shadowdom
+  // Remove Shadow Dom
   createRenderRoot() {
     return this;
   }
@@ -33,9 +34,17 @@ class VpButton extends LitElement {
     return (this.title) ? this.title : this.innerText;
   }
 
+  returnProperTag() {
+    if (this.href) {
+      return html `<a href="${this.href}" class="${this.returnTypes()}">${this.returnInnerText()}</a>`;
+    } else {
+      return html `<button class="${this.returnTypes()}">${this.returnInnerText()}</button>`;
+    }
+  }
+
   render() {
     return html`
-      <button class="${this.returnTypes()}">${this.returnInnerText()}</button>
+      ${this.returnProperTag()}
     `;
   }
 }

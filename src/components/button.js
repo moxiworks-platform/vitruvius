@@ -4,16 +4,24 @@ import { LitElement, html } from 'lit-element';
 // Extend the LitElement base class
 class VpButton extends LitElement {
 
+  constructor() {
+    super();
+  }
+
+  static get properties() {
+    return { 
+      type: { type: String }
+    };
+  }
+
   // No Shadowdom
   createRenderRoot() {
-    this.tea = 'foo';
     return this;
   }
 
   render() {
     return html`
-      <!-- template content -->
-      <p>A paragraph</p>
+      <button class="${this.type}">I'm a Button!</button>
     `;
   }
 }

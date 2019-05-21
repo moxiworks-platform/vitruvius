@@ -8,6 +8,7 @@
     "start:dev": "webpack-dev-server",
     "build:css": "postcss ./src/styles/vitruvius.css -o ./dist/vitruvius.css",
     "watch": "watch 'npm run build:css' ./dist",
+    "build": "NODE_ENV=production webpack --config ./webpack.production.config.js",
     "test": "karma start --coverage",
     "test:watch": "karma start --auto-watch=true --single-run=false"
   },
@@ -20,6 +21,7 @@
     "@open-wc/testing": "^0.12.4",
     "@open-wc/testing-karma": "^2.0.2",
     "autoprefixer": "^9.5.1",
+    "copy-webpack-plugin": "^5.0.3",
     "css-loader": "^2.1.1",
     "lit-element": "^2.1.0",
     "mocha": "^6.1.4",

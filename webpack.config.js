@@ -1,9 +1,8 @@
 const path = require('path');
+const entry = require('./webpack.entry.js');
 
 module.exports = {
-  entry: {
-    button: './src/components/button.js',
-  },
+  entry: entry,
   output: {
     filename: '[name].js',
     path: __dirname + '/dist'

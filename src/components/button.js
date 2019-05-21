@@ -6,6 +6,7 @@ class VpButton extends LitElement {
 
   // No Shadowdom
   createRenderRoot() {
+    this.tea = 'foo';
     return this;
   }
 

@@ -5,9 +5,22 @@
   "main": "index.js",
   "watch": {
     "build:tailwind": {
-      "patterns": ["src"],
+      "patterns": [
+        "src"
+      ],
       "extensions": "css",
       "ignore": "src/styles/vitruvius-icons.css",
+      "quiet": false,
+      "legacyWatch": false,
+      "delay": 0,
+      "runOnChangeOnly": true
+    },
+    "build:icons": {
+      "patterns": [
+        "src"
+      ],
+      "extensions": "css",
+      "ignore": "src/styles/vitruvius.css",
       "quiet": false,
       "legacyWatch": false,
       "delay": 0,
@@ -18,7 +31,7 @@
     "dev": "npm-run-all --parallel start:dev watch",
     "start:dev": "webpack-dev-server",
     "build:tailwind": "postcss ./src/styles/vitruvius.css -o ./dist/vitruvius.css",
-    "build:icons": "copyfiles -f ./src/styles/vitruvius-icons.css dist",
+    "build:icons": "npx copyfiles -f ./src/styles/vitruvius-icons.css dist",
     "build": "NODE_ENV=production webpack --config ./webpack.production.config.js",
     "test": "karma start --coverage",
     "test:watch": "karma start --auto-watch=true --single-run=false",
@@ -49,5 +62,8 @@
     "webpack": "^4.32.0",
     "webpack-cli": "^3.3.2",
     "webpack-dev-server": "^3.4.1"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
   }
 }

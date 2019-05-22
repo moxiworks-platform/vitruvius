@@ -4,10 +4,12 @@
   "description": "Vitruvius Framework by MoxiWorks",
   "main": "index.js",
   "scripts": {
-    "dev": "npm-run-all --parallel start:dev watch",
+    "dev": "npm-run-all --parallel start:dev watch:tailwind watch:icons",
     "start:dev": "webpack-dev-server",
-    "build:css": "postcss ./src/styles/vitruvius.css -o ./dist/vitruvius.css",
-    "watch": "watch 'npm run build:css' ./dist",
+    "watch:tailwind": "watch 'npm run build:tailwind' ./dist",
+    "build:tailwind": "postcss ./src/styles/vitruvius.css -o ./dist/vitruvius.css",
+    "watch:icons": "watch 'npm run build:icons'",
+    "build:icons": "copyfiles -f ./src/styles/vitruvius-icons.css dist",
     "build": "NODE_ENV=production webpack --config ./webpack.production.config.js",
     "test": "karma start --coverage",
     "test:watch": "karma start --auto-watch=true --single-run=false"
@@ -22,6 +24,7 @@
     "@open-wc/testing-karma": "^2.0.2",
     "autoprefixer": "^9.5.1",
     "copy-webpack-plugin": "^5.0.3",
+    "copyfiles": "^2.1.0",
     "css-loader": "^2.1.1",
     "lit-element": "^2.1.0",
     "mocha": "^6.1.4",

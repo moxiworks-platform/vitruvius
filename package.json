@@ -3,16 +3,26 @@
   "version": "0.1.0",
   "description": "Vitruvius Framework by MoxiWorks",
   "main": "index.js",
+  "watch": {
+    "build:tailwind": {
+      "patterns": ["src"],
+      "extensions": "css",
+      "ignore": "src/styles/vitruvius-icons.css",
+      "quiet": false,
+      "legacyWatch": false,
+      "delay": 0,
+      "runOnChangeOnly": true
+    }
+  },
   "scripts": {
-    "dev": "npm-run-all --parallel start:dev watch:tailwind watch:icons",
+    "dev": "npm-run-all --parallel start:dev watch",
     "start:dev": "webpack-dev-server",
-    "watch:tailwind": "watch 'npm run build:tailwind' ./dist",
     "build:tailwind": "postcss ./src/styles/vitruvius.css -o ./dist/vitruvius.css",
-    "watch:icons": "watch 'npm run build:icons'",
     "build:icons": "copyfiles -f ./src/styles/vitruvius-icons.css dist",
     "build": "NODE_ENV=production webpack --config ./webpack.production.config.js",
     "test": "karma start --coverage",
-    "test:watch": "karma start --auto-watch=true --single-run=false"
+    "test:watch": "karma start --auto-watch=true --single-run=false",
+    "watch": "npm-watch"
   },
   "author": "JP Given <jgiven@gmail.com>",
   "license": "MIT",
@@ -29,6 +39,7 @@
     "lit-element": "^2.1.0",
     "mocha": "^6.1.4",
     "npm-run-all": "^4.1.5",
+    "npm-watch": "^0.6.0",
     "postcss": "^7.0.16",
     "postcss-cli": "^6.1.2",
     "postcss-loader": "^3.0.0",

@@ -24,4 +24,8 @@ describe('Button / Anchor Tag Tests', () => {
     const el = await fixture('<vp-button type="primary" href="http://moxiworks.com">Im a anchor tag</vp-button>');
     expect(document.querySelector('a.btn-primary')).to.have.property('href');
   });
+  it('returns title text', async () => {
+    const el = await fixture('<vp-button type="primary" title="Im a Title!"></vp-button>');
+    expect(document.querySelector('button.btn-primary')).property('title').to.exist;
+  });
 });

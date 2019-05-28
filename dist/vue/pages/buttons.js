@@ -1,0 +1,1 @@
+const Buttons = { template: '<vp-button type="flat,destructive">Im a Button!</vp-button>' }

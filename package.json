@@ -25,6 +25,17 @@
       "legacyWatch": false,
       "delay": 0,
       "runOnChangeOnly": true
+    },
+    "build:iconsfonts": {
+      "patterns": [
+        "src"
+      ],
+      "extensions": "css",
+      "ignore": "src/styles/vitruvius.css",
+      "quiet": false,
+      "legacyWatch": false,
+      "delay": 0,
+      "runOnChangeOnly": true
     }
   },
   "scripts": {
@@ -32,6 +43,7 @@
     "start:dev": "webpack-dev-server",
     "build:tailwind": "postcss ./src/styles/vitruvius.css -o ./dist/vitruvius.css",
     "build:icons": "npx copyfiles -f ./src/styles/vitruvius-icons.css dist",
+    "build:iconsfonts": "npx copyfiles -f ./src/styles/fonts/* dist/fonts",
     "build": "NODE_ENV=production webpack --config ./webpack.production.config.js",
     "test": "karma start --coverage",
     "test:watch": "karma start --auto-watch=true --single-run=false",

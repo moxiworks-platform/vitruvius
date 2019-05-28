@@ -3,6 +3,7 @@ const router = new VueRouter({
     { path: '/', component: Home },
     { path: '/typography', component: Typography },
     { path: '/colors', component: Colors },
+    { path: '/grid', component: Grid },
     { path: '/buttons', component: Buttons }
   ]
 });

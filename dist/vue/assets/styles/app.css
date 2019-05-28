@@ -7,15 +7,25 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  right: 50%;
+  right: 70%;
   bottom: 0;
+  background: #F2F2F2;
+}
+
+#logo img {
+  display: block;
+  margin: auto;
+}
+
+#left-container h1, #left-container .tagline {
+  text-align: center;
 }
 
 #right-container {
   position: absolute;
   top: 0;
   right: 0;
-  left: 50%;
+  left: 30%;
   bottom: 0;
   overflow: auto;
   background:url('../images/stripes-light.png');
@@ -29,7 +39,7 @@ body {
 }
 
 #home-image {
-  background-image: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)), url('../images/bg-home.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.5)), url('../images/bg-home.jpg');
   background-size: cover;
   background-position: 50%;
   background-repeat: no-repeat;
@@ -55,5 +65,5 @@ body {
 
 pre {
   padding-left: 10px;
-  border-left: 3px solid #222;
+  border-left: 3px solid #5092d3;
 }

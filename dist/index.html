@@ -3,14 +3,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
     <title>Project Vitruvius</title>
     <link href="./vitruvius.css" rel="stylesheet" type="text/css" />
-    <style>body { padding: 50px; }</style>
+    <link href="./vue/assets/styles/app.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-
     <div id="app">
-      <router-link to="/">/home</router-link>
-      <router-link to="/buttons">/buttons</router-link>
-      <router-view></router-view>
+      <div id="left-container">
+        <div id="home-logo">
+          <h1>Project Vitruvius</h1>
+          <p>Is a framework agnostic javascript component library by MoxiWorks.</p>
+
+          <p class="font-extrabold">CSS</p>
+          <router-link to="/typography">Typography</router-link><br />
+          <router-link to="/colors">Colors</router-link><br />
+
+          <p class="font-extrabold">Components</p>
+          <router-link to="/buttons">buttons</router-link>
+        </div>
+      </div>
+
+      <div id="right-container">
+        <router-view></router-view>
+      </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
@@ -20,6 +33,9 @@
 
     <script src="./vue/pages/home.js"></script>
     <script src="./vue/pages/buttons.js"></script>
+    <script src="./vue/pages/typography.js"></script>
+    <script src="./vue/pages/colors.js"></script>
+
     <script src="./vue/routes.js"></script>
     <script src="./vue/app.js"></script>
   </body>

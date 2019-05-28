@@ -9,6 +9,6 @@ const router = new VueRouter({
 
 router.afterEach(() => {
   setTimeout(() => {
-    PR.prettyPrint();
+    
   }, 10);
 });

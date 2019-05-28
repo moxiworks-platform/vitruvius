@@ -1,0 +1,69 @@
+body {
+  min-height: 100vh;
+  min-width: 100vh;
+}
+
+#left-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 70%;
+  bottom: 0;
+  background: #F2F2F2;
+}
+
+#logo img {
+  display: block;
+  margin: auto;
+}
+
+#left-container h1, #left-container .tagline {
+  text-align: center;
+}
+
+#right-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 30%;
+  bottom: 0;
+  overflow: auto;
+  background:url('../images/stripes-light.png');
+}
+
+#home-logo {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  right: 50px;
+}
+
+#home-image {
+  background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.5)), url('../images/bg-home.jpg');
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+#home-footer {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  right: 50px;
+  color: #fff;
+  text-align: right;
+}
+
+.inner-container {
+  padding: 50px;
+}
+
+.inner-container h2 {
+  margin-top: 0;
+}
+
+pre {
+  padding-left: 10px;
+  border-left: 3px solid #5092d3;
+}

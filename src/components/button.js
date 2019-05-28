@@ -10,7 +10,8 @@ class VpButton extends LitElement {
       id: { type: String },
       title: { type: String },
       href: { type: String },
-      target: { type: String }
+      target: { type: String },
+      icon: { type: String }
     };
   }
 
@@ -38,10 +39,14 @@ class VpButton extends LitElement {
   }
 
   returnProperTag() {
+    let iconTemplate = '';
+    if (this.icon) {
+      iconTemplate = html `<i class="${this.icon}"></i>`
+    }
     if (this.href) {
-      return html `<a href="${this.href}" target="${this.target || ''}" class="${this.returnTypes()}" id="${this.id || ''}">${this.returnInnerText()}</a>`;
+      return html `<a href="${this.href}" target="${this.target || ''}" class="${this.returnTypes()}" id="${this.id || ''}">${iconTemplate}${this.returnInnerText()}</a>`;
     } else {
-      return html `<button class="${this.returnTypes()}" id="${this.id || ''}">${this.returnInnerText()}</button>`;
+      return html `<button class="${this.returnTypes()}" id="${this.id || ''}">${iconTemplate}${this.returnInnerText()}</button>`;
     }
   }
 

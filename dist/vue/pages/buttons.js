@@ -32,6 +32,53 @@ const Buttons = {
         <vp-button type="primary,dense" icon="v-icon-location-pin-filled">Primary</vp-button>
         <vp-button type="destructive,dense" icon="v-icon-location-pin-filled">Destructive</vp-button>
       </div>
+
+      <h3>Properties</h3>
+
+      <div class="v-flex">
+        <div class="v-flex-item w-1/5 bg-cn-20">
+          title
+        </div>
+        <div class="v-flex-item w-4/5 bg-cn-10">
+          Optional. Replacement for the inner html of the tag.
+        </div>
+      </div>
+
+      <div class="v-flex">
+        <div class="v-flex-item w-1/5 bg-cn-20">
+          type
+        </div>
+        <div class="v-flex-item w-4/5 bg-cn-10">
+          Comma delimited list of applicable CSS styles. (primary,dense).
+        </div>
+      </div>
+
+      <div class="v-flex">
+        <div class="v-flex-item w-1/5 bg-cn-20">
+          icon
+        </div>
+        <div class="v-flex-item w-4/5 bg-cn-10">
+          Optional. Accepts a icon class to display an icon with the button title.
+        </div>
+      </div>
+
+      <div class="v-flex">
+        <div class="v-flex-item w-1/5 bg-cn-20">
+          href
+        </div>
+        <div class="v-flex-item w-4/5 bg-cn-10">
+          Optional. If passed the component will be an anchor tag linking to the value.
+        </div>
+      </div>
+
+      <div class="v-flex">
+        <div class="v-flex-item w-1/5 bg-cn-20">
+          target
+        </div>
+        <div class="v-flex-item w-4/5 bg-cn-10">
+          Optional. String for any acceptable HTML target. For use with href property.
+        </div>
+      </div>
     </div>
   `
 }

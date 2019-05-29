@@ -28,4 +28,8 @@ describe('Button / Anchor Tag Tests', () => {
     const el = await fixture('<vp-button type="primary" title="Im a Title!"></vp-button>');
     expect(document.querySelector('button.btn-primary')).property('title').to.exist;
   });
+  it('has an icon', async () => {
+    const el = await fixture('<vp-button type="primary,dense" icon="v-icon-location-pin-filled">Primary</vp-button>');
+    expect(el.querySelector('i')).to.exist;
+  });
 });

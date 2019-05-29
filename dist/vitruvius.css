@@ -7019,7 +7019,7 @@ p {
   display: none;
 }
 
-.element-container input:checked~.checkmark:after {
+.element-container input:checked ~ .checkmark:after {
   display: block;
 }
 

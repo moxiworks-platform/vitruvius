@@ -5,6 +5,7 @@ const router = new VueRouter({
     { path: '/colors', component: Colors },
     { path: '/grid', component: Grid },
     { path: '/toasts', component: Toasts },
+    { path: '/form-elements', component: FormElements },
     { path: '/buttons', component: Buttons }
   ]
 });

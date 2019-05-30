@@ -2,7 +2,23 @@ const Buttons = {
   template: `
     <div class="inner-container">
       <h2>Buttons</h2>
-      <h3>Basic Button Styles</h3>
+
+      <h3>Component Code Examples</h3>
+
+      <pre><code class="language-html">&lt;vp-button type="flat" icon="v-icon-location-pin-filled"&gt;Flat&lt;/vp-button&gt;</code>
+<code class="language-html">&lt;vp-button type="default" icon="v-icon-location-pin-filled"&gt;Default&lt;/vp-button&gt;</code>
+<code class="language-html">&lt;vp-button type="primary" icon="v-icon-location-pin-filled"&gt;Primary&lt;/vp-button&gt;</code>
+<code class="language-html">&lt;vp-button type="destructive" icon="v-icon-location-pin-filled"&gt;Destructive&lt;/vp-button&gt;</code></pre>
+
+      <h3>Non Component Code Examples</h3>
+
+      <pre><code class="language-html">&lt;button class="btn btn-flat"&gt;&lt;i class="icon-location-pin-filled"&gt;&lt;/i&gt; Flat&lt;/button&gt;
+&lt;button class="btn btn-default"&gt;&lt;i class="icon-location-pin-filled"&gt;&lt;/i&gt; Default&lt;/button&gt;
+&lt;a class="btn btn-primary"&gt;&lt;i class="icon-location-pin-filled"&gt;&lt;/i&gt; Primary&lt;/a&gt;
+&lt;a class="btn btn-destructive"&gt;&lt;i class="icon-location-pin-filled"&gt;&lt;/i&gt; Destructive&lt;/a&gt;</code></pre>
+
+      <h3>Examples</h3>
+
       <div class="my-10">
         <vp-button type="flat">Flat</vp-button>
         <vp-button type="default">Default</vp-button>

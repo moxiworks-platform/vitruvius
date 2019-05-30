@@ -4,9 +4,16 @@ const Toasts = {
       <h2>Toasts</h2>
       <p>Here is how to implement toasts with Vitruvius.</p>
 
-      <div>
-        <VueScriptComponent script='<script src="https://gist.github.com/iamjpg/d6508d5fcf69c6cfd752bc29d86d99b0.js"></script>'/>
-      <div>
+      <pre><code class="language-js">const ToastMessage = new Toast();
+
+ToastMessage.show({
+  type: 'success',
+  header: 'This is a Header',
+  message: 'This toast was created with the "removeIn" option meaning this toast will dissapear in 5 seconds.',
+  removeIn: 5000,
+});</code></pre>
+
+      <h3>Examples</h3>
 
       <vp-button type="primary" v-on:click="showToast">Show Toast Example</vp-button><br /><br />
       <vp-button type="primary" v-on:click="showToastNoHeader">Show Toast with no Header</vp-button><br /><br />

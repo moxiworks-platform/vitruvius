@@ -1,8 +1,15 @@
+import VueScriptComponent from 'vue-script-component';
+
 const Toasts = {
   template: `
     <div class="inner-container">
       <h2>Toasts</h2>
       <p>Here is how to implement toasts with Vitruvius.</p>
+
+      <div>
+        <VueScriptComponent script='<script src="https://gist.github.com/iamjpg/d6508d5fcf69c6cfd752bc29d86d99b0.js"></script>'/>
+      <div>
+
       <vp-button type="primary" v-on:click="showToast">Show Toast Example</vp-button><br /><br />
       <vp-button type="primary" v-on:click="showToastNoHeader">Show Toast with no Header</vp-button><br /><br />
       <vp-button type="primary" v-on:click="showStackedToasts">Show Multiple Toasts with Type!</vp-button><br /><br />
@@ -45,6 +52,9 @@ const Toasts = {
   `,
   mounted() {
     this.ToastMessage = new Toast();
+  },
+  components: {
+    VueScriptComponent
   },
   methods: {
     showToast() {

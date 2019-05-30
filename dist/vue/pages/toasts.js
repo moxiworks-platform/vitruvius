@@ -1,5 +1,3 @@
-import VueScriptComponent from 'vue-script-component';
-
 const Toasts = {
   template: `
     <div class="inner-container">
@@ -54,7 +52,7 @@ const Toasts = {
     this.ToastMessage = new Toast();
   },
   components: {
-    VueScriptComponent
+    
   },
   methods: {
     showToast() {

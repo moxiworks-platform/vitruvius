@@ -12,6 +12,6 @@ const router = new VueRouter({
 
 router.afterEach(() => {
   setTimeout(() => {
-    
+    Prism.highlightAll();
   }, 10);
 });

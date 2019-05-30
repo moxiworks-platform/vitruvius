@@ -1,5 +1,5 @@
 const Toasts = {
-  template: `
+  template: /*html*/`
     <div class="inner-container">
       <h2>Toasts</h2>
       <p>Here is how to implement toasts with Vitruvius.</p>

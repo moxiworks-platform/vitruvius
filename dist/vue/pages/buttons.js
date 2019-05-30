@@ -1,5 +1,5 @@
 const Buttons = { 
-  template: `
+  template: /*html*/`
     <div class="inner-container">
       <h2>Buttons</h2>
 

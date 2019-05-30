@@ -12,6 +12,7 @@ const router = new VueRouter({
 
 router.afterEach(() => {
   setTimeout(() => {
+    document.querySelector('#right-container').scrollTop = 0;
     Prism.highlightAll();
   }, 10);
 });

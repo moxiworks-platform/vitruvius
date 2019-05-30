@@ -34,6 +34,26 @@ const FormElements = {
       <div>
         <vp-radio label="Disabled Radio" type="disabled" name="radio1" value="baz"></vp-radio>
       </div>
+
+      <h3>Switches</h3>
+
+      <pre><code class="language-html">&lt;vp-switch name="doctor" value="dre" checked="true"&gt;&lt;/vp-switch&gt;
+&lt;vp-switch name="tribe" value="called quest" type="round"&gt;&lt;/vp-switch&gt;
+&lt;vp-switch name="snoop" value="dogg" type="destructive"&gt;&lt;/vp-switch&gt;</code></pre>
+
+      <div class="v-flex">
+        <div class="v-flex-item w-1/5">Basic</div>
+        <div class="v-flex-item w-1/5"><vp-switch name="doctor" value="dre" checked="true"></vp-switch></div>
+      </div>
+      <div class="v-flex">
+        <div class="v-flex-item w-1/5">Rounded</div>
+        <div class="v-flex-item w-1/5"><vp-switch name="tribe" value="called quest" type="round"></vp-switch></div>
+      </div>
+      <div class="v-flex">
+        <div class="v-flex-item w-1/5">Destructive</div>
+        <div class="v-flex-item w-1/5"><vp-switch name="snoop" value="dogg" type="destructive"></vp-switch></div>
+      </div>
+      
     </div>
   `
 }

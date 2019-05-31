@@ -114,6 +114,7 @@ class VpInput extends LitElement {
     container.querySelector('input').value = '';
     label.classList.remove('active');
     container.classList.remove('dark');
+    container.querySelector('.v-icon-close-circle').style.display = 'none';
   }
 
   render() {

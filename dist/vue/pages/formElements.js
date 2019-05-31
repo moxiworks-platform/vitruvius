@@ -69,7 +69,7 @@ const FormElements = {
       </div>
       <br />
       <div class="short">
-        <vp-input type="textarea" label="Text Area Example" name="foo" elemid="plop" value="something here"></vp-input>
+        <vp-input type="textarea" label="Text Area Example" name="foo" id="plop" rows="20" value="something here"></vp-input>
       </div>
       
     </div>

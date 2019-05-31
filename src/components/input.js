@@ -17,7 +17,8 @@ class VpInput extends LitElement {
       autocomplete: { type: Boolean },
       iconleft: { type: String },
       iconRight: { type: String },
-      iconclose: { type: String }
+      iconclose: { type: String },
+      rows: { type: String }
     };
   }
 
@@ -96,7 +97,6 @@ class VpInput extends LitElement {
     const el = e.target;
     const label = el.previousElementSibling;
     const container = label.parentNode;
-    console.log(container)
     label.classList.add('active');
     container.classList.add('dark');
   }
@@ -133,6 +133,7 @@ class VpInput extends LitElement {
     this.pattern = (this.pattern) ? this.pattern : '';
     this.value = (this.value) ? this.value : '';
     this.id = (this.id) ? this.id : '';
+    this.rows = (this.rows) ? this.rows : '';
 
     return html`
     ${(this.type === 'textarea') ?
@@ -148,6 +149,7 @@ class VpInput extends LitElement {
             type="${ this.type }"
             name="${ this.name }"
             pattern="${ this.pattern }"
+            rows="${ this.rows }"
             @keyup="${ this.showHideClearButton }"
             @focus="${ this.hidePlaceHolder }"
             @blur="${ this.showPlaceHolder }"

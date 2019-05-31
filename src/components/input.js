@@ -15,8 +15,8 @@ class VpInput extends LitElement {
       pattern: { type: String },
       textarea: { type: Boolean },
       autocomplete: { type: Boolean },
-      iconleft: { type: Boolean },
-      iconRight: { type: Boolean }
+      iconleft: { type: String },
+      iconRight: { type: String }
     };
   }
 
@@ -70,7 +70,13 @@ class VpInput extends LitElement {
   }
 
   showHideClearButton(e) {
-    console.log(e);
+    let el = e.target;
+    let container = el.parentNode;
+    if (el.value === '') {
+      container.querySelector('.v-icon-close-circle').style.display = 'none';
+    } else {
+      container.querySelector('.v-icon-close-circle').style.display = 'block';
+    }
   }
 
   hidePlaceHolder(e) {
@@ -102,6 +108,7 @@ class VpInput extends LitElement {
   render() {
 
     this.pattern = (this.pattern) ? this.pattern : '';
+    this.value = (this.value) ? this.value : '';
 
     return html`
     ${this.textarea ?
@@ -111,6 +118,8 @@ class VpInput extends LitElement {
     :
       html`
       <div class="${ this.returnBaseContainerClass() }">
+        <i data-icontype="left" class="${ this.iconleft }"></i>
+        <i class="v-icon-close-circle" @click="{ this.clearField }"></i>
         <label style="${ this.checkLabelStyles() }" @click="${ this.focusOnInput }">${ this.label }</label>
         <input
           autocomplete="off"

@@ -57,7 +57,15 @@ const FormElements = {
       <h3>Text Inputs and Textarea</h3>
 
       <div class="short">
-        <vp-input type="text" label="Plain Input Text Field" name="foo" id="bar" value=""></vp-input>
+        <vp-input type="text" label="Plain Input Text Field" name="foo" id="bar"></vp-input>
+      </div>
+      <br />
+      <div class="short">
+        <vp-input type="tel" label="Icon Left With label" name="foo" iconleft="v-icon-chat"></vp-input>
+      </div>
+      <br />
+      <div class="short">
+        <vp-input type="tel" label="Input with clear button" name="foo" iconclose="true" pattern="[0-9]*"></vp-input>
       </div>
       
     </div>

@@ -67,6 +67,10 @@ const FormElements = {
       <div class="short">
         <vp-input type="tel" label="Input with clear button" name="foo" iconclose="true" pattern="[0-9]*"></vp-input>
       </div>
+      <br />
+      <div class="short">
+        <vp-input type="textarea" label="Text Area Example" name="foo" elemid="plop" value="something here"></vp-input>
+      </div>
       
     </div>
   `

@@ -32,7 +32,7 @@ class VpInput extends LitElement {
 
   returnBaseContainerClass() {
     let str = `vp-input-container`;
-    if (this.textarea) str += ` textarea`;
+    if (this.type === 'textarea') str += ` textarea`;
     return str;
   }
 
@@ -64,7 +64,7 @@ class VpInput extends LitElement {
     }
     if (this.value && this.value !== '') {
       setTimeout(function() {
-        this.oneTimeValueSet();
+        // this.oneTimeValueSet();
       });
     }
     return str;
@@ -101,7 +101,8 @@ class VpInput extends LitElement {
 
   focusOnInput(e) {
     const container = e.target.parentNode;
-    container.querySelector('input').focus({
+    const type = (this.type === 'textarea') ? 'textarea' : 'input';
+    container.querySelector(type).focus({
       target: e.target
     });
   }
@@ -119,11 +120,28 @@ class VpInput extends LitElement {
 
     this.pattern = (this.pattern) ? this.pattern : '';
     this.value = (this.value) ? this.value : '';
+    this.id = (this.id) ? this.id : '';
 
     return html`
-    ${this.textarea ?
+    ${(this.type === 'textarea') ?
       html`
-        <p>Render some HTML if myBool is true</p>
+        <div class="${ this.returnBaseContainerClass() }">
+          <i data-icontype="left" class="${ this.iconleft }"></i>
+          <i class="v-icon-close-circle" @click="${ this.clearField }"></i>
+          <label style="${ this.checkLabelStyles() }" @click="${ this.focusOnInput }">${ this.label }</label>
+          <textarea
+            autocomplete="off"
+            id="${ this.id }"
+            style="${ this.returnClass() }"
+            type="${ this.type }"
+            name="${ this.name }"
+            pattern="${ this.pattern }"
+            @keyup="${ this.showHideClearButton }"
+            @focus="${ this.hidePlaceHolder }"
+            @blur="${ this.showPlaceHolder }"
+          >${ this.value }</textarea>
+        </div>
+        
       ` 
     :
       html`

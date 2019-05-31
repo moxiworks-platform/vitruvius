@@ -53,6 +53,12 @@ const FormElements = {
         <div class="v-flex-item w-1/5">Destructive</div>
         <div class="v-flex-item w-1/5"><vp-switch name="snoop" value="dogg" type="destructive"></vp-switch></div>
       </div>
+
+      <h3>Text Inputs and Textarea</h3>
+
+      <div class="short">
+        <vp-input type="text" label="Plain Input Text Field" name="foo" id="bar" value=""></vp-input>
+      </div>
       
     </div>
   `

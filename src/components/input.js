@@ -51,7 +51,18 @@ class VpInput extends LitElement {
     return str;
   }
 
+  noop() {};
+  oneTimeValueSet(e) {
+    let el = this.querySelector('input');
+    if (!el) el = this.querySelector('textarea');
+    this.oneTimeValueSet = self.noop;
+    this.hidePlaceHolder({
+      target: el
+    });
+  }
+
   checkLabelStyles() {
+    const self = this;
     let str = '';
     if (this.iconleft) {
       str += `left: 40px; `
@@ -64,7 +75,7 @@ class VpInput extends LitElement {
     }
     if (this.value && this.value !== '') {
       setTimeout(function() {
-        // this.oneTimeValueSet();
+        self.oneTimeValueSet();
       });
     }
     return str;

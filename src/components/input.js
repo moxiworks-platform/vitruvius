@@ -16,7 +16,8 @@ class VpInput extends LitElement {
       textarea: { type: Boolean },
       autocomplete: { type: Boolean },
       iconleft: { type: String },
-      iconRight: { type: String }
+      iconRight: { type: String },
+      iconclose: { type: String }
     };
   }
 
@@ -70,6 +71,7 @@ class VpInput extends LitElement {
   }
 
   showHideClearButton(e) {
+    if (!this.iconclose) return false;
     let el = e.target;
     let container = el.parentNode;
     if (el.value === '') {
@@ -93,7 +95,6 @@ class VpInput extends LitElement {
     const el = e.target;
     const label = el.previousElementSibling;
     const container = label.parentNode;
-    console.log(container)
     label.classList.remove('active');
     container.classList.remove('dark');
   }
@@ -103,6 +104,15 @@ class VpInput extends LitElement {
     container.querySelector('input').focus({
       target: e.target
     });
+  }
+
+  clearField(e) {
+    const el = e.target;
+    const container = el.parentNode;
+    const label = container.querySelector('label');
+    container.querySelector('input').value = '';
+    label.classList.remove('active');
+    container.classList.remove('dark');
   }
 
   render() {
@@ -119,7 +129,7 @@ class VpInput extends LitElement {
       html`
       <div class="${ this.returnBaseContainerClass() }">
         <i data-icontype="left" class="${ this.iconleft }"></i>
-        <i class="v-icon-close-circle" @click="{ this.clearField }"></i>
+        <i class="v-icon-close-circle" @click="${ this.clearField }"></i>
         <label style="${ this.checkLabelStyles() }" @click="${ this.focusOnInput }">${ this.label }</label>
         <input
           autocomplete="off"

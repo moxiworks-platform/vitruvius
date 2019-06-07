@@ -1,77 +1,97 @@
 const FormElements = {
   template: /*html*/`
-    <div class="inner-container">
-      <h2>Form Elements</h2>
+    <div class="small-container-wrapper">
+      <div class="inner-container">
+        <h2>Form Elements</h2>
 
-      <h3>Check Box Examples</h3>
+        <h3 ref="checkboxes">Check Box Examples</h3>
 
-      <pre><code class="language-html">&lt;vp-checkbox label="Basic Checkbox" name="check-box-name" value="foo" checked="true"&gt;&lt;/vp-checkbox&gt;
+        <pre><code class="language-html">&lt;vp-checkbox label="Basic Checkbox" name="check-box-name" value="foo" checked="true"&gt;&lt;/vp-checkbox&gt;
 &lt;vp-checkbox label="Destrictive Checkbox" type="destructive" value="bar" name="check-box-name"&gt;&lt;/vp-checkbox&gt;
 &lt;vp-checkbox label="Disabled Checkbox" type="disabled" value="baz" name="check-box-name"&gt;&lt;/vp-checkbox&gt;</code></pre>
 
-      <div>
-        <vp-checkbox label="Basic Checkbox" name="check-box-name" value="foo" checked="true"></vp-checkbox>
-      </div>
-      <div>
-        <vp-checkbox label="Destrictive Checkbox" type="destructive" value="bar" name="check-box-name"></vp-checkbox>
-      </div>
-      <div>
-        <vp-checkbox label="Disabled Checkbox" type="disabled" value="baz" name="check-box-name"></vp-checkbox>
-      </div>
+        <div>
+          <vp-checkbox label="Basic Checkbox" name="check-box-name" value="foo" checked="true"></vp-checkbox>
+        </div>
+        <div>
+          <vp-checkbox label="Destrictive Checkbox" type="destructive" value="bar" name="check-box-name"></vp-checkbox>
+        </div>
+        <div>
+          <vp-checkbox label="Disabled Checkbox" type="disabled" value="baz" name="check-box-name"></vp-checkbox>
+        </div>
 
-      <h3>Radio Examples</h3>
+        <h3 ref="radios">Radio Examples</h3>
 
-      <pre><code class="language-html">&lt;vp-radio label="Basic Radio" name="radio-box-name" value="foo" checked="true"&gt;&lt;/vp-checkbox&gt;
+        <pre><code class="language-html">&lt;vp-radio label="Basic Radio" name="radio-box-name" value="foo" checked="true"&gt;&lt;/vp-checkbox&gt;
 &lt;vp-radio label="Destrictive Radio" type="destructive" value="bar" name="radio-box-name"&gt;&lt;/vp-checkbox&gt;
 &lt;vp-radio label="Disabled Radio" type="disabled" value="baz" name="radio-box-name"&gt;&lt;/vp-checkbox&gt;</code></pre>
 
-      <div>
-        <vp-radio label="Basic Radio" name="radio1" value="foo"></vp-radio>
-      </div>
-      <div>
-        <vp-radio label="Destructive Radio" type="destructive" name="radio1" value="bar" checked="true"></vp-radio>
-      </div>
-      <div>
-        <vp-radio label="Disabled Radio" type="disabled" name="radio1" value="baz"></vp-radio>
-      </div>
+        <div>
+          <vp-radio label="Basic Radio" name="radio1" value="foo"></vp-radio>
+        </div>
+        <div>
+          <vp-radio label="Destructive Radio" type="destructive" name="radio1" value="bar" checked="true"></vp-radio>
+        </div>
+        <div>
+          <vp-radio label="Disabled Radio" type="disabled" name="radio1" value="baz"></vp-radio>
+        </div>
 
-      <h3>Switches</h3>
+        <h3 ref="switches">Switches</h3>
 
-      <pre><code class="language-html">&lt;vp-switch name="doctor" value="dre" checked="true"&gt;&lt;/vp-switch&gt;
+        <pre><code class="language-html">&lt;vp-switch name="doctor" value="dre" checked="true"&gt;&lt;/vp-switch&gt;
 &lt;vp-switch name="tribe" value="called quest" type="round"&gt;&lt;/vp-switch&gt;
 &lt;vp-switch name="snoop" value="dogg" type="destructive"&gt;&lt;/vp-switch&gt;</code></pre>
 
-      <div class="v-flex">
-        <div class="v-flex-item w-1/5">Basic</div>
-        <div class="v-flex-item w-1/5"><vp-switch name="doctor" value="dre" checked="true"></vp-switch></div>
-      </div>
-      <div class="v-flex">
-        <div class="v-flex-item w-1/5">Rounded</div>
-        <div class="v-flex-item w-1/5"><vp-switch name="tribe" value="called quest" type="round"></vp-switch></div>
-      </div>
-      <div class="v-flex">
-        <div class="v-flex-item w-1/5">Destructive</div>
-        <div class="v-flex-item w-1/5"><vp-switch name="snoop" value="dogg" type="destructive"></vp-switch></div>
-      </div>
+        <div class="v-flex">
+          <div class="v-flex-item w-1/5">Basic</div>
+          <div class="v-flex-item w-1/5"><vp-switch name="doctor" value="dre" checked="true"></vp-switch></div>
+        </div>
+        <div class="v-flex">
+          <div class="v-flex-item w-1/5">Rounded</div>
+          <div class="v-flex-item w-1/5"><vp-switch name="tribe" value="called quest" type="round"></vp-switch></div>
+        </div>
+        <div class="v-flex">
+          <div class="v-flex-item w-1/5">Destructive</div>
+          <div class="v-flex-item w-1/5"><vp-switch name="snoop" value="dogg" type="destructive"></vp-switch></div>
+        </div>
 
-      <h3>Text Inputs and Textarea</h3>
+        <h3 ref="inputs">Text Inputs and Textarea</h3>
 
-      <div class="short">
-        <vp-input type="text" label="Plain Input Text Field" name="foo" id="bar"></vp-input>
+        <div class="short">
+          <vp-input type="text" label="Plain Input Text Field" name="foo" id="bar"></vp-input>
+        </div>
+        <br />
+        <div class="short">
+          <vp-input type="tel" label="Icon Left With label" name="foo" iconleft="v-icon-chat"></vp-input>
+        </div>
+        <br />
+        <div class="short">
+          <vp-input type="tel" label="Input with clear button" name="foo" iconclose="true" pattern="[0-9]*"></vp-input>
+        </div>
+        <br />
+        <div class="short">
+          <vp-input type="textarea" label="Text Area Example" name="foo" id="plop" rows="20" value="something here"></vp-input>
+        </div>
       </div>
-      <br />
-      <div class="short">
-        <vp-input type="tel" label="Icon Left With label" name="foo" iconleft="v-icon-chat"></vp-input>
+      <div class="sub-nav-container">
+        <h4>Jump To</h4>
+        <ul>
+          <li><a href="javascript:void(0);" @click="scrollMeTo('checkboxes')">Checkboxes</a></li>
+          <li><a href="javascript:void(0);" @click="scrollMeTo('radios')">Radios</a></li>
+          <li><a href="javascript:void(0);" @click="scrollMeTo('switches')">Switches</a></li>
+          <li><a href="javascript:void(0);" @click="scrollMeTo('inputs')">Inputs</a></li>
+        </ul>
       </div>
-      <br />
-      <div class="short">
-        <vp-input type="tel" label="Input with clear button" name="foo" iconclose="true" pattern="[0-9]*"></vp-input>
-      </div>
-      <br />
-      <div class="short">
-        <vp-input type="textarea" label="Text Area Example" name="foo" id="plop" rows="20" value="something here"></vp-input>
-      </div>
-      
     </div>
-  `
+  `,
+  mounted: function() {
+    
+  },
+  methods: {
+    scrollMeTo(refName) {
+      var element = this.$refs[refName];
+      var top = element.offsetTop;
+      document.querySelector('#right-container').scrollTo(0, top);
+    }
+  }
 }

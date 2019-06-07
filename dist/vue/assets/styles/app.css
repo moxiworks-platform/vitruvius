@@ -7,7 +7,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  right: 70%;
+  width: 350px;
   bottom: 0;
   background: #F2F2F2;
 }
@@ -25,7 +25,7 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  left: 30%;
+  left: 350px;
   bottom: 0;
   overflow: auto;
   background:url('../images/stripes-light.png');
@@ -55,8 +55,24 @@ body {
   text-align: right;
 }
 
+.small-container-wrapper {
+  width: 80%;
+}
+
 .inner-container {
   padding: 50px;
+}
+
+.sub-nav-container {
+  box-sizing: border-box;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: calc(80% + 50px);
+  padding: 50px 20px;
+  background: #fff;
+  font-size: 12px;
 }
 
 .inner-container h2 {

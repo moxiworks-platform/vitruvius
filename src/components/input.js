@@ -18,7 +18,8 @@ class VpInput extends LitElement {
       iconleft: { type: String },
       iconRight: { type: String },
       iconclose: { type: String },
-      rows: { type: String }
+      rows: { type: String },
+      format: { type: Boolean }
     };
   }
 
@@ -128,12 +129,56 @@ class VpInput extends LitElement {
     container.querySelector('.v-icon-close-circle').style.display = 'none';
   }
 
+  formatField() {
+    setTimeout(() => {
+      let input = this.renderRoot.querySelector('input');
+      if (input.getAttribute('type') === 'tel') {
+        this.formatTelephone(input);
+      }
+    }, 100);
+  }
+
+  formatTelephone(el) {
+    const self = this;
+    el.addEventListener('keyup', function(e) {
+      // e.target.value = self.returnTelephoneFormat(e.target.value);
+      var phoneNumber = e.target;
+      // var charCode = (evt.which) ? evt.which : evt.keyCode;
+      phoneNumber.value = self.phoneFormat(phoneNumber.value);
+    });
+  }
+
+  phoneFormat(input){
+    // Strip all characters from the input except digits
+    input = input.replace(/\D/g,'');
+
+    // Trim the remaining input to ten characters, to preserve phone number format
+    input = input.substring(0,10);
+
+    // Based upon the length of the string, we add formatting as necessary
+    var size = input.length;
+    if(size == 0){
+            input = input;
+    }else if(size < 4){
+            input = '('+input;
+    }else if(size < 7){
+            input = '('+input.substring(0,3)+') '+input.substring(3,6);
+    }else{
+            input = '('+input.substring(0,3)+') '+input.substring(3,6)+' - '+input.substring(6,10);
+    }
+    return input; 
+  }
+
   render() {
 
     this.pattern = (this.pattern) ? this.pattern : '';
     this.value = (this.value) ? this.value : '';
     this.id = (this.id) ? this.id : '';
     this.rows = (this.rows) ? this.rows : '';
+
+    if (this.format) {
+      this.formatField();
+    }
 
     return html`
     ${(this.type === 'textarea') ?

@@ -70,6 +70,10 @@ const FormElements = {
         </div>
         <br />
         <div class="short">
+          <vp-input type="tel" format="true" label="Input with clear button" name="foo"></vp-input>
+        </div>
+        <br />
+        <div class="short">
           <vp-input type="textarea" label="Text Area Example" name="foo" id="plop" rows="20" value="something here"></vp-input>
         </div>
       </div>

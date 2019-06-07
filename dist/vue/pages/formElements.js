@@ -70,7 +70,7 @@ const FormElements = {
         </div>
         <br />
         <div class="short">
-          <vp-input type="tel" format="true" label="Input with clear button" name="foo"></vp-input>
+          <vp-input type="tel" format="true" label="Phone Number Formatting" name="foo"></vp-input>
         </div>
         <br />
         <div class="short">

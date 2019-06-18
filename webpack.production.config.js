@@ -19,6 +19,8 @@ module.exports = {
   plugins: [
     new CopyPlugin([
       { from: './dist/vitruvius.css', to: 'styles/vitruvius.css' },
+      { from: './dist/vitruvius-icons.css', to: 'styles/vitruvius-icons.css' },
+      { from: './dist/fonts', to: 'styles/fonts' },
     ]),
   ],
   stats: {

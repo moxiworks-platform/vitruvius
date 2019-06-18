@@ -7019,7 +7019,7 @@ p {
   display: none;
 }
 
-.element-container input:checked~.checkmark:after {
+.element-container input:checked ~ .checkmark:after {
   display: block;
 }
 
@@ -7234,6 +7234,17 @@ p {
 .vp-input-container input[type="text"]:not(:placeholder-shown),
 .vp-input-container input[type="tel"]:not(:placeholder-shown) {
   padding-top: 4px;
+}
+
+.vp-input-container.textarea {
+  height: auto;
+  max-height: inherit;
+}
+
+.vp-input-container textarea {
+  background: transparent;
+  line-height: 100%;
+  width: 100%;
 }
 
 /*************************************************************************************

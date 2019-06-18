@@ -2,6 +2,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
     <title>Project Vitruvius</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" rel="stylesheet" type="text/css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.16.0/themes/prism.min.css" rel="stylesheet" type="text/css" />
     <link href="./vitruvius.css" rel="stylesheet" type="text/css" />
     <link href="./vitruvius-icons.css" rel="stylesheet" type="text/css" />
@@ -9,46 +10,63 @@
   </head>
   <body>
     <div id="app">
-      <div id="left-container">
-        <div id="home-logo">
-          <div id="logo">
-            <a href="/#/"><img src="vue/assets/images/logo.jpg" width="100"></a>
+
+      <header>
+        <div class="wrapper-980">
+          <div class="v-flex">
+            <div class="v-flex-item w-1/3 text-left">
+              Project Vitruvius
+            </div>
+            <div class="v-flex-item w-1/3 text-center">
+
+            </div>
+            <div class="v-flex-item w-1/3 text-right">
+              v0.0.24
+            </div>
           </div>
-
-          <h1>Project Vitruvius</h1>
-          <p class="tagline">Is a framework agnostic javascript component library by MoxiWorks.</p>
-
-          <p class="font-extrabold">CSS</p>
-          <p class="my-10 text-sm">
-            <router-link to="/typography">Typography</router-link>
-          </p>
-          <p class="my-10 text-sm">
-            <router-link to="/colors">Colors</router-link>
-          </p>
-          <p class="my-10 text-sm">
-            <router-link to="/grid">Grid</router-link>
-          </p>
-
-          <p class="font-extrabold">Components</p>
-          <p class="my-10 text-sm">
-            <router-link to="/buttons">Buttons</router-link>
-          </p>
-          <p class="my-10 text-sm">
-            <router-link to="/form-elements">Form Elements</router-link>
-          </p>
-          <p class="my-10 text-sm">
-            <router-link to="/toasts">Toasts</router-link>
-          </p>
-          <p class="my-10 text-sm">
-            <router-link to="/icons">Icons</router-link>
-          </p>
         </div>
-      </div>
+      </header>
 
-      <div id="right-container">
-        <router-view></router-view>
-      </div>
+      <section>
+        <div class="wrapper-980">
+          <div class="v-flex">
+            <div class="v-flex-item w-1/5">
+              <p class="mb-20 text-grey uppercase tracking-wide font-bold text-sm">CSS</p>
+              <p class="my-10 text-sm">
+                <router-link to="/typography">Typography</router-link>
+              </p>
+              <p class="my-10 text-sm">
+                <router-link to="/colors">Colors</router-link>
+              </p>
+              <p class="my-10 text-sm">
+                <router-link to="/grid">Grid</router-link>
+              </p>
+              <p class="mb-20 text-grey uppercase tracking-wide font-bold text-sm">Components</p>
+              <p class="my-10 text-sm">
+                <router-link to="/buttons">Buttons</router-link>
+              </p>
+              <p class="my-10 text-sm">
+                <router-link to="/form-elements">Form Elements</router-link>
+              </p>
+              <p class="my-10 text-sm">
+                <router-link to="/toasts">Toasts</router-link>
+              </p>
+              <p class="mb-20 text-grey uppercase tracking-wide font-bold text-sm">Icons</p>
+              <p class="my-10 text-sm">
+                <router-link to="/icons">Icons</router-link>
+              </p>
+            </div>
+            <div class="v-flex-item w-4/5">
+              <router-view></router-view>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </div>
+
+
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-router/3.0.6/vue-router.min.js"></script>

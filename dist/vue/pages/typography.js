@@ -1,5 +1,5 @@
 const Typography = {
-  template: `
+  template: /*html*/`
     <div class="inner-container">
       <h2>Typography</h2>
       <p>Vitruvius uses the standard base font size of 16px which allows us to calculate font size in REM values from that point. If you're curious about conversions, you can look at this experiment here: <a href="https://daniellamb.com/experiments/px-to-rem-calc/" target="_blank">https://daniellamb.com/experiments/px-to-rem-calc/</a></p>

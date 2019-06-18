@@ -32,3 +32,7 @@ pre {
 code[class*=language-], pre[class*=language-] {
   font-size: 12px;
 }
+
+.inner-flex h2 {
+  margin-top: 8px;
+}

@@ -1,5 +1,5 @@
 const Colors = {
-  template: `
+  template: /*html*/`
     <div class="inner-container">
       <h2>Colors</h2>
       <p>Since Project Vitruvius is a functional CSS framework, the syntax to add color is simple.</p>

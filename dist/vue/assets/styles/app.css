@@ -1,78 +1,27 @@
 body {
   min-height: 100vh;
-  min-width: 100vh;
+  max-width: 100vw;
 }
 
-#left-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 350px;
-  bottom: 0;
-  background: #F2F2F2;
-}
-
-#logo img {
-  display: block;
+.wrapper-980 {
+  width: auto;
+  max-width: 980px;
   margin: auto;
 }
 
-#left-container h1, #left-container .tagline {
-  text-align: center;
+header {
+  padding: 16px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 20px;
 }
 
-#right-container {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 350px;
-  bottom: 0;
-  overflow: auto;
-  background:url('../images/stripes-light.png');
-}
-
-#home-logo {
-  position: absolute;
-  top: 50px;
-  left: 50px;
-  right: 50px;
-}
-
-#home-image {
-  background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.5)), url('../images/bg-home.jpg');
-  background-size: cover;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-}
-
-#home-footer {
-  position: absolute;
-  bottom: 50px;
-  left: 50px;
-  right: 50px;
-  color: #fff;
-  text-align: right;
-}
-
-.small-container-wrapper {
-  width: 80%;
+header .v-flex .v-flex-item, header .v-flex-wrap .v-flex-item {
+  margin: 0;
+  padding: 0;
 }
 
 .inner-container {
   padding: 50px;
-}
-
-.sub-nav-container {
-  box-sizing: border-box;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  top: 0;
-  left: calc(80% + 50px);
-  padding: 50px 20px;
-  background: #fff;
-  font-size: 12px;
 }
 
 .inner-container h2 {

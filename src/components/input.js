@@ -5,7 +5,7 @@ import { LitElement, html } from 'lit-element';
 class VpInput extends LitElement {
 
   static get properties() {
-    return { 
+    return {
       name: { type: String },
       label: { type: String },
       value: { type: String },
@@ -146,6 +146,8 @@ class VpInput extends LitElement {
       // var charCode = (evt.which) ? evt.which : evt.keyCode;
       phoneNumber.value = self.phoneFormat(phoneNumber.value);
     });
+    // For initial formatting.
+    this.renderRoot.querySelector('input').value = self.phoneFormat(this.renderRoot.querySelector('input').value);
   }
 
   phoneFormat(input) {
@@ -200,8 +202,8 @@ class VpInput extends LitElement {
             @blur="${ this.showPlaceHolder }"
           >${ this.value }</textarea>
         </div>
-        
-      ` 
+
+      `
     :
       html`
       <div class="${ this.returnBaseContainerClass() }">

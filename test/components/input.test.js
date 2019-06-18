@@ -37,6 +37,12 @@ describe('Input/Textarea Tests', () => {
     expect(closeIcon.getAttribute('style')).to.equal('display: none;');
   });
 
+  it('should NOT have a clear button', async () => {
+    const el = await fixture('<vp-input type="tel" label="Input with clear button" name="foo"></vp-input>');
+    const closeIcon = el.querySelector('.v-icon-close-circle');
+    expect(closeIcon.style.display).to.equal('');
+  });
+
   it('should have a clear button with display block', async () => {
     const el = await fixture('<vp-input type="tel" label="Input with clear button" name="foo" iconclose="true" pattern="[0-9]*"></vp-input>');
     const input = el.querySelector('input');
@@ -54,6 +60,22 @@ describe('Input/Textarea Tests', () => {
     input.focus();
     const label = el.querySelector('label');
     expect(label.getAttribute('class')).to.equal('active');
+  });
+
+  it('placeholder should have a left icon', async () => {
+    const el = await fixture('<vp-input type="tel" label="Icon Left With label" name="foo" iconleft="v-icon-chat"></vp-input>');
+    const input = el.querySelector('input');
+    const icon = el.querySelector('i');
+    expect(icon.getAttribute('data-icontype')).to.equal('left');
+  });
+
+  it('placeholder should format a phone number', async () => {
+    const el = await fixture('<vp-input type="tel" format="true" label="Phone Number Formatting" name="foo" value="5555555555"></vp-input>');
+    const input = el.querySelector('input');
+    let e = document.createEvent('HTMLEvents');
+    e.initEvent('keyup', false, true);
+    input.dispatchEvent(e);
+    expect(input.value).to.include('-');
   });
 
 });

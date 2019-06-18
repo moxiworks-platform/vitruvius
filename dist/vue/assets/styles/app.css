@@ -20,14 +20,6 @@ header .v-flex .v-flex-item, header .v-flex-wrap .v-flex-item {
   padding: 0;
 }
 
-.inner-container {
-  padding: 50px;
-}
-
-.inner-container h2 {
-  margin-top: 0;
-}
-
 pre {
   padding-left: 10px;
   border-left: 3px solid #5092d3;
@@ -35,4 +27,8 @@ pre {
 
 .short {
   width: 380px;
+}
+
+code[class*=language-], pre[class*=language-] {
+  font-size: 12px;
 }

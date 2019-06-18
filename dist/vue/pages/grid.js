@@ -8,7 +8,7 @@ const Grid = {
       <h3>Static Grid</h3>
 
       <pre><code class="language-html">&lt;!-- Full width column --&gt;
-  &lt;div class="v-flex"&gt;
+&lt;div class="v-flex"&gt;
   &lt;div class="v-flex-item w-full bg-moxi-green text-center"&gt;1&lt;/div&gt;
 &lt;/div&gt;
 

@@ -8,7 +8,7 @@ module.exports = {
   entry: entry,
   output: {
     filename: '[name].js',
-    path: __dirname + '/build'
+    path: __dirname + '/build/components'
   },
   resolve: {
     extensions: [".css", ".js"]
@@ -18,9 +18,9 @@ module.exports = {
   },
   plugins: [
     new CopyPlugin([
-      { from: './dist/vitruvius.css', to: 'styles/vitruvius.css' },
-      { from: './dist/vitruvius-icons.css', to: 'styles/vitruvius-icons.css' },
-      { from: './dist/fonts', to: 'styles/fonts' },
+      { from: './dist/vitruvius.css', to: '../vitruvius.css' },
+      { from: './dist/vitruvius-icons.css', to: '../vitruvius-icons.css' },
+      { from: './dist/fonts', to: '../fonts' },
     ]),
   ],
   stats: {

@@ -1,0 +1,83 @@
+{
+  "name": "@moxiworks/project-vitruvius",
+  "version": "0.1.0",
+  "description": "Vitruvius Framework by MoxiWorks",
+  "main": "index.js",
+  "watch": {
+    "build:tailwind": {
+      "patterns": [
+        "src"
+      ],
+      "extensions": "css",
+      "ignore": "src/styles/vitruvius-icons.css",
+      "quiet": false,
+      "legacyWatch": false,
+      "delay": 0,
+      "runOnChangeOnly": true
+    },
+    "build:icons": {
+      "patterns": [
+        "src"
+      ],
+      "extensions": "css",
+      "ignore": "src/styles/vitruvius.css",
+      "quiet": false,
+      "legacyWatch": false,
+      "delay": 0,
+      "runOnChangeOnly": true
+    },
+    "build:iconsfonts": {
+      "patterns": [
+        "src"
+      ],
+      "extensions": "css",
+      "ignore": "src/styles/vitruvius.css",
+      "quiet": false,
+      "legacyWatch": false,
+      "delay": 0,
+      "runOnChangeOnly": true
+    }
+  },
+  "scripts": {
+    "dev": "npm-run-all --parallel start:dev watch",
+    "start:dev": "webpack-dev-server",
+    "build:tailwind": "postcss ./src/styles/vitruvius.css -o ./dist/vitruvius.css",
+    "build:icons": "npx copyfiles -f ./src/styles/vitruvius-icons.css dist",
+    "build:iconsfonts": "npx copyfiles -f ./src/styles/fonts/* dist/fonts",
+    "build": "NODE_ENV=production webpack --config ./webpack.production.config.js",
+    "test": "karma start --coverage",
+    "test:watch": "karma start --auto-watch=true --single-run=false",
+    "watch": "npm-watch"
+  },
+  "author": "JP Given <jgiven@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@open-wc/testing": "^0.12.4",
+    "@open-wc/testing-karma": "^2.0.2",
+    "autoprefixer": "^9.5.1",
+    "copy-webpack-plugin": "^5.0.3",
+    "copyfiles": "^2.1.0",
+    "css-loader": "^2.1.1",
+    "glob": "^7.1.4",
+    "lit-element": "^2.1.0",
+    "mocha": "^6.1.4",
+    "npm-run-all": "^4.1.5",
+    "npm-watch": "^0.6.0",
+    "postcss": "^7.0.16",
+    "postcss-cli": "^6.1.2",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^0.23.1",
+    "tailwindcss": "^1.0.1",
+    "vue-script-component": "^0.1.7",
+    "watch": "^1.0.2",
+    "webpack": "^4.32.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}

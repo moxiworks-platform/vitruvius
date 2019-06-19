@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 .DS_Store
 .idea/
 .cache/
 dist/
 node_modules/
+=======
+node_modules/
+.DS_Store
+>>>>>>> master-holder
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

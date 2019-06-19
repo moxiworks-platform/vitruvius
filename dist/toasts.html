@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <title>Project Vitruvius</title>
+    <link href="./vitruvius.css" rel="stylesheet" type="text/css" />
+    <style>body { padding: 50px; }</style>
+  </head>
+  <body>
+
+    <p>Basic Toast</p>
+    <p>
+      <vp-button type="primary" id="showToast">Show Basic Toast</vp-button>
+    </p>
+
+    <script src="./button.js"></script>
+    <script src="./toast.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var toast = new Toast;
+        
+        function showToast() {
+          toast.show({
+            type: 'success',
+            header: 'This is a Header',
+            message: 'This toast was created with the "removeIn" option meaning this toast will dissapear in 5 seconds.',
+            removeIn: 5000,
+          });
+        }
+
+        document.querySelector('#showToast').addEventListener('click', showToast);
+      });
+    </script>
+  </body>
+</html>

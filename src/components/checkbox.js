@@ -5,7 +5,7 @@ import { LitElement, html } from 'lit-element';
 class VpCheckbox extends LitElement {
 
   static get properties() {
-    return { 
+    return {
       name: { type: String },
       checked: { type: Boolean },
       value: { type: String },
@@ -34,8 +34,12 @@ class VpCheckbox extends LitElement {
     return `${initialClass} ${str.trim()}`
   }
 
-  render() {
+  preFlight() {
     this.disabled = (this.type && this.type.indexOf('disabled') > -1) ? true : false;
+  }
+
+  render() {
+    this.preFlight();
     return html`
     <label class="${ this.returnStyles('element-container', this.type) }">${ this.label }
         <input

@@ -3,9 +3,14 @@ body {
   max-width: 100vw;
 }
 
+#logo a {
+  text-decoration: none;
+  color: #222;
+}
+
 .wrapper-980 {
   width: auto;
-  max-width: 980px;
+  max-width: 1024px;
   margin: auto;
 }
 
@@ -20,7 +25,7 @@ header .v-flex .v-flex-item, header .v-flex-wrap .v-flex-item {
   padding: 0;
 }
 
-pre {
+pre:not(.text-example) {
   padding-left: 10px;
   border-left: 3px solid #5092d3;
 }

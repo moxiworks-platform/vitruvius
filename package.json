@@ -1,6 +1,6 @@
 {
   "name": "@moxiworks/project-vitruvius",
-  "version": "0.0.27",
+  "version": "0.0.28",
   "description": "Vitruvius Framework by MoxiWorks",
   "main": "index.js",
   "watch": {

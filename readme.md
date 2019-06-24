@@ -26,6 +26,8 @@ TailwindCSS has a configuration file in `src/styles/tailwind.js`. The CSS for th
 
 ## Testing
 
+For testing we're using [https://open-wc.org/](https://open-wc.org/).
+
 100% code coverage is a goal of this project. Tests are located in the `test` directory. To run tests type `npm run test` in your terminal.
 
 After the unit tests are done running there is a web output created in the `coverage` directory. Viewing this output allows you to click on a file and see what code tree's are still untested.

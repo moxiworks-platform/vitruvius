@@ -6780,6 +6780,10 @@ body {
 * Base Stylings for anchor tags, etc...
 ************************************************************************************/
 
+h1, h2, h3, h4, h5 {
+  font-weight: bold;
+}
+
 a {
   color: #5092d3;
   text-decoration: none;
@@ -7030,8 +7034,7 @@ p {
   height: 8px;
   border: solid #636c71;
   border-width: 0 2px 2px 0;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 /* Slight alteratons for radios */
@@ -7137,7 +7140,6 @@ p {
 }
 
 .vp-switch input:checked+.slider:before {
-  -webkit-transform: translateX(18px);
   transform: translateX(18px);
 }
 
@@ -7192,10 +7194,7 @@ p {
   color: #a6abae;
   display: block;
   cursor: text;
-  transition: color .2s ease-out, -webkit-transform .2s ease-out;
   transition: transform .2s ease-out, color .2s ease-out;
-  transition: transform .2s ease-out, color .2s ease-out, -webkit-transform .2s ease-out;
-  -webkit-transform-origin: 0% 100%;
   transform-origin: 0% 100%;
   text-align: initial;
   padding: 0 5px;
@@ -7203,9 +7202,7 @@ p {
 
 .vp-input-container label.active {
   color: #636c71;
-  -webkit-transform: translateY(-20px) scale(0.8);
   transform: translateY(-20px) scale(0.8);
-  -webkit-transform-origin: 0 0;
   transform-origin: 0 0;
   background: #fff;
 }
@@ -7276,8 +7273,7 @@ p {
   right: 0;
   left: 0;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .vp-toast {
@@ -7347,8 +7343,7 @@ p {
 .absolute-center {
   position: absolute;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .rounded-image {

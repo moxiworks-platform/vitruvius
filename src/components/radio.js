@@ -5,7 +5,7 @@ import { LitElement, html } from 'lit-element';
 class VpRadio extends LitElement {
 
   static get properties() {
-    return { 
+    return {
       name: { type: String },
       checked: { type: Boolean },
       value: { type: String },
@@ -34,8 +34,12 @@ class VpRadio extends LitElement {
     return `${initialClass} ${str.trim()}`
   }
 
-  render() {
+  preFlight() {
     this.disabled = (this.type && this.type.indexOf('disabled') > -1) ? true : false;
+  }
+
+  render() {
+    this.preFlight();
     return html`
     <label class="${ this.returnStyles('element-container radio', this.type) }">${ this.label }
         <input

@@ -171,8 +171,7 @@ class VpInput extends LitElement {
     return input;
   }
 
-  render() {
-
+  preFlight() {
     this.pattern = (this.pattern) ? this.pattern : '';
     this.value = (this.value) ? this.value : '';
     this.id = (this.id) ? this.id : '';
@@ -181,6 +180,11 @@ class VpInput extends LitElement {
     if (this.format) {
       this.formatField();
     }
+  }
+
+  render() {
+
+    this.preFlight();
 
     return html`
     ${(this.type === 'textarea') ?

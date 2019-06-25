@@ -7,7 +7,8 @@ const router = new VueRouter({
     { path: '/toasts', component: Toasts },
     { path: '/form-elements', component: FormElements },
     { path: '/buttons', component: Buttons },
-    { path: '/icons', component: Icons }
+    { path: '/icons', component: Icons },
+    { path: '/containers', component: Containers }
   ]
 });
 

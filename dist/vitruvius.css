@@ -6814,7 +6814,7 @@ a:hover {
   padding-bottom: 13px;
   padding-left: 16px;
   padding-right: 16px;
-  border-radius: .25rem;
+  border-radius: .125rem;
   margin-left: 2px;
   margin-right: 2px;
   display: inline-flex;
@@ -6839,12 +6839,12 @@ a:hover {
 }
 
 .btn-primary {
-  background-color: #50b64c;
+  background-color: #5092d3;
   color: #ffffff;
 }
 
 .btn-primary:hover {
-  background-color: #42a33e;
+  background-color: #377cbf;
 }
 
 .btn-destructive {
@@ -6855,7 +6855,8 @@ a:hover {
 }
 
 .btn-destructive:hover {
-  background-color: #f2f3f3;
+  background-color: #F77B73;
+  color: #ffffff;
 }
 
 .btn-dense {

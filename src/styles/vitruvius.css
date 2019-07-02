@@ -46,7 +46,7 @@ a:hover {
 ************************************************************************************/
 
 .btn {
-  @apply py-13 px-16 rounded mx-2;
+  @apply py-13 px-16 rounded-sm mx-2;
   display: inline-flex;
   align-items: center;
   text-align: center;
@@ -66,11 +66,11 @@ a:hover {
 }
 
 .btn-primary {
-  @apply bg-moxi-green text-white;
+  @apply bg-moxi-blue text-white;
 }
 
 .btn-primary:hover {
-  @apply bg-moxi-green-dark;
+  @apply bg-moxi-blue-dark;
 }
 
 .btn-destructive {
@@ -78,7 +78,7 @@ a:hover {
 }
 
 .btn-destructive:hover {
-  @apply bg-cn-10;
+  @apply bg-moxi-destructive-light text-white;
 }
 
 .btn-dense {

@@ -17,7 +17,7 @@
 ************************************************************************************/
 
 body {
-  font-family: 'Muli', sans-serif !important;
+  font-family: 'Muli', Verdana, Helvetica, sans-serif !important;
   line-height: 150%;
 }
 
@@ -46,7 +46,7 @@ a:hover {
 ************************************************************************************/
 
 .btn {
-  @apply py-13 px-16 rounded mx-2;
+  @apply py-13 px-16 rounded-sm mx-2;
   display: inline-flex;
   align-items: center;
   text-align: center;
@@ -66,11 +66,11 @@ a:hover {
 }
 
 .btn-primary {
-  @apply bg-moxi-green text-white;
+  @apply bg-moxi-blue text-white;
 }
 
 .btn-primary:hover {
-  @apply bg-moxi-green-dark;
+  @apply bg-moxi-blue-dark;
 }
 
 .btn-destructive {
@@ -78,7 +78,7 @@ a:hover {
 }
 
 .btn-destructive:hover {
-  @apply bg-cn-10;
+  @apply bg-moxi-destructive-light text-white;
 }
 
 .btn-dense {
@@ -581,6 +581,31 @@ p {
 
 .v-container-zero {
   @apply p-0;
+}
+
+/*************************************************************************************
+* Badges
+************************************************************************************/
+
+.badge {
+  @apply text-xs py-2 px-4 rounded-sm text-center inline-block align-middle leading-none min-w-24;
+}
+
+/* Margin top is determined by base font being 16px and badge font being 12px */
+.badge.badge-right {
+  @apply float-right mt-4;
+}
+
+.badge.blue {
+  @apply bg-moxi-blue-dark text-white;
+}
+
+.badge.green {
+  @apply bg-moxi-green-dark text-white;
+}
+
+.badge.destructive {
+  @apply bg-moxi-destructive text-white;
 }
 
 /*************************************************************************************

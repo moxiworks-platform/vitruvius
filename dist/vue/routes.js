@@ -9,7 +9,8 @@ const router = new VueRouter({
     { path: '/buttons', component: Buttons },
     { path: '/icons', component: Icons },
     { path: '/containers', component: Containers },
-    { path: '/shadows', component: Shadows }
+    { path: '/shadows', component: Shadows },
+    { path: '/badges', component: Badges }
   ]
 });
 

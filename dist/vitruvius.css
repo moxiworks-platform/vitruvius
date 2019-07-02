@@ -3999,6 +3999,10 @@ video {
   min-width: 0;
 }
 
+.min-w-24{
+  min-width: 24px;
+}
+
 .min-w-full{
   min-width: 100%;
 }
@@ -7371,6 +7375,46 @@ p {
 
 .v-container-zero {
   padding: 0;
+}
+
+/*************************************************************************************
+* Badges
+************************************************************************************/
+
+.badge {
+  font-size: 0.75rem;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: .125rem;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+  min-width: 24px;
+}
+
+/* Margin top is determined by base font being 16px and badge font being 12px */
+
+.badge.badge-right {
+  float: right;
+  margin-top: 4px;
+}
+
+.badge.blue {
+  background-color: #377cbf;
+  color: #ffffff;
+}
+
+.badge.green {
+  background-color: #42a33e;
+  color: #ffffff;
+}
+
+.badge.destructive {
+  background-color: #f44336;
+  color: #ffffff;
 }
 
 /*************************************************************************************
@@ -10781,6 +10825,10 @@ p {
 
   .sm\:min-w-0{
     min-width: 0;
+  }
+
+  .sm\:min-w-24{
+    min-width: 24px;
   }
 
   .sm\:min-w-full{
@@ -16923,6 +16971,10 @@ p {
     min-width: 0;
   }
 
+  .md\:min-w-24{
+    min-width: 24px;
+  }
+
   .md\:min-w-full{
     min-width: 100%;
   }
@@ -23063,6 +23115,10 @@ p {
     min-width: 0;
   }
 
+  .lg\:min-w-24{
+    min-width: 24px;
+  }
+
   .lg\:min-w-full{
     min-width: 100%;
   }
@@ -29201,6 +29257,10 @@ p {
 
   .xl\:min-w-0{
     min-width: 0;
+  }
+
+  .xl\:min-w-24{
+    min-width: 24px;
   }
 
   .xl\:min-w-full{

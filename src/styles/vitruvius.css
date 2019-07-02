@@ -584,6 +584,31 @@ p {
 }
 
 /*************************************************************************************
+* Badges
+************************************************************************************/
+
+.badge {
+  @apply text-xs py-2 px-4 rounded-sm text-center inline-block align-middle leading-none min-w-24;
+}
+
+/* Margin top is determined by base font being 16px and badge font being 12px */
+.badge.badge-right {
+  @apply float-right mt-4;
+}
+
+.badge.blue {
+  @apply bg-moxi-blue-dark text-white;
+}
+
+.badge.green {
+  @apply bg-moxi-green-dark text-white;
+}
+
+.badge.destructive {
+  @apply bg-moxi-destructive text-white;
+}
+
+/*************************************************************************************
 * Utility Classes
 ************************************************************************************/
 

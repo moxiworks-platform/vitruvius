@@ -8,14 +8,12 @@ const Shadows = {
         <div class="v-container-thick bg-cn-20 shadow-level-1">
           Shadow Level 1
         </div>
-        <br />
         <pre><code class="language-html">&lt;div class="shadow-level-1"&gt;Shadow Level 1&lt;/div&gt;</code></pre>
       </div>
       <div class="mb-16">
         <div class="v-container bg-cn-20 shadow-level-2">
           Shadow Level 2
         </div>
-        <br />
         <pre><code class="language-html">&lt;div class="shadow-level-2"&gt;Shadow Level 2&lt;/div&gt;</code></pre>
       </div>
       <div class="mb-16">

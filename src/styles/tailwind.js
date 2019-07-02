@@ -188,6 +188,7 @@ module.exports = {
     },
     minWidth: {
       '0': '0',
+      '24': '24px',
       'full': '100%',
     },
     minHeight: {

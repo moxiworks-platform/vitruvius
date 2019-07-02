@@ -8,13 +8,14 @@ const router = new VueRouter({
     { path: '/form-elements', component: FormElements },
     { path: '/buttons', component: Buttons },
     { path: '/icons', component: Icons },
-    { path: '/containers', component: Containers }
+    { path: '/containers', component: Containers },
+    { path: '/shadows', component: Shadows },
+    { path: '/badges', component: Badges }
   ]
 });
 
 router.afterEach(() => {
   setTimeout(() => {
-    //document.querySelector('#right-container').scrollTop = 0;
     Prism.highlightAll();
   }, 10);
 });

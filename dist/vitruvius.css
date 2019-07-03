@@ -6961,9 +6961,9 @@ p {
 .v-card {
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   background-color: #f2f3f3;
   overflow: hidden;
-  padding: 16px;
   margin-bottom: 3px;
 }
 
@@ -6994,6 +6994,20 @@ p {
 
 .v-card .rounded-image {
   margin-right: 15px;
+}
+
+.v-card .v-card-header-image {
+  width: 100%;
+}
+
+.v-card .v-card-header-image .v-card-header-image-gradient {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-height: 50px;
+  background: linear-gradient(0deg, #000 0, transparent);
+  color: #fff;
 }
 
 /*************************************************************************************

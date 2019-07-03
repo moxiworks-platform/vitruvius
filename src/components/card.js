@@ -8,7 +8,10 @@ class VpCard extends LitElement {
     return {
       type: { type: String },
       image: { type: String },
-      icon: { type: String }
+      icon: { type: String },
+      headerimage: { type: String },
+      headerimageheight: { type: String },
+      headertext: { type: String }
     };
   }
 
@@ -40,16 +43,33 @@ class VpCard extends LitElement {
 
   returnRoundedImage() {
     if (this.image) {
-      return `<div class="rounded-image" style="background-image: url(${ this.image })"></div>`;
+      return html `<div class="rounded-image" style="background-image: url(${ this.image })"></div>`;
+    }
+  }
+
+  returnHeaderImage() {
+    if (this.headerimage) {
+      let height = (this.headerimageheight) ? this.headerimageheight : 'inherit';
+      let txt = (this.headertext) ? this.headertext : '';
+      return html `
+        <div class="v-card-header-image relative" style="background-image: url(${ this.headerimage }); background-size: cover; height: ${height}">
+          <div class="v-card-header-image-gradient">
+            ${ txt }
+          </div>
+        </div>
+      `
     }
   }
 
   render() {
     return html`
     <div class="v-card ${ this.returnClass(this.type) }">
-      ${ this.returnIcon() }
-      ${ this.returnRoundedImage() }
-      ${ this.innerText }
+      ${ this.returnHeaderImage() }
+      <div class="v-container-thin flex flex-wrap">
+        ${ this.returnIcon() }
+        ${ this.returnRoundedImage() }
+        ${ this.innerText }
+      </div>
     </div>
     `;
   }

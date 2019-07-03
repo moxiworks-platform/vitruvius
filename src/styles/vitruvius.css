@@ -167,15 +167,15 @@ p {
 }
 
 .v-card.level-1 {
-  @apply bg-cn-0;
+  @apply bg-cn-0 shadow-level-1;
 }
 
 .v-card.level-2 {
-  @apply bg-cn-0;
+  @apply bg-cn-0 shadow-level-2;
 }
 
 .v-card.level-3 {
-  @apply bg-cn-0;
+  @apply bg-cn-0 shadow-level-3;
 }
 
 .v-card i {

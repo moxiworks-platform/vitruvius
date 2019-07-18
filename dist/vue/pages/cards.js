@@ -27,15 +27,26 @@ const Cards = {
       <p>You can stack cards to create clickable lists. Here is an example with icons.</p>
 
       <div class="bg-cn-05 p-20">
-        <vp-card type="level-1 showhover" icon="v-icon-heart-filled" v-on:click="handleOnClick('item 1')">Item 1.</vp-card>
-        <vp-card type="level-1 showhover" icon="v-icon-heart-filled" v-on:click="handleOnClick('item 2')">Item 2.</vp-card>
-        <vp-card type="level-1 showhover" icon="v-icon-heart-filled" v-on:click="handleOnClick('item 3')">Item 3.</vp-card>
+        <vp-card type="level-1 showhover" v-on:click="handleOnClick('item 1')">
+          <div class="flex flex-wrap"><i class="v-icon-heart-filled"></i>Item 1.</div>
+        </vp-card>
+        <vp-card type="level-1 showhover" v-on:click="handleOnClick('item 2')">
+          <div class="flex flex-wrap"><i class="v-icon-heart-filled"></i>Item 2.</div>
+        </vp-card>
+        <vp-card type="level-1 showhover" v-on:click="handleOnClick('item 3')">
+          <div class="flex flex-wrap"><i class="v-icon-heart-filled"></i>Item 3.</div>
+        </vp-card>
       </div>
 
       <h3>Card With Rounded Images</h3>
 
       <div class="mb-16">
-        <vp-card type="level-1" image="https://moxi3.ssl.hwcdn.net/img-pr/a/a8bcb974-2170-4698-946d-aeae23ed8d2b/0_3_full.jpg">Example of a card with an image.</vp-card>
+        <vp-card type="level-1">
+          <div class="flex flex-wrap">
+            <div class="rounded-image" style="background-image: url(https://moxi3.ssl.hwcdn.net/img-pr/a/a8bcb974-2170-4698-946d-aeae23ed8d2b/0_3_full.jpg)"></div>
+            Example of a card with an image.
+          </div>
+        </vp-card>
       </div>
 
       <h3>Cards With Header Image</h3>

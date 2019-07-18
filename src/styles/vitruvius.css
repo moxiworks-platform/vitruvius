@@ -199,6 +199,8 @@ p {
   min-height: 50px;
   background: linear-gradient(0deg, #000 0, transparent);
   color: #fff;
+  padding: 0 16px;
+  line-height: 100%;
 }
 
 /*************************************************************************************

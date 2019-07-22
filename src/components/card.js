@@ -1,5 +1,6 @@
 // Import the LitElement base class and html helper function
 import { LitElement, html } from 'lit-element';
+import { unsafeHTML } from 'lit-html/directives/unsafe-html.js'
 
 // Extend the LitElement base class
 class VpCard extends LitElement {
@@ -34,8 +35,7 @@ class VpCard extends LitElement {
 
   returnHeaderText() {
     if (this.imageheadertext) {
-      var frag = document.createRange().createContextualFragment(`${ this.imageheadertext }`);
-      return frag;
+      return unsafeHTML(this.imageheadertext);
     }
   }
 
@@ -54,9 +54,7 @@ class VpCard extends LitElement {
   }
 
   returnInnerHTML() {
-    // this.innerHTML
-    var frag = document.createRange().createContextualFragment(`${ this.innerHTML }`);
-    return frag;
+    return unsafeHTML(this.innerHTML);
   }
 
   render() {

@@ -6960,7 +6960,6 @@ p {
 
 .v-card {
   position: relative;
-  display: flex;
   flex-wrap: wrap;
   background-color: #f2f3f3;
   overflow: hidden;
@@ -7010,6 +7009,15 @@ p {
   color: #fff;
   padding: 0 16px;
   line-height: 100%;
+}
+
+.v-card h1, .v-card h2, .v-card h3, .v-card h4, .v-card h5 {
+  margin: 0 0 16px 0;
+}
+
+.v-card .v-card-subsection {
+  background-color: #f8f8f8;
+  padding: 16px;
 }
 
 /*************************************************************************************

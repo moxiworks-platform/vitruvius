@@ -67,6 +67,18 @@ const Cards = {
             headerimageheight="200px"
             imageheadertext="Line one and<br>line 2."
           >
+            <h2>Title</h2>
+            Image with title.
+          </vp-card>
+        </div>
+        <div class="v-flex-item w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2">
+          <vp-card type="level-1"
+            headerimage="https://moxi1.ssl.hwcdn.net/img-pr-000955/psm/e1362c566a86d15cac4f8e93d55b25db9a20dde3/0_3_small.jpg"
+            headerimageheight="200px"
+            imageheadertext="Hello, You!"
+            subsection="Sub section text..."
+          >
+            <h2>Title</h2>
             Image with title.
           </vp-card>
         </div>

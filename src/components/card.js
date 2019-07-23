@@ -10,7 +10,8 @@ class VpCard extends LitElement {
       type: { type: String },
       headerimage: { type: String },
       headerimageheight: { type: String },
-      imageheadertext: { type: String }
+      imageheadertext: { type: String },
+      subsection: { type: String }
     };
   }
 
@@ -39,6 +40,16 @@ class VpCard extends LitElement {
     }
   }
 
+  returnSubSection() {
+    if (this.subsection) {
+      return html `
+        <div class="v-card-subsection">
+          ${ unsafeHTML(this.subsection) }
+        </div>
+      `;
+    }
+  }
+
   returnHeaderImage() {
     if (this.headerimage) {
       let height = (this.headerimageheight) ? this.headerimageheight : 'inherit';
@@ -64,6 +75,7 @@ class VpCard extends LitElement {
       <div class="v-container-thin">
         ${ this.returnInnerHTML() }
       </div>
+      ${ this.returnSubSection() }
     </div>
     `;
   }

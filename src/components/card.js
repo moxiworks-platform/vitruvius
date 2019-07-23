@@ -11,7 +11,8 @@ class VpCard extends LitElement {
       headerimage: { type: String },
       headerimageheight: { type: String },
       imageheadertext: { type: String },
-      subsection: { type: String }
+      subsection: { type: String },
+      badge: { type: Object }
     };
   }
 
@@ -68,9 +69,23 @@ class VpCard extends LitElement {
     return unsafeHTML(this.innerHTML);
   }
 
+  returnBadge() {
+    if (this.badge) {
+      return html `
+        <div class="absolute z-20" style="top: 8px; left: 8px;">
+          <div class="badge ${ this.badge.backgroundClass } text-${this.badge.color}">
+            ${ this.badge.label }
+          </div>
+        </div>
+      `
+    }
+  }
+
   render() {
+
     return html`
     <div class="v-card ${ this.returnClass(this.type) }">
+      ${ this.returnBadge() }
       ${ this.returnHeaderImage() }
       <div class="v-container-thin">
         ${ this.returnInnerHTML() }

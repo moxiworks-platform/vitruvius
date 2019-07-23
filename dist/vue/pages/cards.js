@@ -44,7 +44,7 @@ const Cards = {
         <vp-card type="level-1">
           <div class="flex flex-wrap">
             <div class="rounded-image" style="background-image: url(https://moxi3.ssl.hwcdn.net/img-pr/a/a8bcb974-2170-4698-946d-aeae23ed8d2b/0_3_full.jpg)"></div>
-            Example of a card with an image.
+            <div>Example of a card with an image.</div>
           </div>
         </vp-card>
       </div>
@@ -80,6 +80,17 @@ const Cards = {
           >
             <h2>Title</h2>
             Image with title.
+          </vp-card>
+        </div>
+        <div class="v-flex-item w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2">
+          <vp-card type="level-1"
+            headerimage="https://moxi1.ssl.hwcdn.net/img-pr-000955/psm/e1362c566a86d15cac4f8e93d55b25db9a20dde3/0_3_small.jpg"
+            headerimageheight="200px"
+            subsection="Sub section text..."
+            badge='{"label": "new", "backgroundClass": "bg-ca-flamenco", "color": "white"}'
+          >
+            <h2>Look, I Have a Badge</h2>
+            Badges are so hot right now.
           </vp-card>
         </div>
       </div>

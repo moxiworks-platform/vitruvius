@@ -94,6 +94,72 @@ const Cards = {
           </vp-card>
         </div>
       </div>
+
+        <h3>Example Card Code</h3>
+
+      <div>
+        <pre><code class="language-html">&lt;vp-card type="level-1"
+  headerimage="https://moxi1.ssl.hwcdn.net/img-pr-000955/psm/e1362c566a86d15cac4f8e93d55b25db9a20dde3/0_3_small.jpg"
+  headerimageheight="200px"
+  subsection="Sub section text..."
+  badge='{"label": "new", "backgroundClass": "bg-ca-flamenco", "color": "white"}'
+&gt;
+  &lt;h2&gt;Look, I Have a Badge&lt;/h2&gt;
+  Badges are so hot right now.
+&lt;/vp-card&gt;</code></pre>
+      </div>
+
+      <h3>Properties</h3>
+
+      <div class="v-flex">
+        <div class="v-flex-item w-1/5 bg-cn-20">
+          type
+        </div>
+        <div class="v-flex-item w-4/5 bg-cn-10">
+          Optional. Accepts shadow class: [level-1, level-2, level-3]
+        </div>
+      </div>
+      <div class="v-flex">
+        <div class="v-flex-item w-1/5 bg-cn-20">
+          headerimage
+        </div>
+        <div class="v-flex-item w-4/5 bg-cn-10">
+          Optional. Accepts URL string.
+        </div>
+      </div>
+      <div class="v-flex">
+        <div class="v-flex-item w-1/5 bg-cn-20">
+          headerimageheight
+        </div>
+        <div class="v-flex-item w-4/5 bg-cn-10">
+          Optional. Sets height of image. Value in px.
+        </div>
+      </div>
+      <div class="v-flex">
+        <div class="v-flex-item w-1/5 bg-cn-20">
+          imageheadertext
+        </div>
+        <div class="v-flex-item w-4/5 bg-cn-10">
+          Optional. Accepts HTML or plain string.
+        </div>
+      </div>
+      <div class="v-flex">
+        <div class="v-flex-item w-1/5 bg-cn-20">
+          subsection
+        </div>
+        <div class="v-flex-item w-4/5 bg-cn-10">
+          Optional. Accepts HTML or plain string.
+        </div>
+      </div>
+      <div class="v-flex">
+        <div class="v-flex-item w-1/5 bg-cn-20">
+          badge
+        </div>
+        <div class="v-flex-item w-4/5 bg-cn-10">
+          Optional. JSON object. Must be valid JSON. Example showing object options:<br />
+          {"label": "new", "backgroundClass": "bg-ca-flamenco", "color": "white"}
+        </div>
+      </div>
     </div>
   `,
   methods: {

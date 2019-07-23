@@ -26,7 +26,7 @@ class VpCard extends LitElement {
   }
 
   returnClass(type) {
-    if (!type)  return false;
+    if (!type)  return 'level-1';
     let tmp = type.split(',')
     let str = ''
     tmp.forEach((o) => {

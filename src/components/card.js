@@ -12,7 +12,7 @@ class VpCard extends LitElement {
       headerimageheight: { type: String },
       imageheadertext: { type: String },
       subsection: { type: String },
-      badge: { type: Object }
+      badge: { type: Array }
     };
   }
 
@@ -53,7 +53,7 @@ class VpCard extends LitElement {
 
   returnHeaderImage() {
     if (this.headerimage) {
-      let height = (this.headerimageheight) ? this.headerimageheight : 'inherit';
+      let height = (this.headerimageheight) ? this.headerimageheight : '200px';
 
       return html `
         <div class="v-card-header-image relative" style="background-image: url(${ this.headerimage }); background-size: cover; height: ${height}">
@@ -70,14 +70,13 @@ class VpCard extends LitElement {
   }
 
   returnBadge() {
+    let str = '<div class="absolute z-20 v-card-badge-container" style="top: 8px; left: 8px;">';
     if (this.badge) {
-      return html `
-        <div class="absolute z-20" style="top: 8px; left: 8px;">
-          <div class="badge ${ this.badge.backgroundClass } text-${this.badge.color}">
-            ${ this.badge.label }
-          </div>
-        </div>
-      `
+      this.badge.forEach((o, i) => {
+        str = str + '<div class="badge ' + o.backgroundClass + ' text-' + o.color + '">' + o.label + '</div>';
+      });
+      str += '</div>';
+      return html `${unsafeHTML(str)}`;
     }
   }
 

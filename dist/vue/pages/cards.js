@@ -87,7 +87,7 @@ const Cards = {
             headerimage="https://moxi1.ssl.hwcdn.net/img-pr-000955/psm/e1362c566a86d15cac4f8e93d55b25db9a20dde3/0_3_small.jpg"
             headerimageheight="200px"
             subsection="Sub section text..."
-            badge='{"label": "new", "backgroundClass": "bg-ca-flamenco", "color": "white"}'
+            badge='[{"label": "new", "backgroundClass": "bg-moxi-green-dark", "color": "white"}, {"label": "hot", "backgroundClass": "bg-moxi-destructive", "color": "white"}]'
           >
             <h2>Look, I Have a Badge</h2>
             Badges are so hot right now.
@@ -102,7 +102,7 @@ const Cards = {
   headerimage="https://moxi1.ssl.hwcdn.net/img-pr-000955/psm/e1362c566a86d15cac4f8e93d55b25db9a20dde3/0_3_small.jpg"
   headerimageheight="200px"
   subsection="Sub section text..."
-  badge='{"label": "new", "backgroundClass": "bg-ca-flamenco", "color": "white"}'
+  badge='[{"label": "new", "backgroundClass": "bg-ca-flamenco", "color": "white"}]'
 &gt;
   &lt;h2&gt;Look, I Have a Badge&lt;/h2&gt;
   Badges are so hot right now.
@@ -156,8 +156,8 @@ const Cards = {
           badge
         </div>
         <div class="v-flex-item w-4/5 bg-cn-10">
-          Optional. JSON object. Must be valid JSON. Example showing object options:<br />
-          {"label": "new", "backgroundClass": "bg-ca-flamenco", "color": "white"}
+          Optional. Array of objects. Must be valid JSON. Example showing object options:<br />
+          [{"label": "new", "backgroundClass": "bg-ca-flamenco", "color": "white"}]
         </div>
       </div>
     </div>

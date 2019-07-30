@@ -19,7 +19,9 @@ class VpInput extends LitElement {
       iconRight: { type: String },
       iconclose: { type: String },
       rows: { type: String },
-      format: { type: Boolean }
+      format: { type: Boolean },
+      color: { type: String },
+      background: { type: String }
     };
   }
 
@@ -43,12 +45,13 @@ class VpInput extends LitElement {
     if (this.iconleft) {
       str += 'padding-left: 30px; ';
     }
-    if (this.iconClose) {
+    if (this.iconclose) {
       str += 'padding-right: 30px; '
     }
     if (this.color) {
       str += `color: ${this.color}; `
     }
+
     str = `padding: 0; ${str}`
     return str;
   }
@@ -172,10 +175,20 @@ class VpInput extends LitElement {
   }
 
   preFlight() {
+    const self = this;
     this.pattern = (this.pattern) ? this.pattern : '';
     this.value = (this.value) ? this.value : '';
     this.id = (this.id) ? this.id : '';
     this.rows = (this.rows) ? this.rows : '';
+
+    if (this.iconclose) {
+      requestAnimationFrame(() => {
+        let el = this.querySelector('input');
+        this.showHideClearButton({
+          target: el
+        });
+      })
+    }
 
     if (this.format) {
       this.formatField();

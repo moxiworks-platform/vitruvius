@@ -158,7 +158,7 @@ p {
 ************************************************************************************/
 
 .v-card {
-  @apply relative flex bg-cn-10 overflow-hidden p-16 mb-3;
+  @apply relative flex-wrap bg-cn-10 overflow-hidden mb-3;
 }
 
 .v-card.showhover:hover {
@@ -167,15 +167,15 @@ p {
 }
 
 .v-card.level-1 {
-  @apply bg-cn-0;
+  @apply bg-cn-0 shadow-level-1;
 }
 
 .v-card.level-2 {
-  @apply bg-cn-0;
+  @apply bg-cn-0 shadow-level-2;
 }
 
 .v-card.level-3 {
-  @apply bg-cn-0;
+  @apply bg-cn-0 shadow-level-3;
 }
 
 .v-card i {
@@ -185,6 +185,34 @@ p {
 
 .v-card .rounded-image {
   margin-right: 15px;
+}
+
+.v-card .v-card-header-image {
+  width: 100%;
+}
+
+.v-card .v-card-header-image .v-card-header-image-gradient {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-height: 50px;
+  background: linear-gradient(0deg, #000 0, transparent);
+  color: #fff;
+  padding: 0 16px;
+  line-height: 100%;
+}
+
+.v-card h1, .v-card h2, .v-card h3, .v-card h4, .v-card h5 {
+  margin: 0 0 16px 0;
+}
+
+.v-card .v-card-subsection {
+  @apply bg-cn-05 p-16;
+}
+
+.v-card-badge-container .badge {
+  margin-right: 4px;
 }
 
 /*************************************************************************************

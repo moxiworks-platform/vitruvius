@@ -76,7 +76,6 @@ describe('Input/Textarea Tests', () => {
     e.initEvent('keyup', false, true);
     input.dispatchEvent(e);
     setTimeout(function() {
-      console.log("----------", input.value)
       expect(input.value).to.include('-');
     }, 250)
   });

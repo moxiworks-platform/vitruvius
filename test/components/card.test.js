@@ -17,6 +17,11 @@ describe('Card / Surface Tests', () => {
     const rootElem = document.querySelector('.v-card');
     expect(rootElem.querySelector('h3').innerHTML).to.equal('Foo');
   });
+  it('Should have image height', async () => {
+    const el = await fixture('<vp-card type="level-1" headerimageheight="500px" headerimage="https://moxi1.ssl.hwcdn.net/img-pr-000955/psm/e1362c566a86d15cac4f8e93d55b25db9a20dde3/0_3_small.jpg">Im a Card</vp-card>');
+    const rootElem = document.querySelector('.v-card');
+    expect(rootElem.querySelector('.v-card-header-image').getAttribute('style').indexOf('500px')).to.be.above(-1);
+  });
   it('Should have a badge', async () => {
     const el = await fixture(
       `<vp-card type="level-1"

@@ -67,11 +67,11 @@ const FormElements = {
           </div>
           <br />
           <div class="short">
-            <vp-input type="tel" label="Input with clear button" name="foo" iconclose="true" pattern="[0-9]*"></vp-input>
+            <vp-input type="tel" label="Input with clear button" name="foo" iconclose="true" pattern="[0-9]*" value="test"></vp-input>
           </div>
           <br />
           <div class="short">
-            <vp-input type="tel" format="true" label="Phone Number Formatting" name="foo" value="5555555555"></vp-input>
+            <vp-input type="tel" format="true" label="Phone Number Formatting" name="foo" value="5555555555" color="red" background="blue"></vp-input>
           </div>
           <br />
           <div class="short">

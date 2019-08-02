@@ -79,6 +79,7 @@
     "webpack-dev-server": "^3.4.1"
   },
   "dependencies": {
-    "http-server": "^0.11.1"
+    "http-server": "^0.11.1",
+    "pathwatcher": "^8.1.0"
   }
 }

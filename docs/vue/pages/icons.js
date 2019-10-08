@@ -496,6 +496,42 @@ const Icons = {
         </div>
       </div>
 
+      <div class="flex flex-wrap">
+        <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 bg-cn-30 p-15 text-center mb-4">
+          <i class="v-icon-filter text-3xl"></i>
+          <div class="text-sm pt-5">Filter</div>
+          <div class="text-sm pt-5">.v-icon-add-people</div>
+        </div>
+        <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 bg-cn-15 p-15 text-center mb-4">
+          <i class="v-icon-linkedin text-3xl"></i>
+          <div class="text-sm pt-5">LinkedIn</div>
+          <div class="text-sm pt-5">.v-icon-linkedin</div>
+        </div>
+        <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 bg-cn-30 p-15 text-center mb-4">
+          <i class="v-icon-log-activity text-3xl"></i>
+          <div class="text-sm pt-5">Activity</div>
+          <div class="text-sm pt-5">.v-icon-log-activity</div>
+        </div>
+        <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 bg-cn-15 p-15 text-center mb-4">
+          <i class="v-icon-search text-3xl"></i>
+          <div class="text-sm pt-5">Search</div>
+          <div class="text-sm pt-5">.v-icon-search</div>
+        </div>
+      </div>
+
+      <div class="flex flex-wrap">
+        <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 bg-cn-30 p-15 text-center mb-4">
+          <i class="v-icon-phone1 text-3xl"></i>
+          <div class="text-sm pt-5">Phone</div>
+          <div class="text-sm pt-5">.v-icon-phone1</div>
+        </div>
+        <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 bg-cn-15 p-15 text-center mb-4">
+          <i class="v-icon-sync text-3xl"></i>
+          <div class="text-sm pt-5">Sync</div>
+          <div class="text-sm pt-5">.v-icon-sync</div>
+        </div>
+      </div>
+
     </div>
   `,
   mounted() {

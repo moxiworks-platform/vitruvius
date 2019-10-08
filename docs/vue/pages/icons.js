@@ -530,6 +530,11 @@ const Icons = {
           <div class="text-sm pt-5">Sync</div>
           <div class="text-sm pt-5">.v-icon-sync</div>
         </div>
+        <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 bg-cn-30 p-15 text-center mb-4">
+          <i class="v-icon-add-people text-3xl"></i>
+          <div class="text-sm pt-5">Add People</div>
+          <div class="text-sm pt-5">.v-icon-add-people</div>
+        </div>
       </div>
 
     </div>

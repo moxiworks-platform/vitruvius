@@ -1,6 +1,6 @@
 const path = require('path');
 const entry = require('./webpack.entry.js');
-var sys = require('sys')
+var sys = require('util')
 var exec = require('child_process').exec;
 
 /*

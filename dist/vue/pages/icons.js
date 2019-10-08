@@ -500,7 +500,7 @@ const Icons = {
         <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 bg-cn-30 p-15 text-center mb-4">
           <i class="v-icon-filter text-3xl"></i>
           <div class="text-sm pt-5">Filter</div>
-          <div class="text-sm pt-5">.v-icon-add-people</div>
+          <div class="text-sm pt-5">.v-icon-filter</div>
         </div>
         <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 bg-cn-15 p-15 text-center mb-4">
           <i class="v-icon-linkedin text-3xl"></i>

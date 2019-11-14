@@ -31,3 +31,16 @@ For testing we're using [https://open-wc.org/](https://open-wc.org/).
 100% code coverage is a goal of this project. Tests are located in the `test` directory. To run tests type `npm run test` in your terminal.
 
 After the unit tests are done running there is a web output created in the `coverage` directory. Viewing this output allows you to click on a file and see what code tree's are still untested.
+
+## Building and Publishing
+
+Note: I recommend `git flow` for this. Regarless, the main thing is that you build in develop, then merge to master, then create a tag, then push to master including new tag.
+
+1. While still in develop branch, make sure you've updated the version in the package.json file
+2. `git checkout master`
+3. `git merge develop`
+4. Fix any possible conflicts
+5. `git tag ${version from package.json}`
+6. `git push master`
+7. `git push --tags`
+8. As long as you have permissions (https://www.npmjs.com/settings/moxiworks/members) `npm publish --access public`

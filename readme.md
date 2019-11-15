@@ -43,6 +43,6 @@ Assuming you're working on the upstream repository, you can now do the following
 6. Run `git checkout master`.
 7. Run `git merge develop`.
 8. Run `git tag ${version from package.json}`.
-9. Run `git push master`.
+9. Run `git push origin master`.
 10. Run `git push --tags`.
 11. As long as you have permissions (https://www.npmjs.com/settings/moxiworks/members) `npm publish --access public`

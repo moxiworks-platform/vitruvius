@@ -9,6 +9,7 @@
   font-style: normal;
 }
 
+
 [class^="v-icon-"], [class*=" v-icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'Vitruvius-icon-set' !important;

@@ -12,35 +12,37 @@ Vitruvius will then be running `http://localhost:9000` out of the `dist` directo
 
 ### Understanding the Relationship Between the Src and Dist directories
 
-All of the Javascript components and CSS is developed in the `src` directory. On save, those files are updated in the dist directory. Webpack will keep the component file hidden, but they're there.
+Vitruvius is only an icon library for MoxiWorks. The files of importance live inside the following directories:
 
-Whenever you add a component `js` file to the components directory it will by dynamically added to the `dist` directory. You will need to add the src of your new component to the index.html file. If you're getting a 404 after sourcing the file, please restart your dev server (`npm run dev`).
+1. Fonts: `src/styles/fonts/...`
+2. Font CSS: `src/styles/vitruvius-icons.css`
 
-Vitruvius' dist directory is a VueJS application intended for development and documentation (more on this in the documentation section).
+The VueJS application wrapping a UI around the fonts is located in the `dist` directory.
 
-Everything after that is a standard VueJS 2.0 application. Add an appropriate route to the application and follow convention from there.
-
-### Understanding TailwindCSS
-
-TailwindCSS has a configuration file in `src/styles/tailwind.js`. The CSS for the components is written in `src/styles/vitruvius.css`. Please read more about [TailwindCSS here](https://tailwindcss.com/). Also, review the files to begin understanding convention.
-
-## Testing
-
-For testing we're using [https://open-wc.org/](https://open-wc.org/).
-
-100% code coverage is a goal of this project. Tests are located in the `test` directory. To run tests type `npm run test` in your terminal.
-
-After the unit tests are done running there is a web output created in the `coverage` directory. Viewing this output allows you to click on a file and see what code tree's are still untested.
+When you run `npm run dev` the website running on port 9000 is located in the `dist` directory. On save of the above files, they are dynamically placed in the dist directory while you develop. Once satisfied, you can run the build and publish process below.
 
 ## Building and Publishing
 
-Note: I recommend `git flow` for this. Regarless, the main thing is that you build in develop, then merge to master, then create a tag, then push to master including new tag.
+Below is information on working on forked develop branch and building from the upstream repository then pushing to NPM.
 
-1. While still in develop branch, make sure you've updated the version in the package.json file
-2. `git checkout master`
-3. `git merge develop`
-4. Fix any possible conflicts
-5. `git tag ${version from package.json}`
-6. `git push master`
-7. `git push --tags`
-8. As long as you have permissions (https://www.npmjs.com/settings/moxiworks/members) `npm publish --access public`
+### While still on the Develop Branch
+
+1. Pull develop branch from upstream to assure you have the latest changes.
+2. Make sure you're happy with your updates and that they are properly represented inside of the development web application.
+3. Enter a pull request.
+
+### After Pull Request Has Been Brought into the Upstream Develop Branch
+
+Assuming you're working on the upstream repository, you can now do the following:
+
+1. Merge pull request from develop branch.
+2. Run `npm run dev` checking the site on port 9000 to assure everything looks right.
+3. Shut down `npm run dev`.
+4. Run `npm run build` ON DEVELOP BRANCH.
+5. Push that to develop branch.
+6. Run `git checkout master`.
+7. Run `git merge develop`.
+8. Run `git tag ${version from package.json}`.
+9. Run `git push master`.
+10. Run `git push --tags`.
+11. As long as you have permissions (https://www.npmjs.com/settings/moxiworks/members) `npm publish --access public`

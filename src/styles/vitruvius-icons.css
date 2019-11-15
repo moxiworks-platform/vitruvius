@@ -12,7 +12,6 @@
 [class^="v-icon-"], [class*=" v-icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'Vitruvius-icon-set' !important;
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -349,8 +348,5 @@
   content: "\e901";
 }
 .v-icon-facebook:before {
-  content: "\e902";
-}
-.v-icon-facebook-alt:before {
   content: "\e902";
 }

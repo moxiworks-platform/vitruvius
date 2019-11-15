@@ -535,6 +535,11 @@ const Icons = {
           <div class="text-sm pt-5">Add People</div>
           <div class="text-sm pt-5">.v-icon-add-people</div>
         </div>
+        <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 bg-cn-15 p-15 text-center mb-4">
+          <i class="v-icon-facebook-alt text-3xl"></i>
+          <div class="text-sm pt-5">Facebook</div>
+          <div class="text-sm pt-5">.v-icon-facebook-alt</div>
+        </div>
       </div>
 
     </div>
